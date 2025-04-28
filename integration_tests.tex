@@ -555,16 +555,16 @@ Moreover, the \hyperref[tab:summary_http_status_codes]{status code 409} is retur
 	\end{figure}
 \end{landscape}
 
-The client, whose behavior is described in the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, requests a resource. It uses the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_appointments/\underline{customer\_id}/\underline{license\_number}/\underline{state}/\underline{booked\_at}}. The \hyperref[appendix:glossary]{URI} follows the pattern established  in the table \ref{tab:http-server-schemes}.
+The client, whose behavior is described in the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, requests a resource. It uses the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_appointments/\underline{license\_number}/\underline{state}/\underline{customer\_id}/\underline{booked\_at}}. The \hyperref[appendix:glossary]{URI} follows the pattern established  in the table \ref{tab:http-server-schemes}.
 
-The path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at} are passed, respectively, to the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_appointments/\underline{customer\_id}/\underline{license\_number}/\underline{state}/\underline{booked\_at}} as arguments. The service creates a new \textbf{MedicalAppointment}, then persists it.
+The path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at} are passed, respectively, to the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_appointments/\underline{license\_number}/\underline{state}/\underline{customer\_id}/\underline{booked\_at}} as arguments. The service creates a new \textbf{MedicalAppointment}, then persists it.
 
 As exposed by the figure \ref{fig:medical_appointment_registration_sequence_diagram}, the default behavior is: firstly, \textbf{Customer} must be found. Then, \textbf{Doctor} is found. To retrieve both \textbf{Customer} and \textbf{Doctor}, the utility classes \textit{CustomerFinder} and \textit{DoctorFinder}, respectively. In order to retrieve the associated \textbf{MedicalSlot} with Doctor and \textit{booked\_at} as arguments of the utility class \textit{MedicalSlotFinder}, it retrieved to be changed in a near future step.
 
 Considering the previous paragraph, a new instance of \textbf{MedicalAppointment} is created and persisted. Before it be turned into a \hyperref[appendix:glossary]{DTO}, the recently created \textbf{MedicalAppointment} fills the field \textit{medicalAppointment} of \textbf{MedicalSlot} via the service \textit{MedicalSlotUpdatingService}. 
 After the mapping from the state of a persisted object to \hyperref[appendix:glossary]{DTO}, it is wrapped in the \hyperref[appendix:http_status_codes_summary_appendix]{status code 201}.
 
-However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot} is null, the \hyperref[appendix:http_status_codes_summary_appendix]{status code 404} is returned. Nonetheless, when either a duplicated booking date and time is provided, the sought \textbf{Doctor} is terminated, the sought \textbf{Doctor} seeks to booking a medical appointment whose associated medical slot's doctor is them, the  \hyperref[appendix:http_status_codes_summary_appendix]{status code 409} is returned.
+However, when either of the \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot} is null, the \hyperref[appendix:http_status_codes_summary_appendix]{status code 404} is returned. Nonetheless, when either of the duplicated booking date and time is provided, the sought \textbf{Doctor} is terminated, the sought \textbf{Doctor} seeks to booking a medical appointment whose associated medical slot's doctor is them, the  \hyperref[appendix:http_status_codes_summary_appendix]{status code 409} is returned.
 
 \subsubsection{Successful Case}
 
@@ -576,6 +576,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
+The method \textit{testSuccessfulRegistration} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. In order to register a \textbf{MedicalAppointment}, the POST method was used. As clarified by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, every HTTP request requires a \hyperref[appendix:glossary]{URI} to route the expected request to the target server aiming to obtain the expected result. Thereby, the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_appointments/\underline{license\_number}/\underline{state}/\underline{customer\_id}/\underline{available\_at}} is placed as the argument of \textit{uri()}. Finally, the \hyperref[tab:summary_http_status_codes]{status code 201} is returned.
+
 \subsubsection{Unsuccessful Case: Customer Not Found}
 
 \begin{figure}[H]
@@ -585,6 +587,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\label{fig:medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found}
 	\footnotesize Source: Author's creation.
 \end{figure}
+
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that the sought \textbf{Customer} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned.
 
 \subsubsection{Unsuccessful Case: Doctor Not Found}
 
@@ -596,6 +600,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that the sought \textbf{Doctor} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned.
+
 \subsubsection{Unsuccessful Case: Terminated Doctor}
 
 \begin{figure}[H]
@@ -605,6 +611,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\label{fig:medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor}
 	\footnotesize Source: Author's creation.
 \end{figure}
+
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that the sought \textbf{Doctor} is terminated, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Unsuccessful Case: Medical Slot Not Found}
 
@@ -616,6 +624,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that the sought \textbf{MedicalSlot} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned.
+
 \subsubsection{Unsuccessful Case: Non-Associated Doctor With Medical Slot}
 
 \begin{figure}[H]
@@ -625,6 +635,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\label{fig:medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor}
 	\footnotesize Source: Author's creation.
 \end{figure}
+
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that the sought \textbf{Doctor} is not the sought \textbf{MedicalSlot}'s doctor, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Unsuccessful Case: Duplicated Booking Date And Time}
 
@@ -636,6 +648,8 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that provided booking date and time, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
+
 \subsubsection{Unsuccessful Case: Doctor's Medical Appointment Self-Booking}
 
 \begin{figure}[H]
@@ -646,7 +660,7 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
-The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that sought \textbf{Customer} is the sought \textbf{MedicalSlot}'s doctor, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that sought \textbf{Customer} is equally the sought \textbf{MedicalSlot}'s doctor, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 
 \subsubsection{Summary of Results}

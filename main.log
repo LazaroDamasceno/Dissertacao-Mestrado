@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.14)  28 APR 2025 03:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.14)  28 APR 2025 03:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,7 +793,7 @@ l.37 ... Duplicated Email}}{52}{figure.caption.62}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 ...al Slot Not Found}}{72}{figure.caption.95}
+l.70 ...al Slot Not Found}}{75}{figure.caption.95}
                                                   % [5]
 Overfull \hbox (19.5914pt too wide) in paragraph at lines 71--71
  [][] [][][]\OT1/ptm/m/n/12 Medical Ap-point-ment In-te-gra-tion Test Un-suc-cess-ful Case's Re-sult: Non-Associated 
@@ -816,7 +816,7 @@ l.40 \newpage
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...l Slot Not Found}{68}{subsubsection.5.5.5}
+l.37 ...l Slot Not Found}{70}{subsubsection.5.5.5}
                                                   % [7])
 \tf@toc=\write7
 \openout7 = `main.toc'.
@@ -1489,108 +1489,142 @@ File: figures/medical_appointment_registration_integration_test_successful_case.
 <use figures/medical_appointment_registration_integration_test_successful_case.png>
 Package pdftex.def Info: figures/medical_appointment_registration_integration_test_successful_case.png  used on input line 574.
 (pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png, id=1419, 3147.76pt x 1610.015pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png  used on input line 584.
-(pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
 
 
 [66
 
  <./figures/medical_appointment_registration_integration_test_successful_case.png>]
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png, id=1425, 3147.76pt x 1610.015pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png  used on input line 594.
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png, id=1430, 3147.76pt x 1610.015pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png  used on input line 586.
 (pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png, id=1426, 3147.76pt x 1706.375pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png  used on input line 604.
-(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
 
-
-[67 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png>]
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png, id=1433, 3147.76pt x 1706.375pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png  used on input line 614.
-(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png, id=1434, 3147.76pt x 1706.375pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png  used on input line 624.
-(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
-
-
-[68 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png>]
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png, id=1441, 3147.76pt x 1706.375pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png  used on input line 634.
-(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png, id=1442, 3147.76pt x 1706.375pt>
-File: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png Graphic file (type png)
-<use figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png  used on input line 644.
-(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
-
-
-[69 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png>]
-Overfull \hbox (0.36731pt too wide) in paragraph at lines 649--650
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 591--592
 \OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
  []
 
-<figures/medical_appointment_registration_integration_test_successful_result.png, id=1451, 364.86313pt x 104.39pt>
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png, id=1433, 3147.76pt x 1610.015pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png  used on input line 598.
+(pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
+
+
+[67 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 603--604
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png, id=1441, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png  used on input line 610.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[68 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 615--616
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png, id=1449, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png  used on input line 622.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[69 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 627--628
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png, id=1457, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png  used on input line 634.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[70 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 639--640
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png, id=1465, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png  used on input line 646.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[71 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 651--652
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png, id=1474, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png  used on input line 658.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[72 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 663--664
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_successful_result.png, id=1482, 364.86313pt x 104.39pt>
 File: figures/medical_appointment_registration_integration_test_successful_result.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_successful_result.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_successful_result.png  used on input line 657.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_successful_result.png  used on input line 671.
 (pdftex.def)             Requested size: 455.24411pt x 130.2546pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png, id=1452, 378.41376pt x 111.41624pt>
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png, id=1483, 378.41376pt x 111.41624pt>
 File: figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png  used on input line 665.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png  used on input line 679.
 (pdftex.def)             Requested size: 455.24411pt x 134.03883pt.
 
 
-[70 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png> <./figures/medical_appointment_registration_integration_test_successful_result.png>]
-<figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png, id=1459, 381.425pt x 106.89937pt>
+[73 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png> <./figures/medical_appointment_registration_integration_test_successful_result.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png, id=1490, 381.425pt x 106.89937pt>
 File: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png  used on input line 673.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png  used on input line 687.
 (pdftex.def)             Requested size: 455.24411pt x 127.59349pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png, id=1460, 409.02812pt x 101.37875pt>
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png, id=1491, 409.02812pt x 101.37875pt>
 File: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png  used on input line 681.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png  used on input line 695.
 (pdftex.def)             Requested size: 455.24411pt x 112.83957pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png, id=1461, 419.06563pt x 106.3975pt>
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png, id=1492, 419.06563pt x 106.3975pt>
 File: figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png  used on input line 689.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png  used on input line 703.
 (pdftex.def)             Requested size: 455.24411pt x 115.58295pt.
 
 
-[71 <./figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png>]
-<figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png, id=1470, 388.45125pt x 105.39375pt>
+[74 <./figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png, id=1500, 388.45125pt x 105.39375pt>
 File: figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png  used on input line 697.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png  used on input line 711.
 (pdftex.def)             Requested size: 455.24411pt x 123.51923pt.
-<figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png, id=1471, 394.97563pt x 105.89563pt>
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png, id=1501, 394.97563pt x 105.89563pt>
 File: figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png Graphic file (type png)
 <use figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png>
-Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png  used on input line 705.
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png  used on input line 719.
 (pdftex.def)             Requested size: 455.24411pt x 122.05531pt.
 )
 
-[72 <./figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png>]
+[75 <./figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png>]
 \openout2 = `evaluation.aux'.
 
  (evaluation.tex)
 
-[73
+[76
 
 
 
@@ -1599,28 +1633,28 @@ Package pdftex.def Info: figures/medical_appointment_registration_integration_te
 
  (conclusions.tex)
 
-[74
+[77
 
 
 
 ] (main.bbl
 
-[75
+[78
 
 
 ]
 
-[76]
-
-[77]
-
-[78]
-
 [79]
 
-[80])
+[80]
 
 [81]
+
+[82]
+
+[83])
+
+[84]
 \openout2 = `glossary.aux'.
 
  (glossary.tex
@@ -1630,13 +1664,13 @@ Overfull \hbox (1.07005pt too wide) in paragraph at lines 13--14
 
 
 
-[82
+[85
 
 ]
 
-[83])
+[86])
 
-[84]
+[87]
 \openout2 = `http_status_codes_summary_appendix.aux'.
 
  (http_status_codes_summary_appendix.tex
@@ -1664,13 +1698,13 @@ Overfull \hbox (35.98483pt too wide) in alignment at lines 22--71
  [] [] [] 
  []
 
-[85
+[88
 
 
 
 ])
 
-[86]
+[89]
 \openout2 = `tests_concepts_appendix.aux'.
 
  (tests_concepts_appendix.tex
@@ -1733,83 +1767,83 @@ Underfull \hbox (badness 2846) in paragraph at lines 79--80
 []\OT1/ptm/m/n/10 Confirms re-ceipt of nec-es-sary
  []
 
-[87
+[90
 
 
 
 ])
 
-[88]
+[91]
 \openout2 = `models.aux'.
 
  (models.tex
-<figures/person.png, id=1600, 2437.105pt x 2790.425pt>
+<figures/person.png, id=1631, 2437.105pt x 2790.425pt>
 File: figures/person.png Graphic file (type png)
 <use figures/person.png>
 Package pdftex.def Info: figures/person.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 521.20222pt.
-<figures/customer.png, id=1601, 2300.595pt x 2144.01pt>
+<figures/customer.png, id=1632, 2300.595pt x 2144.01pt>
 File: figures/customer.png Graphic file (type png)
 <use figures/customer.png>
 Package pdftex.def Info: figures/customer.png  used on input line 15.
 (pdftex.def)             Requested size: 455.24411pt x 424.24704pt.
 
 
-[89
+[92
 
 
 
  <./figures/person.png>]
-<figures/doctor.png, id=1608, 2131.965pt x 3011.25pt>
+<figures/doctor.png, id=1638, 2131.965pt x 3011.25pt>
 File: figures/doctor.png Graphic file (type png)
 <use figures/doctor.png>
 Package pdftex.def Info: figures/doctor.png  used on input line 23.
 (pdftex.def)             Requested size: 455.24411pt x 642.99515pt.
 
 
-[90 <./figures/customer.png>]
-<figures/doctor_audit_trail.png, id=1614, 1963.335pt x 1742.51pt>
+[93 <./figures/customer.png>]
+<figures/doctor_audit_trail.png, id=1644, 1963.335pt x 1742.51pt>
 File: figures/doctor_audit_trail.png Graphic file (type png)
 <use figures/doctor_audit_trail.png>
 Package pdftex.def Info: figures/doctor_audit_trail.png  used on input line 31.
 (pdftex.def)             Requested size: 455.24411pt x 404.03926pt.
 
 
-[91 <./figures/doctor.png>]
-<figures/medical_slot.png, id=1620, 2095.83pt x 3324.42pt>
+[94 <./figures/doctor.png>]
+<figures/medical_slot.png, id=1650, 2095.83pt x 3324.42pt>
 File: figures/medical_slot.png Graphic file (type png)
 <use figures/medical_slot.png>
 Package pdftex.def Info: figures/medical_slot.png  used on input line 39.
 (pdftex.def)             Requested size: 386.96027pt x 613.79065pt.
 
 
-[92 <./figures/doctor_audit_trail.png>]
-<figures/medical_appointment.png, id=1626, 2469.225pt x 4019.015pt>
+[95 <./figures/doctor_audit_trail.png>]
+<figures/medical_appointment.png, id=1657, 2469.225pt x 4019.015pt>
 File: figures/medical_appointment.png Graphic file (type png)
 <use figures/medical_appointment.png>
 Package pdftex.def Info: figures/medical_appointment.png  used on input line 47.
 (pdftex.def)             Requested size: 386.96027pt x 629.80931pt.
 
 
-[93 <./figures/medical_slot.png>]
-<figures/card.png, id=1632, 2031.59pt x 2561.57pt>
+[96 <./figures/medical_slot.png>]
+<figures/card.png, id=1663, 2031.59pt x 2561.57pt>
 File: figures/card.png Graphic file (type png)
 <use figures/card.png>
 Package pdftex.def Info: figures/card.png  used on input line 55.
 (pdftex.def)             Requested size: 455.24411pt x 573.98322pt.
 
 
-[94 <./figures/medical_appointment.png>]
-<figures/payment.png, id=1638, 1963.335pt x 2702.095pt>
+[97 <./figures/medical_appointment.png>]
+<figures/payment.png, id=1669, 1963.335pt x 2702.095pt>
 File: figures/payment.png Graphic file (type png)
 <use figures/payment.png>
 Package pdftex.def Info: figures/payment.png  used on input line 63.
 (pdftex.def)             Requested size: 455.24411pt x 626.54015pt.
 )
 
-[95 <./figures/card.png>]
+[98 <./figures/card.png>]
 
-[96 <./figures/payment.png>] (main.aux (cover.aux) (acronyms.aux) (introduction.aux) (contextual_foundation.aux) (unit_tests.aux) (core_person_registration_process.aux) (integration_tests.aux) (evaluation.aux) (conclusions.aux) (glossary.aux) (http_status_codes_summary_appendix.aux) (tests_concepts_appendix.aux) (models.aux))
+[99 <./figures/payment.png>] (main.aux (cover.aux) (acronyms.aux) (introduction.aux) (contextual_foundation.aux) (unit_tests.aux) (core_person_registration_process.aux) (integration_tests.aux) (evaluation.aux) (conclusions.aux) (glossary.aux) (http_status_codes_summary_appendix.aux) (tests_concepts_appendix.aux) (models.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1818,17 +1852,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 862E33124801F26F5B3B751BE28D9B6D;9780.
  ) 
 Here is how much of TeX's memory you used:
- 28678 strings out of 473522
- 614378 string characters out of 5714609
- 934988 words of memory out of 5000000
+ 28681 strings out of 473522
+ 614399 string characters out of 5714609
+ 934989 words of memory out of 5000000
  51020 multiletter control sequences out of 15000+600000
  596342 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,91p,1004b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (104 pages, 11936213 bytes).
+Output written on main.pdf (107 pages, 11946434 bytes).
 PDF statistics:
- 1745 PDF objects out of 2073 (max. 8388607)
- 365 named destinations out of 1000 (max. 500000)
+ 1776 PDF objects out of 2073 (max. 8388607)
+ 368 named destinations out of 1000 (max. 500000)
  792 words of extra memory for PDF output out of 10000 (max. 10000000)
 
