@@ -1,0 +1,92 @@
+@startuml
+
+class "Person" {
+ +id: String
+ +firstName: String?
+ +middleName: String
+ +lastName: String
+ +ssn: String
+ +birthDate: LocalDate
+ +phoneNumber: String
+ +gender: Gender
+ +email: String
+ +createdAt: LocalDateTime
+ 
+ +of(registratitionDto: PersonRegistrationDto): Person
+}
+
+class "Customer" {
+ +id: String
+ +address: Address
+ +createdAt: LocalDateTime
+ 
+ +of(person: Person, address: Address): Customer
+ +toDto(): CustomerResponseDto
+}
+
+class "Doctor" {
+ +id: String
+ +medicalLicenseNumber: MedicalLicenseNumber
+ +createdAt: LocalDateTime
+ +terminatedAt: LocalDateTime
+ 
+ +of(person: Person, medicalLicenseNumber: MedicalLicenseNumber): Doctor
+ +markAsTerminated(): Unit
+ +markAsRehired(): Unit
+ +toDto(): DoctorResponseDto
+}
+
+class "MedicalSlot" {
+  +id: String
+  +availableAt: LocalDateTime
+  +canceledAt: LocalDateTime
+  +completedAt: LocalDateTime
+  
+  +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
+  +markAsCanceled(): Unit
+  +markAsCompleted(): Unit
+  +toDto(): MedicalSlotResponseDto
+}
+
+class "MedicalAppointment" {
+  +id: String
+  +bookedAt: LocalDateTime
+  +canceledAt: LocalDateTime
+  +completedAt: LocalDateTime
+  +price: BigDecimal
+  
+  +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
+  +markAsCanceled(): Unit
+  +markAsCompleted(): Unit
+  +toDto(): MedicalAppointmentResponseDto
+}
+
+class "Card" {
+  +id: String,
+  +type: CardType
+  +cvc: String
+  +dueDate: LocalDate
+  +createdAt: LocalDateTime
+  
+  +of(type: CardType, cvc: String, dueDate: LocalDate): Card
+  +toDto(): CardResponseDto
+}
+
+class "Payment" {
+  +id: String
+  +createdAt: LocalDateTime
+  
+  + of(medicalAppointment: MedicalAppointment, card: Card): Payment
+  +toDto(): PaymentResponseDto
+}
+
+Customer *-- Person: "(1 .. 1)"
+Doctor *-- Person: "(1 .. 1)"
+Doctor *-- MedicalSlot: "(1 .. n)"
+MedicalAppointment -- Doctor: "(n .. 1)"
+MedicalAppointment *-- Customer: "(n .. 1)"
+MedicalSlot -- MedicalAppointment: "(1 .. 1)"
+Card -- Payment: "(1 .. n)"
+MedicalAppointment -- Payment: "(1 .. 1)"
+
+@enduml

@@ -1,0 +1,99 @@
+@startuml
+
+entity "Person" {
+ +id: String
+ +firstName: String
+ +middleName: String?
+ +lastName: String
+ +ssn: String
+ +birthDate: LocalDate
+ +phoneNumber: String
+ +gender: Gender
+ +email: String
+ +createdAt: LocalDateTime
+ 
+ +of(registratitionDto: PersonRegistrationDto): Person
+}
+
+entity "Customer" {
+ +id: String
+ +address: Address
+ +person: Person
+ +createdAt: LocalDateTime
+ 
+ +of(person: Person, address: Address): Customer
+ +toDto(): CustomerResponseDto
+}
+
+entity "Doctor" {
+ +id: String
+ +medicalLicenseNumber: MedicalLicenseNumber
+ +person: Person
+ +createdAt: LocalDateTime
+ +terminatedAt: LocalDateTime
+ 
+ +of(person: Person, medicalLicenseNumber: MedicalLicenseNumber): Doctor
+ +markAsTerminated(): Unit
+ +markAsRehired(): Unit
+ +toDto(): DoctorResponseDto
+}
+
+entity "MedicalSlot" {
+  +id: String
+  +doctor: Doctor
+  +availableAt: LocalDateTime
+  +canceledAt: LocalDateTime?
+  +completedAt: LocalDateTime?
+  
+  +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
+  +markAsCanceled(): Unit
+  +markAsCompleted(): Unit
+  +toDto(): MedicalSlotResponseDto
+}
+
+entity "MedicalAppointment" {
+  +id: String
+  + doctor: Doctor
+  + customer: Customer
+  +bookedAt: LocalDateTime
+  +canceledAt: LocalDateTime?
+  +completedAt: LocalDateTime?
+  +price: BigDecimal?
+  
+  +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
+  +markAsCanceled(): Unit
+  +markAsCompleted(): Unit
+  +toDto(): MedicalAppointmentResponseDto
+}
+
+entity "Card" {
+  +id: String,
+  +type: CardType
+  +cvc: String
+  +dueDate: LocalDate
+  +createdAt: LocalDateTime
+  
+  +of(type: CardType, cvc: String, dueDate: LocalDate): Card
+  +toDto(): CardResponseDto
+}
+
+entity "Payment" {
+  +id: String
+  +card: Card
+  +medicalAppointment: MedicalAppointment
+  +createdAt: LocalDateTime
+  
+  + of(medicalAppointment: MedicalAppointment, card: Card): Payment
+  +toDto(): PaymentResponseDto
+}
+
+Customer ||--|| Person
+Doctor ||--|| Person
+MedicalSlot }o--|| Doctor
+MedicalAppointment }o--|| Doctor
+MedicalAppointment }o--|| Customer
+MedicalSlot ||--|| MedicalAppointment
+Payment }o--|| Card
+MedicalAppointment ||--|| Payment
+
+@enduml

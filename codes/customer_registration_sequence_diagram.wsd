@@ -1,0 +1,49 @@
+@startuml
+
+skinparam defaultFontSize 50
+
+participant "Client"
+participant "PersonRegistrationDto" as registrationDto
+participant "PersonRegistrationService" as registrationService
+participant "Customer" as entity
+participant "Repository" as repository
+participant "ResponseDto" as responseDto
+participant "ResponseEntity"
+
+Client -> ResponseEntity: HTTP 1.1 POST /api/v2/customers (with registrationDto)
+
+registrationDto -> registrationService: transfer validated input
+
+alt SSN and email are unique
+
+registrationService -> entity: create Person
+
+registrationService -> entity: save(Person)
+
+entity <-- repository: save(Customer)
+
+entity -> responseDto: toDto(Customer)
+
+responseDto -> ResponseEntity: wrapWith201(dto)
+
+Client <-- ResponseEntity: HTTP 1.1 201 CREATED + CustomerResponseDto
+
+else SSN is duplicated
+
+registrationService <-- repository: SSN is duplicated
+
+registrationService -> ResponseEntity: wrapWith409(dto)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+else email is duplicated
+
+registrationService <-- repository: email is duplicated
+
+registrationService -> ResponseEntity: wrapWith409(dto)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+end
+
+@enduml

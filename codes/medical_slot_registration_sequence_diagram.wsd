@@ -1,0 +1,50 @@
+@startuml
+
+skinparam defaultFontSize 46
+
+participant "Client"
+participant "Input"
+participant "DoctorFinder" as finder
+participant "Doctor"
+participant "MedicalSlot" as ms 
+participant "Repository" as repository
+participant "ResponseDto" as responseDto
+participant "ResponseEntity"
+
+Client -> ResponseEntity: HTTP 1.1 POST /api/v2/medical_slots/{license_number}/{state}/{available_at}
+
+alt doctor exists and given date and time are unused
+
+Input -> finder: findByMedicalLicenseNumber(license_number, state)
+
+finder -> Doctor: doctor retrieved
+
+Doctor -> ms: provide the argument Doctor
+
+Input -> ms: provide the argument available_at
+
+ms -> repository: create MedicalSlot
+
+ms <-- repository: save(MedicalSlot)
+
+ms -> responseDto: toDto(MedicalSlot)
+
+responseDto -> ResponseEntity: wrapWith201(dto)
+
+Client <-- ResponseEntity: HTTP 1.1 201 CREATED + MedicalSlotRepository
+
+else doctor was not found
+
+finder -> ResponseEntity: wrapWith404(MedicalSlot)
+
+Client <-- ResponseEntity: HTTP 1.1 404 NOT FOUND
+
+else duplicated date and time
+
+finder -> ResponseEntity: wrapWith409(MedicalSlot)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+end
+
+@enduml

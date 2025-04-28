@@ -1,0 +1,74 @@
+\section{Appendix: Http Status Codes Summary}
+\label{appendix:http_status_codes_summary_appendix}
+
+\begin{longtable}{@{}>{}l >{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}p{8cm}@{}}
+    \caption{HTTP Status Codes Summary} \label{tab:http-status-codes} \\
+\toprule
+\textbf{HTTP Status Code} & \textbf{Name} & \textbf{Description} \\
+\midrule
+\endfirsthead
+
+\multicolumn{3}{c}{\textbf{\tablename\ \thetable{} -- Continued from previous page}} \\
+\toprule
+\textbf{HTTP Status Code} & \textbf{Name} & \textbf{Description} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{3}{r}{\small\textit{Continued on next page}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+100 & CONTINUE & Initial part of request received, not yet rejected by server. \\ \hline
+101 & SWITCHING PROTOCOLS & Server agrees to change application protocol. \\ \hline
+200 & OK & Request has succeeded. \\ \hline
+201 & CREATED & Request fulfilled, new resources created. \\ \hline
+202 & ACCEPTED & Request accepted but processing not completed. \\ \hline
+203 & NO AUTHORITATIVE INFORMATION & Content modified by transforming proxy. \\ \hline
+204 & NO CONTENT & Request succeeded, no additional content. \\ \hline
+205 & RESET CONTENT & Request fulfilled, user agent should reset view. \\ \hline
+206 & PARTIAL CONTENT & Server fulfilling range request. \\ \hline
+300 & MULTIPLE CHOICES & Multiple representations available for resource. \\ \hline
+301 & MOVED PERMANENTLY & Resource assigned new permanent URI. \\ \hline
+302 & FOUND & Resource temporarily under different URI. \\ \hline
+303 & SEE OTHER & Redirect to different resource for indirect response. \\ \hline
+304 & NOT MODIFIED & Conditional request condition evaluated false. \\ \hline
+305 & USE PROXY & No longer in use. \\ \hline
+306 & (UNUSED) & No longer in use. \\ \hline
+307 & TEMPORARY REDIRECT & Resource temporarily under different URI. \\ \hline
+308 & PERMANENT REDIRECT & Resource assigned new permanent URI. \\ \hline
+400 & BAD REQUEST & Server cannot process due to client error. \\ \hline
+401 & UNAUTHORIZED & Lacks valid authentication credentials. \\ \hline
+402 & PAYMENT REQUIRED & No current use. \\ \hline
+403 & FORBIDDEN & Server understood but refuses to fulfill. \\ \hline
+404 & NOT FOUND & No current representation for target resource. \\ \hline
+405 & METHOD NOT ALLOWED & Method known but not supported. \\ \hline
+406 & NOT ACCEPTABLE & No acceptable representation available. \\ \hline
+407 & PROXY AUTHENTICATION REQUIRED & Client needs to authenticate with proxy. \\ \hline
+408 & REQUEST TIMEOUT & Server did not receive complete request. \\ \hline
+409 & CONFLICT & Conflict with current state of resource. \\ \hline
+410 & GONE & Access no longer available (likely permanent). \\ \hline
+411 & LENGTH REQUIRED & Server refuses without Content-Length. \\ \hline
+412 & PRECONDITION FAILED & Request header conditions evaluated false. \\ \hline
+413 & CONTENT TOO LARGE & Request content too large. \\ \hline
+414 & URI TOO LONG & URI too long. \\ \hline
+415 & UNSUPPORTED MEDIA TYPE & Content format not supported. \\ \hline
+416 & RANGE NOT SATISFIABLE & Requested ranges not satisfiable. \\ \hline
+417 & EXPECTATION FAILED & Expect header field could not be met. \\ \hline
+418 & (UNUSED) & No longer in use. \\ \hline
+421 & MISDIRECTED REQUEST & Server unable to produce authoritative response. \\ \hline
+422 & NON-PROCESSABLE CONTENT & Unable to process contained instructions. \\ \hline
+426 & UPGRADE REQUIRED & Server refuses with current protocol. \\ \hline
+500 & INTERNAL SERVER ERROR & Unexpected condition prevented fulfillment. \\ \hline
+501 & NOT IMPLEMENTED & Server lacks required functionality. \\ \hline
+502 & BAD GATEWAY & Invalid response from upstream server. \\ \hline
+503 & SERVICE UNAVAILABLE & Temporary overload or maintenance. \\ \hline
+504 & GATEWAY TIMEOUT & No timely response from upstream server. \\ \hline
+505 & HTTP VERSION NOT SUPPORTED & HTTP version not supported. \\
+
+\end{longtable}
+\label{tab:summary_http_status_codes}
+\centering
+\footnotesize Source: \cite{rfc9110}.

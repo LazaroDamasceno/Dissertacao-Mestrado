@@ -1,0 +1,98 @@
+@startuml
+
+skinparam defaultFontSize 37
+
+participant "Client"
+participant "Input"
+participant "DoctorFinder"
+participant "CustomerFinder"
+participant "MedicalSlotFinder"
+participant "MedicalSlotUpdatingService" as service
+participant "MedicalAppointment"
+participant "Repository" as repository
+participant "ResponseDto" as responseDto
+participant "ResponseEntity"
+
+Client -> ResponseEntity: HTTP 1.1 POST /api/v2/medical_appointments/{license_number}/{state}/{customer_id}/{bookedAt}
+
+alt default behavior
+
+Input -> CustomerFinder: pass customer_id as argument
+
+CustomerFinder -> CustomerFinder: retrieve customer
+
+Input -> DoctorFinder: pass license_number as argument
+
+Input -> DoctorFinder: pass state as argument
+
+DoctorFinder -> DoctorFinder: retrieve doctor
+
+DoctorFinder -> MedicalSlotFinder: pass doctor as argument
+
+Input -> MedicalSlotFinder: pass bookedAt as argument
+
+MedicalSlotFinder -> MedicalSlotFinder: retrieve medical slot
+
+CustomerFinder -> MedicalAppointment: pass customer as argument
+
+DoctorFinder -> MedicalAppointment: pass doctor as argument
+
+Input -> MedicalAppointment: pass bookedAt as argument
+
+MedicalAppointment -> MedicalAppointment: create medical appointment
+
+MedicalAppointment <-- repository: save(MedicalAppointment)
+
+service <-- MedicalAppointment: set(MedicalAppointment)
+
+MedicalAppointment -> responseDto: toDto(MedicalAppointment)
+
+responseDto -> ResponseEntity: wrapWith201(MedicalAppointment)
+
+Client <-- ResponseEntity: HTTP 1.1 201 CREATED + MedicalAppointmentResponseDto
+
+else customer not found
+
+CustomerFinder -> ResponseEntity: wrapWith404(Customer)
+
+Client <-- ResponseEntity: HTTP 1.1 404 NOT FOUND
+
+else doctor not found
+
+CustomerFinder -> ResponseEntity: wrapWith404(Doctor)
+
+Client <-- ResponseEntity: HTTP 1.1 404 NOT FOUND
+
+else terminated doctor
+
+CustomerFinder -> ResponseEntity: wrapWith409(Doctor)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+else medical slot not found
+
+CustomerFinder -> ResponseEntity: wrapWith404(MedicalSlot)
+
+Client <-- ResponseEntity: HTTP 1.1 404 NOT FOUND
+
+else non-associated doctor with medical slot
+
+CustomerFinder -> ResponseEntity: wrapWith409(Doctor)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+else duplicated booking date and time
+
+CustomerFinder -> ResponseEntity: wrapWith409(MedicalAppointment)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+else doctor's medical appointment self-booking
+
+CustomerFinder -> ResponseEntity: wrapWith409(MedicalAppointment)
+
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
+
+end
+
+@enduml

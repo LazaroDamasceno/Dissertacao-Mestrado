@@ -1,0 +1,84 @@
+\section{Appendix: Definitions of Automated Software Tests}
+\label{appendix:tests_concepts_appendix}
+
+\begin{longtable}{@{}p{3cm}p{6cm}p{5cm}@{}}
+    \caption{Tests and Their Definitions} \label{tab:tests_concepts} \\
+    \toprule
+    \textbf{Testing Type} & \textbf{Description} & \textbf{Key Aspects} \\
+    \midrule
+    \endfirsthead
+    
+    \multicolumn{3}{@{}c@{}}{\textbf{\tablename\ \thetable\ -- Continued from previous page}} \\
+    \toprule
+    \textbf{Testing Type} & \textbf{Description} & \textbf{Key Aspects} \\
+    \midrule
+    \endhead
+    
+    \midrule
+    \multicolumn{3}{@{}r@{}}{Continued on next page} \\
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+    
+    Unit Testing & Tests the smallest testable parts (units/modules) of an application independently. & 
+    \begin{itemize}[leftmargin=*,nosep,after=\vspace{-\baselineskip}]
+        \item Focuses on individual modules
+        \item Also called module testing
+        \item Typically done by developers
+        \item Example: Testing individual functions like Addition, Subtraction in a Calculator
+        \item Known as white box testing (tests internal functionality)
+        \item Aims to eliminate interface errors early
+    \end{itemize} \\
+    \midrule
+    
+    Integration Testing & Tests the interaction and interfaces between integrated units/modules. &  
+    \begin{itemize}[leftmargin=*,nosep,after=\vspace{-\baselineskip}]
+        \item Exposes faults in the interaction between units
+        \item Performed after unit testing
+        \item Approaches: Big-bang, Top-down, Bottom-up
+        \item Focuses on ensuring units work together correctly
+    \end{itemize} \\
+    \midrule
+    
+    System Testing & Tests the complete, integrated system to verify it meets specified requirements. &  
+    \begin{itemize}[leftmargin=*,nosep,after=\vspace{-\baselineskip}]
+        \item Testing of the entire software and potentially hardware system
+        \item Last test by developers before acceptance testing
+        \item Includes types like usability, stress, and regression testing
+        \item Requires a System Test Plan
+        \item Typically black box testing (no knowledge of internal design)
+        \item Detects defects within inter-assemblages and the system as a whole
+    \end{itemize} \\
+    \midrule
+    
+    Acceptance Testing & Tests the system for acceptability by end users or clients. &  
+    \begin{itemize}[leftmargin=*,nosep,after=\vspace{-\baselineskip}]
+        \item High-level testing on a fully integrated application
+        \item Types: Alpha, Beta, User Acceptance Testing (UAT), Business Acceptance Testing
+        \item Done by end users
+        \item Determines whether to accept or reject the product based on acceptance criteria
+    \end{itemize} \\
+    \midrule
+    
+    Regression Testing & Re-tests previously tested parts of the software after modifications (bug fixes, changes). &  
+    \begin{itemize}[leftmargin=*,nosep,after=\vspace{-\baselineskip}]
+        \item Checks for new bugs introduced by changes
+        \item Verifies that previously reported bugs are fixed
+        \item often involves re-running failed test cases
+        \item Can be expensive but necessary for ensuring the correctness and reliability of modified software
+        \item Aims to increase confidence in the modified program
+        \item Targets potential errors like data corruption, inappropriate control sequencing, resource contention, and performance deficiencies
+    \end{itemize} \\
+    \midrule
+    
+    Installation Testing & Verifies if the software has been installed with all necessary components. &  
+    \begin{itemize}[leftmargin=*,nosep,after=\vspace{-\baselineskip}]
+        \item Checks if the application can be downloaded and installed
+        \item Verifies registration processes (e.g., with a new mobile number)
+        \item Confirms receipt of necessary verification codes
+    \end{itemize} \\
+    \midrule
+\end{longtable}
+\centering 
+\footnotesize Source: \cite{khan2011different, meenakshi2014software}
