@@ -1,0 +1,543 @@
+\begin{thebibliography}{10}
+
+\bibitem{abo2023role}
+{\sc Abo-eleneen, A., Palliyali, A., and Catal, C.}
+\newblock The role of reinforcement learning in software testing.
+\newblock {\em Information and Software Technology 164\/} (2023), 107325.
+
+\bibitem{abramova2014nosql}
+{\sc Abramova, V., Bernardino, J., and Furtado, P.}
+\newblock Which nosql database? a performance overview.
+\newblock {\em Open Journal of Databases (OJDB) 1}, 2 (2014), 17--24.
+
+\bibitem{agrawal2015survey}
+{\sc Agrawal, S., Verma, J.~P., Mahidhariya, B., Patel, N., and Patel, A.}
+\newblock Survey on mongodb: an open-source document database.
+\newblock {\em Database 1}, 2 (2015), 4.
+
+\bibitem{aksu2016visualization}
+{\sc Aksu, H., L{\"a}mmel, R., and Kwasnik, W.}
+\newblock Visualization of api experience.
+\newblock In {\em Softwaretechnik-Trends Band 36, Heft 3\/} (2016),
+  Geselllschaft f{\"u}r Informatik eV.
+
+\bibitem{alfedaghi2021validationconceptualversusactivity}
+{\sc Al-Fedaghi, S.}
+\newblock Validation: Conceptual versus activity diagram approaches, 2021.
+
+\bibitem{anand2019importance}
+{\sc Anand, A., and Uddin, A.}
+\newblock Importance of software testing in the process of software
+  development.
+\newblock {\em International Journal for Scientfic Research and Development
+  12}, 6 (2019).
+
+\bibitem{bell2003uml}
+{\sc Bell, D.}
+\newblock Uml basics: An introduction to the unified modeling language, ibm
+  developer works, 2003.
+
+\bibitem{BERARDI200570}
+{\sc Berardi, D., Calvanese, D., and Giacomo, G.~D.}
+\newblock Reasoning on uml class diagrams.
+\newblock {\em Artificial Intelligence 168}, 1 (2005), 70--118.
+
+\bibitem{rfc3986}
+{\sc Berners-Lee, T., Fielding, R., and Masinter, L.}
+\newblock {Uniform Resource Identifier (URI): Generic Syntax}.
+
+\bibitem{bhat2010moving}
+{\sc Bhat, U., and Jadhav, S.}
+\newblock Moving towards non-relational databases.
+\newblock {\em International Journal of Computer Applications 1}, 13 (2010),
+  40--47.
+
+\bibitem{birgen2014sql}
+{\sc Birgen, C., Preisig, H., and Morud, J.}
+\newblock Sql vs. nosql.
+\newblock {\em Norwegian University of Science and Technology, Scholar
+  article\/} (2014).
+
+\bibitem{blacher2022machine}
+{\sc Blacher, M., Giesen, J., Laue, S., Klaus, J., and Leis, V.}
+\newblock Machine learning, linear algebra, and more: Is sql all you need?
+\newblock In {\em CIDR\/} (2022).
+
+\bibitem{brewer2012cap}
+{\sc Brewer, E.}
+\newblock Cap twelve years later: How the" rules" have changed.
+\newblock {\em Computer 45}, 2 (2012), 23--29.
+
+\bibitem{bsonspecimplementation2025}
+{\sc {Bson}}.
+\newblock {BSON Implementation}, 2025.
+
+\bibitem{bsonspec2025}
+{\sc {Bson}}.
+\newblock {BSON Specification}, 2025.
+
+\bibitem{bsonspecversion112025}
+{\sc {Bson}}.
+\newblock {BSON Version 1.1}, 2025.
+
+\bibitem{CAGILTAY20132184}
+{\sc Cagiltay, N.~E., Tokdemir, G., Kilic, O., and Topalli, D.}
+\newblock Performing and analyzing non-formal inspections of entity
+  relationship diagram (erd).
+\newblock {\em Journal of Systems and Software 86}, 8 (2013), 2184--2195.
+
+\bibitem{carronosql}
+{\sc Carro, M.}
+\newblock Nosql databases, corr, 2014.
+
+\bibitem{cattell2011scalable}
+{\sc Cattell, R.}
+\newblock Scalable sql and nosql data stores.
+\newblock {\em Acm Sigmod Record 39}, 4 (2011), 12--27.
+
+\bibitem{chasseur2013enabling}
+{\sc Chasseur, C., Li, Y., and Patel, J.~M.}
+\newblock Enabling json document stores in relational systems.
+\newblock In {\em WebDB\/} (2013), vol.~13, pp.~14--25.
+
+\bibitem{davoudianchenliu2018}
+{\sc Davoudian, A., Chen, L., and Liu, M.}
+\newblock A survey on nosql stores.
+\newblock {\em {ACM Comput. Surv.} 51}, 2 (Apr. 2018).
+
+\bibitem{dullabh2020application}
+{\sc Dullabh, P., Hovey, L., Heaney-Huls, K., Rajendran, N., Wright, A., and
+  Sittig, D.~F.}
+\newblock Application programming interfaces in health care: findings from a
+  current-state sociotechnical assessment.
+\newblock {\em Applied clinical informatics 11}, 01 (2020), 059--069.
+
+\bibitem{fard2013jsnose}
+{\sc Fard, A.~M., and Mesbah, A.}
+\newblock Jsnose: Detecting javascript code smells.
+\newblock In {\em 2013 IEEE 13th international working conference on Source
+  Code Analysis and Manipulation (SCAM)\/} (2013), IEEE, pp.~116--125.
+
+\bibitem{rfc9110}
+{\sc Fielding, R., Nottingham, M., and Reschke, J.}
+\newblock Rfc 9110: Http semantics, 2022.
+
+\bibitem{fielding2000thesis}
+{\sc Fielding, R.~T.}
+\newblock Architectural styles and the design of network-based software
+  architectures.
+\newblock {\em Ph. D. Thesis, UC Irvine\/} (2000).
+
+\bibitem{gallinucci2018schema}
+{\sc Gallinucci, E., Golfarelli, M., and Rizzi, S.}
+\newblock Schema profiling of document-oriented databases.
+\newblock {\em Information Systems 75\/} (2018), 13--25.
+
+\bibitem{garcia2004uml}
+{\sc Garc{\'\i}a-Molina, J., Moreira, A., and Rossi, G.}
+\newblock Uml: The standard object modelling language.
+
+\bibitem{gomez2020crudyleaf}
+{\sc G{\'o}mez, O.~S., Rosero, R.~H., and Cort{\'e}s-Verd{\'\i}n, K.}
+\newblock Crudyleaf: a dsl for generating spring boot rest apis from entity
+  crud operations.
+\newblock {\em Cybernetics and Information Technologies 20}, 3 (2020), 3--14.
+
+\bibitem{hajoui2018nosql}
+{\sc Hajoui, O., and Talea, M.}
+\newblock Which nosql database to combine with spark for real time big data
+  analytics?
+\newblock {\em International Journal of Computer Science and Information
+  Security (IJCSIS) 16}, 1 (2018).
+
+\bibitem{he2006comparison}
+{\sc He, Y.}
+\newblock Comparison of the modeling languages alloy and uml.
+\newblock {\em Software Engineering Research and Practice 2\/} (2006),
+  671--677.
+
+\bibitem{herchi_abdessalem_2012}
+{\sc Herchi, H., and Abdessalem, W.~B.}
+\newblock From user requirements to {UML} class diagram.
+\newblock {\em CoRR abs/1211.0713\/} (2012).
+
+\bibitem{huang2003automated}
+{\sc Huang, Z., and Carter, L.}
+\newblock Automated solutions: Improving the efficiency of software testing.
+\newblock {\em Issues in Information Systems 4\/} (2003), 171--177.
+
+\bibitem{hussain2020enterprise}
+{\sc Hussain, F., Hussain, R., Noye, B., and Sharieh, S.}
+\newblock Enterprise api security and gdpr compliance: Design and
+  implementation perspective.
+\newblock {\em IT professional 22}, 5 (2020), 81--89.
+
+\bibitem{hussain2015comparative}
+{\sc Hussain, T., and Singh, S.}
+\newblock A comparative study of software testing techniques viz. white box
+  testing black box testing and grey box testing.
+\newblock {\em IJAPRR, ISSN\/} (2015), 2350--1294.
+
+\bibitem{hynninen2023development}
+{\sc Hynninen, T.}
+\newblock Development directions in software testing and quality assurance.
+\newblock {\em LUT University\/} (2023).
+
+\bibitem{iana_about}
+{\sc {IANA}}.
+\newblock About iana.
+
+\bibitem{ietf_rfc_website}
+{\sc {IETF}}.
+\newblock Rfc's description, 2025.
+
+\bibitem{jacob2003}
+{\sc Jacob, R. J.~K.}
+\newblock {\em User interface}.
+\newblock John Wiley and Sons Ltd., GBR, 2003, p.~1821–1826.
+
+\bibitem{jatana2012survey}
+{\sc Jatana, N., Puri, S., Ahuja, M., Kathuria, I., and Gosain, D.}
+\newblock A survey and comparison of relational and non-relational database.
+\newblock {\em International Journal of Engineering Research \& Technology 1},
+  6 (2012), 1--5.
+
+\bibitem{jindal2016importance}
+{\sc Jindal, T.}
+\newblock Importance of testing in sdlc.
+\newblock {\em International Journal of Engineering and Applied Computer
+  Science (IJEACS) 1}, 02 (2016), 54--56.
+
+\bibitem{jivani2013over}
+{\sc Jivani, P., Chopara, C., and Prashant, M.}
+\newblock Over all idea about mvc: How to use model-view-controller (mvc).
+\newblock {\em International Journal of Innovations in Engineering and
+  Technology (IJIET)\/} (2013), 391--395.
+
+\bibitem{jsonintroduction2025}
+{\sc {Json}}.
+\newblock Introducing json, 2025.
+
+\bibitem{junit5_methodorderer_api}
+{\sc {JUnit 5}}.
+\newblock Methodorderer, 2025.
+
+\bibitem{junit5_order_api}
+{\sc {JUnit 5}}.
+\newblock Order, 2025.
+
+\bibitem{junit5_test_api}
+{\sc {JUnit 5}}.
+\newblock Test, 2025.
+
+\bibitem{junit5testmethodorder_api}
+{\sc {JUnit 5}}.
+\newblock Testmethodorder, 2025.
+
+\bibitem{juristo2006guest}
+{\sc Juristo, N., Moreno, A.~M., and Strigel, W.}
+\newblock Guest editors' introduction: Software testing practices in industry.
+\newblock {\em IEEE software 23}, 4 (2006), 19--21.
+
+\bibitem{kasurinen2010software}
+{\sc Kasurinen, J., Taipale, O., and Smolander, K.}
+\newblock Software test automation in practice: empirical observations.
+\newblock {\em Advances in Software Engineering 2010}, 1 (2010), 620836.
+
+\bibitem{khaliq2022artificial}
+{\sc Khaliq, Z., Farooq, S.~U., and Khan, D.}
+\newblock Artificial intelligence in software testing: Impact.
+\newblock {\em Problems, Challenges and Prospect\/} (2022).
+
+\bibitem{khan2011different}
+{\sc Khan, M.~E., et~al.}
+\newblock Different approaches to black box testing technique for finding
+  errors.
+\newblock {\em International Journal of Software Engineering \& Applications
+  2}, 4 (2011), 31.
+
+\bibitem{kim1982optimizing}
+{\sc Kim, W.}
+\newblock On optimizing an sql-like nested query.
+\newblock {\em ACM Transactions on Database Systems (TODS) 7}, 3 (1982),
+  443--469.
+
+\bibitem{kotlin_coroutine}
+{\sc {Kotlin}}.
+\newblock Coroutines basics.
+
+\bibitem{kotlin_getting_started}
+{\sc {Kotlin}}.
+\newblock {Getting Started with Kotlin}, 2025.
+
+\bibitem{leau2012software}
+{\sc Leau, Y.~B., Loo, W.~K., Tham, W.~Y., and Tan, S.~F.}
+\newblock Software development life cycle agile vs traditional approaches.
+\newblock In {\em International Conference on Information and Network
+  Technology\/} (2012), vol.~37, pp.~162--167.
+
+\bibitem{leavitt2010will}
+{\sc Leavitt, N.}
+\newblock Will nosql databases live up to their promise?
+\newblock {\em Computer 43}, 2 (2010), 12--14.
+
+\bibitem{lee2012survey}
+{\sc Lee, J., Kang, S., and Lee, D.}
+\newblock Survey on software testing practices.
+\newblock {\em IET software 6}, 3 (2012), 275--282.
+
+\bibitem{lee2018bridgify}
+{\sc Lee, J., and Sjoberg, C.~H.}
+\newblock Bridgify: interoperability library for structural design.
+\newblock In {\em Proceedings of IASS Annual Symposia\/} (2018), vol.~2018,
+  International Association for Shell and Spatial Structures (IASS), pp.~1--5.
+
+\bibitem{lindholm2014java}
+{\sc Lindholm, T., Yellin, F., Bracha, G., and Buckley, A.}
+\newblock The java virtual machine specification, java se, 2014.
+
+\bibitem{madhavi2016white}
+{\sc Madhavi, D.}
+\newblock A white box testing technique in softwre testing: Basis path testing.
+\newblock {\em Journal for Research 1}, 04 (2016).
+
+\bibitem{mapanga2013database}
+{\sc Mapanga, I., and Kadebu, P.}
+\newblock Database management systems: A nosql analysis.
+\newblock {\em Interna-tional Journal of Modern Communication Technologies \&
+  Research (IJMCTR) 1\/} (2013), 12--18.
+
+\bibitem{mason2015nosql}
+{\sc Mason, R.~T.}
+\newblock Nosql databases and data modeling techniques for a document-oriented
+  nosql database.
+\newblock In {\em Proceedings of informing science \& IT education conference
+  (InSITE)\/} (2015), vol.~3, pp.~259--268.
+
+\bibitem{massol2004junit}
+{\sc Massol, V.}
+\newblock {\em JUnit in action}.
+\newblock Citeseer, 2004.
+
+\bibitem{matilainen2011multicore}
+{\sc Matilainen, L., Salminen, E., H{\"a}m{\"a}l{\"a}inen, T.~D., and
+  H{\"a}nnik{\"a}inen, M.}
+\newblock Multicore communications api (mcapi) implementation on an fpga
+  multiprocessor.
+\newblock In {\em 2011 International Conference on Embedded Computer Systems:
+  Architectures, Modeling and Simulation\/} (2011), IEEE, pp.~286--293.
+
+\bibitem{mcguire2013publisher}
+{\sc McGuire, H.}
+\newblock A publisher’s job is to provide a good api for books: you can start
+  with your index1.
+\newblock {\em The Indexer: The International Journal of Indexing 31}, 1
+  (2013), 36--38.
+
+\bibitem{mcnamara2022flexible}
+{\sc McNamara, J., Aumayr, E., Fallon, L., and Fallon, E.}
+\newblock A flexible interpreter for intent realisation.
+\newblock In {\em NOMS 2022-2022 IEEE/IFIP Network Operations and Management
+  Symposium\/} (2022), IEEE, pp.~1--6.
+
+\bibitem{meenakshi2014software}
+{\sc Meenakshi, D., Naik, J.~S., and Reddy, M.~R.}
+\newblock Software testing techniques in software development life cycle.
+\newblock {\em Int J Comput Sci Inf Technol 5\/} (2014), 3729--3731.
+
+\bibitem{meyer2008seven}
+{\sc Meyer, B.}
+\newblock Seven principles of software testing.
+\newblock {\em Computer 41}, 8 (2008), 99--101.
+
+\bibitem{mohan2013history}
+{\sc Mohan, C.}
+\newblock History repeats itself: sensible and nonsensql aspects of the nosql
+  hoopla.
+\newblock In {\em Proceedings of the 16th International Conference on Extending
+  Database Technology\/} (2013), pp.~11--16.
+
+\bibitem{moniruzzaman2013nosqldatabasenewera}
+{\sc Moniruzzaman, A. B.~M., and Hossain, S.~A.}
+\newblock Nosql database: New era of databases for big data analytics -
+  classification, characteristics and comparison, 2013.
+
+\bibitem{nanthaamornphong2019extended}
+{\sc Nanthaamornphong, A., and Leatongkam, A.}
+\newblock Extended foruml for automatic generation of uml sequence diagrams
+  from object-oriented fortran.
+\newblock {\em Scientific Programming 2019}, 1 (2019), 2542686.
+
+\bibitem{nayak2013type}
+{\sc Nayak, A., Poriya, A., and Poojary, D.}
+\newblock Type of nosql databases and its comparison with relational databases.
+\newblock {\em International Journal of Applied Information Systems 5}, 4
+  (2013), 16--19.
+
+\bibitem{ostrand_balcer_1988}
+{\sc Ostrand, T.~J., and Balcer, M.~J.}
+\newblock The category-partition method for specifying and generating fuctional
+  tests.
+\newblock {\em Commun. ACM 31}, 6 (June 1988), 676–686.
+
+\bibitem{padhy2011rdbms}
+{\sc Padhy, R.~P., Patra, M.~R., and Satapathy, S.~C.}
+\newblock Rdbms to nosql: reviewing some next-generation non-relational
+  database’s.
+\newblock {\em International Journal of Advanced Engineering Science and
+  Technologies 11}, 1 (2011), 15--30.
+
+\bibitem{panigrahi2018}
+{\sc Panigrahi, S.~S., Shaurya, S., Das, P., Swain, A.~K., and Jena, A.~K.}
+\newblock Test scenarios generation using uml sequence diagram.
+\newblock In {\em 2018 International Conference on Information Technology
+  (ICIT)\/} (2018), pp.~50--56.
+
+\bibitem{pantaleev2007identifying}
+{\sc Pantaleev, A., and Rountev, A.}
+\newblock Identifying data transfer objects in ejb applications.
+\newblock In {\em Fifth International Workshop on Dynamic Analysis (WODA'07)\/}
+  (2007), IEEE, pp.~5--5.
+
+\bibitem{pocatilu2002automated}
+{\sc Pocatilu, P.}
+\newblock Automated software testing process.
+\newblock {\em Economy Informatics 1\/} (2002), 97--99.
+
+\bibitem{prajapati2019asp}
+{\sc Prajapati, M., et~al.}
+\newblock Asp. net mvc-generic repository pattern and unit of work.
+\newblock {\em International Journal Of All Research Writings 1}, 1 (2019),
+  23--30.
+
+\bibitem{prakharenka2019development}
+{\sc Prakharenka, A., and Liauchuk, V.}
+\newblock Development of data conversion subsystem in the online bookmaker
+  platform.
+\newblock {\em Francisk Skorina Gomel State University, Gomel\/} (2019).
+
+\bibitem{rajagopal2017study}
+{\sc Rajagopal, D., and Thilakavalli, K.}
+\newblock A study: Uml for ooa and ood.
+\newblock {\em International Journal of Knowledge Content Development \&
+  Technology 7}, 2 (2017).
+
+\bibitem{rajput2015uml}
+{\sc Rajput, B.~S., and Chourey, V.}
+\newblock Uml based approach for system reliability assessment.
+\newblock {\em International Journal of Computer Applications 131}, 2 (2015),
+  0975--8887.
+
+\bibitem{rawat2021mysql}
+{\sc Rawat, B., Purnama, S., et~al.}
+\newblock Mysql database management system (dbms) on ftp site lapan bandung.
+\newblock {\em International Journal of Cyber and IT Service Management 1}, 2
+  (2021), 173--179.
+
+\bibitem{sanchez2020beyond}
+{\sc S{\'a}nchez-Gord{\'o}n, M., Rijal, L., and Colomo-Palacios, R.}
+\newblock Beyond technical skills in software testing: Automated versus manual
+  testing.
+\newblock In {\em Proceedings of the IEEE/ACM 42nd International Conference on
+  Software Engineering Workshops\/} (2020), pp.~161--164.
+
+\bibitem{sethi2017review}
+{\sc Sethi, M.~A.}
+\newblock A review paper on levels, types \& techniques in software testing.
+\newblock {\em International Journal of Advanced Research in Computer Science
+  8}, 7 (2017), 269--271.
+
+\bibitem{singh2016comparative}
+{\sc Singh, S., and Iyer, J.}
+\newblock Comparative study of mvc (model view controller) architecture with
+  respect to struts framework and php.
+\newblock {\em International Journal of Computer Science Engineering (IJCSE)
+  5}, 3 (2016), 142--150.
+
+\bibitem{springboottest_api}
+{\sc {Spring}}.
+\newblock Springboottest, 2025.
+
+\bibitem{springboot_webtestclient_api}
+{\sc {Spring}}.
+\newblock Webtestclient, 2025.
+
+\bibitem{stothard2000sequence}
+{\sc Stothard, P.}
+\newblock The sequence manipulation suite: Javascript programs for analyzing
+  and formatting protein and dna sequences.
+\newblock {\em Biotechniques 28}, 6 (2000), 1102--1104.
+
+\bibitem{su2024modular}
+{\sc Su, R., and Li, X.}
+\newblock Modular monolith: Is this the trend in software architecture?
+\newblock In {\em Proceedings of the 1st International Workshop on New Trends
+  in Software Architecture\/} (2024), pp.~10--13.
+
+\bibitem{swaminathan2016review}
+{\sc Swaminathan, R., Huang, Y., Moosavinasab, S., Buckley, R., Bartlett,
+  C.~W., and Lin, S.~M.}
+\newblock A review on genomics apis.
+\newblock {\em Computational and Structural Biotechnology Journal 14\/} (2016),
+  8--15.
+
+\bibitem{thakur2019role}
+{\sc Thakur, R.~N.}
+\newblock The role of model-view controller in object oriented software
+  development ram naresh thakur1 and us pandey2.
+\newblock {\em architecture 2\/} (2019).
+
+\bibitem{thakur2019study}
+{\sc Thakur, R.~N., and Pandey, U.}
+\newblock A study focused on web application development using mvc design
+  pattern.
+\newblock {\em International Research Journal of Engineering and Technology 6},
+  8 (2019), 237--244.
+
+\bibitem{thant2023impact}
+{\sc Thant, K., and Tin, H.}
+\newblock The impact of manual and automatic testing on software testing
+  efficiency and effectiveness.
+\newblock {\em Indian journal of science and research 3}, 3 (2023), 88--93.
+
+\bibitem{tuteja2012research}
+{\sc Tuteja, M., Dubey, G., et~al.}
+\newblock A research study on importance of testing and quality assurance in
+  software development life cycle (sdlc) models.
+\newblock {\em International Journal of Soft Computing and Engineering (IJSCE)
+  2}, 3 (2012), 251--257.
+
+\bibitem{umar2019study}
+{\sc Umar, M.~A., and Zhanfang, C.}
+\newblock A study of automated software testing: Automation tools and
+  frameworks.
+\newblock {\em International Journal of Computer Science Engineering (IJCSE)
+  6}, 217-225 (2019), 47--48.
+
+\bibitem{vijayasree2022review}
+{\sc Vijayasree, D., Roopa, N.~S., Arun, A., et~al.}
+\newblock A review on the process of automated software testing.
+\newblock {\em arXiv preprint arXiv:2209.03069\/} (2022).
+
+\bibitem{viswanathan2000java}
+{\sc Viswanathan, D., and Liang, S.}
+\newblock Java virtual machine profiler interface.
+\newblock {\em IBM Systems Journal 39}, 1 (2000), 82--95.
+
+\bibitem{vo2020transformation}
+{\sc Vo, M. H.~L., and Hoang, Q.}
+\newblock Transformation of uml class diagram into owl ontology.
+\newblock {\em Journal of Information and Telecommunication 4}, 1 (2020),
+  1--16.
+
+\bibitem{wegner1996}
+{\sc Wegner, P.}
+\newblock Interoperability.
+\newblock {\em ACM Comput. Surv. 28}, 1 (Mar. 1996), 285–287.
+
+\bibitem{yadav2019software}
+{\sc YADAV, A., Rai, A., and Verma, P.}
+\newblock {\em SOFTWARE TESTING.}
+\newblock Citeseer, 2019.
+
+\end{thebibliography}

@@ -1,0 +1,79 @@
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of XML Document}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of MongoDB Document}}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of JSON Document}}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of a HTTP request}}{10}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Example of a HTTP response}}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Medical Slot Registration Service}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces HTTP Methods's Intended Content Meaning}}{12}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Class Diagram}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Entity-Relationship Diagram}}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of a UML Class Diagram's Class}}{17}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Kotlin Model of Person}}{18}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Person Registration Service}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Person Registration Service Implementation}}{19}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Component Diagram}}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Swagger UI - Page 1}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Swagger UI - Page 2}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Swagger UI - Page 3}}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Frequency of Use: Levels, Techniques and Types of Testing}}{32}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Usage of Software Testing Methods and Tools in Tests Processes}}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Percentage Of The Testing And QA Tools Utilized In The Industry}}{33}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Example of a Medical Slot Successful Registration Testing Method}}{35}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Example of a Medical Slot Unsuccessful Registration Testing Method - Duplicated Booking Date And Time}}{36}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Example of a Medical Slot Unsuccessful Registration Testing Method - Doctor Not Found}}{36}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flow of the Registration of a Person}}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Flow of the Registration of a Customer}}{40}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Customer Registration Sequence Diagram}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Enum States}}{43}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Customer Registration Successful Integration Test}}{44}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Customer Registration Integration Unsuccessful Test: Duplicated SSN}}{45}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Customer Registration Integration Test Unsuccess: Duplicated Email}}{46}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Customer Registration Integration Test's Results}}{47}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Flow of the Registration of a Medical Slot}}{47}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Doctor Registration Sequence Diagram}}{48}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Doctor Registration Successful Integration Test}}{49}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Doctor Registration Unsuccessful Case: Duplicated Medical License Number}}{50}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Doctor Registration Unsuccessful Case: Duplicated SSN}}{51}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Doctor Registration Unsuccessful Case: Duplicated Email}}{52}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Doctor Registration Integration Test's Results}}{52}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Flow of Retrieving a Medical Slot}}{53}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Audit Trail Activity Diagram}}{54}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Doctor Termination Sequence Diagram}}{55}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Doctor Termination Unsuccessful Case: Currently Terminated Doctor}}{55}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Doctor Termination Successful Case}}{56}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Doctor Rehiring Sequence Diagram}}{57}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Doctor Rehiring Unsuccessful Case: Currently Active Doctor}}{57}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Doctor Rehiring Successful Case}}{58}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Doctor Termination Integration Test's Results}}{58}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Doctor Rehiring Integration Test's Results}}{59}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Flow of Registering A Medical Slot}}{59}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Medical Slot Registration Sequence Diagram}}{60}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Medical Slot Registration Successful Case}}{61}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Medical Slot Registration Unsuccessful Case: Doctor Not Found}}{61}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Medical Slot Registration Unsuccessful Case: Duplicated Booking Date And Time}}{62}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Medical Slot Registration Integration Test's Results}}{63}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Flow of Registering a Medical Appointment}}{64}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Medical Appointment Registration Sequence Diagram}}{65}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.33}{\ignorespaces Medical Appointment Registration Successful Case}}{66}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Customer Not Found}}{67}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.35}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Terminated Doctor}}{67}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Terminated Doctor}}{68}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.37}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Medical Slot Not Found}}{68}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.38}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Non-Associated Doctor With Medical Slot}}{69}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.39}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Duplicated Booking Date And Time}}{69}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.40}{\ignorespaces Medical Appointment Registration Unsuccessful Case: Doctor's Self-Booking}}{70}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.41}{\ignorespaces Medical Appointment Integration Test Successful Case}}{70}{figure.caption.90}%
+\contentsline {figure}{\numberline {5.42}{\ignorespaces Medical Appointment Integration Test Unsuccessful Case's Result: Customer Not Found}}{71}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.43}{\ignorespaces Medical Appointment Integration Test Unsuccessful Case's Result: Doctor Not Found}}{71}{figure.caption.92}%
+\contentsline {figure}{\numberline {5.44}{\ignorespaces Medical Appointment Integration Test Unsuccessful Case's Result: Self Booking of Doctor's Appointment}}{71}{figure.caption.93}%
+\contentsline {figure}{\numberline {5.45}{\ignorespaces Medical Appointment Integration Test Unsuccessful Case's Result: Duplicated Booking Date And Time}}{72}{figure.caption.94}%
+\contentsline {figure}{\numberline {5.46}{\ignorespaces Medical Appointment Integration Test Unsuccessful Case's Result: Medical Slot Not Found}}{72}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.47}{\ignorespaces Medical Appointment Integration Test Unsuccessful Case's Result: Non-Associated With Found Medical Slot}}{72}{figure.caption.96}%
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Model Person}}{89}{figure.caption.98}%
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Model Customer}}{90}{figure.caption.99}%
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Model Doctor}}{91}{figure.caption.100}%
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Model DoctorAuditTrail}}{92}{figure.caption.101}%
+\contentsline {figure}{\numberline {D.5}{\ignorespaces Model MedicalSlot}}{93}{figure.caption.102}%
+\contentsline {figure}{\numberline {D.6}{\ignorespaces Model MedicalAppointment}}{94}{figure.caption.103}%
+\contentsline {figure}{\numberline {D.7}{\ignorespaces Model Card}}{95}{figure.caption.104}%
+\contentsline {figure}{\numberline {D.8}{\ignorespaces Model Payment}}{96}{figure.caption.105}%

@@ -640,11 +640,14 @@ However, when either \textbf{Customer}, \textbf{Doctor} and \textbf{MedicalSlot}
 
 \begin{figure}[H]
 	\centering
-	\caption{Medical Appointment Registration Unsuccessful Case: Doctor's Medical Appointment Self-Booking}
+	\caption{Medical Appointment Registration Unsuccessful Case: Doctor's Self-Booking}
 	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png}
 	\label{fig:medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking}
 	\footnotesize Source: Author's creation.
 \end{figure}
+
+The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that sought \textbf{Customer} is the sought \textbf{MedicalSlot}'s doctor, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
+
 
 \subsubsection{Summary of Results}
 

@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: cover.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: acronyms.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: contextual_foundation.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: unit_tests.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: core_person_registration_process.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: integration_tests.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: evaluation.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: conclusions.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: glossary.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: http_status_codes_summary_appendix.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: tests_concepts_appendix.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+A level-1 auxiliary file: models.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
+Database file #1: references.bib
+Warning--entry type for "springboottest_api" isn't style-file defined
+--line 622 of file references.bib
+Warning--entry type for "springboot_webtestclient_api" isn't style-file defined
+--line 628 of file references.bib
+Warning--entry type for "junit5testmethodorder_api" isn't style-file defined
+--line 634 of file references.bib
+Warning--entry type for "rfc3986" isn't style-file defined
+--line 812 of file references.bib
+Warning--empty journal in garcia2004uml
+You've used 99 entries,
+            2253 wiz_defined-function locations,
+            1040 strings with 18865 characters,
+and the built_in function-call counts, 30073 in all, are:
+= -- 2896
+> -- 1293
+< -- 0
++ -- 556
+- -- 438
+* -- 2256
+:= -- 4824
+add.period$ -- 275
+call.type$ -- 99
+change.case$ -- 508
+chr.to.int$ -- 0
+cite$ -- 100
+duplicate$ -- 1074
+empty$ -- 2579
+format.name$ -- 438
+if$ -- 6276
+int.to.chr$ -- 0
+int.to.str$ -- 99
+missing$ -- 81
+newline$ -- 476
+num.names$ -- 198
+pop$ -- 567
+preamble$ -- 1
+purify$ -- 412
+quote$ -- 0
+skip$ -- 755
+stack$ -- 0
+substring$ -- 1825
+swap$ -- 295
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 390
+warning$ -- 1
+while$ -- 319
+width$ -- 101
+write$ -- 941
+(There were 5 warnings)

@@ -1,0 +1,24 @@
+\contentsline {table}{\numberline {2.1}{\ignorespaces Relational Database Scalability Challenges}}{3}{table.caption.5}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces NoSQL Database Types}}{4}{table.caption.6}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces MongoDB Strengths and Weaknesses}}{6}{table.caption.9}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces JSON Characteristics}}{6}{table.caption.10}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces HTTP server schemes}}{8}{table.caption.12}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces HTTP Status Codes}}{9}{table.caption.13}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces HTTP Methods}}{9}{table.caption.14}%
+\contentsline {table}{\numberline {2.8}{\ignorespaces HTTP Method Status Code Outcomes}}{12}{table.caption.18}%
+\contentsline {table}{\numberline {2.9}{\ignorespaces HTTP Status Code Semantics for Error Handling}}{13}{table.caption.20}%
+\contentsline {table}{\numberline {2.10}{\ignorespaces Entity Composition Relationships}}{15}{table.caption.22}%
+\contentsline {table}{\numberline {2.11}{\ignorespaces API Functionalities by Domain}}{20}{table.caption.28}%
+\contentsline {table}{\numberline {2.12}{\ignorespaces API's Selected Services}}{22}{table.caption.30}%
+\contentsline {table}{\numberline {2.13}{\ignorespaces Key Aspects of Software Testing}}{30}{table.2.13}%
+\contentsline {table}{\numberline {2.14}{\ignorespaces General Description of the Types of Test}}{31}{table.caption.34}%
+\contentsline {table}{\numberline {2.15}{\ignorespaces Comparison of Advantages and Disadvantages of JUnit}}{34}{table.caption.38}%
+\contentsline {table}{\numberline {2.16}{\ignorespaces Spring Boot Testing Annotations and Components}}{35}{table.caption.39}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Fields in CustomerRegistrationDto}}{42}{table.caption.46}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Fields in PersonRegistrationDto}}{42}{table.caption.47}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Enum Gender}}{42}{table.caption.48}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Fields in Address}}{43}{table.caption.49}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Fields in DoctorRegistrationDto}}{49}{table.caption.57}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Fields in MedicalLicenseNumber}}{49}{table.caption.58}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces HTTP Status Codes Summary}}{85}{table.B.1}%
+\contentsline {table}{\numberline {C.1}{\ignorespaces Tests and Their Definitions}}{87}{table.C.1}%

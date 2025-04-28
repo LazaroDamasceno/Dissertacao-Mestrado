@@ -1,0 +1,1834 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.14)  28 APR 2025 03:27
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/lazar/projects/Master-Dissertation/main.tex
+(c:/Users/lazar/projects/Master-Dissertation/main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen152
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks20
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks21
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count285
+\float@exts=\toks24
+\float@box=\box54
+\@float@everytoks=\toks25
+\@floatcapt=\box55
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+Package caption Info: float package is loaded.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen169
+\ar@mcellbox=\box56
+\extrarowheight=\dimen170
+\NC@list=\toks28
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box57
+)
+\TX@col@width=\dimen171
+\TX@old@table=\dimen172
+\TX@old@col=\dimen173
+\TX@target=\dimen174
+\TX@delta=\dimen175
+\TX@cols=\count288
+\TX@ftn=\toks29
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen176
+\c@nlinenum=\count289
+\TeXr@lab=\toks30
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count290
+\LTcapwidth=\dimen177
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count291
+\LT@rows=\count292
+\c@LT@tables=\count293
+\c@LT@chunks=\count294
+\LT@p@ftn=\toks31
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip60
+\enit@outerparindent=\dimen178
+\enit@toks=\toks32
+\enit@inbox=\box63
+\enit@count@id=\count295
+\enitdp@description=\count296
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count297
+\@cmidlb=\count298
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count299
+\@lastruleclass=\count300
+\@thisrulewidth=\dimen191
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count301
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box64
+\rot@mess@toks=\toks33
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box65
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
+\pgf@xd=\dimen258
+\pgf@yd=\dimen259
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count302
+\c@pgf@countb=\count303
+\c@pgf@countc=\count304
+\c@pgf@countd=\count305
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count306
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count307
+\pgfsyssoftpath@bigbuffer@items=\count308
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen260
+\pgfmath@count=\count309
+\pgfmath@box=\box66
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count310
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count311
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen279
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen283
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen284
+\pgf@sys@shading@range@num=\count312
+\pgf@shadingcount=\count313
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box70
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box71
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count314
+\pgfplotmarksize=\dimen289
+)
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count315
+\tikznumberofchildren=\count316
+\tikznumberofcurrentchild=\count317
+\tikz@fig@count=\count318
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count319
+\pgfmatrixcurrentcolumn=\count320
+\pgf@matrix@numberofcolumns=\count321
+)
+\tikz@expandcount=\count322
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-03-26 v3.4.8 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count323
+\l__siunitx_number_exponent_fixed_int=\count324
+\l__siunitx_number_min_decimal_int=\count325
+\l__siunitx_number_min_integer_int=\count326
+\l__siunitx_number_round_precision_int=\count327
+\l__siunitx_number_lower_threshold_int=\count328
+\l__siunitx_number_upper_threshold_int=\count329
+\l__siunitx_number_group_first_int=\count330
+\l__siunitx_number_group_size_int=\count331
+\l__siunitx_number_group_minimum_int=\count332
+\l__siunitx_angle_tmp_dim=\dimen298
+\l__siunitx_angle_marker_box=\box76
+\l__siunitx_angle_unit_box=\box77
+\l__siunitx_compound_count_int=\count333
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count334
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box78
+\l__siunitx_table_tmp_dim=\dimen299
+\l__siunitx_table_column_width_dim=\dimen300
+\l__siunitx_table_integer_box=\box79
+\l__siunitx_table_decimal_box=\box80
+\l__siunitx_table_uncert_box=\box81
+\l__siunitx_table_before_box=\box82
+\l__siunitx_table_after_box=\box83
+\l__siunitx_table_before_dim=\dimen301
+\l__siunitx_table_carry_dim=\dimen302
+\l__siunitx_unit_tmp_int=\count335
+\l__siunitx_unit_position_int=\count336
+\l__siunitx_unit_total_int=\count337
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count338
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen303
+\Hy@linkcounter=\count339
+\Hy@pagecounter=\count340
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count341
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count342
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen304
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count343
+\Field@Width=\dimen305
+\Fld@charsize=\dimen306
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count344
+\c@Item=\count345
+\c@Hfootnote=\count346
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count347
+\c@bookmark@seq@number=\count348
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip63
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 32.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 32.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count349
+\l__pdf_internal_box=\box84
+) (main.aux (cover.aux) (acronyms.aux) (introduction.aux) (contextual_foundation.aux) (unit_tests.aux) (core_person_registration_process.aux) (integration_tests.aux) (evaluation.aux) (conclusions.aux) (glossary.aux) (http_status_codes_summary_appendix.aux) (tests_concepts_appendix.aux) (models.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count350
+\scratchdimen=\dimen307
+\scratchbox=\box85
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen308
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks47
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 32.
+Package hyperref Info: Link coloring ON on input line 32.
+ (main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+\openout2 = `cover.aux'.
+
+ (cover.tex)
+
+[1
+
+
+{C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+\openout2 = `acronyms.aux'.
+
+ (acronyms.tex)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \include{acronyms}
+                        [2
+
+
+
+] (main.lot
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 1.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 1.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 1.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 \newpage
+              [3
+
+
+] (main.lof
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 ... Duplicated Email}}{52}{figure.caption.62}
+                                                  % [4]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 ...al Slot Not Found}}{72}{figure.caption.95}
+                                                  % [5]
+Overfull \hbox (19.5914pt too wide) in paragraph at lines 71--71
+ [][] [][][]\OT1/ptm/m/n/12 Medical Ap-point-ment In-te-gra-tion Test Un-suc-cess-ful Case's Re-sult: Non-Associated 
+ []
+
+)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \newpage
+              [6] (main.toc
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 ...l Slot Not Found}{68}{subsubsection.5.5.5}
+                                                  % [7])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 \newpage
+              [8]
+\openout2 = `introduction.aux'.
+
+ (introduction.tex)
+
+[1
+
+]
+\openout2 = `contextual_foundation.aux'.
+
+ (contextual_foundation.tex
+
+[2
+
+
+
+]
+
+[3]
+<figures/xml.png, id=572, 2372.865pt x 2601.72pt>
+File: figures/xml.png Graphic file (type png)
+<use figures/xml.png>
+Package pdftex.def Info: figures/xml.png  used on input line 103.
+(pdftex.def)             Requested size: 227.62206pt x 249.54791pt.
+
+
+[4]
+<figures/mongodb.png, id=583, 1995.455pt x 2240.37pt>
+File: figures/mongodb.png Graphic file (type png)
+<use figures/mongodb.png>
+Package pdftex.def Info: figures/mongodb.png  used on input line 111.
+(pdftex.def)             Requested size: 227.62206pt x 255.53473pt.
+
+
+[5 <./figures/xml.png> <./figures/mongodb.png>]
+Underfull \hbox (badness 3312) in paragraph at lines 151--151
+[]|\OT1/ptm/m/n/12 Straightforward read-abil-ity for hu-mans
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 154--154
+[]|\OT1/ptm/m/n/12 Compatible with C-inspired lan-guages
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 156--156
+[]|\OT1/ptm/m/n/12 Straightforward for-mat of name-value
+ []
+
+<figures/json.png, id=606, 2284.535pt x 1276.77pt>
+File: figures/json.png Graphic file (type png)
+<use figures/json.png>
+Package pdftex.def Info: figures/json.png  used on input line 169.
+(pdftex.def)             Requested size: 455.24411pt x 254.41434pt.
+
+
+[6]
+
+[7 <./figures/json.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
+
+Overfull \hbox (26.70738pt too wide) in paragraph at lines 213--218
+ [][] 
+ []
+
+
+
+[8]
+Underfull \hbox (badness 1721) in paragraph at lines 258--258
+[]|\OT1/ptm/m/n/12 Establish a tun-nel to the server
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 259--259
+[]|\OT1/ptm/m/n/12 Describe the com-mu-ni-ca-tion op-
+ []
+
+<figures/http_request.png, id=667, 1428.08531pt x 539.01375pt>
+File: figures/http_request.png Graphic file (type png)
+<use figures/http_request.png>
+Package pdftex.def Info: figures/http_request.png  used on input line 270.
+(pdftex.def)             Requested size: 455.24411pt x 171.82172pt.
+
+
+[9]
+<figures/http_response.png, id=672, 1445.4pt x 438.8897pt>
+File: figures/http_response.png Graphic file (type png)
+<use figures/http_response.png>
+Package pdftex.def Info: figures/http_response.png  used on input line 278.
+(pdftex.def)             Requested size: 455.24411pt x 138.2309pt.
+<figures/medical_slot_registration_service.png, id=673, 3284.27pt x 3248.135pt>
+File: figures/medical_slot_registration_service.png Graphic file (type png)
+<use figures/medical_slot_registration_service.png>
+Package pdftex.def Info: figures/medical_slot_registration_service.png  used on input line 286.
+(pdftex.def)             Requested size: 409.71692pt x 405.17332pt.
+
+
+[10 <./figures/http_request.png> <./figures/http_response.png>]
+Overfull \hbox (23.27548pt too wide) in paragraph at lines 302--311
+ [][] 
+ []
+
+
+
+[11 <./figures/medical_slot_registration_service.png>]
+<figures/http_200_response_analyses.png, id=703, 499.8675pt x 197.23688pt>
+File: figures/http_200_response_analyses.png Graphic file (type png)
+<use figures/http_200_response_analyses.png>
+Package pdftex.def Info: figures/http_200_response_analyses.png  used on input line 320.
+(pdftex.def)             Requested size: 455.24411pt x 179.63629pt.
+
+Overfull \hbox (1.23639pt too wide) in paragraph at lines 335--344
+ [][] 
+ []
+
+
+
+[12 <./figures/http_200_response_analyses.png>]
+
+[13]
+<figures/class_diagram.png, id=732, 4041.0975pt x 1681.28125pt>
+File: figures/class_diagram.png Graphic file (type png)
+<use figures/class_diagram.png>
+Package pdftex.def Info: figures/class_diagram.png  used on input line 361.
+(pdftex.def)             Requested size: 702.78308pt x 292.38152pt.
+
+
+[14
+
+ <./figures/class_diagram.png (PNG copy)>]
+
+[15
+
+]
+Overfull \hbox (3.1003pt too wide) in paragraph at lines 399--400
+[]\OT1/ptm/m/n/12 The class di-a-gram pro-vides the ab-stract, object-oriented view of the sys-tem's build-ing blocks,
+ []
+
+<figures/erd.png, id=749, 4037.0825pt x 2356.805pt>
+File: figures/erd.png Graphic file (type png)
+<use figures/erd.png>
+Package pdftex.def Info: figures/erd.png  used on input line 405.
+(pdftex.def)             Requested size: 4037.07271pt x 2356.79927pt.
+
+
+[16 <./figures/erd.png (PNG copy)>]
+<figures/person_class.png, id=763, 393.47pt x 230.8625pt>
+File: figures/person_class.png Graphic file (type png)
+<use figures/person_class.png>
+Package pdftex.def Info: figures/person_class.png  used on input line 421.
+(pdftex.def)             Requested size: 396.06015pt x 232.38019pt.
+<figures/kotlin_person_model.png, id=767, 2095.83pt x 1521.685pt>
+File: figures/kotlin_person_model.png Graphic file (type png)
+<use figures/kotlin_person_model.png>
+Package pdftex.def Info: figures/kotlin_person_model.png  used on input line 431.
+(pdftex.def)             Requested size: 396.06015pt x 287.54427pt.
+
+
+[17 <./figures/person_class.png>]
+
+[18 <./figures/kotlin_person_model.png>]
+<figures/person_registration_service.png, id=808, 3336.465pt x 550.055pt>
+File: figures/person_registration_service.png Graphic file (type png)
+<use figures/person_registration_service.png>
+Package pdftex.def Info: figures/person_registration_service.png  used on input line 460.
+(pdftex.def)             Requested size: 455.24411pt x 75.05156pt.
+<figures/person_registration_service_impl.png, id=809, 3252.15pt x 2051.665pt>
+File: figures/person_registration_service_impl.png Graphic file (type png)
+<use figures/person_registration_service_impl.png>
+Package pdftex.def Info: figures/person_registration_service_impl.png  used on input line 468.
+(pdftex.def)             Requested size: 396.06015pt x 249.85196pt.
+
+
+[19 <./figures/person_registration_service.png> <./figures/person_registration_service_impl.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\OT1/ptm/m/n/12 Customer reg-is-tra-tion, Doc-tor reg-is-tra-
+ []
+
+
+Overfull \hbox (3.69183pt too wide) in paragraph at lines 497--499
+\OT1/ptm/m/n/12 ser-vice layer. These op-er-a-tions are vi-su-al-ized in the com-po-nent di-a-gram (fig-ure [][]2.14[][]), which|as
+ []
+
+
+
+[20]
+<figures/component_diagram.png, id=834, 1407.2575pt x 839.135pt>
+File: figures/component_diagram.png Graphic file (type png)
+<use figures/component_diagram.png>
+Package pdftex.def Info: figures/component_diagram.png  used on input line 504.
+(pdftex.def)             Requested size: 695.75911pt x 414.86734pt.
+
+
+[21
+
+ <./figures/component_diagram.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 536.
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+[22
+
+]
+<figures/Swagger UI-1.png, id=848, 2331.71124pt x 1501.61pt>
+File: figures/Swagger UI-1.png Graphic file (type png)
+<use figures/Swagger UI-1.png>
+Package pdftex.def Info: figures/Swagger UI-1.png  used on input line 555.
+(pdftex.def)             Requested size: 702.78308pt x 452.57153pt.
+
+
+[23
+
+]
+Overfull \vbox (54.85373pt too high) has occurred while \output is active []
+
+
+
+[24 <./figures/Swagger UI-1.png>]
+<figures/Swagger UI-2.png, id=859, 845.19765pt x 597.31155pt>
+File: figures/Swagger UI-2.png Graphic file (type png)
+<use figures/Swagger UI-2.png>
+Package pdftex.def Info: figures/Swagger UI-2.png  used on input line 565.
+(pdftex.def)             Requested size: 702.78308pt x 496.66165pt.
+
+
+[25
+
+
+]
+Overfull \vbox (98.94385pt too high) has occurred while \output is active []
+
+
+
+[26 <./figures/Swagger UI-2.png>]
+<figures/Swagger UI-3.png, id=869, 2347.77126pt x 1444.39626pt>
+File: figures/Swagger UI-3.png Graphic file (type png)
+<use figures/Swagger UI-3.png>
+Package pdftex.def Info: figures/Swagger UI-3.png  used on input line 575.
+(pdftex.def)             Requested size: 702.78308pt x 432.35248pt.
+
+
+[27
+
+
+]
+Overfull \vbox (34.63467pt too high) has occurred while \output is active []
+
+
+
+[28 <./figures/Swagger UI-3.png>]
+
+[29
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+[]|\OT1/ptm/m/n/12 Satisfying Re-quire-
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 639--639
+[]|\OT1/ptm/m/n/12 Writing Qual-ity Test
+ []
+
+
+
+[30]
+Underfull \hbox (badness 7944) in paragraph at lines 675--675
+[]|\OT1/ptm/m/n/12 Low-level code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 676--676
+[]|\OT1/ptm/m/n/12 Multi-level de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--677
+[]|\OT1/ptm/m/n/12 High-level de-
+ []
+
+
+Overfull \hbox (15.19815pt too wide) in paragraph at lines 680--681
+[]|\OT1/ptm/m/n/12 Testers/Programmer| 
+ []
+
+
+
+[31]
+<figures/frequency_of_use__levels_techniques_and_types_of_testing.png, id=964, 308.65312pt x 214.8025pt>
+File: figures/frequency_of_use__levels_techniques_and_types_of_testing.png Graphic file (type png)
+<use figures/frequency_of_use__levels_techniques_and_types_of_testing.png>
+Package pdftex.def Info: figures/frequency_of_use__levels_techniques_and_types_of_testing.png  used on input line 699.
+(pdftex.def)             Requested size: 455.24411pt x 316.84732pt.
+
+
+[32 <./figures/frequency_of_use__levels_techniques_and_types_of_testing.png>]
+<figures/usage_stmt_tests_processes.png, id=976, 619.31375pt x 329.23pt>
+File: figures/usage_stmt_tests_processes.png Graphic file (type png)
+<use figures/usage_stmt_tests_processes.png>
+Package pdftex.def Info: figures/usage_stmt_tests_processes.png  used on input line 714.
+(pdftex.def)             Requested size: 364.19667pt x 193.61606pt.
+<figures/testing_tools_2017_2009.png, id=981, 835.12pt x 494.84875pt>
+File: figures/testing_tools_2017_2009.png Graphic file (type png)
+<use figures/testing_tools_2017_2009.png>
+Package pdftex.def Info: figures/testing_tools_2017_2009.png  used on input line 724.
+(pdftex.def)             Requested size: 364.19667pt x 215.80867pt.
+
+
+[33 <./figures/usage_stmt_tests_processes.png (PNG copy)> <./figures/testing_tools_2017_2009.png (PNG copy)>]
+Underfull \hbox (badness 2435) in paragraph at lines 752--753
+[]|\OT1/ptm/m/n/12 Requires pro-gram-ming skills and con-
+ []
+
+
+Overfull \hbox (1.23639pt too wide) in paragraph at lines 769--781
+ [][] 
+ []
+
+
+
+[34]
+<figures/medical_slot_successful_registration_example.png, id=1026, 2850.65pt x 1304.875pt>
+File: figures/medical_slot_successful_registration_example.png Graphic file (type png)
+<use figures/medical_slot_successful_registration_example.png>
+Package pdftex.def Info: figures/medical_slot_successful_registration_example.png  used on input line 790.
+(pdftex.def)             Requested size: 455.24411pt x 208.38605pt.
+<figures/medical_slot_unsuccessful_registration_duplicated_datetime.PNG, id=1030, 2738.23pt x 1357.07pt>
+File: figures/medical_slot_unsuccessful_registration_duplicated_datetime.PNG Graphic file (type png)
+<use figures/medical_slot_unsuccessful_registration_duplicated_datetime.PNG>
+Package pdftex.def Info: figures/medical_slot_unsuccessful_registration_duplicated_datetime.PNG  used on input line 800.
+(pdftex.def)             Requested size: 455.24411pt x 225.60487pt.
+
+
+[35 <./figures/medical_slot_successful_registration_example.png>]
+<figures/medical_slot_unsuccessful_registration_not_found_doctor.png, id=1047, 2738.23pt x 1357.07pt>
+File: figures/medical_slot_unsuccessful_registration_not_found_doctor.png Graphic file (type png)
+<use figures/medical_slot_unsuccessful_registration_not_found_doctor.png>
+Package pdftex.def Info: figures/medical_slot_unsuccessful_registration_not_found_doctor.png  used on input line 812.
+(pdftex.def)             Requested size: 455.24411pt x 225.60487pt.
+
+
+[36 <./figures/medical_slot_unsuccessful_registration_duplicated_datetime.PNG> <./figures/medical_slot_unsuccessful_registration_not_found_doctor.png>])
+
+[37]
+\openout2 = `unit_tests.aux'.
+
+ (unit_tests.tex)
+
+[38
+
+
+
+]
+\openout2 = `core_person_registration_process.aux'.
+
+ (core_person_registration_process.tex
+<figures/person_registration_activity_diagram.png, id=1070, 387.4475pt x 308.15125pt>
+File: figures/person_registration_activity_diagram.png Graphic file (type png)
+<use figures/person_registration_activity_diagram.png>
+Package pdftex.def Info: figures/person_registration_activity_diagram.png  used on input line 10.
+(pdftex.def)             Requested size: 455.24411pt x 362.07774pt.
+)
+
+[39
+
+
+
+ <./figures/person_registration_activity_diagram.png (PNG copy)>]
+\openout2 = `integration_tests.aux'.
+
+ (integration_tests.tex
+<figures/customer_registration_activity_diagram.png, id=1078, 381.425pt x 308.15125pt>
+File: figures/customer_registration_activity_diagram.png Graphic file (type png)
+<use figures/customer_registration_activity_diagram.png>
+Package pdftex.def Info: figures/customer_registration_activity_diagram.png  used on input line 12.
+(pdftex.def)             Requested size: 455.24411pt x 367.8048pt.
+
+
+[40
+
+
+
+ <./figures/customer_registration_activity_diagram.png (PNG copy)>]
+<figures/customer_registration_sequence_diagram.png, id=1089, 3608.48125pt x 1661.20625pt>
+File: figures/customer_registration_sequence_diagram.png Graphic file (type png)
+<use figures/customer_registration_sequence_diagram.png>
+Package pdftex.def Info: figures/customer_registration_sequence_diagram.png  used on input line 26.
+(pdftex.def)             Requested size: 455.24411pt x 209.5767pt.
+
+
+[41 <./figures/customer_registration_sequence_diagram.png (PNG copy)>]
+
+[42]
+<figures/states_enum.png, id=1123, 1589.94pt x 923.45pt>
+File: figures/states_enum.png Graphic file (type png)
+<use figures/states_enum.png>
+Package pdftex.def Info: figures/states_enum.png  used on input line 122.
+(pdftex.def)             Requested size: 455.24411pt x 264.41187pt.
+<figures/customer_registration_integration_test_success.png, id=1125, 1453.43pt x 1156.32pt>
+File: figures/customer_registration_integration_test_success.png Graphic file (type png)
+<use figures/customer_registration_integration_test_success.png>
+Package pdftex.def Info: figures/customer_registration_integration_test_success.png  used on input line 144.
+(pdftex.def)             Requested size: 455.24411pt x 362.17838pt.
+
+
+[43 <./figures/states_enum.png>]
+<figures/customer_registration_integration_test_unsuccess_duplicated_ssn.png, id=1141, 2027.575pt x 1156.32pt>
+File: figures/customer_registration_integration_test_unsuccess_duplicated_ssn.png Graphic file (type png)
+<use figures/customer_registration_integration_test_unsuccess_duplicated_ssn.png>
+Package pdftex.def Info: figures/customer_registration_integration_test_unsuccess_duplicated_ssn.png  used on input line 157.
+(pdftex.def)             Requested size: 455.24411pt x 259.61382pt.
+
+
+[44 <./figures/customer_registration_integration_test_success.png>]
+<figures/customer_registration_integration_test_unsuccess_duplicated_email.png, id=1152, 2095.83pt x 1156.32pt>
+File: figures/customer_registration_integration_test_unsuccess_duplicated_email.png Graphic file (type png)
+<use figures/customer_registration_integration_test_unsuccess_duplicated_email.png>
+Package pdftex.def Info: figures/customer_registration_integration_test_unsuccess_duplicated_email.png  used on input line 170.
+(pdftex.def)             Requested size: 455.24411pt x 251.16234pt.
+
+
+[45 <./figures/customer_registration_integration_test_unsuccess_duplicated_ssn.png>]
+<figures/results_customer_registration_integration_test.PNG, id=1163, 403.5075pt x 161.10187pt>
+File: figures/results_customer_registration_integration_test.PNG Graphic file (type png)
+<use figures/results_customer_registration_integration_test.PNG>
+Package pdftex.def Info: figures/results_customer_registration_integration_test.PNG  used on input line 182.
+(pdftex.def)             Requested size: 455.24411pt x 181.76028pt.
+
+
+[46 <./figures/customer_registration_integration_test_unsuccess_duplicated_email.png>]
+<figures/doctor_registration_activity_diagram.png, id=1171, 531.9875pt x 308.15125pt>
+File: figures/doctor_registration_activity_diagram.png Graphic file (type png)
+<use figures/doctor_registration_activity_diagram.png>
+Package pdftex.def Info: figures/doctor_registration_activity_diagram.png  used on input line 195.
+(pdftex.def)             Requested size: 455.24411pt x 263.70244pt.
+
+
+[47 <./figures/results_customer_registration_integration_test.PNG> <./figures/doctor_registration_activity_diagram.png (PNG copy)>]
+<figures/doctor_registration_sequence_diagram.png, id=1181, 3684.76625pt x 1986.42125pt>
+File: figures/doctor_registration_sequence_diagram.png Graphic file (type png)
+<use figures/doctor_registration_sequence_diagram.png>
+Package pdftex.def Info: figures/doctor_registration_sequence_diagram.png  used on input line 205.
+(pdftex.def)             Requested size: 455.24411pt x 245.39226pt.
+
+
+[48 <./figures/doctor_registration_sequence_diagram.png (PNG copy)>]
+<figures/doctor_registration_integration_test_successful.png, id=1203, 1357.07pt x 1092.08pt>
+File: figures/doctor_registration_integration_test_successful.png Graphic file (type png)
+<use figures/doctor_registration_integration_test_successful.png>
+Package pdftex.def Info: figures/doctor_registration_integration_test_successful.png  used on input line 254.
+(pdftex.def)             Requested size: 455.24411pt x 366.33649pt.
+
+
+[49 <./figures/doctor_registration_integration_test_successful.png>]
+<figures/doctor_registration_unsucessful_integration_test_duplicated_mln.png, id=1216, 2573.615pt x 1092.08pt>
+File: figures/doctor_registration_unsucessful_integration_test_duplicated_mln.png Graphic file (type png)
+<use figures/doctor_registration_unsucessful_integration_test_duplicated_mln.png>
+Package pdftex.def Info: figures/doctor_registration_unsucessful_integration_test_duplicated_mln.png  used on input line 266.
+(pdftex.def)             Requested size: 455.24411pt x 193.1665pt.
+
+Overfull \hbox (6.33084pt too wide) in paragraph at lines 271--272
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Duplicated[]Medical[]License[]Number \OT1/ptm/m/n/12 uses an in-stance
+ []
+
+<figures/doctor_registration_unsucessful_integration_test_duplicated_ssn.png, id=1222, 1931.215pt x 1092.08pt>
+File: figures/doctor_registration_unsucessful_integration_test_duplicated_ssn.png Graphic file (type png)
+<use figures/doctor_registration_unsucessful_integration_test_duplicated_ssn.png>
+Package pdftex.def Info: figures/doctor_registration_unsucessful_integration_test_duplicated_ssn.png  used on input line 278.
+(pdftex.def)             Requested size: 455.24411pt x 257.42203pt.
+
+
+[50 <./figures/doctor_registration_unsucessful_integration_test_duplicated_mln.png>]
+<figures/doctor_registration_unsucessful_integration_test_duplicated_email.png, id=1234, 1999.47pt x 1092.08pt>
+File: figures/doctor_registration_unsucessful_integration_test_duplicated_email.png Graphic file (type png)
+<use figures/doctor_registration_unsucessful_integration_test_duplicated_email.png>
+Package pdftex.def Info: figures/doctor_registration_unsucessful_integration_test_duplicated_email.png  used on input line 291.
+(pdftex.def)             Requested size: 455.24411pt x 248.64023pt.
+
+
+[51 <./figures/doctor_registration_unsucessful_integration_test_duplicated_ssn.png>]
+<figures/results_doctor_registration_integration_test.png, id=1246, 423.5825pt x 155.58125pt>
+File: figures/results_doctor_registration_integration_test.png Graphic file (type png)
+<use figures/results_doctor_registration_integration_test.png>
+Package pdftex.def Info: figures/results_doctor_registration_integration_test.png  used on input line 304.
+(pdftex.def)             Requested size: 455.24411pt x 167.2157pt.
+
+
+[52 <./figures/doctor_registration_unsucessful_integration_test_duplicated_email.png> <./figures/results_doctor_registration_integration_test.png>]
+Overfull \hbox (2.05983pt too wide) in paragraph at lines 313--314
+\OT1/ptm/m/n/12 The ser-vice \OT1/ptm/m/it/12 doc-tor-Man-age-mentSer-vice \OT1/ptm/m/n/12 man-ages \OT1/ptm/b/n/12 Doc-tor \OT1/ptm/m/n/12 by ter-mi-nat-ing or re-hir-ing them. There-
+ []
+
+<figures/doctor_not_found_activity_diagram.png, id=1259, 324.21124pt x 202.7575pt>
+File: figures/doctor_not_found_activity_diagram.png Graphic file (type png)
+<use figures/doctor_not_found_activity_diagram.png>
+Package pdftex.def Info: figures/doctor_not_found_activity_diagram.png  used on input line 323.
+(pdftex.def)             Requested size: 455.24411pt x 284.72174pt.
+
+
+[53 <./figures/doctor_not_found_activity_diagram.png>]
+<figures/doctor_audit_trail_activity_diagram.png, id=1269, 290.08376pt x 352.31625pt>
+File: figures/doctor_audit_trail_activity_diagram.png Graphic file (type png)
+<use figures/doctor_audit_trail_activity_diagram.png>
+Package pdftex.def Info: figures/doctor_audit_trail_activity_diagram.png  used on input line 341.
+(pdftex.def)             Requested size: 227.62206pt x 276.45596pt.
+<figures/doctor_termination_sequence_diagram.png, id=1275, 4072.21375pt x 1369.115pt>
+File: figures/doctor_termination_sequence_diagram.png Graphic file (type png)
+<use figures/doctor_termination_sequence_diagram.png>
+Package pdftex.def Info: figures/doctor_termination_sequence_diagram.png  used on input line 356.
+(pdftex.def)             Requested size: 455.24411pt x 153.04736pt.
+
+
+[54 <./figures/doctor_audit_trail_activity_diagram.png (PNG copy)>]
+Overfull \hbox (37.10843pt too wide) in paragraph at lines 363--364
+[]\OT1/ptm/m/n/12 The fig-ure [][]5.18[][] ex-poses the con-tent of the method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Ter-mi-na-tion[]Terminated[]Doctor\OT1/ptm/m/n/12 . 
+ []
+
+<figures/doctor_termination_unsuccessful_integration_test_terminated_doctor.png, id=1282, 2095.83pt x 1067.99pt>
+File: figures/doctor_termination_unsuccessful_integration_test_terminated_doctor.png Graphic file (type png)
+<use figures/doctor_termination_unsuccessful_integration_test_terminated_doctor.png>
+Package pdftex.def Info: figures/doctor_termination_unsuccessful_integration_test_terminated_doctor.png  used on input line 368.
+(pdftex.def)             Requested size: 455.24411pt x 231.97632pt.
+
+Overfull \hbox (9.73607pt too wide) in paragraph at lines 373--374
+[]\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Ter-mi-na-tion[]Terminated[]Doctor \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/doctor_termination_successful_integration_test.png, id=1287, 2095.83pt x 1067.99pt>
+File: figures/doctor_termination_successful_integration_test.png Graphic file (type png)
+<use figures/doctor_termination_successful_integration_test.png>
+Package pdftex.def Info: figures/doctor_termination_successful_integration_test.png  used on input line 382.
+(pdftex.def)             Requested size: 455.24411pt x 231.97632pt.
+
+
+[55 <./figures/doctor_termination_sequence_diagram.png (PNG copy)> <./figures/doctor_termination_unsuccessful_integration_test_terminated_doctor.png>]
+<figures/doctor_rehiring_sequence_diagram.png, id=1300, 4092.28876pt x 1409.265pt>
+File: figures/doctor_rehiring_sequence_diagram.png Graphic file (type png)
+<use figures/doctor_rehiring_sequence_diagram.png>
+Package pdftex.def Info: figures/doctor_rehiring_sequence_diagram.png  used on input line 397.
+(pdftex.def)             Requested size: 455.24411pt x 156.76141pt.
+
+
+[56 <./figures/doctor_termination_successful_integration_test.png>]
+<figures/doctor_rehiring_unsuccessful_integration_test_active_doctor.png, id=1308, 1995.455pt x 1067.99pt>
+File: figures/doctor_rehiring_unsuccessful_integration_test_active_doctor.png Graphic file (type png)
+<use figures/doctor_rehiring_unsuccessful_integration_test_active_doctor.png>
+Package pdftex.def Info: figures/doctor_rehiring_unsuccessful_integration_test_active_doctor.png  used on input line 410.
+(pdftex.def)             Requested size: 455.24411pt x 243.6444pt.
+
+Overfull \hbox (2.27167pt too wide) in paragraph at lines 415--416
+[]\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Re-hirirng[]Active[]Doctor \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-Client\OT1/ptm/m/n/12 ,
+ []
+
+<figures/doctor_rehiring_successful_integration_test.png, id=1313, 1995.455pt x 1067.99pt>
+File: figures/doctor_rehiring_successful_integration_test.png Graphic file (type png)
+<use figures/doctor_rehiring_successful_integration_test.png>
+Package pdftex.def Info: figures/doctor_rehiring_successful_integration_test.png  used on input line 425.
+(pdftex.def)             Requested size: 455.24411pt x 243.6444pt.
+
+
+[57 <./figures/doctor_rehiring_sequence_diagram.png (PNG copy)> <./figures/doctor_rehiring_unsuccessful_integration_test_active_doctor.png>]
+<figures/results_doctor_termination_integration_test.PNG, id=1325, 364.86313pt x 139.01938pt>
+File: figures/results_doctor_termination_integration_test.PNG Graphic file (type png)
+<use figures/results_doctor_termination_integration_test.PNG>
+Package pdftex.def Info: figures/results_doctor_termination_integration_test.PNG  used on input line 437.
+(pdftex.def)             Requested size: 455.24411pt x 173.46407pt.
+<figures/results_doctor_rehirirng_integration_test.PNG, id=1326, 369.88188pt x 135.50626pt>
+File: figures/results_doctor_rehirirng_integration_test.PNG Graphic file (type png)
+<use figures/results_doctor_rehirirng_integration_test.PNG>
+Package pdftex.def Info: figures/results_doctor_rehirirng_integration_test.PNG  used on input line 445.
+(pdftex.def)             Requested size: 455.24411pt x 166.78127pt.
+
+
+[58 <./figures/doctor_rehiring_successful_integration_test.png> <./figures/results_doctor_termination_integration_test.PNG>]
+<figures/medical_slot_registration_activity_diagram.png, id=1334, 585.18625pt x 319.1925pt>
+File: figures/medical_slot_registration_activity_diagram.png Graphic file (type png)
+<use figures/medical_slot_registration_activity_diagram.png>
+Package pdftex.def Info: figures/medical_slot_registration_activity_diagram.png  used on input line 459.
+(pdftex.def)             Requested size: 455.24411pt x 248.32623pt.
+
+
+[59 <./figures/results_doctor_rehirirng_integration_test.PNG> <./figures/medical_slot_registration_activity_diagram.png (PNG copy)>]
+<figures/medical_slot_registration_sequence_diagram.png, id=1346, 4076.22874pt x 1358.07375pt>
+File: figures/medical_slot_registration_sequence_diagram.png Graphic file (type png)
+<use figures/medical_slot_registration_sequence_diagram.png>
+Package pdftex.def Info: figures/medical_slot_registration_sequence_diagram.png  used on input line 471.
+(pdftex.def)             Requested size: 455.24411pt x 151.66805pt.
+<figures/medical_slot_registration_successful_integration_test.png, id=1357, 2874.74pt x 1320.935pt>
+File: figures/medical_slot_registration_successful_integration_test.png Graphic file (type png)
+<use figures/medical_slot_registration_successful_integration_test.png>
+Package pdftex.def Info: figures/medical_slot_registration_successful_integration_test.png  used on input line 488.
+(pdftex.def)             Requested size: 455.24411pt x 209.17708pt.
+
+
+[60 <./figures/medical_slot_registration_sequence_diagram.png (PNG copy)>]
+<figures/medical_slot_registration_unsuccessful_integration_test_doctor_not_found.png, id=1367, 2874.74pt x 1328.965pt>
+File: figures/medical_slot_registration_unsuccessful_integration_test_doctor_not_found.png Graphic file (type png)
+<use figures/medical_slot_registration_unsuccessful_integration_test_doctor_not_found.png>
+Package pdftex.def Info: figures/medical_slot_registration_unsuccessful_integration_test_doctor_not_found.png  used on input line 500.
+(pdftex.def)             Requested size: 455.24411pt x 210.44868pt.
+
+
+[61 <./figures/medical_slot_registration_successful_integration_test.png> <./figures/medical_slot_registration_unsuccessful_integration_test_doctor_not_found.png>]
+<figures/medical_slot_registration_unsuccessful_integration_test_duplicated_datetime.png, id=1376, 2874.74pt x 1328.965pt>
+File: figures/medical_slot_registration_unsuccessful_integration_test_duplicated_datetime.png Graphic file (type png)
+<use figures/medical_slot_registration_unsuccessful_integration_test_duplicated_datetime.png>
+Package pdftex.def Info: figures/medical_slot_registration_unsuccessful_integration_test_duplicated_datetime.png  used on input line 512.
+(pdftex.def)             Requested size: 455.24411pt x 210.44868pt.
+
+Overfull \hbox (1.37503pt too wide) in paragraph at lines 517--518
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Duplicated[]Datetime \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/results_medical_slot_registration_integration_test.PNG, id=1379, 387.94937pt x 139.01938pt>
+File: figures/results_medical_slot_registration_integration_test.PNG Graphic file (type png)
+<use figures/results_medical_slot_registration_integration_test.PNG>
+Package pdftex.def Info: figures/results_medical_slot_registration_integration_test.PNG  used on input line 524.
+(pdftex.def)             Requested size: 455.24411pt x 163.13777pt.
+
+
+[62 <./figures/medical_slot_registration_unsuccessful_integration_test_duplicated_datetime.png>]
+
+[63 <./figures/results_medical_slot_registration_integration_test.PNG>]
+<figures/medical_appointment_registration_activity_diagram.PNG, id=1391, 507.8975pt x 836.12375pt>
+File: figures/medical_appointment_registration_activity_diagram.PNG Graphic file (type png)
+<use figures/medical_appointment_registration_activity_diagram.PNG>
+Package pdftex.def Info: figures/medical_appointment_registration_activity_diagram.PNG  used on input line 540.
+(pdftex.def)             Requested size: 273.14923pt x 449.68843pt.
+
+
+[64 <./figures/medical_appointment_registration_activity_diagram.PNG (PNG copy)>]
+<figures/medical_appointment_registration_sequence_diagram.png, id=1401, 4089.2775pt x 2434.09375pt>
+File: figures/medical_appointment_registration_sequence_diagram.png Graphic file (type png)
+<use figures/medical_appointment_registration_sequence_diagram.png>
+Package pdftex.def Info: figures/medical_appointment_registration_sequence_diagram.png  used on input line 552.
+(pdftex.def)             Requested size: 695.75911pt x 414.12474pt.
+
+
+[65
+
+ <./figures/medical_appointment_registration_sequence_diagram.png (PNG copy)>]
+Overfull \hbox (17.8018pt too wide) in paragraph at lines 558--559
+\OT1/ptm/m/n/12 source. It uses the [][]URI[][] \OT1/ptm/m/it/12 /api/v2/medical[]appointments/$[]$/$[]$/$[]$/$[]$\OT1/ptm/m/n/12 .
+ []
+
+
+Overfull \hbox (9.48792pt too wide) in paragraph at lines 562--563
+\OT1/ptm/m/n/12 Then, \OT1/ptm/b/n/12 Doc-tor \OT1/ptm/m/n/12 is found. To re-trieve both \OT1/ptm/b/n/12 Cus-tomer \OT1/ptm/m/n/12 and \OT1/ptm/b/n/12 Doc-tor\OT1/ptm/m/n/12 , the util-ity classes \OT1/ptm/m/it/12 Cus-tomerFinder
+ []
+
+<figures/medical_appointment_registration_integration_test_successful_case.png, id=1418, 3147.76pt x 1610.015pt>
+File: figures/medical_appointment_registration_integration_test_successful_case.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_successful_case.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_successful_case.png  used on input line 574.
+(pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png, id=1419, 3147.76pt x 1610.015pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png  used on input line 584.
+(pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
+
+
+[66
+
+ <./figures/medical_appointment_registration_integration_test_successful_case.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png, id=1425, 3147.76pt x 1610.015pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png  used on input line 594.
+(pdftex.def)             Requested size: 455.24411pt x 232.84431pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png, id=1426, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png  used on input line 604.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[67 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_customer_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_not_found.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png, id=1433, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png  used on input line 614.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png, id=1434, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png  used on input line 624.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[68 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_terminated_doctor.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_case_medical_slot_not_found.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png, id=1441, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png  used on input line 634.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png, id=1442, 3147.76pt x 1706.375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png  used on input line 644.
+(pdftex.def)             Requested size: 455.24411pt x 246.78012pt.
+
+
+[69 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_nonassociated_doctor.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_case_duplicared_booking_datetime.png>]
+Overfull \hbox (0.36731pt too wide) in paragraph at lines 649--650
+\OT1/ptm/m/n/12 The method \OT1/ptm/m/it/12 tes-tUn-suc-cess-ful-Reg-is-tra-tion[]Doctor[]Self[]Booking \OT1/ptm/m/n/12 uses an in-stance of the \OT1/ptm/m/it/12 WebTest-
+ []
+
+<figures/medical_appointment_registration_integration_test_successful_result.png, id=1451, 364.86313pt x 104.39pt>
+File: figures/medical_appointment_registration_integration_test_successful_result.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_successful_result.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_successful_result.png  used on input line 657.
+(pdftex.def)             Requested size: 455.24411pt x 130.2546pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png, id=1452, 378.41376pt x 111.41624pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png  used on input line 665.
+(pdftex.def)             Requested size: 455.24411pt x 134.03883pt.
+
+
+[70 <./figures/medical_appointment_registration_integration_test_unsuccessful_case_doctor_self_booking.png> <./figures/medical_appointment_registration_integration_test_successful_result.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png, id=1459, 381.425pt x 106.89937pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png  used on input line 673.
+(pdftex.def)             Requested size: 455.24411pt x 127.59349pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png, id=1460, 409.02812pt x 101.37875pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png  used on input line 681.
+(pdftex.def)             Requested size: 455.24411pt x 112.83957pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png, id=1461, 419.06563pt x 106.3975pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png  used on input line 689.
+(pdftex.def)             Requested size: 455.24411pt x 115.58295pt.
+
+
+[71 <./figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png>]
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png, id=1470, 388.45125pt x 105.39375pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png  used on input line 697.
+(pdftex.def)             Requested size: 455.24411pt x 123.51923pt.
+<figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png, id=1471, 394.97563pt x 105.89563pt>
+File: figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png Graphic file (type png)
+<use figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png>
+Package pdftex.def Info: figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png  used on input line 705.
+(pdftex.def)             Requested size: 455.24411pt x 122.05531pt.
+)
+
+[72 <./figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png> <./figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png>]
+\openout2 = `evaluation.aux'.
+
+ (evaluation.tex)
+
+[73
+
+
+
+]
+\openout2 = `conclusions.aux'.
+
+ (conclusions.tex)
+
+[74
+
+
+
+] (main.bbl
+
+[75
+
+
+]
+
+[76]
+
+[77]
+
+[78]
+
+[79]
+
+[80])
+
+[81]
+\openout2 = `glossary.aux'.
+
+ (glossary.tex
+Overfull \hbox (1.07005pt too wide) in paragraph at lines 13--14
+[]\OT1/ptm/m/n/12 is a soft-ware ap-pli-ca-tion that en-ables users to de-fine, ma-nip-u-late, and man-age databases.
+ []
+
+
+
+[82
+
+]
+
+[83])
+
+[84]
+\openout2 = `http_status_codes_summary_appendix.aux'.
+
+ (http_status_codes_summary_appendix.tex
+Overfull \hbox (35.98483pt too wide) in alignment at lines 4--9
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.98483pt too wide) in alignment at lines 9--15
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.98483pt too wide) in alignment at lines 15--19
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.98483pt too wide) in alignment at lines 19--22
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.98483pt too wide) in alignment at lines 22--71
+ [] [] [] 
+ []
+
+[85
+
+
+
+])
+
+[86]
+\openout2 = `tests_concepts_appendix.aux'.
+
+ (tests_concepts_appendix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/ptm/m/n/10 Tests the small-est testable parts
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 24--24
+\OT1/ptm/m/n/10 (units/modules) of an ap-pli-ca-tion in-
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 29--30
+[]\OT1/ptm/m/n/10 Example: Test-ing in-di-vid-ual
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 35--35
+[]|\OT1/ptm/m/n/10 Tests the in-ter-ac-tion and in-ter-faces be-
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 39--40
+[]\OT1/ptm/m/n/10 Approaches: Big-bang, Top-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 48--49
+[]\OT1/ptm/m/n/10 Includes types like us-abil-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[]\OT1/ptm/m/n/10 Detects de-fects within inter-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 58--59
+\OT1/ptm/m/n/10 tance Test-ing (UAT), Busi-ness
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 64--64
+[]|\OT1/ptm/m/n/10 Re-tests pre-vi-ously tested parts of the
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 64--64
+\OT1/ptm/m/n/10 soft-ware af-ter mod-i-fi-ca-tions (bug fixes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/10 Verifies reg-is-tra-tion pro-cesses
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 79--80
+[]\OT1/ptm/m/n/10 Confirms re-ceipt of nec-es-sary
+ []
+
+[87
+
+
+
+])
+
+[88]
+\openout2 = `models.aux'.
+
+ (models.tex
+<figures/person.png, id=1600, 2437.105pt x 2790.425pt>
+File: figures/person.png Graphic file (type png)
+<use figures/person.png>
+Package pdftex.def Info: figures/person.png  used on input line 7.
+(pdftex.def)             Requested size: 455.24411pt x 521.20222pt.
+<figures/customer.png, id=1601, 2300.595pt x 2144.01pt>
+File: figures/customer.png Graphic file (type png)
+<use figures/customer.png>
+Package pdftex.def Info: figures/customer.png  used on input line 15.
+(pdftex.def)             Requested size: 455.24411pt x 424.24704pt.
+
+
+[89
+
+
+
+ <./figures/person.png>]
+<figures/doctor.png, id=1608, 2131.965pt x 3011.25pt>
+File: figures/doctor.png Graphic file (type png)
+<use figures/doctor.png>
+Package pdftex.def Info: figures/doctor.png  used on input line 23.
+(pdftex.def)             Requested size: 455.24411pt x 642.99515pt.
+
+
+[90 <./figures/customer.png>]
+<figures/doctor_audit_trail.png, id=1614, 1963.335pt x 1742.51pt>
+File: figures/doctor_audit_trail.png Graphic file (type png)
+<use figures/doctor_audit_trail.png>
+Package pdftex.def Info: figures/doctor_audit_trail.png  used on input line 31.
+(pdftex.def)             Requested size: 455.24411pt x 404.03926pt.
+
+
+[91 <./figures/doctor.png>]
+<figures/medical_slot.png, id=1620, 2095.83pt x 3324.42pt>
+File: figures/medical_slot.png Graphic file (type png)
+<use figures/medical_slot.png>
+Package pdftex.def Info: figures/medical_slot.png  used on input line 39.
+(pdftex.def)             Requested size: 386.96027pt x 613.79065pt.
+
+
+[92 <./figures/doctor_audit_trail.png>]
+<figures/medical_appointment.png, id=1626, 2469.225pt x 4019.015pt>
+File: figures/medical_appointment.png Graphic file (type png)
+<use figures/medical_appointment.png>
+Package pdftex.def Info: figures/medical_appointment.png  used on input line 47.
+(pdftex.def)             Requested size: 386.96027pt x 629.80931pt.
+
+
+[93 <./figures/medical_slot.png>]
+<figures/card.png, id=1632, 2031.59pt x 2561.57pt>
+File: figures/card.png Graphic file (type png)
+<use figures/card.png>
+Package pdftex.def Info: figures/card.png  used on input line 55.
+(pdftex.def)             Requested size: 455.24411pt x 573.98322pt.
+
+
+[94 <./figures/medical_appointment.png>]
+<figures/payment.png, id=1638, 1963.335pt x 2702.095pt>
+File: figures/payment.png Graphic file (type png)
+<use figures/payment.png>
+Package pdftex.def Info: figures/payment.png  used on input line 63.
+(pdftex.def)             Requested size: 455.24411pt x 626.54015pt.
+)
+
+[95 <./figures/card.png>]
+
+[96 <./figures/payment.png>] (main.aux (cover.aux) (acronyms.aux) (introduction.aux) (contextual_foundation.aux) (unit_tests.aux) (core_person_registration_process.aux) (integration_tests.aux) (evaluation.aux) (conclusions.aux) (glossary.aux) (http_status_codes_summary_appendix.aux) (tests_concepts_appendix.aux) (models.aux))
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 862E33124801F26F5B3B751BE28D9B6D;9780.
+ ) 
+Here is how much of TeX's memory you used:
+ 28678 strings out of 473522
+ 614378 string characters out of 5714609
+ 934988 words of memory out of 5000000
+ 51020 multiletter control sequences out of 15000+600000
+ 596342 words of font info for 109 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,10n,91p,1004b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (104 pages, 11936213 bytes).
+PDF statistics:
+ 1745 PDF objects out of 2073 (max. 8388607)
+ 365 named destinations out of 1000 (max. 500000)
+ 792 words of extra memory for PDF output out of 10000 (max. 10000000)
+
