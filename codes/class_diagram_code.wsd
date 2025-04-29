@@ -5,9 +5,9 @@ class "Person" {
  +firstName: String?
  +middleName: String
  +lastName: String
- +ssn: String
+ +ssn: BigInteger
  +birthDate: LocalDate
- +phoneNumber: String
+ +phoneNumber: BigInteger
  +gender: Gender
  +email: String
  +createdAt: LocalDateTime
