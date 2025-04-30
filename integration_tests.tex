@@ -740,9 +740,9 @@ The method \textit{testUnsuccessfulRegistration\_Card\_Not\_Found} uses an insta
 
 The method \textit{testUnsuccessfulRegistration\_Cancelled\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently cancelled, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
-\subsubsection{Unsuccessful Case: Currently Completed Medical Appointment}
+\subsubsection{Unsuccessful Case: Currently Active Medical Appointment}
 
-The method \textit{testUnsuccessfulRegistration\_Completed\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently completed, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
+The method \textit{testUnsuccessfulRegistration\_Completed\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently active, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Unsuccessful Case: Currently Paid Medical Appointment}
 
