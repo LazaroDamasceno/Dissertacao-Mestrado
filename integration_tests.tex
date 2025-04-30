@@ -665,59 +665,12 @@ The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an 
 
 \subsubsection{Summary of Results}
 
-\begin{figure}[H]
-	\centering
-	\caption{Medical Appointment Integration Test Successful Case}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_successful_result.png}
-	\label{medical_appointment_registration_integration_test_successful_result}
-	\footnotesize Source: Author's creation.
-\end{figure}
 
 \begin{figure}[H]
 	\centering
-	\caption{Medical Appointment Integration Test Unsuccessful Case's Result: Customer Not Found}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found.png}
-	\label{medical_appointment_registration_integration_test_unsuccessful_result_customer_not_found}
-	\footnotesize Source: Author's creation.
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{Medical Appointment Integration Test Unsuccessful Case's Result: Doctor Not Found}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found.png}
-	\label{medical_appointment_registration_integration_test_unsuccessful_result_doctor_not_found}
-	\footnotesize Source: Author's creation.
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{Medical Appointment Integration Test Unsuccessful Case's Result: Self Booking of Doctor's Appointment}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment.png}
-	\label{medical_appointment_registration_integration_test_unsuccessful_result_doctor_self_appointment}
-	\footnotesize Source: Author's creation.
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{Medical Appointment Integration Test Unsuccessful Case's Result: Duplicated Booking Date And Time}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime.png}
-	\label{medical_appointment_registration_integration_test_unsuccessful_result_duplicated_booking_datetime}
-	\footnotesize Source: Author's creation.
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{Medical Appointment Integration Test Unsuccessful Case's Result: Medical Slot Not Found}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found.png}
-	\label{medical_appointment_registration_integration_test_unsuccessful_result_medical_slot_not_found}
-	\footnotesize Source: Author's creation.
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{Medical Appointment Integration Test Unsuccessful Case's Result: Non-Associated With Found Medical Slot}
-	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor.png}
-	\label{medical_appointment_registration_integration_test_unsuccessful_result_nonassociated_doctor}
+	\caption{Medical Appointment Registration Integration Test's Result}
+	\includegraphics[width=1\linewidth]{figures/medical_appointment_registration_integration_test_results.png}
+	\label{fig:medical_appointment_registration_integration_test_results}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
@@ -727,27 +680,84 @@ As expected, all the results of tests were successful. Methods of integration te
 
 \subsubsection{Successful Case}
 
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Successful Case}
+	\label{fig:payment_successful_integration_test}
+	\includegraphics[width=1\linewidth]{figures/payment_successful_integration_test.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
 \subsubsection{Unsuccessful Case: Medical Appointment Not Found}
+
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Medical Appointment Not Found}
+	\label{fig:payment_unsuccessful_integration_test_medical_appointment_not_found}
+	\includegraphics[width=1\linewidth]{figures/payment_unsuccessful_integration_test_medical_appointment_not_found.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
 
 The method \textit{testUnsuccessfulRegistration\_Medical\_Appointment\_Not\_Found} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned.
 
 \subsubsection{Unsuccessful Case: Card Not Found}
 
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Card Not Found}
+	\label{fig:payment_unsuccessful_integration_test_card_not_founds}
+	\includegraphics[width=1\linewidth]{figures/payment_unsuccessful_integration_test_card_not_found.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
 The method \textit{testUnsuccessfulRegistration\_Card\_Not\_Found} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{Card} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned.
 
-
 \subsubsection{Unsuccessful Case: Currently Cancelled Medical Appointment}
+
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Currently Cancelled Medical Appointment}
+	\label{fig:payment_unsuccessful_integration_test_canceled_medical_appointment}
+	\includegraphics[width=1\linewidth]{figures/payment_unsuccessful_integration_test_canceled_medical_appointment.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
 
 The method \textit{testUnsuccessfulRegistration\_Cancelled\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently cancelled, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Unsuccessful Case: Currently Active Medical Appointment}
 
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Currently Active Medical Appointment}
+	\label{fig:payment_unsuccessful_integration_test_active_medical_appointment}
+	\includegraphics[width=1\linewidth]{figures/payment_unsuccessful_integration_test_active_medical_appointment.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
+
 The method \textit{testUnsuccessfulRegistration\_Completed\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently active, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Unsuccessful Case: Currently Paid Medical Appointment}
 
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Currently Paid Medical Appointment}
+	\label{fig:payment_unsuccessful_integration_test_paid_medical_appointment}
+	\includegraphics[width=1\linewidth]{figures/payment_unsuccessful_integration_test_paid_medical_appointment.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
 The method \textit{testUnsuccessfulRegistration\_Paid\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently paid, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Summary of Results}
+
+\begin{figure}[H]
+	\centering
+	\caption{Medical Apponintment's Payment Integration Test's Results}
+	\label{fig:payment_integration_tests_results}
+	\includegraphics[width=1\linewidth]{figures/payment_integration_tests_results.png}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
 
 As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
