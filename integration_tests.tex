@@ -528,7 +528,32 @@ The method \textit{testUnsuccessfulRegistration\_Duplicated\_Datetime} uses an i
 
 As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of the successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
 
-\newpage
+\subsection{Medical Slot Management}
+
+The management of \textbf{MedicalSlot} is divided into methods: \textit{cancel()} and \textit{complete()}. They both share the validations: not found doctor, currently canceled or completed medical slot. The subsections \hyperref[subsection:doctor_not_found]{Error Handling: Doctor Not Found}, \ref{subsection:canceled_or_completed_medical_slot} and apply to the subsections \ref{subsection:medical_slot_cancellation} and \ref{subsection:medical_slot_completion}.
+
+\subsubsection{Error Handling: Currently Canceled or Completed Medical Slot}
+\label{subsection:canceled_or_completed_medical_slot}
+
+\begin{figure}[H]
+	\centering
+	\caption{Canceled or Completed Medical Slot Flow}	
+	\includegraphics[width=1\linewidth]{figures/medical_slot_canceled_or_completed_activity_diagram.png}
+		\footnotesize Source: Author's creation.
+		\label{fig:subsection:canceled_or_completed_medical_slot}
+\end{figure}
+
+When the sought \textbf{MedicalSlot} is either canceled or completed, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned. Otherwise, the currently active \textbf{MedicalSlot} is returned.
+
+\subsubsection{Cancellation Process}
+\label{subsection:medical_slot_cancellation}
+
+\subsubsection{Completion Process}
+\label{subsection:medical_slot_completion}
+
+\subsubsection{Summary of Results}
+
+As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of the successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
 
 \subsection{Medical appointment Registration}
 
@@ -676,7 +701,39 @@ The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an 
 
 As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
 
+\subsection{Medical Appointment Management}
+
+\newpage
+
 \subsection{Medical Appointment's Payment}
+
+The figure \ref{fig:payment_registration_activity_diagram} demonstrates the flow of registering a medical appointment's payment.
+
+\begin{figure}[H]
+	\centering
+	\caption{Flow of the Payment of Medical Appointment}
+	\label{fig:payment_registration_activity_diagram}
+	\includegraphics[width=0.7\linewidth]{figures/payment_registration_activity_diagram.png}
+	\\ \footnotesize Source: Author's creation.
+\end{figure}
+
+When either of the \textbf{MedicalSlot} and \textbf{Card} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned. When the sought \textbf{MedicalAppointment} is canceled, active or paid, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned. As the default behavior, a new instance of \textbf{Payment} is created, persisted. Finally, the \hyperref[tab:summary_http_status_codes]{status code 201} is returned. A more detailed flow is exposed in the sequence diagram(figure \ref{fig:payment_registration_sequence_diagram}).
+
+The client, whose behavior is described in the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, requests a resource. It uses the \hyperref[appendix:glossary]{URI} \textit{/api/v2/payments/\underline{card\_id}/\underline{medical\_appointments\_id}}. The \hyperref[appendix:glossary]{URI} follows the pattern established  in the table \ref{tab:http-server-schemes}.
+
+The path variables \textit{card\_id}, \textit{medical\_appointments\_id} are passed, respectively, to the \hyperref[appendix:glossary]{URI} \textit{/api/v2/payments/\underline{card\_id}/\underline{medical\_appointments\_id}} as arguments. The service creates a new \textbf{Payment}, then persists it.
+
+As exposed by the figure \ref{fig:payment_registration_activity_diagram}, the default behavior is: firstly, \textbf{Card} must be found. Then, \textbf{MedicalAppointment} is found. To retrieve both \textbf{Card} and \textbf{MedicalAppointment}, the utility classes \textit{CardFinder} and \textit{MedicalAppointmentFinder}, respectively. Finally, a new instance of \textbf{Payment} is created, persisted and wrapped in the \hyperref[tab:summary_http_status_codes]{status code 201}.
+
+Despite the default behavior, when either of the \textbf{MedicalSlot} and \textbf{Card} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned. Additionally, the sought \textbf{MedicalAppointment} is canceled, active or paid, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
+
+\begin{figure}[H]
+	\centering
+	\caption{Medical Appointment's Payment Sequence Diagram}
+	\label{fig:payment_registration_sequence_diagram}
+	\includegraphics[width=1\linewidth]{figures/payment_registration_sequence_diagram.png}
+	\footnotesize Source: Author's creation.	
+\end{figure}
 
 \subsubsection{Successful Case}
 
@@ -687,6 +744,8 @@ As expected, all the results of tests were successful. Methods of integration te
 	\includegraphics[width=1\linewidth]{figures/payment_successful_integration_test.png}
 	\footnotesize Source: Author's creation.
 \end{figure}
+
+The method \textit{testSuccessfulRegistration} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. In order to register a \textbf{Payment}, the POST method was used. As clarified by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, every HTTP request requires a \hyperref[appendix:glossary]{URI} to route the expected request to the target server aiming to obtain the expected result. Thereby, the \hyperref[appendix:glossary]{URI} \textit{/api/v2/payments/\underline{card\_id}/\underline{medical\_appointment\_id}} is placed as the argument of \textit{uri()}. Finally, the \hyperref[tab:summary_http_status_codes]{status code 201} is returned.
 
 \subsubsection{Unsuccessful Case: Medical Appointment Not Found}
 
@@ -712,17 +771,17 @@ The method \textit{testUnsuccessfulRegistration\_Medical\_Appointment\_Not\_Foun
 
 The method \textit{testUnsuccessfulRegistration\_Card\_Not\_Found} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{Card} is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned.
 
-\subsubsection{Unsuccessful Case: Currently Cancelled Medical Appointment}
+\subsubsection{Unsuccessful Case: Currently Canceled Medical Appointment}
 
 \begin{figure}[H]
 	\centering
-	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Currently Cancelled Medical Appointment}
+	\caption{Medical Apponintment's Payment Integration Test's Unsuccessful Case: Currently Canceled Medical Appointment}
 	\label{fig:payment_unsuccessful_integration_test_canceled_medical_appointment}
 	\includegraphics[width=1\linewidth]{figures/payment_unsuccessful_integration_test_canceled_medical_appointment.png}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
-The method \textit{testUnsuccessfulRegistration\_Cancelled\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently cancelled, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
+The method \textit{testUnsuccessfulRegistration\_Canceled\_Medical\_Appointment} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{card\_id}  and \textit{medical\_appointment\_id}, and it is discovered that sought \textbf{MedicalAppointment} is currently canceled, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
 \subsubsection{Unsuccessful Case: Currently Active Medical Appointment}
 
@@ -759,5 +818,8 @@ The method \textit{testUnsuccessfulRegistration\_Paid\_Medical\_Appointment} use
 	\footnotesize Source: Author's creation.
 \end{figure}
 
-
 As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
+
+\subsection{Medical Slot Management}
+
+\subsection{Medical Appointment Management}

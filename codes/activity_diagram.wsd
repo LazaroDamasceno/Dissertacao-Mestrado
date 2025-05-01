@@ -4,31 +4,11 @@
 
 start
 
-if (not found customer?) then (yes)
-:return **404 not found**;
-
-(no) elseif (not found doctor?) then (yes)
-:return **404 not found**;
-
-(no) elseif (terminated doctor?) then (yes)
-:return **409 conflict**;
-
-(no) elseif (no medical slot found?) then (yes)
-:return **409 conflict**;
-
-(no) elseif (duplicated booking date and time?) then (yes)
-:return **409 conflict**;
-
-(no) elseif (no associated doctor with medical slot?) then (yes)
-:return **409 conflict**;
-
-(no)   elseif (doctor booking to the own medical appointment?) then (yes)
+if (is medical slot canceled or completed?) then (yes)
 :return **409 conflict**;
 
 else (no)
-:create **MedicalAppointment**;
-:persist **MedicalAppointment**;
-:return **201 created**;
+:!return **MedicalSlot**;
 
 endif
 stop
