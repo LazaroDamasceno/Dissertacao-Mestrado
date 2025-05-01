@@ -1,11 +1,10 @@
 @startuml
 
-skinparam defaultFontSize 46
+skinparam defaultFontSize 60
 
 participant "Client"
 participant "Input"
 participant "DoctorFinder" as finder
-participant "Doctor"
 participant "MedicalSlot" as ms 
 participant "Repository" as repository
 participant "ResponseDto" as responseDto
@@ -13,13 +12,15 @@ participant "ResponseEntity"
 
 Client -> ResponseEntity: HTTP 1.1 POST /api/v2/medical_slots/{license_number}/{state}/{available_at}
 
-alt doctor exists and given date and time are unused
+alt default behavior
 
-Input -> finder: findByMedicalLicenseNumber(license_number, state)
+Input -> finder: pass license_number as argument
 
-finder -> Doctor: doctor retrieved
+Input -> finder: pass state as argument
 
-Doctor -> ms: provide the argument Doctor
+finder -> finder: doctor retrieved
+
+finder -> ms: provide the argument Doctor
 
 Input -> ms: provide the argument available_at
 

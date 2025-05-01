@@ -545,38 +545,35 @@ From the API's services, 8 out of 18 were selected. The test coverage is 44,44\%
 
 These services were not selected primarily because their responses generally do not require a validation process to verify expected wrongful conditions and the subsequent throwing of exceptions. Furthermore, even in the cases where these services might throw an exception, it is not considered sufficiently important to include them in the unit and integration tests.
 
+The selected services are the most essential and important of the API. They represent the most used functions. They are the core of the application.
+
 Finally, the endpoints of the API are shown in the figures \ref{fig:swagger_ui_1}, \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3} 
-displaying the \hyperref[appendix:glossary]{ui} that Swagger UI generated for the API's endpoints.
+displaying the \hyperref[appendix:glossary]{user interface} that Swagger UI generated for the API's endpoints.
 
-	\begin{landscape}
-		\begin{figure}[H]
-			\centering
-			\caption{Swagger UI - Page 1}
-			\includegraphics[width=0.83\linewidth]{figures/swagger_ui_1.png}
-			\label{fig:swagger_ui_1}
-			\\ \footnotesize Source: Author's creation.
-		\end{figure}
-	\end{landscape}
 
-	\begin{landscape}
-		 \begin{figure}[H]
-			\centering
-			\caption{Swagger UI - Page 2}
-			\includegraphics[width=0.83\linewidth]{figures/swagger_ui_2.png}
-			\label{fig:swagger_ui_2}
-			\\ \footnotesize Source: Author's creation.
-		\end{figure}
-	\end{landscape}
+\begin{figure}[H]
+	\centering
+	\caption{Swagger UI - Page 1}
+	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_1.png}
+	\label{fig:swagger_ui_1}
+	\\ \footnotesize Source: Author's creation.
+\end{figure}
 
-	\begin{landscape}
-	    \begin{figure}[H]
-			\centering
-			\caption{Swagger UI - Page 3}
-			\includegraphics[width=0.83\linewidth]{figures/swagger_ui_3.png}
-			\label{fig:swagger_ui_3}
-			\\ \footnotesize Source: Author's creation.
-		\end{figure}
-	\end{landscape}
+\begin{figure}[H]
+	\centering
+	\caption{Swagger UI - Page 2}
+	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_2.png}
+	\label{fig:swagger_ui_2}
+	\\ \footnotesize Source: Author's creation.
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\caption{Swagger UI - Page 3}
+		\includegraphics[width=0.83\linewidth]{figures/swagger_ui_3.png}
+		\label{fig:swagger_ui_3}
+		\\ \footnotesize Source: Author's creation.
+\end{figure}
 
 As discussed by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, the endpoints present in the figures \ref{fig:swagger_ui_1}, 
 \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3} are compliant with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110} in both methods's guidelines and \hyperref[appendix:glossary]{URI} format, due to the presence of the method and the \hyperref[appendix:glossary]{URI}'s relative path. Swagger UI was used to create the content shown in the figures \ref{fig:swagger_ui_1}, \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3}, due to its ability, as stated by \cite{mcnamara2022flexible}, to expose graphically API resources, which are automatically generated from an OpenAPI Specification.\footnote{\href{https://swagger.io/tools/swagger-ui/}{See the official site of Swagger UI.}}

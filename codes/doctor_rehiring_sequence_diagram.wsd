@@ -5,35 +5,36 @@ skinparam defaultFontSize 60
 participant "Client"
 participant "Input" as input
 participant "DoctorFinder" as finder
-participant "Doctor" as entity
 participant "Repository" as repository
 participant "ResponseEntity"
 
 Client -> ResponseEntity: HTTP 1.1 PATCH /api/v2/doctors/{license_number}/{state}/rehiring
 
-alt doctor is active
+alt default behavior
 
-input -> finder: findByMedicalLicenseNumber(license_number, state)
+input -> finder: pass license_number as argument
 
-finder -> entity: doctor retrieved
+input -> finder: pass state as argument
 
-entity -> repository: markAsRehired(doctor)
+finder -> finder: doctor retrieved
 
-entity <-- repository: save(doctor)
+finder -> repository: markAsRehired(Doctor)
 
-repository -> ResponseEntity: wrapWith204(doctor)
+finder <-- repository: save(Doctor)
+
+repository -> ResponseEntity: wrapWith204(Doctor)
 
 Client <-- ResponseEntity: HTTP 1.1 204 NOT CONTENT
 
 else doctor not found
 
-finder <-- ResponseEntity: wrapWith404(doctor)
+finder <-- ResponseEntity: wrapWith404(Doctor)
 
 Client <-- ResponseEntity: HTTP 1.1 404 NOT FOUND
 
 else doctor is active
 
-finder <-- ResponseEntity: wrapWith409(doctor)
+finder <-- ResponseEntity: wrapWith409(Doctor)
 
 Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
 

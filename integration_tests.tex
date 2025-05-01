@@ -539,8 +539,8 @@ The management of \textbf{MedicalSlot} is divided into methods: \textit{cancel()
 	\centering
 	\caption{Canceled or Completed Medical Slot Flow}	
 	\includegraphics[width=1\linewidth]{figures/medical_slot_canceled_or_completed_activity_diagram.png}
-		\footnotesize Source: Author's creation.
-		\label{fig:subsection:canceled_or_completed_medical_slot}
+	\footnotesize Source: Author's creation.
+	\label{fig:subsection:canceled_or_completed_medical_slot}
 \end{figure}
 
 When the sought \textbf{MedicalSlot} is either canceled or completed, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned. Otherwise, the currently active \textbf{MedicalSlot} is returned.
@@ -548,8 +548,51 @@ When the sought \textbf{MedicalSlot} is either canceled or completed, the \hyper
 \subsubsection{Cancellation Process}
 \label{subsection:medical_slot_cancellation}
 
+The figure \ref{fig:medical_slot_cancellation_sequence_diagram} contains the sequence diagram for completing a medical slot.
+
+\begin{figure}[H]
+	\centering
+	\caption{Medical Slot Cancellation Flow}	
+	\includegraphics[width=1\linewidth]{figures/medical_slot_cancellation_sequence_diagram.png}
+	\footnotesize Source: Author's creation.
+	\label{fig:medical_slot_cancellation_sequence_diagram}
+\end{figure}
+
+The client, whose behavior is described in the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, requests a resource. It uses the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_slots/\underline{license\_number}/\underline{state}/\underline{medical\_slot\_id}/cancellation}. The \hyperref[appendix:glossary]{URI} follows the pattern established  in the table \ref{tab:http-server-schemes}.
+
+The path variables \textit{license\_number}, \textit{state}, and \textit{medical\_slot\_id} are passed, respectively, to the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_slots/\underline{license\_number}/\underline{state}/\underline{medical\_slot\_id}/cancellation} as arguments. The service cancels the sought \textbf{MedicalSlot}, then persists it.
+
+As exposed by the figure \ref{fig:medical_slot_cancellation_sequence_diagram}, the sought \textbf{Doctor} is retrieved by the utility class \textbf{DoctorFinder}. If the outcome is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned  with the exception \textit{NonExistentDoctorException}; otherwise, the sought \textbf{Doctor} is returned. 
+Although, when the provided \textit{medical\_slot\_id} is not associated with any existing \textbf{MedicalSlot}, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned with the exception \textit{NonExistentMedicalSlotException}. 
+
+Additionally, when sought \textbf{MedicalSlot} is completed, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned with the exception \textit{ImmutabletMedicalSlotException}. 
+
+As the default behavior, the sought \textbf{MedicalSlot} is marked as canceled, persisted, and wrapped in the \hyperref[tab:summary_http_status_codes]{status code 204}.
+
 \subsubsection{Completion Process}
 \label{subsection:medical_slot_completion}
+
+The figure \ref{fig:medical_slot_completion_sequence_diagram} contains the sequence diagram for completing a medical slot.
+
+\begin{figure}[H]
+	\centering
+	\caption{Medical Slot Completion Sequence Diagram}	
+	\includegraphics[width=1\linewidth]{figures/medical_slot_completion_sequence_diagram.png}
+	\footnotesize Source: Author's creation.
+	\label{fig:medical_slot_completion_sequence_diagram}
+\end{figure}
+
+The client, whose behavior is described in the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, requests a resource. It uses the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_slots/\underline{license\_number}/\underline{state}/\underline{medical\_slot\_id}/completion}. The \hyperref[appendix:glossary]{URI} follows the pattern established  in the table \ref{tab:http-server-schemes}.
+
+The path variables \textit{license\_number}, \textit{state}, and \textit{medical\_slot\_id} are passed, respectively, to the \hyperref[appendix:glossary]{URI} \textit{/api/v2/medical\_slots/\underline{license\_number}/\underline{state}/\underline{medical\_slot\_id}/completion} as arguments. The service cancels the sought \textbf{MedicalSlot}, then persists it.
+
+As exposed by the figure \ref{fig:medical_slot_completion_sequence_diagram}, the sought \textbf{Doctor} is retrieved by the utility class \textbf{DoctorFinder}. If the outcome is null, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned  with the exception \textit{NonExistentDoctorException}; otherwise, the sought \textbf{Doctor} is returned. 
+Although, when the provided \textit{medical\_slot\_id} is not associated with any existing \textbf{MedicalSlot}, the \hyperref[tab:summary_http_status_codes]{status code 404} is returned with the exception \textit{NonExistentMedicalSlotException}. 
+
+Additionally, when sought \textbf{MedicalSlot} is completed,canceled the \hyperref[tab:summary_http_status_codes]{status code 409} is returned with the exception \textit{ImmutabletMedicalSlotException}. 
+
+As the default behavior, the sought \textbf{MedicalSlot} is marked as completed, persisted, and wrapped in the \hyperref[tab:summary_http_status_codes]{status code 204}.
+
 
 \subsubsection{Summary of Results}
 
@@ -687,9 +730,7 @@ The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an 
 
 The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an instance of the \textit{WebTestClient}, as argued by the \hyperref[subsection:automated_software_testing]{subsection Automated Software Testing}. When, at the moment that validated input data is extracted from the path variables \textit{customer\_id}, \textit{license\_number}, \textit{state}, and \textit{booked\_at}, and it is discovered that sought \textbf{Customer} is equally the sought \textbf{MedicalSlot}'s doctor, the \hyperref[tab:summary_http_status_codes]{status code 409} is returned.
 
-
 \subsubsection{Summary of Results}
-
 
 \begin{figure}[H]
 	\centering
@@ -702,8 +743,6 @@ The method \textit{testUnsuccessfulRegistration\_Doctor\_Self\_Booking} uses an 
 As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
 
 \subsection{Medical Appointment Management}
-
-\newpage
 
 \subsection{Medical Appointment's Payment}
 
@@ -819,7 +858,3 @@ The method \textit{testUnsuccessfulRegistration\_Paid\_Medical\_Appointment} use
 \end{figure}
 
 As expected, all the results of tests were successful. Methods of integration tests are expected to pass, regardless of successful or unsuccessful representation of the endpoint's response, due to the fact that integration tests are supposed to represent the system's functionality.
-
-\subsection{Medical Slot Management}
-
-\subsection{Medical Appointment Management}
