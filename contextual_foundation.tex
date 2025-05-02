@@ -282,7 +282,7 @@ In order to complement the table above and the function of the status codes (Tab
 
  \begin{figure}[H]
     \centering
-    \caption{Medical Slot Registration Service}
+    \caption{Example of a Registration Service}
     \includegraphics[width=0.9\linewidth]{figures/medical_slot_registration_service.png}
     \label{fig:medical_slot_registration_service}
     \\ \footnotesize Source: Author's creation.
@@ -352,7 +352,7 @@ It is evident that the \hyperref[tab:summary_http_status_codes]{status code 400}
 
 \hyperref[appendix:glossary]{UML} class diagrams, as emphasized by \cite{BERARDI200570, herchi_abdessalem_2012}, provide useful pictures of the static structure, including the structure and components of each class and the relationships between classes, allowing for declarative modeling of an application's static structure in terms of concepts and their interrelations.
 
-As an example of the previous idea, the figure \ref{fig:class_diagram} illustrates the relationship among the models \textbf{Person}, \textbf{Doctor}, \textbf{Customer}, \textbf{MedicalSlot}, \textbf{MedicalAppointment}, \textbf{Card} and \textbf{Payment}. The Appendix \ref{appendix:models} contains the content of all the mentioned models.
+As an example of the previous idea, the figure \ref{fig:class_diagram} illustrates the relationship among the models \textbf{Person}, \textbf{Doctor}, \textbf{Customer}, \textbf{MedicalSlot}, \textbf{MedicalAppointment}, \textbf{Card} and \textbf{Payment}.
 
 \begin{landscape}
 \begin{figure}[H]
@@ -398,15 +398,15 @@ This provides a fundamental blueprint of the system's conceptual model. The ERD,
 
 The class diagram provides the abstract, object-oriented view of the system's building blocks, while the ERD offers the concrete, data-centric perspective, detailing how these building blocks are instantiated and interconnected at the data level. This dual perspective allows for a more thorough analysis, ensuring that both the structural integrity of the system's objects and the efficient organization of its data are well-understood and effectively designed.
 
-%\begin{landscape}
+\begin{landscape}
 \begin{figure}[H]
     \caption{Entity-Relationship Diagram}
     \centering
-    \includegraphics[angle=90, width=0.6792\linewidth]{figures/erd.png}
+    \includegraphics[width=0.9\linewidth]{figures/erd.png}
     \label{fig:erd}
     \\ \footnotesize Source: Author's creation
 \end{figure}
-%\end{landscape}
+\end{landscape}
 
 Complementary to the aforementioned paragraph, it is notable the presence of embedded objects in the classes in the figure \ref{fig:erd}, which indicates that the adopted database is likely a NoSQL database, due to the presence of objects instead of any foreign keys, which the schema flexibility permits foreign keys to be used, as discussed in the \hyperref[subsection:database]{subsection MongoDB}.
 
@@ -435,7 +435,7 @@ As demonstrated by the figure \ref{fig:person_class}, the class was used to crea
 
 The shift from the class diagram to a model was possible due to the precision of the modeling that the \hyperref[appendix:glossary]{UML} class diagram offers.
 
-Moreover, the selected API for this work is the present in the \href{https://github.com/LazaroDamasceno/Reactive-Medical-Appointments-Management-API-In-Kotlin-V2.git}{clickable link}, hereafter referred to as \textit{the API} which was developed by the author of this dissertation. It was developed using  \hyperref[appendix:glossary]{Spring Boot}, \hyperref[appendix:glossary]{Kotlin}, \hyperref[appendix:glossary]{Kotlin Coroutines}, and adopts reactive and non-blocking programming. Its domain models are defined in figure \ref{fig:class_diagram}, with their relationships illustrated in figure \ref{fig:erd}.
+Moreover, the selected API for this work is the present in the \href{https://github.com/LazaroDamasceno/Reactive-Medical-Appointments-Management-API.git}{clickable link}, hereafter referred to as \textit{the API} which was developed by the author of this dissertation. It was developed using  \hyperref[appendix:glossary]{Spring Boot}, Java and WebFlux, and adopts reactive and non-blocking programming. Its domain models are defined in figure \ref{fig:class_diagram}, with their relationships illustrated in figure \ref{fig:erd}.
 
 Formally, an API is a standardized set of tools, protocols, and definitions that enable interoperability—the ability of disparate systems to communicate seamlessly despite differences in language, platform, or interface. APIs provide both an abstraction layer for system interactions and concrete implementations (e.g., packaged classes or interface types). As controlled data-sharing mechanisms, they facilitate resource reuse and multi-source integration, addressing critical needs in application development 
  and research 
@@ -510,27 +510,25 @@ The functionalities listed in the Table
 The organization of the API is divided into 7 different modules and 18 services, although not all services were selected to undergo the planned software tests. The selected services are shown in the Table \ref{tab:selected_services}:
 
 \begin{table}[H]
-\centering
-\centering
-\caption{API's Selected Services}
-\begin{tabular}{ll}
-\label{tab:selected_services}
-\textbf{Modules} & \textbf{Services} \\ \hline
-payments & MedicalAppointmentPaymentService \\ \hline
-cards & CardDeletionService\\ \hline
-doctors & DoctorRegistrationService, DoctorManagementService \\ \hline
-customers & CustomerRegistrationService \\ \hline
-medicalAppointments & MedicalAppointmentManagementService, \\
- & MedicalAppointmentRegistrationService \\ \hline
-medicalSlots & MedicalSlotManagementService, MedicalSlotRegistrationService \\ \hline
-people & PersonRegistrationService \\ \hline
-\end{tabular}
-\\ \footnotesize Source: Author's creation.
+	\centering
+	\caption{API's Selected Services}
+	\label{tab:selected_services}
+	\begin{tabular}{ll}
+		\textbf{Modules} & \textbf{Services} \\ \hline
+		payments & MedicalAppointmentPaymentService \\ \hline
+		doctors & DoctorRegistrationService, DoctorUpdatingService, \\
+		& DoctorManagementService \\ \hline
+		customers & CustomerRegistrationService, CustomerUpdatingService \\ \hline
+		medicalAppointments & MedicalAppointmentManagementService, \\
+		& MedicalAppointmentRegistrationService \\ \hline
+		medicalSlots & MedicalSlotManagementService, MedicalSlotRegistrationService \\ \hline
+	\end{tabular}
+	\\ \footnotesize Source: Author's creation.
 \end{table}
 
-From the API's services, 8 out of 18 were selected. The test coverage is 44,44\%. Additionally, the excluded services are:
+From the API's services, 10 out of 18 were selected. The test coverage is 55,56\%. Additionally, the excluded services are:
 
-\begin{itemize}
+\begin{enumerate}
     \item PersonRegistrationService.
     \item CustomerRetrievalService.
     \item DoctorRetrievalService.
@@ -541,7 +539,7 @@ From the API's services, 8 out of 18 were selected. The test coverage is 44,44\%
     \item MedicalAppointmentUpdatingService.
     \item MedicalSlotRetrievalService.
     \item MedicalSlotUpdatingService.
-\end{itemize}
+\end{enumerate}
 
 These services were not selected primarily because their responses generally do not require a validation process to verify expected wrongful conditions and the subsequent throwing of exceptions. Furthermore, even in the cases where these services might throw an exception, it is not considered sufficiently important to include them in the unit and integration tests.
 
@@ -716,7 +714,7 @@ The result expressed in the figure \ref{fig:usage_stmt_tests_processes}, both un
 
 \begin{figure}[H]
     \centering
-    \caption{Percentage Of The Testing And QA Tools Utilized In The Industry}
+    \caption{Percentage of the Testing and QA Tools Utilized in the Industry}
     \includegraphics[width=0.8\linewidth]{figures/testing_tools_2017_2009.png}
     \label{fig:testing_tools_2017_2009}
     \\ \footnotesize Source: \cite{hynninen2023development, kasurinen2010software}.
