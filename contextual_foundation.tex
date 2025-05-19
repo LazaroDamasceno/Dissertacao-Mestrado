@@ -100,7 +100,7 @@ The figures \ref{fig:xml} and \ref{fig:mongodb} contain, respectively, examples 
 \begin{figure}[H]
     \centering
     \caption{Example of XML Document}
-    \includegraphics[width=0.5\linewidth]{figures/xml.png}
+    \includegraphics[width=0.5\linewidth]{figures/db/xml.png}
     \label{fig:xml}
     \\ \footnotesize Source: Author's creation.
 \end{figure}
@@ -108,7 +108,7 @@ The figures \ref{fig:xml} and \ref{fig:mongodb} contain, respectively, examples 
 \begin{figure}[H]
     \centering
     \caption{Example of MongoDB Document}
-    \includegraphics[width=0.5\linewidth]{figures/mongodb.png}
+    \includegraphics[width=0.5\linewidth]{figures/db/mongodb.png}
     \label{fig:mongodb}
     \\ \footnotesize Source: Author's creation.
 \end{figure}
@@ -166,7 +166,7 @@ familiar C-language conventions, and straightforward name-value pair format.
 \begin{figure}[H]
      \centering
      \caption{Example of JSON Document}
-     \includegraphics[width=1\linewidth]{figures/json.png}
+     \includegraphics[width=1\linewidth]{figures/db/json.png}
      \label{fig:json}
      \footnotesize Source: Author's creation
 \end{figure}
@@ -267,7 +267,7 @@ In order to complement the table above and the function of the status codes (Tab
 \begin{figure}[H]
     \caption{Example of a HTTP request}
     \centering
-    \includegraphics[width=1\linewidth]{figures/http_request.png}
+    \includegraphics[width=1\linewidth]{figures/http/http_request.png}
     \label{fig:http-request}
     \footnotesize Source: Author's creation
 \end{figure}
@@ -275,7 +275,7 @@ In order to complement the table above and the function of the status codes (Tab
 \begin{figure}[H]
     \caption{Example of a HTTP response}
     \centering
-    \includegraphics[width=1\linewidth]{figures/http_response.png}
+    \includegraphics[width=1\linewidth]{figures/http/http_response.png}
     \label{fig:http-response}
     \footnotesize Source: Author's creation
 \end{figure}
@@ -317,7 +317,7 @@ unless \hyperref[appendix:glossary]{HATEOAS} is inserted into the resource's res
 \begin{figure}[H]
     \centering
     \caption{HTTP Methods's Intended Content Meaning}
-    \includegraphics[width=1\linewidth]{figures/http_200_response_analyses.png}
+    \includegraphics[width=1\linewidth]{figures/http/http_200_response_analyses.png}
     \label{fig:http-methods-intenteded-content}
     \footnotesize Souce: \cite{rfc9110}.
 \end{figure}
@@ -418,7 +418,7 @@ common features whose attributes represent real-world data. In order to exemplif
 \begin{figure}[H]
     \caption{Example of a UML Class Diagram's Class}
     \centering
-    \includegraphics[width=0.87\linewidth]{figures/person_class.png}
+    \includegraphics[width=0.87\linewidth]{figures/api/person_class.png}
     \label{fig:person_class}
     \\ \footnotesize Source: Author's creation
 \end{figure}
@@ -427,8 +427,8 @@ As demonstrated by the figure \ref{fig:person_class}, the class was used to crea
 
 \begin{figure}[H]
     \centering
-    \caption{Kotlin Model of Person}
-    \includegraphics[width=0.87\linewidth]{figures/kotlin_person_model.png}
+    \caption{Java Model of Person}
+    \includegraphics[width=1\linewidth]{figures/java_person_model.png}
     \label{fig:kotlin_person_model}
     \\ \footnotesize Source: Author's creation.
 \end{figure}
@@ -457,7 +457,7 @@ One example is: the module \textit{people} has as sub-module \textit{services}, 
 \begin{figure}[H]
     \centering
     \caption{Person Registration Service}
-    \includegraphics[width=1\linewidth]{figures/person_registration_service.png}
+     \includegraphics[width=1\linewidth]{figures/person_registration_service.png}
     \label{fig:person_registration_service}
     \footnotesize Source: Author's creation
 \end{figure}
@@ -705,7 +705,7 @@ Another survey conducted by \cite{lee2012survey} revealed that they are among th
 \begin{figure}[H]
     \centering
     \caption{Usage of Software Testing Methods and Tools in Tests Processes}
-    \includegraphics[width=0.8\linewidth]{figures/usage_stmt_tests_processes.png}
+    \includegraphics[width=0.8\linewidth]{figures/tests/usage_stmt_tests_processes.png}
     \label{fig:usage_stmt_tests_processes}
     \\ \footnotesize Source: \cite{lee2012survey}.
 \end{figure}
@@ -715,7 +715,7 @@ The result expressed in the figure \ref{fig:usage_stmt_tests_processes}, both un
 \begin{figure}[H]
     \centering
     \caption{Percentage of the Testing and QA Tools Utilized in the Industry}
-    \includegraphics[width=0.8\linewidth]{figures/testing_tools_2017_2009.png}
+    \includegraphics[width=0.8\linewidth]{figures/tests/testing_tools_2017_2009.png}
     \label{fig:testing_tools_2017_2009}
     \\ \footnotesize Source: \cite{hynninen2023development, kasurinen2010software}.
 \end{figure}
@@ -751,9 +751,7 @@ For unit tests, among the types of automation tools cited by  \cite{umar2019stud
     \footnotesize Source: Adapted from \cite{umar2019study}.
 \end{table}
 
-It is notable how the advantages overcome the disadvantages. In addition, 
-for integration tests, \textit{WebTestClient} shall be the chosen framework. As evidenced by \cite{springboot_webtestclient_api}, it is an HTTP client specifically made for testing server applications. It uses Spring's \textit{WebClient} to make requests but provides a simplified way to check the responses. For full HTTP tests or to test Spring \hyperref[appendix:glossary]{MVC} and WebFlux applications without needing a live server by using mock requests and responses, \textit{WebTestClient} can be used as the chosen framework.
-
+It is notable how the advantages overcome the disadvantages. In addition, for integration tests, \textit{MockMvc} shall be the chosen framework. 
 Complementing the paragraphs above, all integration tests shall use the following annotations present in the table \ref{table:integration_tests_annotations}.
 
 \begin{table}[H]
