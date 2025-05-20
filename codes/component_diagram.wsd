@@ -1,0 +1,14 @@
+@startuml
+
+package "People" {
+  folder "Domain" {
+    database PersonRepository
+    database PersonAuditTrailRepository
+  }
+  folder "Services" {
+    component PersonRegistrationService
+    component PersonUpdatingService
+  }
+}
+
+@enduml

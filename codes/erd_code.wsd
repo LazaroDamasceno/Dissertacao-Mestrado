@@ -31,6 +31,7 @@ entity "Customer" {
 entity "Doctor" {
  +id: String
  +medicalLicenseNumber: MedicalLicenseNumber
+ +status: ProfessionalStatus
  +person: Person
  +createdAt: LocalDateTime
  +updatedAt: LocalDateTime
@@ -45,28 +46,31 @@ entity "Doctor" {
 entity "MedicalSlot" {
   +id: String
   +doctor: Doctor
+  +status: MedicalSlotStatus
   +availableAt: LocalDateTime
   +canceledAt: LocalDateTime?
   +completedAt: LocalDateTime?
   
   +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
-  +markAsCanceled(): Unit
-  +markAsCompleted(): Unit
+  +markAsCanceled()
+  +markAsCompleted()
   +toDTO(): MedicalSlotResponseDTO
 }
 
 entity "MedicalAppointment" {
   +id: String
-  + doctor: Doctor
-  + customer: Customer
+  +doctor: Doctor
+  +customer: Customer
+  +status: MedicalAppointmentStatus
   +bookedAt: LocalDateTime
   +canceledAt: LocalDateTime?
   +completedAt: LocalDateTime?
   +price: BigDecimal?
   
   +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
-  +markAsCanceled(): Unit
-  +markAsCompleted(): Unit
+  +markAsCanceled()
+  +markAsCompleted()
+  +markAsPaid()
   +toDTO(): MedicalAppointmentResponseDTO
 }
 

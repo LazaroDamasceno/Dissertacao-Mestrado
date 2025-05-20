@@ -356,15 +356,13 @@ It is evident that the \hyperref[tab:summary_http_status_codes]{status code 400}
 
 As an example of the previous idea, the figure \ref{fig:class_diagram} illustrates the relationship among the models \textbf{Person}, \textbf{Doctor}, \textbf{Customer}, \textbf{MedicalSlot}, \textbf{MedicalAppointment}, \textbf{Card} and \textbf{Payment}.
 
-\begin{landscape}
 \begin{figure}[H]
     \caption{Class Diagram}
     \centering
     \includegraphics[width=1\linewidth]{figures/api/class_diagram.png}
     \label{fig:class_diagram}
-    \\ \footnotesize Source: Author's creation
+    \footnotesize Source: Author's creation
 \end{figure}
-\end{landscape}
 
 From the \ref{fig:class_diagram}, it is notable that both \textbf{Customer} and \textbf{Doctor} have a one-to-one relationship with \textbf{Person}. One \textbf{Doctor} can be associated with multiple  \textbf{MedicalSlot} and 
 \textbf{MedicalAppointment}, while \textbf{Customer} can be associated with multiple \textbf{MedicalSlot}. One \textbf{MedicalSlot} can associate with only one \textbf{MedicalAppontment}. One \textbf{Card} can be associated with multiple  \textbf{Payment}. It can be associated with only one \textbf{MedicalAppointment}.

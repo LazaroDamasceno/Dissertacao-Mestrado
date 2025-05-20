@@ -31,38 +31,42 @@ class "Customer" {
 class "Doctor" {
  +id: String
  +medicalLicenseNumber: MedicalLicenseNumber
+ +status: ProfessionalStatus
  +createdAt: LocalDateTime
  +updatedAt: LocalDateTime
  +terminatedAt: LocalDateTime
  
  +of(person: Person, medicalLicenseNumber: MedicalLicenseNumber): Doctor
- +markAsTerminated(): Unit
- +markAsRehired(): Unit
+ +markAsTerminated()
+ +markAsRehired()
  +toDTO(): DoctorResponseDTO
 }
 
 class "MedicalSlot" {
   +id: String
+  +status: MedicalSlotStatus
   +availableAt: LocalDateTime
   +canceledAt: LocalDateTime
   +completedAt: LocalDateTime
   
   +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
-  +markAsCanceled(): Unit
-  +markAsCompleted(): Unit
+  +markAsCanceled()
+  +markAsCompleted()
   +toDTO(): MedicalSlotResponseDTO
 }
 
 class "MedicalAppointment" {
   +id: String
+  +status: MedicalAppointmentStatus
   +bookedAt: LocalDateTime
   +canceledAt: LocalDateTime
   +completedAt: LocalDateTime
   +price: BigDecimal
   
   +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
-  +markAsCanceled(): Unit
-  +markAsCompleted(): Unit
+  +markAsCanceled()
+  +markAsCompleted()
+  +markAsPaid()
   +toDTO(): MedicalAppointmentResponseDTO
 }
 
