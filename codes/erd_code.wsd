@@ -11,6 +11,7 @@ entity "Person" {
  +gender: Gender
  +email: String
  +createdAt: LocalDateTime
+ +updatedAt: LocalDateTime
  
  +of(registratitionDto: PersonRegistrationDto): Person
 }
@@ -20,6 +21,7 @@ entity "Customer" {
  +address: Address
  +person: Person
  +createdAt: LocalDateTime
+ +updatedAt: LocalDateTime
  
  +of(person: Person, address: Address): Customer
  +toDto(): CustomerResponseDto
@@ -30,11 +32,12 @@ entity "Doctor" {
  +medicalLicenseNumber: MedicalLicenseNumber
  +person: Person
  +createdAt: LocalDateTime
+ +updatedAt: LocalDateTime
  +terminatedAt: LocalDateTime
  
  +of(person: Person, medicalLicenseNumber: MedicalLicenseNumber): Doctor
- +markAsTerminated(): Unit
- +markAsRehired(): Unit
+ +markAsTerminated()
+ +markAsRehired()
  +toDto(): DoctorResponseDto
 }
 
@@ -66,34 +69,11 @@ entity "MedicalAppointment" {
   +toDto(): MedicalAppointmentResponseDto
 }
 
-entity "Card" {
-  +id: String,
-  +type: CardType
-  +cvc: String
-  +dueDate: LocalDate
-  +createdAt: LocalDateTime
-  
-  +of(type: CardType, cvc: String, dueDate: LocalDate): Card
-  +toDto(): CardResponseDto
-}
-
-entity "Payment" {
-  +id: String
-  +card: Card
-  +medicalAppointment: MedicalAppointment
-  +createdAt: LocalDateTime
-  
-  + of(medicalAppointment: MedicalAppointment, card: Card): Payment
-  +toDto(): PaymentResponseDto
-}
-
 Customer ||--|| Person
 Doctor ||--|| Person
 MedicalSlot }o--|| Doctor
 MedicalAppointment }o--|| Doctor
 MedicalAppointment }o--|| Customer
 MedicalSlot ||--|| MedicalAppointment
-Payment }o--|| Card
-MedicalAppointment ||--|| Payment
 
 @enduml

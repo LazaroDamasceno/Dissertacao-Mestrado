@@ -4,11 +4,11 @@
 
 start
 
-if (is medical slot canceled or completed?) then (yes)
+if (is provided SIN or email duplicated?) then (yes)
 :return **409 conflict**;
 
 else (no)
-:!return **MedicalSlot**;
+:return **Person**;
 
 endif
 stop

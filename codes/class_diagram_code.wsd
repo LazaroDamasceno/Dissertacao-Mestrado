@@ -11,6 +11,7 @@ class "Person" {
  +gender: Gender
  +email: String
  +createdAt: LocalDateTime
+ +updatedAt: LocalDateTime
  
  +of(registratitionDto: PersonRegistrationDto): Person
 }
@@ -19,6 +20,7 @@ class "Customer" {
  +id: String
  +address: Address
  +createdAt: LocalDateTime
+ +updatedAt: LocalDateTime
  
  +of(person: Person, address: Address): Customer
  +toDto(): CustomerResponseDto
@@ -28,6 +30,7 @@ class "Doctor" {
  +id: String
  +medicalLicenseNumber: MedicalLicenseNumber
  +createdAt: LocalDateTime
+ +updatedAt: LocalDateTime
  +terminatedAt: LocalDateTime
  
  +of(person: Person, medicalLicenseNumber: MedicalLicenseNumber): Doctor
