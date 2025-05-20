@@ -1,0 +1,52 @@
+@startuml
+
+skinparam backgroundColor #f4f4f9
+skinparam componentStyle uml2
+
+package "Customer Module" {
+
+package "Data Context" {
+    component "CustomerController" <<controller>> #lightblue
+    component "CustomerCrudRepository" <<repository>> #lightgreen
+    component "CustomerAuditRepository" <<repository>> #lightgreen
+}
+
+package "Registration Context" {
+    interface CustomerRegistrationService <<interface>> #lightyellow
+    component CustomerRegistrationServiceImpl #lightcoral
+
+    CustomerRegistrationServiceImpl ..|> CustomerRegistrationService
+    CustomerRegistrationServiceImpl --> CustomerCrudRepository
+    CustomerRegistrationServiceImpl --> CustomerController
+}
+
+package "Update Context" {
+    interface CustomerUpdateService <<interface>> #lightyellow
+    component CustomerUpdateServiceImpl #lightcoral
+
+    CustomerUpdateServiceImpl ..|> CustomerUpdateService
+    CustomerUpdateServiceImpl --> CustomerCrudRepository
+    CustomerUpdateServiceImpl --> CustomerAuditRepository
+    CustomerUpdateServiceImpl --> CustomerController
+}
+
+package "Retrieval Context" {
+    interface CustomerRetrievalService <<interface>> #lightyellow
+    component CustomerRetrievalServiceImpl #lightcoral
+
+    CustomerRetrievalServiceImpl ..|> CustomerRetrievalService
+    CustomerRetrievalServiceImpl --> CustomerCrudRepository
+    CustomerRetrievalServiceImpl --> CustomerController
+}
+
+}
+
+package "External Service" {
+    interface "PersonRegistrationService" <<interface>> #lightcyan
+    interface "PersonUpdateService" <<interface>> #lightcyan
+}
+
+CustomerRegistrationServiceImpl --> PersonRegistrationService
+CustomerUpdateServiceImpl --> PersonUpdateService
+
+@enduml

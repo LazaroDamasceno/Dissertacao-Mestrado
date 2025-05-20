@@ -1,0 +1,31 @@
+@startuml
+
+package "Person Module" {
+
+    skinparam backgroundColor #f4f4f9
+
+    package "Data Context" {
+        component "PersonCrudRepository" <<repository>> #lightgreen
+        component "PersonAuditRepository" <<repository>> #lightgreen
+    }
+
+    package "Registration Context" {
+        interface PersonRegistrationService #White
+        component PersonRegistrationServiceImpl #LightSalmon
+
+        PersonRegistrationServiceImpl ..|> PersonRegistrationService
+        PersonRegistrationServiceImpl --> PersonCrudRepository
+    }
+
+    package "Update Context" {
+        interface PersonUpdateService #White
+        component PersonUpdateServiceImpl #LightYellow
+
+        PersonUpdateServiceImpl ..|> PersonUpdateService
+        PersonUpdateServiceImpl --> PersonCrudRepository
+        PersonUpdateServiceImpl --> PersonAuditRepository
+    }
+
+}
+
+@enduml
