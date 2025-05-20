@@ -10,7 +10,7 @@ participant "MedicalSlotFinder"
 participant "MedicalSlotUpdatingService" as service
 participant "MedicalAppointment"
 participant "Repository" as repository
-participant "ResponseDto" as responseDto
+participant "ResponseDTO" as responseDTO
 participant "ResponseEntity"
 
 Client -> ResponseEntity: HTTP 1.1 POST /api/v2/medical_appointments/{license_number}/{state}/{customer_id}/{bookedAt}
@@ -45,11 +45,11 @@ MedicalAppointment <-- repository: save(MedicalAppointment)
 
 service <-- MedicalAppointment: set(MedicalAppointment)
 
-MedicalAppointment -> responseDto: toDto(MedicalAppointment)
+MedicalAppointment -> responseDTO: toDTO(MedicalAppointment)
 
-responseDto -> ResponseEntity: wrapWith201(MedicalAppointment)
+responseDTO -> ResponseEntity: wrapWith201(MedicalAppointment)
 
-Client <-- ResponseEntity: HTTP 1.1 201 CREATED + MedicalAppointmentResponseDto
+Client <-- ResponseEntity: HTTP 1.1 201 CREATED + MedicalAppointmentResponseDTO
 
 else customer not found
 

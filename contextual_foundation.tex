@@ -100,17 +100,17 @@ The figures \ref{fig:xml} and \ref{fig:mongodb} contain, respectively, examples 
 \begin{figure}[H]
     \centering
     \caption{Example of XML Document}
-    \includegraphics[width=0.5\linewidth]{figures/db/xml.png}
+    \includegraphics[width=1\linewidth]{figures/db/xml.png}
     \label{fig:xml}
-    \\ \footnotesize Source: Author's creation.
+    \footnotesize Source: Author's creation.
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \caption{Example of MongoDB Document}
-    \includegraphics[width=0.5\linewidth]{figures/db/mongodb.png}
+    \includegraphics[width=1\linewidth]{figures/db/mongodb.png}
     \label{fig:mongodb}
-    \\ \footnotesize Source: Author's creation.
+    \footnotesize Source: Author's creation.
 \end{figure}
 
 It is noticeable the key-value structure in the shape of tags in figure \ref{fig:xml}. Such structure resembles the way the data  is organized in figure \ref{fig:mongodb}. Furthermore, there's a notable hierarchical structure in both figures.  As illustrated in figure \ref{fig:mongodb}, the embedded \textit{doctor} object that contains the embedded \textit{person} 
@@ -262,35 +262,37 @@ TRACE & Perform a message loop-back test along the path to the target resource. 
 \\ \footnotesize Source: Adapated from \cite{rfc9110}.
 \end{table}
 
-In order to complement the table above and the function of the status codes (Table \ref{tab:http-status-codes}) of displaying the response's status to the client, the HTTP methods indicate the action expected from the execution of the request made by the client. Thus, below is an example of a resource that requests the registration of a doctor in the figure \ref{fig:http-request}, the service class that supports it in the figure \ref{fig:medical_slot_registration_service} and the response shown by the figure \ref{fig:http-response}:
+In order to complement the table above and the function of the status codes (Table \ref{tab:http-status-codes}) of displaying the response's status to the client, the HTTP methods indicate the action expected from the execution of the request made by the client. Thus, below is an example of a resource that requests the registration of a doctor in the figure \ref{fig:http-request} and the service class that supports it in the figure \ref{fig:medical_slot_registration_service}.
 
 \begin{figure}[H]
-    \caption{Example of a HTTP request}
+    \caption{Example of a HTTP request and response}
     \centering
-    \includegraphics[width=1\linewidth]{figures/http/http_request.png}
+    \includegraphics[width=1\linewidth]{figures/http/http_request_response.png}
     \label{fig:http-request}
-    \footnotesize Source: Author's creation
-\end{figure}
-
-\begin{figure}[H]
-    \caption{Example of a HTTP response}
-    \centering
-    \includegraphics[width=1\linewidth]{figures/http/http_response.png}
-    \label{fig:http-response}
     \footnotesize Source: Author's creation
 \end{figure}
 
  \begin{figure}[H]
     \centering
     \caption{Example of a Registration Service}
-    \includegraphics[width=0.9\linewidth]{figures/medical_slot_registration_service.png}
-    \label{fig:medical_slot_registration_service}
+    \includegraphics[width=0.83\linewidth]{figures/http/customer_registration_service_impl.png}
+    \label{fig:customer_registration_service_impl}
     \\ \footnotesize Source: Author's creation.
 \end{figure}
 
-As exposed by the figure \ref{fig:http-request}, the POST method was used alongside the \hyperref[appendix:glossary]{URI} that was mentioned in the given figure. It follows the structure presented by the Table \ref{tab:http-server-schemes}, especially the \textbf{http}'s scheme. The service's code shown by the figure \ref{fig:medical_slot_registration_service} demonstrates the resource returns the \hyperref[tab:summary_http_status_codes]{status code 201}. 
+As exposed by the figure \ref{fig:http-request}, the POST method was used alongside the \hyperref[appendix:glossary]{URI} that was mentioned in the given figure. It follows the structure presented by the Table \ref{tab:http-server-schemes}, especially the \textbf{http}'s scheme. The service's code shown by the figure \ref{fig:customer_registration_service_impl} demonstrates the resource returns the \hyperref[tab:summary_http_status_codes]{status code 201}. 
 
-Moreover, the response in the figure \ref{fig:http-response}, there is a header location that can be used as an identifier for a specific resource corresponding to the representation in this message's content, as determined by \cite{rfc9110}. Therefore, this decision is aligned with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}, especially in section 9.3.3, as determined by \cite{rfc9110}, which emphasizes that the POST method is supposed to work with the \hyperref[tab:summary_http_status_codes]{status code 201} when the operation is successful.
+The figure \ref{fig:http_header} illustrates the header cited in the \href{https://www.rfc-editor.org/rfc/rfc9110.html#name-post}{subsection 9.3.3} of the \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}.
+
+\begin{figure}[H]
+	\centering
+	\caption{Example of a Header}
+	\includegraphics[width=0.9\linewidth]{figures/http/http_header.png}
+	\label{fig:http_header}
+	\\ \footnotesize Source: Author's creation.
+\end{figure}
+
+Moreover, the content in the figure \ref{fig:http_header}, there is a header location that can be used as an identifier for a specific resource corresponding to the representation in this message's content, as determined by \cite{rfc9110}. Therefore, this decision is aligned with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}, especially in the \href{https://www.rfc-editor.org/rfc/rfc9110.html#name-post}{subsection 9.3.3}, as determined by \cite{rfc9110}, which emphasizes that the POST method is supposed to work with the \hyperref[tab:summary_http_status_codes]{status code 201} when the operation is successful.
 
 Finally, in relation to automated software testing, the integration tests are going to behave as stated in the
 Table \ref{tab:related-statuses-methods}:
@@ -358,7 +360,7 @@ As an example of the previous idea, the figure \ref{fig:class_diagram} illustrat
 \begin{figure}[H]
     \caption{Class Diagram}
     \centering
-    \includegraphics[width=1\linewidth]{figures/class_diagram.png}
+    \includegraphics[width=1\linewidth]{figures/api/class_diagram.png}
     \label{fig:class_diagram}
     \\ \footnotesize Source: Author's creation
 \end{figure}
@@ -398,15 +400,13 @@ This provides a fundamental blueprint of the system's conceptual model. The ERD,
 
 The class diagram provides the abstract, object-oriented view of the system's building blocks, while the ERD offers the concrete, data-centric perspective, detailing how these building blocks are instantiated and interconnected at the data level. This dual perspective allows for a more thorough analysis, ensuring that both the structural integrity of the system's objects and the efficient organization of its data are well-understood and effectively designed.
 
-\begin{landscape}
 \begin{figure}[H]
     \caption{Entity-Relationship Diagram}
     \centering
-    \includegraphics[width=0.9\linewidth]{figures/erd.png}
+    \includegraphics[width=1\linewidth]{figures/api/erd.png}
     \label{fig:erd}
     \\ \footnotesize Source: Author's creation
 \end{figure}
-\end{landscape}
 
 Complementary to the aforementioned paragraph, it is notable the presence of embedded objects in the classes in the figure \ref{fig:erd}, which indicates that the adopted database is likely a NoSQL database, due to the presence of objects instead of any foreign keys, which the schema flexibility permits foreign keys to be used, as discussed in the \hyperref[subsection:database]{subsection MongoDB}.
 
@@ -423,14 +423,14 @@ common features whose attributes represent real-world data. In order to exemplif
     \\ \footnotesize Source: Author's creation
 \end{figure}
 
-As demonstrated by the figure \ref{fig:person_class}, the class was used to create the homonymous \hyperref[appendix:glossary]{Kotlin} model presented in the figure \ref{fig:kotlin_person_model}, that will be persisted into a MongoDB document. 
+As demonstrated by the figure \ref{fig:person_class}, the class was used to create the Java model presented in the figure \ref{fig:kotlin_person_model}, that will be persisted into a MongoDB document. 
 
 \begin{figure}[H]
-    \centering
-    \caption{Java Model of Person}
-    \includegraphics[width=1\linewidth]{figures/java_person_model.png}
-    \label{fig:kotlin_person_model}
-    \\ \footnotesize Source: Author's creation.
+	\centering
+	\caption{Java Model of Person}
+	\includegraphics[width=1\linewidth]{figures/api/java_person_model.png}
+	\label{fig:kotlin_person_model}
+	\footnotesize Source: Author's creation.
 \end{figure}
 
 The shift from the class diagram to a model was possible due to the precision of the modeling that the \hyperref[appendix:glossary]{UML} class diagram offers.
@@ -457,7 +457,7 @@ One example is: the module \textit{people} has as sub-module \textit{services}, 
 \begin{figure}[H]
     \centering
     \caption{Person Registration Service}
-     \includegraphics[width=1\linewidth]{figures/person_registration_service.png}
+     \includegraphics[width=1\linewidth]{figures/http/person_registration_service.png}
     \label{fig:person_registration_service}
     \footnotesize Source: Author's creation
 \end{figure}
@@ -690,7 +690,7 @@ Given all the aforementioned definitions and key features, to the previous parag
 \begin{figure}[H]
     \centering
     \caption{Frequency of Use: Levels, Techniques and Types of Testing}
-    \includegraphics[width=1\linewidth]{figures/frequency_of_use__levels_techniques_and_types_of_testing.png}
+    \includegraphics[width=1\linewidth]{figures/tests/frequency_of_use__levels_techniques_and_types_of_testing.png}
     \label{fig:frequency_of_use_levels_techniques_and_types_of_testing}
     \footnotesize Source: \cite{sanchez2020beyond}
 \end{figure}
@@ -707,7 +707,7 @@ Another survey conducted by \cite{lee2012survey} revealed that they are among th
     \caption{Usage of Software Testing Methods and Tools in Tests Processes}
     \includegraphics[width=0.8\linewidth]{figures/tests/usage_stmt_tests_processes.png}
     \label{fig:usage_stmt_tests_processes}
-    \\ \footnotesize Source: \cite{lee2012survey}.
+    \\ \footnotesize Source: Adapted from \cite{lee2012survey}.
 \end{figure}
 
 The result expressed in the figure \ref{fig:usage_stmt_tests_processes}, both unit and integration ranked 4th and 2nd, respectively, while system and acceptance tests ranked 1st and 3rd, respectively. As the last example of a survey, \cite{hynninen2023development} illustrated in the figure \ref{fig:testing_tools_2017_2009} the number of uses of the most used types of tests.
@@ -717,7 +717,7 @@ The result expressed in the figure \ref{fig:usage_stmt_tests_processes}, both un
     \caption{Percentage of the Testing and QA Tools Utilized in the Industry}
     \includegraphics[width=0.8\linewidth]{figures/tests/testing_tools_2017_2009.png}
     \label{fig:testing_tools_2017_2009}
-    \\ \footnotesize Source: \cite{hynninen2023development, kasurinen2010software}.
+    \\ \footnotesize Source: Adapted from \cite{hynninen2023development, kasurinen2010software}.
 \end{figure}
 
 It is notable the dominance of the unit and integration tests in the plot \ref{fig:testing_tools_2017_2009}, ranking 1st and 3rd. Regardless of the ranks of unit and integration tests achieved in the surveys of \cite{hynninen2023development, kasurinen2010software, lee2012survey, sanchez2020beyond}, they are the most used types of automated types of tests. Their importance can be noticed and measured effortlessly via the results of the surveys.

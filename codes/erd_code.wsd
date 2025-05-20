@@ -13,7 +13,8 @@ entity "Person" {
  +createdAt: LocalDateTime
  +updatedAt: LocalDateTime
  
- +of(registratitionDto: PersonRegistrationDto): Person
+ +of(registratitionDTO: PersonRegistrationDTO): Person
+ +update(updatingDTO: PersonUpdatingDTO)
 }
 
 entity "Customer" {
@@ -24,7 +25,7 @@ entity "Customer" {
  +updatedAt: LocalDateTime
  
  +of(person: Person, address: Address): Customer
- +toDto(): CustomerResponseDto
+ +toDTO(): CustomerResponseDTO
 }
 
 entity "Doctor" {
@@ -38,7 +39,7 @@ entity "Doctor" {
  +of(person: Person, medicalLicenseNumber: MedicalLicenseNumber): Doctor
  +markAsTerminated()
  +markAsRehired()
- +toDto(): DoctorResponseDto
+ +toDTO(): DoctorResponseDTO
 }
 
 entity "MedicalSlot" {
@@ -51,7 +52,7 @@ entity "MedicalSlot" {
   +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
   +markAsCanceled(): Unit
   +markAsCompleted(): Unit
-  +toDto(): MedicalSlotResponseDto
+  +toDTO(): MedicalSlotResponseDTO
 }
 
 entity "MedicalAppointment" {
@@ -66,7 +67,7 @@ entity "MedicalAppointment" {
   +of(doctor: Doctor, availableAt: LocalDateTime): MedicalSlot
   +markAsCanceled(): Unit
   +markAsCompleted(): Unit
-  +toDto(): MedicalAppointmentResponseDto
+  +toDTO(): MedicalAppointmentResponseDTO
 }
 
 Customer ||--|| Person

@@ -3,16 +3,16 @@
 skinparam defaultFontSize 50
 
 participant "Client"
-participant "PersonRegistrationDto" as registrationDto
+participant "PersonRegistrationDTO" as registrationDTO
 participant "PersonRegistrationService" as registrationService
 participant "Customer" as entity
 participant "Repository" as repository
-participant "ResponseDto" as responseDto
+participant "ResponseDTO" as responseDTO
 participant "ResponseEntity"
 
-Client -> ResponseEntity: HTTP 1.1 POST /api/v2/customers (with registrationDto)
+Client -> ResponseEntity: HTTP 1.1 POST /api/v2/customers (with registrationDTO)
 
-registrationDto -> registrationService: transfer validated input
+registrationDTO -> registrationService: transfer validated input
 
 alt SSN and email are unique
 
@@ -22,17 +22,17 @@ registrationService -> entity: save(Person)
 
 entity <-- repository: save(Customer)
 
-entity -> responseDto: toDto(Customer)
+entity -> responseDTO: toDTO(Customer)
 
-responseDto -> ResponseEntity: wrapWith201(dto)
+responseDTO -> ResponseEntity: wrapWith201(DTO)
 
-Client <-- ResponseEntity: HTTP 1.1 201 CREATED + CustomerResponseDto
+Client <-- ResponseEntity: HTTP 1.1 201 CREATED + CustomerResponseDTO
 
 else SSN is duplicated
 
 registrationService <-- repository: SSN is duplicated
 
-registrationService -> ResponseEntity: wrapWith409(dto)
+registrationService -> ResponseEntity: wrapWith409(DTO)
 
 Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
 
@@ -40,7 +40,7 @@ else email is duplicated
 
 registrationService <-- repository: email is duplicated
 
-registrationService -> ResponseEntity: wrapWith409(dto)
+registrationService -> ResponseEntity: wrapWith409(DTO)
 
 Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
 

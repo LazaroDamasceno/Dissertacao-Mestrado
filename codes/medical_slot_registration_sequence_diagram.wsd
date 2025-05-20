@@ -7,7 +7,7 @@ participant "Input"
 participant "DoctorFinder" as finder
 participant "MedicalSlot" as ms 
 participant "Repository" as repository
-participant "ResponseDto" as responseDto
+participant "ResponseDTO" as responseDTO
 participant "ResponseEntity"
 
 Client -> ResponseEntity: HTTP 1.1 POST /api/v2/medical_slots/{license_number}/{state}/{available_at}
@@ -28,9 +28,9 @@ ms -> repository: create MedicalSlot
 
 ms <-- repository: save(MedicalSlot)
 
-ms -> responseDto: toDto(MedicalSlot)
+ms -> responseDTO: toDTO(MedicalSlot)
 
-responseDto -> ResponseEntity: wrapWith201(dto)
+responseDTO -> ResponseEntity: wrapWith201(DTO)
 
 Client <-- ResponseEntity: HTTP 1.1 201 CREATED + MedicalSlotRepository
 

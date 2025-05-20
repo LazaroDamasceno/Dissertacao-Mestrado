@@ -3,16 +3,16 @@
 skinparam defaultFontSize 58
 
 participant "Client"
-participant "PersonRegistrationDto" as registrationDto
+participant "PersonRegistrationDTO" as registrationDTO
 participant "PersonRegistrationService" as registrationService
 participant "Doctor" as entity
 participant "Repository" as repository
-participant "ResponseDto" as responseDto
+participant "ResponseDTO" as responseDTO
 participant "ResponseEntity"
 
-Client -> ResponseEntity: HTTP 1.1 POST /api/v2/doctors (with registrationDto)
+Client -> ResponseEntity: HTTP 1.1 POST /api/v2/doctors (with registrationDTO)
 
-registrationDto -> registrationService: transfer validated input
+registrationDTO -> registrationService: transfer validated input
 
 alt SSN and email and medical license number are unique
 
@@ -22,25 +22,25 @@ registrationService -> entity: save(Person)
 
 entity <-- repository: save(Doctor)
 
-entity -> responseDto: toDto(Doctor)
+entity -> responseDTO: toDTO(Doctor)
 
-responseDto -> ResponseEntity: wrapWith201(dto)
+responseDTO -> ResponseEntity: wrapWith201(DTO)
 
-Client <-- ResponseEntity: HTTP 1.1 201 CREATED + DoctorResponseDto
+Client <-- ResponseEntity: HTTP 1.1 201 CREATED + DoctorResponseDTO
 
 else SSN is duplicated
 
 registrationService <-- repository: SSN is duplicated
 
-registrationService -> ResponseEntity: wrapWith409(dto)
+registrationService -> ResponseEntity: wrapWith409(DTO)
 
-Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT + DoctorResponseDto
+Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT + DoctorResponseDTO
 
 else email is duplicated
 
 registrationService <-- repository: email is duplicated
 
-registrationService -> ResponseEntity: wrapWith409(dto)
+registrationService -> ResponseEntity: wrapWith409(DTO)
 
 Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
 
@@ -48,7 +48,7 @@ else medical license number is duplicated
 
 registrationService <-- repository: medical license number is duplicated
 
-registrationService -> ResponseEntity: wrapWith409(dto)
+registrationService -> ResponseEntity: wrapWith409(DTO)
 
 Client <-- ResponseEntity: HTTP 1.1 409 CONFLICT
 
