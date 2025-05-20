@@ -423,13 +423,13 @@ common features whose attributes represent real-world data. In order to exemplif
     \\ \footnotesize Source: Author's creation
 \end{figure}
 
-As demonstrated by the figure \ref{fig:person_class}, the class was used to create the Java model presented in the figure \ref{fig:kotlin_person_model}, that will be persisted into a MongoDB document. 
+As demonstrated by the figure \ref{fig:person_class}, the class was used to create the Java model presented in the figure \ref{fig:java_person_model}, that will be persisted into a MongoDB document. 
 
 \begin{figure}[H]
 	\centering
 	\caption{Java Model of Person}
 	\includegraphics[width=1\linewidth]{figures/api/java_person_model.png}
-	\label{fig:kotlin_person_model}
+	\label{fig:java_person_model}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
@@ -465,7 +465,7 @@ One example is: the module \textit{people} has as sub-module \textit{services}, 
 \begin{figure}[H]
     \centering
     \caption{Person Registration Service Implementation}
-    \includegraphics[width=0.87\linewidth]{figures/person_registration_service_impl.png}
+    \includegraphics[width=0.87\linewidth]{figures/http/customer_registration_service_impl.png}
     \label{fig:person_registration_service_impl}
     \\ \footnotesize Source: Author's creation
 \end{figure}
@@ -778,38 +778,25 @@ and \ref{fig:medical_slot_unsuccessful_registration_not_found_doctor}. The first
 
 \begin{figure}[H]
     \centering
-    \caption{Example of a Medical Slot Successful Registration Testing Method}
-    \includegraphics[width=1\linewidth]{figures/medical_slot_successful_registration_example.png}
+    \caption{Example of a Customer Successful Registration Testing Method}
+    \includegraphics[width=1\linewidth]{figures/tests/customer_successful_registration_example.png}
     \footnotesize Source: Author's creation.
-    \label{fig:medical_slot_successful_registration_example}
+    \label{fig:customer_successful_registration_example}
 \end{figure}
 
-The method of the \ref{fig:medical_slot_successful_registration_example} returns the \hyperref[tab:summary_http_status_codes]{status code 201}. In contrast with this method, there is the figure \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime}.
+The method of the figure \ref{fig:customer_successful_registration_example} returns the \hyperref[tab:summary_http_status_codes]{status code 201}. In contrast with this method, there is the figure \ref{fig:customer_unsuccessful_registration_duplicated_sin}.
 
 \begin{figure}[H]
     \centering
-    \caption{Example of a Medical Slot Unsuccessful Registration Testing Method - Duplicated Booking Date And Time}
-    \includegraphics[width=1\linewidth]{figures/medical_slot_unsuccessful_registration_duplicated_datetime.PNG}
+    \caption{Example of Customer Unsuccessful Registration Testing Method - Duplicated SIN}
+    \includegraphics[width=1\linewidth]{figures/tests/customer_unsuccessful_registration_duplicated_sin.PNG}
     \footnotesize Source: Author's creation.
-    \label{fig:medical_slot_unsuccessful_registration_duplicated_datetime}
+    \label{fig:customer_unsuccessful_registration_duplicated_sin}
 \end{figure}
 
 The figure \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime} illustrates an unsuccessful-oriented testing method that blocks a medical slot due to a booking date and time that is in use in an active medical slot. The method of the figure \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime} returns the \hyperref[tab:summary_http_status_codes]{status code 409}.
 
-Similarly to figure \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime}, the figure \ref{fig:medical_slot_unsuccessful_registration_not_found_doctor} verifies if the provided medical license number does not exist. 
 
-\begin{figure}[H]
-    \centering
-    \caption{Example of a Medical Slot Unsuccessful Registration Testing Method - Doctor Not Found}
-    \includegraphics[width=1\linewidth]{figures/medical_slot_unsuccessful_registration_not_found_doctor.png}
-    \footnotesize Source: Author's creation.
-    \label{fig:medical_slot_unsuccessful_registration_not_found_doctor}
-\end{figure}
-
-The method of the figure \ref{fig:medical_slot_unsuccessful_registration_not_found_doctor} returns the \hyperref[tab:summary_http_status_codes]{status code 404}.
-
-Considering all the figures \ref{fig:medical_slot_successful_registration_example},
-\ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime},
-\ref{fig:medical_slot_unsuccessful_registration_not_found_doctor}, the methods illustrated inside them all have in common the annotations \textit{@Order} and \textit{@Test} and an instance of the framework \textit{WebTestClient}. They are all using the annotations mentioned in the table \ref{table:integration_tests_annotations}. 
+Considering all the figures \ref{fig:medical_slot_successful_registration_example}, \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime}, the methods illustrated inside them all have in common the annotations \textit{@Order} and \textit{@Test} and an instance of the framework \textit{WebTestClient}. They are all using the annotations mentioned in the table \ref{table:integration_tests_annotations}. 
 
 Finally, the use of the mentioned annotations created the perfect and functional environment for integration tests. As an example, the annotation \textit{@SpringBootTest} can select a random port to avoid the use of the standard port (e.g., \textit{8080:8080}). This prevents the API from having unexpected behaviors that interrupt the application ungracefully. Similar to the previous explanation, the annotation \textit{@Order} derives from the annotation \textit{@TestMethodOrder} that enables its ordering ability of setting the execution order of the test methods. One benefit of setting the execution order is barring occurrences when the successful-oriented method is executed after one of the unsuccessful-oriented ones, which blurs the test's result, if the tester is not aware of such an error.
