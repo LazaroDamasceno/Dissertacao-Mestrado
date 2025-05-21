@@ -1,0 +1,46 @@
+@startuml
+
+skinparam backgroundColor #f4f4f9
+skinparam componentStyle uml2
+skinparam defaultFontSize 45
+left to right direction
+
+package "Nurse Module" {
+
+    package "Data Context" {
+        component "NurseController" <<controller>> #lightblue
+        component "NurseCrudRepository" <<repository>> #lightgreen
+        component "NurseAuditRepository" <<repository>> #lightgreen
+    }
+
+    package "Registration Context" {
+        interface "NurseRegistrationService" <<interface>> #lightyellow
+        component "NurseRegistrationServiceImpl" #lightcoral
+
+        NurseRegistrationServiceImpl ..|> NurseRegistrationService
+        NurseRegistrationServiceImpl --> NurseCrudRepository
+        NurseRegistrationServiceImpl --> NurseController
+    }
+
+    package "Management Context" {
+        interface "NurseManagementService" <<interface>> #lightyellow
+        component "NurseManagementServiceImpl" #lightcoral
+
+        NurseManagementServiceImpl ..|> NurseManagementService
+        NurseManagementServiceImpl --> NurseCrudRepository
+        NurseManagementServiceImpl --> NurseAuditRepository
+        NurseManagementServiceImpl --> NurseController
+    }
+
+    package "Retrieval Context" {
+        interface "NurseRetrievalService" <<interface>> #lightyellow
+        component "NurseRetrievalServiceImpl" #lightcoral
+
+        NurseRetrievalServiceImpl ..|> NurseRetrievalService
+        NurseRetrievalServiceImpl --> NurseCrudRepository
+        NurseRetrievalServiceImpl --> NurseController
+    }
+
+}
+
+@enduml

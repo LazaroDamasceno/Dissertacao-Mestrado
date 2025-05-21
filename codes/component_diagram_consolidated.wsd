@@ -1,34 +1,40 @@
-@startuml
+@startuml component_diagram
 
 left to right direction
 
 package "Person Module" {
-    component "Registration Context"
-    component "PersonUpdate Context"
+    [Person Registration Context]
+    [Person Update Context]
 }
 
 package "Customer Module" {
-    component "Registration Context"
-    component "Update Context"
-    component "Retrieval Context"
+    [Customer Registration Context]
+    [Customer Update Context]
+    [Customer Retrieval Context]
 }
 
 package "Doctor Module" {
-    component "Registration Context"
-    component "Management Context"
-    component "Retrieval Context"
+    [Doctor Registration Context]
+    [Doctor Management Context]
+    [Doctor Retrieval Context]
+}
+
+package "Nurse Module" {
+    [Nurse Registration Context]
+    [Nurse Managemen tContext]
+    [Nurse Retrieval Context]
 }
 
 package "Medical Slot Module" {
-    component "Registration Context"
-    component "Management Context"
-    component "Retrieval Context"
+    [Slot Registration Context]
+    [Slot Management Context]
+    [Slot Retrieval Context]
 }
 
 package "Medical Appointment Module" {
-    component "Registration Context"
-    component "Management Context"
-    component "Retrieval Context"
+    [Appointment Registration Context]
+    [Appointment Management Context]
+    [Appointment Retrieval Context]
 }
 
 @enduml

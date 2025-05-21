@@ -10,7 +10,7 @@ This chapter establishes the foundational knowledge required for a comprehensive
     \item HTTP Semantics: Explores the principles of HTTP as a stateless protocol, covering request-response models, status codes, 
     methods, and their relevance to API testing.
     \item Application Programming Interface: Introduces the design and architecture of the Medical Appointments Management API, 
-    including \hyperref[appendix:glossary]{UML} class diagrams, modular monolith structure, and domain functionalities.
+    including \hyperref[appendix:glossaryContext]{UML} class diagrams, modular monolith structure, and domain functionalities.
     \item Automated Software Testing: A critical component of software quality, consuming significant project time. It identifies issues, ensures system functionality, and meets user needs. Good tests cover diverse scenarios, prevent future problems, and are supported by tools for efficient execution. Types include manual and automated testing (e.g., unit and integration tests).
 \end{enumerate}
 
@@ -23,15 +23,15 @@ and testing of the API.
 Databases are an organized collection of data that enables the handling of large-scale datasets by inputting, storing, retrieving, 
 and managing them. A database management system is defined as software that provides the interface between users and a database \cite{birgen2014sql}.
 
-The \hyperref[appendix:glossary]{DBMS} has the responsibility of maintaining the integrity and security of the stored data. Furthermore, databases can be categorized into different criteria: i.e., when a database relies on tables to organize data, it is labeled as a \textit{relational}. Otherwise, when the database does not rely on tables, it is labeled as \textit{non-relational}. Besides, it is worth highlighting that non-relational databases are also 
+The \hyperref[appendix:glossaryContext]{DBMS} has the responsibility of maintaining the integrity and security of the stored data. Furthermore, databases can be categorized into different criteria: i.e., when a database relies on tables to organize data, it is labeled as a \textit{relational}. Otherwise, when the database does not rely on tables, it is labeled as \textit{non-relational}. Besides, it is worth highlighting that non-relational databases are also 
 known as \textit{NoSQL databases} \cite{birgen2014sql, jatana2012survey}.
 
-For instance, \hyperref[appendix:glossary]{DBMS} relies on structured data organization using tables, schemata, columns, rows, primary keys, and foreign keys. 
+For instance, \hyperref[appendix:glossaryContext]{DBMS} relies on structured data organization using tables, schemata, columns, rows, primary keys, and foreign keys. 
 Foreign keys are essential for establishing one-to-one, one-to-many, and many-to-many  relationships between entities \cite{bhat2010moving}.
 
-The rigid data structure of \hyperref[appendix:glossary]{DBMS} often encounters scalability challenges with increasing data volumes and transaction loads, as included in the Table \ref{rdbms_challenges}: 
+The rigid data structure of \hyperref[appendix:glossaryContext]{DBMS} often encounters scalability challenges with increasing data volumes and transaction loads, as included in the Table \ref{rdbms_challenges}: 
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{Relational Database Scalability Challenges}
 \label{rdbms_challenges}
@@ -50,23 +50,23 @@ Dual design needs (operational vs analytical) & \\
 These constraints underscore why NoSQL databases excel in handling large datasets where relational models falter, particularly for 
 handling large datasets where a rigid relational model can impede performance \cite{moniruzzaman2013nosqldatabasenewera}.
 
-Consequently, NoSQL databases are crucial for Big Data applications, enabling efficient storage and retrieval of massive datasets. Unlike \hyperref[appendix:glossary]{DBMS}, which complies with \hyperref[appendix:glossary]{ACID} (Atomicity, Consistency, Isolation, and Durability) properties,  NoSQL databases typically prioritize \hyperref[appendix:glossary]{BASE} (Basically Available, Soft State, and Eventual Consistency)  principles \cite{carronosql}.
+Consequently, NoSQL databases are crucial for Big Data applications, enabling efficient storage and retrieval of massive datasets. Unlike \hyperref[appendix:glossaryContext]{DBMS}, which complies with \hyperref[appendix:glossaryContext]{ACID} (Atomicity, Consistency, Isolation, and Durability) properties,  NoSQL databases typically prioritize \hyperref[appendix:glossaryContext]{BASE} (Basically Available, Soft State, and Eventual Consistency)  principles \cite{carronosql}.
 
-\hyperref[appendix:glossary]{BASE} derives from the \hyperref[appendix:glossary]{CAP} (Consistency, Availability, Partition-tolerance) theorem. Due to the partial use of the theorem by selecting two of the three principles from the theorem, many NoSQL databases have relaxed the requirements to match their own needs on the consistency principle in order to achieve better availability and partitioning,  which resulted in the creation of \hyperref[appendix:glossary]{BASE} \cite{padhy2011rdbms}.
+\hyperref[appendix:glossaryContext]{BASE} derives from the \hyperref[appendix:glossaryContext]{CAP} (Consistency, Availability, Partition-tolerance) theorem. Due to the partial use of the theorem by selecting two of the three principles from the theorem, many NoSQL databases have relaxed the requirements to match their own needs on the consistency principle in order to achieve better availability and partitioning,  which resulted in the creation of \hyperref[appendix:glossaryContext]{BASE} \cite{padhy2011rdbms}.
 
-Scalability in distributed systems is closely tied to the \hyperref[appendix:glossary]{CAP} theorem and the \hyperref[appendix:glossary]{BASE} model. By prioritizing availability and partition tolerance over strict consistency, as facilitated by \hyperref[appendix:glossary]{BASE} principles, NoSQL databases enhance their ability to scale. This trade-off allows for efficient data distribution and workload management across multiple nodes, crucial for handling the demands of modern, large-scale applications \cite{brewer2012cap}.
+Scalability in distributed systems is closely tied to the \hyperref[appendix:glossaryContext]{CAP} theorem and the \hyperref[appendix:glossaryContext]{BASE} model. By prioritizing availability and partition tolerance over strict consistency, as facilitated by \hyperref[appendix:glossaryContext]{BASE} principles, NoSQL databases enhance their ability to scale. This trade-off allows for efficient data distribution and workload management across multiple nodes, crucial for handling the demands of modern, large-scale applications \cite{brewer2012cap}.
 
 Turning to scalability, it refers to an architecture's capacity to handle a growing number of components and interactions. This capacity is influenced by factors such as interaction frequency, load distribution (uniform vs. peak), delivery guarantees (assured vs. best-effort), request handling (synchronous vs. asynchronous), and environmental control (controlled vs. anarchic) \cite{fielding2000thesis}.
 
-A key advantage of NoSQL's scalability is its ability to scale both vertically and horizontally. As another advantage, NoSQL databases are more suitable to store data across a cloud of servers. \cite{mason2015nosql, padhy2011rdbms} states that vertical scalability is done by adding resources to a single server. Horizontal scalability is achieved by distributing data across multiple servers. The dual scalability overcomes the vertical scalability limitations of traditional \hyperref[appendix:glossary]{SQL} databases.
+A key advantage of NoSQL's scalability is its ability to scale both vertically and horizontally. As another advantage, NoSQL databases are more suitable to store data across a cloud of servers. \cite{mason2015nosql, padhy2011rdbms} states that vertical scalability is done by adding resources to a single server. Horizontal scalability is achieved by distributing data across multiple servers. The dual scalability overcomes the vertical scalability limitations of traditional \hyperref[appendix:glossaryContext]{SQL} databases.
 
-In contrast with NoSQL's scalability, traditional \hyperref[appendix:glossary]{DBMS} scalability often involves expensive vertical scaling. The traditional \hyperref[appendix:glossary]{RDBMS} scalability is done by adding memory and CPU to servers. The adoption of NoSQL databases was largely driven by the high costs associated with scaling \hyperref[appendix:glossary]{DBMS} for large-scale data processing \cite{mason2015nosql, mohan2013history}.
+In contrast with NoSQL's scalability, traditional \hyperref[appendix:glossaryContext]{DBMS} scalability often involves expensive vertical scaling. The traditional \hyperref[appendix:glossaryContext]{RDBMS} scalability is done by adding memory and CPU to servers. The adoption of NoSQL databases was largely driven by the high costs associated with scaling \hyperref[appendix:glossaryContext]{DBMS} for large-scale data processing \cite{mason2015nosql, mohan2013history}.
 
-As a consequence of the unaffordable costs associated with scaling \hyperref[appendix:glossary]{DBMS} for large-scale data processing, the cost-effectiveness and performance gains of NoSQL databases are primarily attributed to their distributed architecture, which utilizes inexpensive commodity servers \cite{mohan2013history}.
+As a consequence of the unaffordable costs associated with scaling \hyperref[appendix:glossaryContext]{DBMS} for large-scale data processing, the cost-effectiveness and performance gains of NoSQL databases are primarily attributed to their distributed architecture, which utilizes inexpensive commodity servers \cite{mohan2013history}.
 
 Building on these principles, NoSQL databases are categorized into the following types, as mentioned in the Table \ref{nosql_database_types}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{NoSQL Database Types}
 \label{nosql_database_types}
@@ -93,22 +93,22 @@ Multi-model databases &  \\
 Among these categories, key-value stores—the simplest NoSQL type—universally support insertion, deletion, and lookup operations while enabling scalability through distributed key management. Notably, document stores extend this model by encoding values as semi-structured documents (e.g., JSON or BSON), offering schema flexibility that allows runtime modifications
  \cite{abramova2014nosql, cattell2011scalable, davoudianchenliu2018}.
 
-For instance, MongoDB is a prominent example of a document store NoSQL database. Document stores, like MongoDB, organize data in a hierarchical structure similar to \hyperref[appendix:glossary]{XML} documents \cite{agrawal2015survey, mason2015nosql}.
+For instance, MongoDB is a prominent example of a document store NoSQL database. Document stores, like MongoDB, organize data in a hierarchical structure similar to \hyperref[appendix:glossaryContext]{XML} documents \cite{agrawal2015survey, mason2015nosql}.
 
-The figures \ref{fig:xml} and \ref{fig:mongodb} contain, respectively, examples of an \hyperref[appendix:glossary]{XML} and a MongoDB document.
+The figures \ref{fig:xml} and \ref{fig:mongodb} contain, respectively, examples of an \hyperref[appendix:glossaryContext]{XML} and a MongoDB document.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Example of XML Document}
-    \includegraphics[width=1\linewidth]{figures/db/xml.png}
+    \includegraphics[width=1\linewidthContext]{figures/db/xml.png}
     \label{fig:xml}
     \footnotesize Source: Author's creation.
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Example of MongoDB Document}
-    \includegraphics[width=1\linewidth]{figures/db/mongodb.png}
+    \includegraphics[width=1\linewidthContext]{figures/db/mongodb.png}
     \label{fig:mongodb}
     \footnotesize Source: Author's creation.
 \end{figure}
@@ -116,7 +116,7 @@ The figures \ref{fig:xml} and \ref{fig:mongodb} contain, respectively, examples 
 It is noticeable the key-value structure in the shape of tags in figure \ref{fig:xml}. Such structure resembles the way the data  is organized in figure \ref{fig:mongodb}. Furthermore, there's a notable hierarchical structure in both figures.  As illustrated in figure \ref{fig:mongodb}, the embedded \textit{doctor} object that contains the embedded \textit{person} 
  and \textit{medicalLicenseNumber} objects within a single document demonstrates MongoDB's schema flexibility,  contrasting with the relational model's reliance on foreign key setting relationships. Notably, MongoDB has some key strengths and weaknesses described in the Table \ref{mongodb_strenghts_weaknesses}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{MongoDB Strengths and Weaknesses}
 \label{mongodb_strenghts_weaknesses}
@@ -140,7 +140,7 @@ No requirement for a predefined model or structure for data storage & \\
 
 Additionally to what was mentioned in the Table \ref{mongodb_strenghts_weaknesses}, document store databases offer schema flexibility, allowing documents within a collection to have varying local schemata. While this flexibility supports agile development, it requires careful data management to prevent inconsistencies due to the absence of enforced schema constraints \cite{gallinucci2018schema}. JSON is a lightweight data-interchange format whose strengths are described in the Table \ref{json-characteristics}: 
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{JSON Characteristics}
 \label{json-characteristics}
@@ -163,17 +163,17 @@ Simple data interchange format & Supports ordered lists of values \\
 The figure \ref{fig:json} provides an example of a JSON document that illustrates the straightforward readability, 
 familiar C-language conventions, and straightforward name-value pair format.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
      \centering
      \caption{Example of JSON Document}
-     \includegraphics[width=1\linewidth]{figures/db/json.png}
+     \includegraphics[width=1\linewidthContext]{figures/db/json.png}
      \label{fig:json}
      \footnotesize Source: Author's creation
 \end{figure}
 
 As displayed in the figure \ref{fig:json}, the structure of the JSON is unambiguous. The use of curly and square brackets to delimit where the JSON commences and finishes is a clear manner of organization. \cite{chasseur2013enabling} highlights that the format is used by MongoDB to store collections of JSON objects in lieu of relational tables, and JSON is used as the primary data format to interact with applications.
 
-For instance, even though there is a resemblance between JSON and \hyperref[appendix:glossary]{XML}, and even their shared hierarchical semi-structured data model, JSON is indeed the replacement of \hyperref[appendix:glossary]{XML} due to JSON's simplicity, compactness, and the use of JS as the mapping language used to map data \cite{chasseur2013enabling}.
+For instance, even though there is a resemblance between JSON and \hyperref[appendix:glossaryContext]{XML}, and even their shared hierarchical semi-structured data model, JSON is indeed the replacement of \hyperref[appendix:glossaryContext]{XML} due to JSON's simplicity, compactness, and the use of JS as the mapping language used to map data \cite{chasseur2013enabling}.
  
  As a consequence of a good product, BSON was created to suit the need of traversability of MongoDB in its primary data representation. Similar to JSON, BSON is lightweight, efficient, a binary-encoded serialization of JSON-like documents that supports embedding documents and arrays. Due to MongoDB's adoption of an extended key-value store, BSON holds data in a binary format in which zero or more ordered key/value pairs are stored as a single document \cite{bsonspecimplementation2025, bsonspec2025, bsonspecversion112025, davoudianchenliu2018}. 
  
@@ -202,18 +202,18 @@ The server performs the following steps mentioned in the list below, as evidence
 Once these steps are completed, the client evaluates the response’s status code to verify successful execution and determines subsequent actions, 
 as defined by HTTP semantics \cite{rfc9110}.
 
-Moreover, in order to identify resources across HTTP, \hyperref[appendix:glossary]{URI} references are used to target requests, indicate redirects, and define relationships.
-Despite any regulation issued by \hyperref[appendix:glossary]{IANA}\footnote{\href{https://www.iana.org/about}{See about IANA.}}, 
+Moreover, in order to identify resources across HTTP, \hyperref[appendix:glossaryContext]{URI} references are used to target requests, indicate redirects, and define relationships.
+Despite any regulation issued by \hyperref[appendix:glossaryContext]{IANA}\footnote{\href{https://www.iana.org/about}{See about IANA.}}, 
 the HTTP server has two inherent schemes, as demonstrated by the Table \ref{tab:http-server-schemes}: 
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{HTTP server schemes}
 \label{tab:http-server-schemes}
 \begin{tabular}{lll}
 \textbf{Scheme} & \textbf{Full Name} & \textbf{Example} \\ \hline
-http & Hypertext Transfer Protocol & "http" "://" authority path-abempty {[} "?" query {]} \\ \hline
-https & Hypertext Transfer Protocol  Secure & "https" "://" authority path-abempty {[} "?" query {]} \\ \hline
+http & Hypertext Transfer Protocol & "http" "://" authority path-abempty {[} "?" query {Context]} \\ \hline
+https & Hypertext Transfer Protocol  Secure & "https" "://" authority path-abempty {[} "?" query {Context]} \\ \hline
 \end{tabular}
 \\ \footnotesize Source: Adapated from \cite{rfc9110}.
 \end{table}
@@ -225,7 +225,7 @@ categorizes the response's class \cite{rfc9110}.
 
 Thus, the status codes are divided into 5 categories, as shown below in the Table \ref{tab:http-status-codes-simplified}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering 
 \caption{HTTP Status Codes}
 \label{tab:http-status-codes-simplified}
@@ -244,7 +244,7 @@ A more granular detailing of all status codes is described in the Appendix \ref{
 
 Furthermore, HTTP uses standardized request methods, independent of specific resources, for uniform network interactions.While the method's meaning remains consistent, resource implementation varies. The Table \ref{tab:http-methods} explains what each HTTP method does.
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{HTTP Methods}
 \label{tab:http-methods}
@@ -264,40 +264,40 @@ TRACE & Perform a message loop-back test along the path to the target resource. 
 
 In order to complement the table above and the function of the status codes (Table \ref{tab:http-status-codes}) of displaying the response's status to the client, the HTTP methods indicate the action expected from the execution of the request made by the client. Thus, below is an example of a resource that requests the registration of a doctor in the figure \ref{fig:http-request} and the service class that supports it in the figure \ref{fig:customer_registration_service_impl}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \caption{Example of a HTTP request and response}
     \centering
-    \includegraphics[width=1\linewidth]{figures/http/http_request_response.png}
+    \includegraphics[width=1\linewidthContext]{figures/http/http_request_response.png}
     \label{fig:http-request}
     \footnotesize Source: Author's creation
 \end{figure}
 
- \begin{figure}[H]
+ \begin{figure}[HContext]
     \centering
     \caption{Example of a Registration Service}
-    \includegraphics[width=0.83\linewidth]{figures/http/customer_registration_service_impl.png}
+    \includegraphics[width=0.83\linewidthContext]{figures/http/customer_registration_service_impl.png}
     \label{fig:customer_registration_service_impl}
     \\ \footnotesize Source: Author's creation.
 \end{figure}
 
-As exposed by the figure \ref{fig:http-request}, the POST method was used alongside the \hyperref[appendix:glossary]{URI} that was mentioned in the given figure. It follows the structure presented by the Table \ref{tab:http-server-schemes}, especially the \textbf{http}'s scheme. The service's code shown by the figure \ref{fig:customer_registration_service_impl} demonstrates the resource returns the \hyperref[tab:summary_http_status_codes]{status code 201}. 
+As exposed by the figure \ref{fig:http-request}, the POST method was used alongside the \hyperref[appendix:glossaryContext]{URI} that was mentioned in the given figure. It follows the structure presented by the Table \ref{tab:http-server-schemes}, especially the \textbf{http}'s scheme. The service's code shown by the figure \ref{fig:customer_registration_service_impl} demonstrates the resource returns the \hyperref[tab:summary_http_status_codesContext]{status code 201}. 
 
-The figure \ref{fig:http_header} illustrates the header cited in the \href{https://www.rfc-editor.org/rfc/rfc9110.html#name-post}{subsection 9.3.3} of the \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}.
+The figure \ref{fig:http_header} illustrates the header cited in the \href{https://www.rfc-editor.org/rfc/rfc9110.html#name-post}{subsection 9.3.3} of the \hyperref[appendix:glossaryContext]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Example of a Header}
-	\includegraphics[width=0.9\linewidth]{figures/http/http_header.png}
+	\includegraphics[width=0.9\linewidthContext]{figures/http/http_header.png}
 	\label{fig:http_header}
 	\\ \footnotesize Source: Author's creation.
 \end{figure}
 
-Moreover, the content in the figure \ref{fig:http_header}, there is a header location that can be used as an identifier for a specific resource corresponding to the representation in this message's content, as determined by \cite{rfc9110}. Therefore, this decision is aligned with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}, especially in the \href{https://www.rfc-editor.org/rfc/rfc9110.html#name-post}{subsection 9.3.3}, as determined by \cite{rfc9110}, which emphasizes that the POST method is supposed to work with the \hyperref[tab:summary_http_status_codes]{status code 201} when the operation is successful.
+Moreover, the content in the figure \ref{fig:http_header}, there is a header location that can be used as an identifier for a specific resource corresponding to the representation in this message's content, as determined by \cite{rfc9110}. Therefore, this decision is aligned with \hyperref[appendix:glossaryContext]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}, especially in the \href{https://www.rfc-editor.org/rfc/rfc9110.html#name-post}{subsection 9.3.3}, as determined by \cite{rfc9110}, which emphasizes that the POST method is supposed to work with the \hyperref[tab:summary_http_status_codesContext]{status code 201} when the operation is successful.
 
 Finally, in relation to automated software testing, the integration tests are going to behave as stated in the
 Table \ref{tab:related-statuses-methods}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering  
 \caption{HTTP Method Status Code Outcomes}   
 \label{tab:related-statuses-methods}    
@@ -313,24 +313,24 @@ DELETE & 204 & 404 \\ \hline
 \\ \footnotesize Source: Adapated from \cite{rfc9110}.
 \end{table}
 
-In the case of an integration test whose methods are PUT or PATCH, preference shall be given to the status code \hyperref[tab:summary_http_status_codes]{204}; 
-unless \hyperref[appendix:glossary]{HATEOAS} is inserted into the resource's response, the chosen status code is \hyperref[tab:summary_http_status_codes]{200}. Therefore, the figure \ref{fig:http-methods-intenteded-content} displays the intended meaning of the content.
+In the case of an integration test whose methods are PUT or PATCH, preference shall be given to the status code \hyperref[tab:summary_http_status_codesContext]{204}; 
+unless \hyperref[appendix:glossaryContext]{HATEOAS} is inserted into the resource's response, the chosen status code is \hyperref[tab:summary_http_status_codesContext]{200}. Therefore, the figure \ref{fig:http-methods-intenteded-content} displays the intended meaning of the content.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{HTTP Methods's Intended Content Meaning}
-    \includegraphics[width=1\linewidth]{figures/http/http_200_response_analyses.png}
+    \includegraphics[width=1\linewidthContext]{figures/http/http_200_response_analyses.png}
     \label{fig:http-methods-intenteded-content}
     \footnotesize Souce: \cite{rfc9110}.
 \end{figure}
 
 As illustrated in figure \ref{fig:http-methods-intenteded-content}, the GET and POST methods are the only HTTP methods whose response content directly represents the target resource. In contrast, methods like PUT and DELETE primarily focus on conveying the status of the action rather than resource content. Meanwhile, OPTIONS and TRACE do not concern themselves with either the target resource or the status code in the same way. The HEAD method is similar to GET in that its metadata describes the target resource, but it intentionally omits the actual content transfer.
 
-Given these distinctions, GET and POST are the most suitable choices for \hyperref[appendix:glossary]{HATEOAS} implementations, as they align with the principles outlined in \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}. While developers technically have the flexibility to use any HTTP method in \hyperref[appendix:glossary]{HATEOAS}, adhering to the standard ensures consistency, interoperability, and compliance with \hyperref[appendix:glossary]{RESTful} design best practices.
+Given these distinctions, GET and POST are the most suitable choices for \hyperref[appendix:glossaryContext]{HATEOAS} implementations, as they align with the principles outlined in \hyperref[appendix:glossaryContext]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110}. While developers technically have the flexibility to use any HTTP method in \hyperref[appendix:glossaryContext]{HATEOAS}, adhering to the standard ensures consistency, interoperability, and compliance with \hyperref[appendix:glossaryContext]{RESTful} design best practices.
 
 Additionally, proper use of HTTP status codes is critical for clear API semantics, as displayed by the Table \ref{http_error_codes}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{HTTP Status Code Semantics for Error Handling}
 \label{http_error_codes}
@@ -346,20 +346,20 @@ Additionally, proper use of HTTP status codes is critical for clear API semantic
 \\ \footnotesize Source: Adapated from \cite{rfc9110}.
 \end{table}
 
-It is evident that the \hyperref[tab:summary_http_status_codes]{status code 400} is the default behavior when failure occurs. Hence, the importance of using specific status
- codes for specific situations highlights the impactful use of the status \hyperref[appendix:http_status_codes_summary_appendix]{404} and \hyperref[appendix:http_status_codes_summary_appendix]{409}.
+It is evident that the \hyperref[tab:summary_http_status_codesContext]{status code 400} is the default behavior when failure occurs. Hence, the importance of using specific status
+ codes for specific situations highlights the impactful use of the status \hyperref[appendix:http_status_codes_summary_appendixContext]{404} and \hyperref[appendix:http_status_codes_summary_appendixContext]{409}.
 
 \subsection{Application Programming Interface}
 \label{subsection:api}
 
-\hyperref[appendix:glossary]{UML} class diagrams, as emphasized by \cite{BERARDI200570, herchi_abdessalem_2012}, provide useful pictures of the static structure, including the structure and components of each class and the relationships between classes, allowing for declarative modeling of an application's static structure in terms of concepts and their interrelations.
+\hyperref[appendix:glossaryContext]{UML} class diagrams, as emphasized by \cite{BERARDI200570, herchi_abdessalem_2012}, provide useful pictures of the static structure, including the structure and components of each class and the relationships between classes, allowing for declarative modeling of an application's static structure in terms of concepts and their interrelations.
 
 As an example of the previous idea, the figure \ref{fig:class_diagram} illustrates the relationship among the models \textbf{Person}, \textbf{Doctor}, \textbf{Customer}, \textbf{MedicalSlot}, \textbf{MedicalAppointment}, \textbf{Card} and \textbf{Payment}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \caption{Class Diagram}
     \centering
-    \includegraphics[width=1\linewidth]{figures/api/class_diagram.png}
+    \includegraphics[width=1\linewidthContext]{figures/api/class_diagram.png}
     \label{fig:class_diagram}
     \footnotesize Source: Author's creation
 \end{figure}
@@ -370,7 +370,7 @@ From the \ref{fig:class_diagram}, it is notable that both \textbf{Customer} and 
 Similar to the class diagram, the figure \ref{fig:class_diagram} displays the ERD. \cite{CAGILTAY20132184} agrees that the ERD provides an overall grasp of the data requirements, modeling, and database structures of the information system before the implementation phase. Therefore, as exposed by the figure \ref{fig:erd}, every model, except \textbf{Person} and
  \textbf{Card}, has at least one embedded model inside it, as listed below in the Table \ref{entity_relationships}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{Entity Composition Relationships}
 \label{entity_relationships}
@@ -398,42 +398,42 @@ This provides a fundamental blueprint of the system's conceptual model. The ERD,
 
 The class diagram provides the abstract, object-oriented view of the system's building blocks, while the ERD offers the concrete, data-centric perspective, detailing how these building blocks are instantiated and interconnected at the data level. This dual perspective allows for a more thorough analysis, ensuring that both the structural integrity of the system's objects and the efficient organization of its data are well-understood and effectively designed.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \caption{Entity-Relationship Diagram}
     \centering
-    \includegraphics[width=1\linewidth]{figures/api/erd.png}
+    \includegraphics[width=1\linewidthContext]{figures/api/erd.png}
     \label{fig:erd}
     \\ \footnotesize Source: Author's creation
 \end{figure}
 
-Complementary to the aforementioned paragraph, it is notable the presence of embedded objects in the classes in the figure \ref{fig:erd}, which indicates that the adopted database is likely a NoSQL database, due to the presence of objects instead of any foreign keys, which the schema flexibility permits foreign keys to be used, as discussed in the \hyperref[subsection:database]{subsection MongoDB}.
+Complementary to the aforementioned paragraph, it is notable the presence of embedded objects in the classes in the figure \ref{fig:erd}, which indicates that the adopted database is likely a NoSQL database, due to the presence of objects instead of any foreign keys, which the schema flexibility permits foreign keys to be used, as discussed in the \hyperref[subsection:databaseContext]{subsection MongoDB}.
 
 Additionally, \cite{nanthaamornphong2019extended} cites that the class diagrams are the design from which other models are derived. For this reason, APIs's models are modeled according to the class diagram. The use of class diagrams comes with the actual reflection of real-world information, as evaluated by \cite{vo2020transformation}. 
 
-Conceptually, a class of \hyperref[appendix:glossary]{UML} class diagram is, according to \cite{BERARDI200570, vo2020transformation}, a set of objects with 
-common features whose attributes represent real-world data. In order to exemplify it, the figure \ref{fig:person_class} is the \hyperref[appendix:glossary]{UML} class diagram's class that represents statically the model \textbf{Person}. 
+Conceptually, a class of \hyperref[appendix:glossaryContext]{UML} class diagram is, according to \cite{BERARDI200570, vo2020transformation}, a set of objects with 
+common features whose attributes represent real-world data. In order to exemplify it, the figure \ref{fig:person_class} is the \hyperref[appendix:glossaryContext]{UML} class diagram's class that represents statically the model \textbf{Person}. 
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \caption{Example of a UML Class Diagram's Class}
     \centering
-    \includegraphics[width=0.87\linewidth]{figures/api/person_class.png}
+    \includegraphics[width=0.87\linewidthContext]{figures/api/person_class.png}
     \label{fig:person_class}
     \\ \footnotesize Source: Author's creation
 \end{figure}
 
 As demonstrated by the figure \ref{fig:person_class}, the class was used to create the Java model presented in the figure \ref{fig:java_person_model}, that will be persisted into a MongoDB document. 
 
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Java Model of Person}
-	\includegraphics[width=1\linewidth]{figures/api/java_person_model.png}
+	\includegraphics[width=1\linewidthContext]{figures/api/java_person_model.png}
 	\label{fig:java_person_model}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
-The shift from the class diagram to a model was possible due to the precision of the modeling that the \hyperref[appendix:glossary]{UML} class diagram offers.
+The shift from the class diagram to a model was possible due to the precision of the modeling that the \hyperref[appendix:glossaryContext]{UML} class diagram offers.
 
-Moreover, the selected API for this work is the present in the \href{https://github.com/LazaroDamasceno/Reactive-Medical-Appointments-Management-API.git}{clickable link}, hereafter referred to as \textit{the API} which was developed by the author of this dissertation. It was developed using  \hyperref[appendix:glossary]{Spring Boot}, Java and WebFlux, and adopts reactive and non-blocking programming. Its domain models are defined in figure \ref{fig:class_diagram}, with their relationships illustrated in figure \ref{fig:erd}.
+Moreover, the selected API for this work is the present in the \href{https://github.com/LazaroDamasceno/Reactive-Medical-Appointments-Management-API.git}{clickable link}, hereafter referred to as \textit{the API} which was developed by the author of this dissertation. It was developed using  \hyperref[appendix:glossaryContext]{Spring Boot}, Java and WebFlux, and adopts reactive and non-blocking programming. Its domain models are defined in figure \ref{fig:class_diagram}, with their relationships illustrated in figure \ref{fig:erd}.
 
 Formally, an API is a standardized set of tools, protocols, and definitions that enable interoperability—the ability of disparate systems to communicate seamlessly despite differences in language, platform, or interface. APIs provide both an abstraction layer for system interactions and concrete implementations (e.g., packaged classes or interface types). As controlled data-sharing mechanisms, they facilitate resource reuse and multi-source integration, addressing critical needs in application development 
  and research 
@@ -452,18 +452,18 @@ Considering the explanation of Spring Modulith, the API uses Spring Modulith to 
 One example is: the module \textit{people} has as sub-module \textit{services}, that has as files the interface 
 \textit{PersonRegistrationService}, which is an interface, as illustrated in the figure \ref{fig:person_registration_service}. The class \textit{PersonRegistrationServiceImpl}, which is the implementation of an interface, is illustrated in the figure \ref{fig:person_registration_service_impl}. Hereafter, both figures shall be referred to, respectively, as \textit{the interface} and \textit{the implementation} for brevity.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Person Registration Service}
-     \includegraphics[width=1\linewidth]{figures/api/person_registration_service.png}
+     \includegraphics[width=1\linewidthContext]{figures/api/person_registration_service.png}
     \label{fig:person_registration_service}
     \footnotesize Source: Author's creation
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Person Registration Service Implementation}
-    \includegraphics[width=0.87\linewidth]{figures/api/person_registration_service_impl.png}
+    \includegraphics[width=0.87\linewidthContext]{figures/api/person_registration_service_impl.png}
     \label{fig:person_registration_service_impl}
     \\ \footnotesize Source: Author's creation
 \end{figure}
@@ -474,7 +474,7 @@ unintended access. This is achieved through the interface depicted in figure \re
 
 In summary, the API is responsible for the tasks listed in the Table \ref{api_functionalities_grouped}:
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{API Functionalities by Domain}
 \label{api_functionalities_grouped}
@@ -493,133 +493,102 @@ Payment Simulation & Card creation, appointment payment \\
 \end{table}
 
 The functionalities listed in the Table 
-\ref{api_functionalities_grouped} represent the core tasks performed by the API's service layer. These operations are visualized in the component diagram, which--as noted by \cite{rajagopal2017study}—portrays the API's component organization. \cite{bell2003uml, rajput2015uml} cite that a \hyperref[appendix:glossary]{UML} component diagram shows the physical structure of a system, illustrating software components (e.g., libraries, executables) and their dependencies. It focuses on the system's modular building blocks, not functionality, and can be viewed at different levels of detail. Multiple component diagrams are needed for complex systems, providing insights into implementation, dependencies, and modularity, aiding system construction.
+\ref{api_functionalities_grouped} represent the core tasks performed by the API's service layer. These operations are visualized in the component diagram, which--as noted by \cite{rajagopal2017study}—portrays the API's component organization. \cite{bell2003uml, rajput2015uml} cite that a \hyperref[appendix:glossaryContext]{UML} component diagram shows the physical structure of a system, illustrating software components (e.g., libraries, executables) and their dependencies. It focuses on the system's modular building blocks, not functionality, and can be viewed at different levels of detail. Multiple component diagrams are needed for complex systems, providing insights into implementation, dependencies, and modularity, aiding system construction.
 
 The consolidated component diagram is illustrated in the figure \ref{fig:component_diagram_consolidated}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
  	\caption{Consolidated Component Diagram}
-	\includegraphics[width=1\linewidth]{figures/api/component_diagram_consolidated.png}
+	\includegraphics[width=1\linewidthContext]{figures/api/component_diagram_consolidated.png}
 	\label{fig:component_diagram_consolidated}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
-The details of each module mentioned in the consolidated component diagram are demonstrated in the figures \ref{fig:component_diagram_person}, \ref{fig:component_diagram_customer}, \ref{fig:component_diagram_doctor}, \ref{fig:component_diagram_slot} and \ref{fig:component_diagram_appointment}.
+The details of each module mentioned in the consolidated component diagram are demonstrated in the figures \ref{fig:component_diagram_person}, \ref{fig:component_diagram_customer}, \ref{fig:component_diagram_doctor}, \ref{fig:component_diagram_nurse}, \ref{fig:component_diagram_slot} and \ref{fig:component_diagram_appointment}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Component Diagram: Person}
-	\includegraphics[width=0.75\linewidth]{figures/api/component_diagram_person.png}
+	\includegraphics[width=0.75\linewidthContext]{figures/api/component_diagram_person.png}
 	\label{fig:component_diagram_person}
 	\\ \footnotesize Source: Author's creation.
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Component Diagram: Customer}
-	\includegraphics[width=0.75\linewidth]{figures/api/component_diagram_customer.png}
+	\includegraphics[width=0.75\linewidthContext]{figures/api/component_diagram_customer.png}
 	\label{fig:component_diagram_customer}
 	\\ \footnotesize Source: Author's creation.
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Component Diagram: Doctor}
-	\includegraphics[width=0.75\linewidth]{figures/api/component_diagram_doctor.png}
+	\includegraphics[width=0.75\linewidthContext]{figures/api/component_diagram_doctor.png}
 	\label{fig:component_diagram_doctor}
 	\\ \footnotesize Source: Author's creation.
 \end{figure}
+
+\begin{figure}[HContext]
+	\centering
+	\caption{Component Diagram: Nurse}
+	\includegraphics[width=0.75\linewidthContext]{figures/api/component_diagram_medical_nurse.png}
+	\label{fig:component_diagram_nurse}
+	\footnotesize Source: Author's creation.
+\end{figure}
 	
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Component Diagram: Medical Slot}
-	\includegraphics[width=0.75\linewidth]{figures/api/component_diagram_medical_slot.png}
+	\includegraphics[width=0.75\linewidthContext]{figures/api/component_diagram_medical_slot.png}
 	\label{fig:component_diagram_slot}
 	\\ \footnotesize Source: Author's creation.
 \end{figure}
 	
-\begin{figure}[H]
+\begin{figure}[HContext]
 	\centering
 	\caption{Component Diagram: Medical Appointment}
-	\includegraphics[width=1\linewidth]{figures/api/component_diagram_medical_appointment.png}
+	\includegraphics[width=0.75\linewidthContext]{figures/api/component_diagram_medical_appointment.png}
 	\label{fig:component_diagram_appointment}
 	\footnotesize Source: Author's creation.
 \end{figure}
 
-The organization of the API is divided into 7 different modules and 18 services, although not all services were selected to undergo the planned software tests. The selected services are shown in the Table \ref{tab:selected_services}:
-
-\begin{table}[H]
-	\centering
-	\caption{API's Selected Services}
-	\label{tab:selected_services}
-	\begin{tabular}{ll}
-		\textbf{Modules} & \textbf{Services} \\ \hline
-		payments & MedicalAppointmentPaymentService \\ \hline
-		doctors & DoctorRegistrationService, DoctorUpdatingService, \\
-		& DoctorManagementService \\ \hline
-		customers & CustomerRegistrationService, CustomerUpdatingService \\ \hline
-		medicalAppointments & MedicalAppointmentManagementService, \\
-		& MedicalAppointmentRegistrationService \\ \hline
-		medicalSlots & MedicalSlotManagementService, MedicalSlotRegistrationService \\ \hline
-	\end{tabular}
-	\\ \footnotesize Source: Author's creation.
-\end{table}
-
-From the API's services, 10 out of 18 were selected. The test coverage is 55,56\%. Additionally, the excluded services are:
-
-\begin{enumerate}
-    \item PersonRegistrationService.
-    \item CustomerRetrievalService.
-    \item DoctorRetrievalService.
-    \item CardRetrievalService.
-    \item CardRegistrationService.
-    \item CardDeletionService.
-    \item MedicalAppointmentRetrievalService.
-    \item MedicalAppointmentUpdatingService.
-    \item MedicalSlotRetrievalService.
-    \item MedicalSlotUpdatingService.
-\end{enumerate}
-
-These services were not selected primarily because their responses generally do not require a validation process to verify expected wrongful conditions and the subsequent throwing of exceptions. Furthermore, even in the cases where these services might throw an exception, it is not considered sufficiently important to include them in the unit and integration tests.
-
-The selected services are the most essential and important of the API. They represent the most used functions. They are the core of the application.
-
-Finally, the endpoints of the API are shown in the figures \ref{}, \ref{}, and \ref{} 
-displaying the \hyperref[appendix:glossary]{user interface} that Swagger UI generated for the API's endpoints.
+The services exposed in the figures \ref{fig:component_diagram_person}, \ref{fig:component_diagram_customer}, \ref{fig:component_diagram_doctor}, \ref{fig:component_diagram_slot} and \ref{fig:component_diagram_appointment} have their endpoints demonstrated via Swagger UI. Finally, the endpoints of the API are shown in the figures \ref{}, \ref{}, and \ref{} displaying the \hyperref[appendix:glossaryContext]{user interface} that Swagger UI generated for the API's endpoints.
 
 
-%\begin{figure}[H]
+%\begin{figure}[HContext]
 %	\centering
 %%	\caption{Swagger UI - Page 1}
-%	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_1.png}
+%	\includegraphics[width=0.83\linewidthContext]{figures/swagger_ui_1.png}
 %	\label{fig:swagger_ui_1}
 %	\\ \footnotesize Source: Author's creation.
 %\end{figure}
 
-%\begin{figure}[H]
+%\begin{figure}[HContext]
 %	\centering
 %	\caption{Swagger UI - Page 2}
-%	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_2.png}
+%	\includegraphics[width=0.83\linewidthContext]{figures/swagger_ui_2.png}
 %	\label{fig:swagger_ui_2}
 %	\\ \footnotesize Source: Author's creation.
 %\end{figure}
 
-%\begin{figure}[H]
+%\begin{figure}[HContext]
 %	\centering
 %		\caption{Swagger UI - Page 3}
-%		\includegraphics[width=0.83\linewidth]{figures/swagger_ui_3.png}
+%		\includegraphics[width=0.83\linewidthContext]{figures/swagger_ui_3.png}
 %		\label{fig:swagger_ui_3}
 %		\\ \footnotesize Source: Author's creation.
 %\end{figure}
 
-As discussed by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, the endpoints present in the figures \ref{}, 
-\ref{}, and \ref{} are compliant with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110} in both methods's guidelines and \hyperref[appendix:glossary]{URI} format, due to the presence of the method and the \hyperref[appendix:glossary]{URI}'s relative path. Swagger UI was used to create the content shown in the figures \ref{}, \ref{}, and \ref{}, due to its ability, as stated by \cite{mcnamara2022flexible}, to expose graphically API resources, which are automatically generated from an OpenAPI Specification.\footnote{\href{https://swagger.io/tools/swagger-ui/}{See the official site of Swagger UI.}}
+As discussed by the \hyperref[subsection:http_semanticsContext]{subsection HTTP Semantics}, the endpoints present in the figures \ref{}, 
+\ref{}, and \ref{} are compliant with \hyperref[appendix:glossaryContext]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110} in both methods's guidelines and \hyperref[appendix:glossaryContext]{URI} format, due to the presence of the method and the \hyperref[appendix:glossaryContext]{URI}'s relative path. Swagger UI was used to create the content shown in the figures \ref{}, \ref{}, and \ref{}, due to its ability, as stated by \cite{mcnamara2022flexible}, to expose graphically API resources, which are automatically generated from an OpenAPI Specification.\footnote{\href{https://swagger.io/tools/swagger-ui/}{See the official site of Swagger UI.}}
 
 \subsection{Automated Software Testing}
 \label{subsection:automated_software_testing}
 
-Testing, one of the most crucial tasks along the \hyperref[appendix:glossary]{SDLC}, can easily exceed half of a project’s total effort. A successful testing approach can save significant effort and increase product quality, thereby increasing customer satisfaction and lowering maintenance costs \cite{juristo2006guest, tuteja2012research}
+Testing, one of the most crucial tasks along the \hyperref[appendix:glossaryContext]{SDLC}, can easily exceed half of a project’s total effort. A successful testing approach can save significant effort and increase product quality, thereby increasing customer satisfaction and lowering maintenance costs \cite{juristo2006guest, tuteja2012research}
 
 The potentially vast scope of testing can be visualized as sticking small pins into a doll, representing limited coverage across a large domain. This analogy underscores the necessity of maintaining a realistic expectation of 
 what testing can achieve. Consequently, while capable of identifying various errors and bugs, the inherent limitations mean that not all defects may be discovered, and thus the importance of testing should not be overemphasized. 
@@ -697,7 +666,7 @@ Conversely, software test automation improves software quality and reduces softw
 
 The types of tests are unit, integration, functional, system, acceptance, beta, and regression, as evidenced by \cite{meenakshi2014software}. The author describes in the table \ref{tab:general_description_of_tests} via a visual approach what the types of tests relate to their specifications, scopes, opacity, and responsible developers.
 
-\begin{table}[htbp]
+\begin{table}[htbpContext]
     \caption{General Description of the Types of Test}
     \label{tab:general_description_of_tests}
     \centering
@@ -720,17 +689,17 @@ The types of tests are unit, integration, functional, system, acceptance, beta, 
 
 As the table \ref{tab:general_description_of_tests} shows, there are two techniques: black box and white box. Thus, \cite{khan2011different} argues that white-box testing analyzes the internal workings and structure of the software, focusing on how the system processes input to produce the required output. In contrast, black-box testing concentrates on the software's functional requirements. While an integral part of correctness testing, the principles of black-box testing extend beyond it. Black-box testing complements white-box testing techniques and is likely to identify a different set of errors.
 
-Beyond that, black-box testing is employed throughout the \hyperref[appendix:glossary]{SDLC} and the \hyperref[appendix:glossary]{STLC}, including regression testing, acceptance testing, unit testing, integration testing, and system testing stages. The various types of testing within this 
+Beyond that, black-box testing is employed throughout the \hyperref[appendix:glossaryContext]{SDLC} and the \hyperref[appendix:glossaryContext]{STLC}, including regression testing, acceptance testing, unit testing, integration testing, and system testing stages. The various types of testing within this 
 technique are entirely centered on verifying the functionality of the software application \cite{khan2011different}.
 
 Additionally, as a complement to the table \ref{tab:general_description_of_tests}, Appendix \ref{appendix:tests_concepts_appendix} portrays all the definitions and key features of each type of test mentioned in the table \ref{tab:general_description_of_tests}.
 
 Given all the aforementioned definitions and key features, to the previous paragraph, a poll was made by \cite{sanchez2020beyond} and they asked developers about the types of tests they know and use the most. The result is shown in the figure \ref{fig:frequency_of_use_levels_techniques_and_types_of_testing}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Frequency of Use: Levels, Techniques and Types of Testing}
-    \includegraphics[width=1\linewidth]{figures/tests/frequency_of_use__levels_techniques_and_types_of_testing.png}
+    \includegraphics[width=1\linewidthContext]{figures/tests/frequency_of_use__levels_techniques_and_types_of_testing.png}
     \label{fig:frequency_of_use_levels_techniques_and_types_of_testing}
     \footnotesize Source: \cite{sanchez2020beyond}
 \end{figure}
@@ -742,20 +711,20 @@ And all of them know about automated testing. The result highlighted the importa
 
 Another survey conducted by \cite{lee2012survey} revealed that they are among the most used types of automated software tests, as exhibited in the figure \ref{fig:usage_stmt_tests_processes}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Usage of Software Testing Methods and Tools in Tests Processes}
-    \includegraphics[width=0.8\linewidth]{figures/tests/usage_stmt_tests_processes.png}
+    \includegraphics[width=0.8\linewidthContext]{figures/tests/usage_stmt_tests_processes.png}
     \label{fig:usage_stmt_tests_processes}
     \\ \footnotesize Source: Adapted from \cite{lee2012survey}.
 \end{figure}
 
 The result expressed in the figure \ref{fig:usage_stmt_tests_processes}, both unit and integration ranked 4th and 2nd, respectively, while system and acceptance tests ranked 1st and 3rd, respectively. As the last example of a survey, \cite{hynninen2023development} illustrated in the figure \ref{fig:testing_tools_2017_2009} the number of uses of the most used types of tests.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Percentage of the Testing and QA Tools Utilized in the Industry}
-    \includegraphics[width=0.8\linewidth]{figures/tests/testing_tools_2017_2009.png}
+    \includegraphics[width=0.8\linewidthContext]{figures/tests/testing_tools_2017_2009.png}
     \label{fig:testing_tools_2017_2009}
     \\ \footnotesize Source: Adapted from \cite{hynninen2023development, kasurinen2010software}.
 \end{figure}
@@ -773,9 +742,9 @@ Considering all the paragraphs's information in this subsection, the unit and in
 
 A unit test scrutinizes the behavior of an individual, self-contained unit of work. In Java applications, this \textit{distinct unit of work} frequently, though not exclusively, corresponds to a single method. In contrast, integration and acceptance tests evaluate the interactions between different components. A unit of work is defined as a task that can be executed independently of other tasks. Consequently, unit tests often concentrate on verifying if a method adheres to the specifications outlined in its API contract \cite{massol2004junit}.
 
-For unit tests, among the types of automation tools cited by  \cite{umar2019study}, \hyperref[appendix:glossary]{JUnit} was the chosen framework. The figure \ref{tab:junit_comparison_advantages_disadvantages} displays the comparison between the advantages and disadvantages of \hyperref[appendix:glossary]{JUnit}.
+For unit tests, among the types of automation tools cited by  \cite{umar2019study}, \hyperref[appendix:glossaryContext]{JUnit} was the chosen framework. The figure \ref{tab:junit_comparison_advantages_disadvantages} displays the comparison between the advantages and disadvantages of \hyperref[appendix:glossaryContext]{JUnit}.
 
-\begin{table}[h]
+\begin{table}[hContext]
     \centering
     \caption{Comparison of Advantages and Disadvantages of JUnit}
     \label{tab:junit_comparison_advantages_disadvantages}
@@ -794,7 +763,7 @@ For unit tests, among the types of automation tools cited by  \cite{umar2019stud
 It is notable how the advantages overcome the disadvantages. In addition, for integration tests, \textit{MockMvc} shall be the chosen framework. 
 Complementing the paragraphs above, all integration tests shall use the following annotations present in the table \ref{table:integration_tests_annotations}.
 
-\begin{table}[H]
+\begin{table}[HContext]
 \centering
 \caption{Spring Boot Testing Annotations and Components}
 \label{table:integration_tests_annotations}
@@ -814,25 +783,25 @@ Complementing the paragraphs above, all integration tests shall use the followin
 
 They are examples of methods of integration tests that use the annotations present in the table \ref{table:integration_tests_annotations} the figures \ref{fig:customer_successful_registration_example} and \ref{fig:customer_unsuccessful_registration_duplicated_sin}. The first figure illustrates an example of a success-oriented testing method that registers a medical slot.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Example of a Customer Successful Registration Testing Method}
-    \includegraphics[width=1\linewidth]{figures/tests/customer_successful_registration_example.png}
+    \includegraphics[width=1\linewidthContext]{figures/tests/customer_successful_registration_example.png}
     \footnotesize Source: Author's creation.
     \label{fig:customer_successful_registration_example}
 \end{figure}
 
-The method of the figure \ref{fig:customer_successful_registration_example} returns the \hyperref[tab:summary_http_status_codes]{status code 201}. In contrast with this method, there is the figure \ref{fig:customer_unsuccessful_registration_duplicated_sin}.
+The method of the figure \ref{fig:customer_successful_registration_example} returns the \hyperref[tab:summary_http_status_codesContext]{status code 201}. In contrast with this method, there is the figure \ref{fig:customer_unsuccessful_registration_duplicated_sin}.
 
-\begin{figure}[H]
+\begin{figure}[HContext]
     \centering
     \caption{Example of Customer Unsuccessful Registration Testing Method - Duplicated SIN}
-    \includegraphics[width=1\linewidth]{figures/tests/customer_unsuccessful_registration_duplicated_sin.PNG}
+    \includegraphics[width=1\linewidthContext]{figures/tests/customer_unsuccessful_registration_duplicated_sin.PNG}
     \footnotesize Source: Author's creation.
     \label{fig:customer_unsuccessful_registration_duplicated_sin}
 \end{figure}
 
-The figure \ref{fig:customer_unsuccessful_registration_duplicated_sin} illustrates an unsuccessful-oriented testing method that blocks a medical slot due to a booking date and time that is in use in an active medical slot. The method of the figure \ref{fig:customer_unsuccessful_registration_duplicated_sin} returns the \hyperref[tab:summary_http_status_codes]{status code 409}.
+The figure \ref{fig:customer_unsuccessful_registration_duplicated_sin} illustrates an unsuccessful-oriented testing method that blocks a medical slot due to a booking date and time that is in use in an active medical slot. The method of the figure \ref{fig:customer_unsuccessful_registration_duplicated_sin} returns the \hyperref[tab:summary_http_status_codesContext]{status code 409}.
 
 
 Considering all the figures \ref{fig:customer_successful_registration_example}, \ref{fig:customer_unsuccessful_registration_duplicated_sin}, the methods illustrated inside them all have in common the annotations \textit{@Order} and \textit{@Test} and an instance of the framework \textit{WebTestClient}. They are all using the annotations mentioned in the table \ref{table:integration_tests_annotations}. 
