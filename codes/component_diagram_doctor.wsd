@@ -42,12 +42,4 @@ package "Doctor Module" {
 
 }
 
-package "External Service" {
-    interface "PersonRegistrationService" <<interface>> #lightcyan
-    interface "PersonUpdateService" <<interface>> #lightcyan
-}
-
-DoctorRegistrationService --> PersonRegistrationService
-DoctorManagementService --> PersonUpdateService
-
 @enduml

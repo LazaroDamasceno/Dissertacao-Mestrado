@@ -495,15 +495,61 @@ Payment Simulation & Card creation, appointment payment \\
 The functionalities listed in the Table 
 \ref{api_functionalities_grouped} represent the core tasks performed by the API's service layer. These operations are visualized in the component diagram, which--as noted by \cite{rajagopal2017study}—portrays the API's component organization. \cite{bell2003uml, rajput2015uml} cite that a \hyperref[appendix:glossary]{UML} component diagram shows the physical structure of a system, illustrating software components (e.g., libraries, executables) and their dependencies. It focuses on the system's modular building blocks, not functionality, and can be viewed at different levels of detail. Multiple component diagrams are needed for complex systems, providing insights into implementation, dependencies, and modularity, aiding system construction.
 
-The component diagram is demonstrated in the figure \ref{fig:component_diagram}.
+The consolidated component diagram is illustrated in the figure \ref{}.
+
+% \begin{figure}[H]
+%	\centering
+% 	\caption{Consolidated Component Diagram}
+%	\includegraphics[width=1\linewidth]{}
+%	\label{fig:component_diagram_person}
+%	\footnotesize Source: Author's creation.
+ %\end{figure}
+
+The details of each module mentioned in the consolidated component diagram are demonstrated in the figures \ref{fig:component_diagram_person}, \ref{fig:component_diagram_doctor}, \ref{fig:component_diagram_customer}, \ref{fig:component_diagram_slot} and \ref{fig:component_diagram_appointment}.
+
+\begin{landscape}
 
 \begin{figure}[H]
 	\centering
-	\caption{Component Diagram}
-	\includegraphics[width=1\linewidth]{figures/api/component_diagram.png}
-	\label{fig:component_diagram}
+	\caption{Component Diagram: Person}
+	\includegraphics[width=1\linewidth]{figures/api/component_diagram_person.png}
+	\label{fig:component_diagram_person}
 	\footnotesize Source: Author's creation.
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Component Diagram: Doctor}
+	\includegraphics[width=1\linewidth]{figures/api/component_diagram_doctor.png}
+	\label{fig:component_diagram_doctor}
+	\footnotesize Source: Author's creation.
+\end{figure}
+	
+\begin{figure}[H]
+	\centering
+	\caption{Component Diagram: Customer}
+	\includegraphics[width=1\linewidth]{figures/api/component_diagram_customer.png}
+	\label{fig:component_diagram_customer}
+	\footnotesize Source: Author's creation.
+\end{figure}
+	
+\begin{figure}[H]
+	\centering
+	\caption{Component Diagram: Medical Slot}
+	\includegraphics[width=1\linewidth]{figures/api/component_diagram_medical_slot.png}
+	\label{fig:component_diagram_slot}
+	\footnotesize Source: Author's creation.
+\end{figure}
+	
+\begin{figure}[H]
+	\centering
+	\caption{Component Diagram: Medical Appointment}
+	\includegraphics[width=1\linewidth]{figures/api/component_diagram_medical_appointment.png}
+	\label{fig:component_diagram_appointment}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
+\end{landscape}
 
 The organization of the API is divided into 7 different modules and 18 services, although not all services were selected to undergo the planned software tests. The selected services are shown in the Table \ref{tab:selected_services}:
 
@@ -547,29 +593,29 @@ Finally, the endpoints of the API are shown in the figures \ref{fig:swagger_ui_1
 displaying the \hyperref[appendix:glossary]{user interface} that Swagger UI generated for the API's endpoints.
 
 
-\begin{figure}[H]
-	\centering
-	\caption{Swagger UI - Page 1}
-	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_1.png}
-	\label{fig:swagger_ui_1}
-	\\ \footnotesize Source: Author's creation.
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%%	\caption{Swagger UI - Page 1}
+%	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_1.png}
+%	\label{fig:swagger_ui_1}
+%	\\ \footnotesize Source: Author's creation.
+%\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\caption{Swagger UI - Page 2}
-	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_2.png}
-	\label{fig:swagger_ui_2}
-	\\ \footnotesize Source: Author's creation.
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\caption{Swagger UI - Page 2}
+%	\includegraphics[width=0.83\linewidth]{figures/swagger_ui_2.png}
+%	\label{fig:swagger_ui_2}
+%	\\ \footnotesize Source: Author's creation.
+%\end{figure}
 
-\begin{figure}[H]
-	\centering
-		\caption{Swagger UI - Page 3}
-		\includegraphics[width=0.83\linewidth]{figures/swagger_ui_3.png}
-		\label{fig:swagger_ui_3}
-		\\ \footnotesize Source: Author's creation.
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%		\caption{Swagger UI - Page 3}
+%		\includegraphics[width=0.83\linewidth]{figures/swagger_ui_3.png}
+%		\label{fig:swagger_ui_3}
+%		\\ \footnotesize Source: Author's creation.
+%\end{figure}
 
 As discussed by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, the endpoints present in the figures \ref{fig:swagger_ui_1}, 
 \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3} are compliant with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110} in both methods's guidelines and \hyperref[appendix:glossary]{URI} format, due to the presence of the method and the \hyperref[appendix:glossary]{URI}'s relative path. Swagger UI was used to create the content shown in the figures \ref{fig:swagger_ui_1}, \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3}, due to its ability, as stated by \cite{mcnamara2022flexible}, to expose graphically API resources, which are automatically generated from an OpenAPI Specification.\footnote{\href{https://swagger.io/tools/swagger-ui/}{See the official site of Swagger UI.}}
