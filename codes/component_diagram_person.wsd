@@ -1,8 +1,9 @@
 @startuml
 
-package "Person Module" {
+skinparam backgroundColor #f4f4f9
+skinparam componentStyle uml2
 
-    skinparam backgroundColor #f4f4f9
+package "Person Module" {
 
     package "Data Context" {
         component "PersonCrudRepository" <<repository>> #lightgreen
@@ -10,16 +11,16 @@ package "Person Module" {
     }
 
     package "Registration Context" {
-        interface PersonRegistrationService #White
-        component PersonRegistrationServiceImpl #LightSalmon
+        interface PersonRegistrationService #lightyellow
+        component PersonRegistrationServiceImpl #lightcoral
 
         PersonRegistrationServiceImpl ..|> PersonRegistrationService
         PersonRegistrationServiceImpl --> PersonCrudRepository
     }
 
     package "Update Context" {
-        interface PersonUpdateService #White
-        component PersonUpdateServiceImpl #LightYellow
+        interface PersonUpdateService #lightyellow
+        component PersonUpdateServiceImpl #lightcoral
 
         PersonUpdateServiceImpl ..|> PersonUpdateService
         PersonUpdateServiceImpl --> PersonCrudRepository

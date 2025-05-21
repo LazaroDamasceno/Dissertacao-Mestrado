@@ -1,0 +1,50 @@
+@startuml
+
+skinparam backgroundColor #f4f4f9
+skinparam componentStyle uml2
+
+package "Medical Slot Module" {
+
+    package "Data Context" {
+        component MedicalSlotController <<controller>> #LightBlue
+        component MedicalSlotCrudRepository <<repository>> #LightGreen
+        component MedicalSlotAuditRepository <<repository>> #LightGreen
+    }
+
+    package "Registration Context" {
+        interface MedicalSlotRegistrationService <<interface>> #LightYellow
+        component MedicalSlotRegistrationServiceImpl #LightCoral
+
+        MedicalSlotRegistrationServiceImpl ..|> MedicalSlotRegistrationService
+        MedicalSlotRegistrationServiceImpl --> MedicalSlotCrudRepository
+        MedicalSlotRegistrationServiceImpl --> MedicalSlotController
+    }
+
+    package "Management Context" {
+        interface MedicalSloManagementService <<interface>> #LightYellow
+        component MedicalSlotManagementServiceImpl #LightCoral
+
+        MedicalSlotManagementServiceImpl ..|> MedicalSloManagementService
+        MedicalSlotManagementServiceImpl --> MedicalSlotCrudRepository
+        MedicalSlotManagementServiceImpl --> MedicalSlotAuditRepository
+        MedicalSlotManagementServiceImpl --> MedicalSlotController
+    }
+
+    package "Retrieval Context" {
+        interface MedicalSlotRetrievalService <<interface>> #LightYellow
+        component MedicalSlotRetrievalServiceImpl #LightCoral
+
+        MedicalSlotRetrievalServiceImpl ..|> MedicalSlotRetrievalService
+        MedicalSlotRetrievalServiceImpl --> MedicalSlotCrudRepository
+        MedicalSlotRetrievalServiceImpl --> MedicalSlotController
+    }
+
+}
+
+package "External Services" {
+    interface MedicalAppointmentUpdateService <<interface>> #LightYellow
+}
+
+MedicalSlotManagementServiceImpl --> MedicalAppointmentUpdateService
+
+@enduml

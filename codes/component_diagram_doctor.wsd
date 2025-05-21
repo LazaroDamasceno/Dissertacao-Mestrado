@@ -2,7 +2,7 @@
 
 skinparam backgroundColor #f4f4f9
 skinparam componentStyle uml2
-
+skinparam defaultFontSize 45
 
 package "Doctor Module" {
 

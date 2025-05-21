@@ -2,6 +2,7 @@
 
 skinparam backgroundColor #f4f4f9
 skinparam componentStyle uml2
+skinparam defaultFontSize 30
 
 package "Customer Module" {
 
