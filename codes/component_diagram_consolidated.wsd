@@ -1,0 +1,34 @@
+@startuml
+
+skinparam defaultFontSize 45
+
+package "Person Module" {
+    component "Registration Context"
+    component "PersonUpdate Context"
+}
+
+package "Customer Module" {
+    component "Registration Context"
+    component "Update Context"
+    component "Retrieval Context"
+}
+
+package "Doctor Module" {
+    component "Registration Context"
+    component "Management Context"
+    component "Retrieval Context"
+}
+
+package "Medical Slot Module" {
+    component "Registration Context"
+    component "Management Context"
+    component "Retrieval Context"
+}
+
+package "Medical Appointment Module" {
+    component "Registration Context"
+    component "Management Context"
+    component "Retrieval Context"
+}
+
+@enduml

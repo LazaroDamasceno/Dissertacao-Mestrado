@@ -262,7 +262,7 @@ TRACE & Perform a message loop-back test along the path to the target resource. 
 \\ \footnotesize Source: Adapated from \cite{rfc9110}.
 \end{table}
 
-In order to complement the table above and the function of the status codes (Table \ref{tab:http-status-codes}) of displaying the response's status to the client, the HTTP methods indicate the action expected from the execution of the request made by the client. Thus, below is an example of a resource that requests the registration of a doctor in the figure \ref{fig:http-request} and the service class that supports it in the figure \ref{fig:medical_slot_registration_service}.
+In order to complement the table above and the function of the status codes (Table \ref{tab:http-status-codes}) of displaying the response's status to the client, the HTTP methods indicate the action expected from the execution of the request made by the client. Thus, below is an example of a resource that requests the registration of a doctor in the figure \ref{fig:http-request} and the service class that supports it in the figure \ref{fig:customer_registration_service_impl}.
 
 \begin{figure}[H]
     \caption{Example of a HTTP request and response}
@@ -505,9 +505,7 @@ The consolidated component diagram is illustrated in the figure \ref{}.
 %	\footnotesize Source: Author's creation.
  %\end{figure}
 
-The details of each module mentioned in the consolidated component diagram are demonstrated in the figures \ref{fig:component_diagram_person}, \ref{fig:component_diagram_doctor}, \ref{fig:component_diagram_customer}, \ref{fig:component_diagram_slot} and \ref{fig:component_diagram_appointment}.
-
-\begin{landscape}
+The details of each module mentioned in the consolidated component diagram are demonstrated in the figures \ref{fig:component_diagram_person}, \ref{fig:component_diagram_customer}, \ref{fig:component_diagram_doctor}, \ref{fig:component_diagram_slot} and \ref{fig:component_diagram_appointment}.
 
 \begin{figure}[H]
 	\centering
@@ -519,17 +517,17 @@ The details of each module mentioned in the consolidated component diagram are d
 
 \begin{figure}[H]
 	\centering
-	\caption{Component Diagram: Doctor}
-	\includegraphics[width=1\linewidth]{figures/api/component_diagram_doctor.png}
-	\label{fig:component_diagram_doctor}
-	\footnotesize Source: Author's creation.
-\end{figure}
-	
-\begin{figure}[H]
-	\centering
 	\caption{Component Diagram: Customer}
 	\includegraphics[width=1\linewidth]{figures/api/component_diagram_customer.png}
 	\label{fig:component_diagram_customer}
+	\footnotesize Source: Author's creation.
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Component Diagram: Doctor}
+	\includegraphics[width=1\linewidth]{figures/api/component_diagram_doctor.png}
+	\label{fig:component_diagram_doctor}
 	\footnotesize Source: Author's creation.
 \end{figure}
 	
@@ -548,8 +546,6 @@ The details of each module mentioned in the consolidated component diagram are d
 	\label{fig:component_diagram_appointment}
 	\footnotesize Source: Author's creation.
 \end{figure}
-
-\end{landscape}
 
 The organization of the API is divided into 7 different modules and 18 services, although not all services were selected to undergo the planned software tests. The selected services are shown in the Table \ref{tab:selected_services}:
 
@@ -589,7 +585,7 @@ These services were not selected primarily because their responses generally do 
 
 The selected services are the most essential and important of the API. They represent the most used functions. They are the core of the application.
 
-Finally, the endpoints of the API are shown in the figures \ref{fig:swagger_ui_1}, \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3} 
+Finally, the endpoints of the API are shown in the figures \ref{}, \ref{}, and \ref{} 
 displaying the \hyperref[appendix:glossary]{user interface} that Swagger UI generated for the API's endpoints.
 
 
@@ -617,8 +613,8 @@ displaying the \hyperref[appendix:glossary]{user interface} that Swagger UI gene
 %		\\ \footnotesize Source: Author's creation.
 %\end{figure}
 
-As discussed by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, the endpoints present in the figures \ref{fig:swagger_ui_1}, 
-\ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3} are compliant with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110} in both methods's guidelines and \hyperref[appendix:glossary]{URI} format, due to the presence of the method and the \hyperref[appendix:glossary]{URI}'s relative path. Swagger UI was used to create the content shown in the figures \ref{fig:swagger_ui_1}, \ref{fig:swagger_ui_2}, and \ref{fig:swagger_ui_3}, due to its ability, as stated by \cite{mcnamara2022flexible}, to expose graphically API resources, which are automatically generated from an OpenAPI Specification.\footnote{\href{https://swagger.io/tools/swagger-ui/}{See the official site of Swagger UI.}}
+As discussed by the \hyperref[subsection:http_semantics]{subsection HTTP Semantics}, the endpoints present in the figures \ref{}, 
+\ref{}, and \ref{} are compliant with \hyperref[appendix:glossary]{RFC} \href{https://www.rfc-editor.org/rfc/rfc9110.html}{9110} in both methods's guidelines and \hyperref[appendix:glossary]{URI} format, due to the presence of the method and the \hyperref[appendix:glossary]{URI}'s relative path. Swagger UI was used to create the content shown in the figures \ref{}, \ref{}, and \ref{fig:swagger_ui_3}, due to its ability, as stated by \cite{mcnamara2022flexible}, to expose graphically API resources, which are automatically generated from an OpenAPI Specification.\footnote{\href{https://swagger.io/tools/swagger-ui/}{See the official site of Swagger UI.}}
 
 \subsection{Automated Software Testing}
 \label{subsection:automated_software_testing}
@@ -816,9 +812,7 @@ Complementing the paragraphs above, all integration tests shall use the followin
 \footnotesize Source: Adapted from \cite{junit5_methodorderer_api, junit5_order_api, junit5_test_api, junit5testmethodorder_api, springboottest_api}.
 \end{table}
 
-They are examples of methods of integration tests that use the annotations present in the table \ref{table:integration_tests_annotations} the figures \ref{fig:medical_slot_successful_registration_example},
-\ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime},
-and \ref{fig:medical_slot_unsuccessful_registration_not_found_doctor}. The first figure illustrates an example of a success-oriented testing method that registers a medical slot.
+They are examples of methods of integration tests that use the annotations present in the table \ref{table:integration_tests_annotations} the figures \ref{fig:customer_successful_registration_example} and \ref{fig:customer_unsuccessful_registration_duplicated_sin}. The first figure illustrates an example of a success-oriented testing method that registers a medical slot.
 
 \begin{figure}[H]
     \centering
@@ -838,9 +832,9 @@ The method of the figure \ref{fig:customer_successful_registration_example} retu
     \label{fig:customer_unsuccessful_registration_duplicated_sin}
 \end{figure}
 
-The figure \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime} illustrates an unsuccessful-oriented testing method that blocks a medical slot due to a booking date and time that is in use in an active medical slot. The method of the figure \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime} returns the \hyperref[tab:summary_http_status_codes]{status code 409}.
+The figure \ref{fig:customer_unsuccessful_registration_duplicated_sin} illustrates an unsuccessful-oriented testing method that blocks a medical slot due to a booking date and time that is in use in an active medical slot. The method of the figure \ref{fig:customer_unsuccessful_registration_duplicated_sin} returns the \hyperref[tab:summary_http_status_codes]{status code 409}.
 
 
-Considering all the figures \ref{fig:medical_slot_successful_registration_example}, \ref{fig:medical_slot_unsuccessful_registration_duplicated_datetime}, the methods illustrated inside them all have in common the annotations \textit{@Order} and \textit{@Test} and an instance of the framework \textit{WebTestClient}. They are all using the annotations mentioned in the table \ref{table:integration_tests_annotations}. 
+Considering all the figures \ref{fig:customer_successful_registration_example}, \ref{fig:customer_unsuccessful_registration_duplicated_sin}, the methods illustrated inside them all have in common the annotations \textit{@Order} and \textit{@Test} and an instance of the framework \textit{WebTestClient}. They are all using the annotations mentioned in the table \ref{table:integration_tests_annotations}. 
 
 Finally, the use of the mentioned annotations created the perfect and functional environment for integration tests. As an example, the annotation \textit{@SpringBootTest} can select a random port to avoid the use of the standard port (e.g., \textit{8080:8080}). This prevents the API from having unexpected behaviors that interrupt the application ungracefully. Similar to the previous explanation, the annotation \textit{@Order} derives from the annotation \textit{@TestMethodOrder} that enables its ordering ability of setting the execution order of the test methods. One benefit of setting the execution order is barring occurrences when the successful-oriented method is executed after one of the unsuccessful-oriented ones, which blurs the test's result, if the tester is not aware of such an error.
