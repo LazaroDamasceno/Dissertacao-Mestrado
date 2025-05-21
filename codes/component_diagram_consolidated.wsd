@@ -1,6 +1,6 @@
 @startuml
 
-skinparam defaultFontSize 45
+left to right direction
 
 package "Person Module" {
     component "Registration Context"
