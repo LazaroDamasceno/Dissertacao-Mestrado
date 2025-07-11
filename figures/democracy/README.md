@@ -1,0 +1,15 @@
+https://ourworldindata.org/grapher/age-of-full-democracy
+https://ourworldindata.org/grapher/age-of-electoral-democracy
+https://ourworldindata.org/grapher/political-regime
+https://ourworldindata.org/grapher/democracy-index-eiu
+https://ourworldindata.org/grapher/liberal-democracy-index
+https://ourworldindata.org/grapher/electoral-democracy-index
+https://ourworldindata.org/grapher/political-regime-lexical
+https://ourworldindata.org/grapher/deliberative-democracy-index-vdem
+https://ourworldindata.org/grapher/participatory-democracy-index
+https://ourworldindata.org/grapher/political-regime-ert-within-regimes
+https://ourworldindata.org/grapher/electoral-democracy-row
+https://ourworldindata.org/grapher/electoral-democracy-lexical
+https://ourworldindata.org/grapher/liberal-democracy-row
+https://ourworldindata.org/grapher/political-regime-eiu
+https://ourworldindata.org/grapher/direct-democracy-index
