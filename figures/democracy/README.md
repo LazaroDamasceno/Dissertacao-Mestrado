@@ -12,4 +12,3 @@ https://ourworldindata.org/grapher/electoral-democracy-row
 https://ourworldindata.org/grapher/electoral-democracy-lexical
 https://ourworldindata.org/grapher/liberal-democracy-row
 https://ourworldindata.org/grapher/political-regime-eiu
-https://ourworldindata.org/grapher/direct-democracy-index
