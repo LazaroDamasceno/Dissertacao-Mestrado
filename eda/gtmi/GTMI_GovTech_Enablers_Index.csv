@@ -1,0 +1,199 @@
+FREQ,FREQ_LABEL,REF_AREA,REF_AREA_LABEL,INDICATOR,INDICATOR_LABEL,UNIT_MEASURE,UNIT_MEASURE_LABEL,DATABASE_ID,DATABASE_ID_LABEL,UNIT_MULT,UNIT_MULT_LABEL,OBS_STATUS,OBS_STATUS_LABEL,OBS_CONF,OBS_CONF_LABEL,2022
+A,Annual,AFG,Afghanistan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.32
+A,Annual,AGO,Angola,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.57
+A,Annual,ALB,Albania,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.71
+A,Annual,AND,Andorra,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.22
+A,Annual,ARE,United Arab Emirates,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.96
+A,Annual,ARG,Argentina,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.65
+A,Annual,ARM,Armenia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.63
+A,Annual,ATG,Antigua and Barbuda,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.33
+A,Annual,AUS,Australia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.81
+A,Annual,AUT,Austria,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.89
+A,Annual,AZE,Azerbaijan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.63
+A,Annual,BDI,Burundi,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.18
+A,Annual,BEL,Belgium,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.78
+A,Annual,BEN,Benin,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.67
+A,Annual,BFA,Burkina Faso,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.66
+A,Annual,BGD,Bangladesh,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.92
+A,Annual,BGR,Bulgaria,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.71
+A,Annual,BHR,Bahrain,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.86
+A,Annual,BHS,"Bahamas, The",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.34
+A,Annual,BIH,Bosnia and Herzegovina,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.18
+A,Annual,BLR,Belarus,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.3
+A,Annual,BLZ,Belize,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.33
+A,Annual,BOL,Bolivia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.35
+A,Annual,BRA,Brazil,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.98
+A,Annual,BRB,Barbados,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.31
+A,Annual,BRN,Brunei Darussalam,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.61
+A,Annual,BTN,Bhutan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.53
+A,Annual,BWA,Botswana,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.26
+A,Annual,CAF,Central African Republic,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.12
+A,Annual,CAN,Canada,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.67
+A,Annual,CHE,Switzerland,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.75
+A,Annual,CHL,Chile,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.73
+A,Annual,CHN,China,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.61
+A,Annual,CIV,Cote d'Ivoire,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.5
+A,Annual,CMR,Cameroon,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.3
+A,Annual,COD,"Congo, Dem. Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.26
+A,Annual,COG,"Congo, Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.21
+A,Annual,COL,Colombia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.73
+A,Annual,COM,Comoros,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.33
+A,Annual,CPV,Cabo Verde,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.77
+A,Annual,CRI,Costa Rica,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.49
+A,Annual,CUB,Cuba,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.42
+A,Annual,CYP,Cyprus,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.85
+A,Annual,CZE,Czechia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.85
+A,Annual,DEU,Germany,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.83
+A,Annual,DJI,Djibouti,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.32
+A,Annual,DMA,Dominica,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.28
+A,Annual,DNK,Denmark,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.81
+A,Annual,DOM,Dominican Republic,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.77
+A,Annual,DZA,Algeria,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.52
+A,Annual,ECU,Ecuador,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.74
+A,Annual,EGY,"Egypt, Arab Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.8
+A,Annual,ERI,Eritrea,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.04
+A,Annual,ESP,Spain,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.86
+A,Annual,EST,Estonia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.92
+A,Annual,ETH,Ethiopia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.57
+A,Annual,FIN,Finland,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.74
+A,Annual,FJI,Fiji,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.59
+A,Annual,FRA,France,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.95
+A,Annual,FSM,"Micronesia, Fed. Sts.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.14
+A,Annual,GAB,Gabon,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.12
+A,Annual,GBR,United Kingdom,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.78
+A,Annual,GEO,Georgia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.63
+A,Annual,GHA,Ghana,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.49
+A,Annual,GIN,Guinea,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.05
+A,Annual,GMB,"Gambia, The",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.28
+A,Annual,GNB,Guinea-Bissau,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.07
+A,Annual,GNQ,Equatorial Guinea,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.07
+A,Annual,GRC,Greece,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.86
+A,Annual,GRD,Grenada,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.21
+A,Annual,GTM,Guatemala,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.64
+A,Annual,GUY,Guyana,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.19
+A,Annual,HKG,"Hong Kong SAR, China",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.74
+A,Annual,HND,Honduras,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.33
+A,Annual,HRV,Croatia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.68
+A,Annual,HTI,Haiti,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.12
+A,Annual,HUN,Hungary,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.75
+A,Annual,IDN,Indonesia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.81
+A,Annual,IND,India,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.9
+A,Annual,IRL,Ireland,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.65
+A,Annual,IRN,"Iran, Islamic Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.7
+A,Annual,IRQ,Iraq,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.11
+A,Annual,ISL,Iceland,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.82
+A,Annual,ISR,Israel,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.77
+A,Annual,ITA,Italy,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.88
+A,Annual,JAM,Jamaica,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.42
+A,Annual,JOR,Jordan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.82
+A,Annual,JPN,Japan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.83
+A,Annual,KAZ,Kazakhstan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.76
+A,Annual,KEN,Kenya,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.6
+A,Annual,KGZ,Kyrgyz Republic,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.47
+A,Annual,KHM,Cambodia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.59
+A,Annual,KIR,Kiribati,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.28
+A,Annual,KNA,St. Kitts and Nevis,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.21
+A,Annual,KOR,"Korea, Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.98
+A,Annual,KWT,Kuwait,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.68
+A,Annual,LAO,Lao PDR,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.37
+A,Annual,LBN,Lebanon,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.35
+A,Annual,LBR,Liberia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.12
+A,Annual,LBY,Libya,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.18
+A,Annual,LCA,St. Lucia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.45
+A,Annual,LIE,Liechtenstein,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.47
+A,Annual,LKA,Sri Lanka,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.72
+A,Annual,LSO,Lesotho,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.33
+A,Annual,LTU,Lithuania,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.94
+A,Annual,LUX,Luxembourg,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.81
+A,Annual,LVA,Latvia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.79
+A,Annual,MAC,"Macao SAR, China",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.23
+A,Annual,MAR,Morocco,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.56
+A,Annual,MCO,Monaco,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.37
+A,Annual,MDA,Moldova,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.83
+A,Annual,MDG,Madagascar,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.23
+A,Annual,MDV,Maldives,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.29
+A,Annual,MEX,Mexico,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.76
+A,Annual,MHL,Marshall Islands,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.04
+A,Annual,MKD,North Macedonia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.37
+A,Annual,MLI,Mali,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.47
+A,Annual,MLT,Malta,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.76
+A,Annual,MMR,Myanmar,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.18
+A,Annual,MNE,Montenegro,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.48
+A,Annual,MNG,Mongolia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.95
+A,Annual,MOZ,Mozambique,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.24
+A,Annual,MRT,Mauritania,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.34
+A,Annual,MUS,Mauritius,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.88
+A,Annual,MWI,Malawi,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.38
+A,Annual,MYS,Malaysia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.77
+A,Annual,NAM,Namibia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.41
+A,Annual,NER,Niger,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.12
+A,Annual,NGA,Nigeria,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.52
+A,Annual,NIC,Nicaragua,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.16
+A,Annual,NLD,Netherlands,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.85
+A,Annual,NOR,Norway,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.89
+A,Annual,NPL,Nepal,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.43
+A,Annual,NRU,Nauru,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.05
+A,Annual,NZL,New Zealand,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.66
+A,Annual,OMN,Oman,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.88
+A,Annual,PAK,Pakistan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.52
+A,Annual,PAN,Panama,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.87
+A,Annual,PER,Peru,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.91
+A,Annual,PHL,Philippines,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.8
+A,Annual,PLW,Palau,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.17
+A,Annual,PNG,Papua New Guinea,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.45
+A,Annual,POL,Poland,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.73
+A,Annual,PRK,"Korea, Dem. People's Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.05
+A,Annual,PRT,Portugal,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.9
+A,Annual,PRY,Paraguay,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.74
+A,Annual,PSE,West Bank and Gaza,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.15
+A,Annual,QAT,Qatar,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.78
+A,Annual,ROU,Romania,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.62
+A,Annual,RUS,Russian Federation,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.92
+A,Annual,RWA,Rwanda,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.8
+A,Annual,SAU,Saudi Arabia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.98
+A,Annual,SDN,Sudan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.28
+A,Annual,SEN,Senegal,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.25
+A,Annual,SGP,Singapore,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.72
+A,Annual,SLB,Solomon Islands,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.06
+A,Annual,SLE,Sierra Leone,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.41
+A,Annual,SLV,El Salvador,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.63
+A,Annual,SMR,San Marino,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.24
+A,Annual,SOM,Somalia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.26
+A,Annual,SRB,Serbia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.91
+A,Annual,SSD,South Sudan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.06
+A,Annual,STP,Sao Tome and Principe,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.17
+A,Annual,SUR,Suriname,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.08
+A,Annual,SVK,Slovak Republic,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.81
+A,Annual,SVN,Slovenia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.72
+A,Annual,SWE,Sweden,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.82
+A,Annual,SWZ,Eswatini,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.39
+A,Annual,SYC,Seychelles,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.44
+A,Annual,SYR,Syrian Arab Republic,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.49
+A,Annual,TCD,Chad,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.26
+A,Annual,TGO,Togo,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.66
+A,Annual,THA,Thailand,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.79
+A,Annual,TJK,Tajikistan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.31
+A,Annual,TKM,Turkmenistan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.14
+A,Annual,TLS,Timor-Leste,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.29
+A,Annual,TON,Tonga,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.18
+A,Annual,TTO,Trinidad and Tobago,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.55
+A,Annual,TUN,Tunisia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.75
+A,Annual,TUR,Turkiye,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.85
+A,Annual,TUV,Tuvalu,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.04
+A,Annual,TWN,"Taiwan, China",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.82
+A,Annual,TZA,Tanzania,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.87
+A,Annual,UGA,Uganda,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.75
+A,Annual,UKR,Ukraine,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.75
+A,Annual,URY,Uruguay,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.79
+A,Annual,USA,United States,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.83
+A,Annual,UZB,Uzbekistan,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.96
+A,Annual,VCT,St. Vincent and the Grenadines,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.42
+A,Annual,VEN,"Venezuela, RB",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.19
+A,Annual,VNM,Viet Nam,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.76
+A,Annual,VUT,Vanuatu,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.3
+A,Annual,WSM,Samoa,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.23
+A,Annual,XKX,Kosovo,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.46
+A,Annual,YEM,"Yemen, Rep.",WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.23
+A,Annual,ZAF,South Africa,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.55
+A,Annual,ZMB,Zambia,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.55
+A,Annual,ZWE,Zimbabwe,WB_GTMI_GTEI,GovTech Enablers Index score,IX_0T1,Score 0-1,WB_GTMI,GovTech Maturity Index 2022,0,Units,A,Normal value,PU,Public,0.73
