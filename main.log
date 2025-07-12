@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  12 JUL 2025 03:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  12 JUL 2025 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -44,7 +44,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
-) (main.aux)
+) (main.aux (apendices/apendice_democracia.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -80,27 +80,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+\openout2 = `apendices/apendice_democracia.aux'.
+
+ (apendices/apendice_democracia.tex
+<figuras/democracia/age-of-electoral-democracy-lexical.png, id=1, 3412.75pt x 2409.0pt>
+File: figuras/democracia/age-of-electoral-democracy-lexical.png Graphic file (type png)
+<use figuras/democracia/age-of-electoral-democracy-lexical.png>
+Package pdftex.def Info: figuras/democracia/age-of-electoral-democracy-lexical.png  used on input line 6.
+(pdftex.def)             Requested size: 345.0pt x 243.52396pt.
+<figuras/democracia/age-of-electoral-democracy.png, id=2, 3412.75pt x 2409.0pt>
+File: figuras/democracia/age-of-electoral-democracy.png Graphic file (type png)
+<use figuras/democracia/age-of-electoral-democracy.png>
+Package pdftex.def Info: figuras/democracia/age-of-electoral-democracy.png  used on input line 13.
+(pdftex.def)             Requested size: 345.0pt x 243.52396pt.
+<figuras/democracia/deliberative-democracy-index-vdem.png, id=3, 3412.75pt x 2409.0pt>
+File: figuras/democracia/deliberative-democracy-index-vdem.png Graphic file (type png)
+<use figuras/democracia/deliberative-democracy-index-vdem.png>
+Package pdftex.def Info: figuras/democracia/deliberative-democracy-index-vdem.png  used on input line 21.
+(pdftex.def)             Requested size: 345.0pt x 243.52396pt.
+<figuras/democracia/democracy-index-eiu.png, id=4, 3412.75pt x 2409.0pt>
+File: figuras/democracia/democracy-index-eiu.png Graphic file (type png)
+<use figuras/democracia/democracy-index-eiu.png>
+Package pdftex.def Info: figuras/democracia/democracy-index-eiu.png  used on input line 29.
+(pdftex.def)             Requested size: 345.0pt x 243.52396pt.
+)
 
 [1
 
-{C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux)
+
+{C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figuras/democracia/age-of-electoral-democracy-lexical.png>]
+
+[2 <./figuras/democracia/age-of-electoral-democracy.png>]
+
+[3 <./figuras/democracia/deliberative-democracy-index-vdem.png>]
+
+[4 <./figuras/democracia/democracy-index-eiu.png>] (main.aux (apendices/apendice_democracia.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1271 strings out of 468218
- 21037 string characters out of 5432848
- 425021 words of memory out of 5000000
- 29847 multiletter control sequences out of 15000+600000
- 627339 words of font info for 42 fonts, out of 8000000 for 9000
+ 1333 strings out of 468218
+ 24100 string characters out of 5432848
+ 427021 words of memory out of 5000000
+ 29899 multiletter control sequences out of 15000+600000
+ 627729 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,216b,116s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (1 page, 27894 bytes).
+ 57i,6n,65p,270b,238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on main.pdf (4 pages, 2325900 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
