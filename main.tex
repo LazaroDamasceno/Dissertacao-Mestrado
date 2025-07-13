@@ -3,11 +3,15 @@
 \usepackage[T1]{fontenc}   
 \usepackage[brazilian]{babel}
 \usepackage{graphicx}
+\usepackage{chngcntr} 
+\usepackage{hyperref}
+\counterwithin{figure}{section}
+\counterwithin{table}{section} 
 
 \begin{document}
 
+\listoffigures
 \tableofcontents
-
 \appendix
 \include{apendices/apendice_democracia}
 

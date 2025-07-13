@@ -1,2 +1,2 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{2}{}%
+\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{2}{appendix.A}%

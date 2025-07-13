@@ -10,8 +10,6 @@ https://ourworldindata.org/grapher/liberal-democracy-index
 
 https://ourworldindata.org/grapher/age-of-electoral-democracy
 
-https://ourworldindata.org/grapher/age-of-electoral-democracy-lexical
-
 https://ourworldindata.org/grapher/political-regime-lexical
 
 https://ourworldindata.org/grapher/deliberative-democracy-index-vdem
