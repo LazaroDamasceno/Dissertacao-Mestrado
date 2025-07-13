@@ -139,10 +139,10 @@ OUTPUT dicionario_siglas.aux
 INPUT .\dicionario_siglas.tex
 INPUT .\dicionario_siglas.tex
 INPUT dicionario_siglas.tex
+INPUT C:\Users\lazar\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
-INPUT C:\Users\lazar\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
 OUTPUT main.toc
 INPUT .\apendices\apendice_democracia.tex
 INPUT .\apendices\apendice_democracia.tex
