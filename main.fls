@@ -103,6 +103,9 @@ INPUT C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
+INPUT .\dicionario_siglas.aux
+INPUT .\dicionario_siglas.aux
+INPUT dicionario_siglas.aux
 INPUT .\apendices\apendice_democracia.aux
 INPUT .\apendices\apendice_democracia.aux
 INPUT apendices\apendice_democracia.aux
@@ -129,6 +132,13 @@ INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
 OUTPUT main.lof
+INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\dicionario_siglas.tex
+INPUT .\dicionario_siglas.tex
+OUTPUT dicionario_siglas.aux
+INPUT .\dicionario_siglas.tex
+INPUT .\dicionario_siglas.tex
+INPUT dicionario_siglas.tex
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
@@ -136,7 +146,6 @@ INPUT C:\Users\lazar\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx100
 OUTPUT main.toc
 INPUT .\apendices\apendice_democracia.tex
 INPUT .\apendices\apendice_democracia.tex
-INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 OUTPUT apendices\apendice_democracia.aux
 INPUT .\apendices\apendice_democracia.tex
 INPUT .\apendices\apendice_democracia.tex
@@ -220,6 +229,9 @@ INPUT .\figuras\democracia\political-regime-lexical.png
 INPUT .\figuras\democracia\political-regime-lexical.png
 INPUT .\figuras\democracia\political-regime-lexical.png
 INPUT main.aux
+INPUT .\dicionario_siglas.aux
+INPUT .\dicionario_siglas.aux
+INPUT dicionario_siglas.aux
 INPUT .\apendices\apendice_democracia.aux
 INPUT .\apendices\apendice_democracia.aux
 INPUT apendices\apendice_democracia.aux

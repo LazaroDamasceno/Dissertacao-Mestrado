@@ -1,2 +1,3 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{2}{appendix.A}%
+\contentsline {section}{\numberline {1}Dicionário de Siglas}{2}{section.1}%
+\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{4}{appendix.A}%
