@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  12 JUL 2025 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  12 JUL 2025 22:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,11 +23,47 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2043.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2048.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2049.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2076.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count284
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+ (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex
+Package babel Info: Importing font and identification data for brazilian
+(babel)             from babel-pt-BR.ini. Reported on input line 11.
+)
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+)) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks19
 ) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -39,41 +75,44 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 ) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
-) (main.aux (apendices/apendice_democracia.aux))
+\l__color_backend_stack_int=\count285
+) (main.aux
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported  on input line 5.
+ (apendices/apendice_democracia.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
  (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen151
+\scratchcounter=\count286
+\scratchdimen=\dimen152
 \scratchbox=\box53
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen152
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen153
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks21
 ) (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -151,11 +190,6 @@ File: figuras/democracia/political-regime-lexical.png Graphic file (type png)
 <use figuras/democracia/political-regime-lexical.png>
 Package pdftex.def Info: figuras/democracia/political-regime-lexical.png  used on input line 95.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime.png, id=20, 3412.75pt x 2409.0pt>
-File: figuras/democracia/political-regime.png Graphic file (type png)
-<use figuras/democracia/political-regime.png>
-Package pdftex.def Info: figuras/democracia/political-regime.png  used on input line 103.
-(pdftex.def)             Requested size: 345.0pt x 243.52396pt.
 )
 
 [2
@@ -182,26 +216,24 @@ Package pdftex.def Info: figuras/democracia/political-regime.png  used on input 
 
 [12 <./figuras/democracia/political-regime-ert.png>]
 
-[13 <./figuras/democracia/political-regime-lexical.png>]
-
-[14 <./figuras/democracia/political-regime.png>] (main.aux (apendices/apendice_democracia.aux))
+[13 <./figuras/democracia/political-regime-lexical.png>] (main.aux (apendices/apendice_democracia.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1417 strings out of 468218
- 27815 string characters out of 5432848
- 430021 words of memory out of 5000000
- 29979 multiletter control sequences out of 15000+600000
- 628037 words of font info for 44 fonts, out of 8000000 for 9000
+ 2757 strings out of 468218
+ 50601 string characters out of 5432848
+ 451629 words of memory out of 5000000
+ 31292 multiletter control sequences out of 15000+600000
+ 630671 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,284b,238s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on main.pdf (14 pages, 7259939 bytes).
+ 57i,6n,65p,255b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
+Output written on main.pdf (13 pages, 6709464 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,8 +4,6 @@ https://ourworldindata.org/grapher/democracy-index-eiu
 
 https://ourworldindata.org/grapher/electoral-democracy-index
 
-https://ourworldindata.org/grapher/political-regime
-
 https://ourworldindata.org/grapher/political-regime-ert
 
 https://ourworldindata.org/grapher/liberal-democracy-index
