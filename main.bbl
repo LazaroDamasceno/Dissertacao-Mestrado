@@ -4,66 +4,88 @@
 {\sc HAMAM, A.}
 \newblock Cinco faces do brasil.
 \newblock {\em Retratos, Rio de Janeiro 6\/} (dez. 2017), 9--12.
-\newblock Disponível em: \url{}. Acessado em: 13 jul. 2025.
+\newblock
+  \url{https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/3ee63778c4cfdcbbe4684937273d15e2.pdf}.
 
 \bibitem{ITU_crescimento_uso_internet_brasil}
 {\sc ITU}.
 \newblock Crescimento do uso de internet no brasil, 2024.
+\newblock \url{{https://datahub.itu.int/data/?e=701&c=701&i=11624}}.
 
 \bibitem{ITU_uso_internet_mundo}
 {\sc ITU}.
 \newblock Uso de internet no mundo, 2024.
+\newblock
+  \url{{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}.
 
 \bibitem{ITU_uso_internet_brasil}
 {\sc ONU}.
 \newblock Uso de internet no brasil, 2024.
+\newblock
+  \url{{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}.
 
 \bibitem{ONU_populacao_brasil}
 {\sc ONU}.
 \newblock População projetada do brasil pela onu, 2025.
+\newblock
+  \url{{https://population.un.org/wpp/graphs?loc=76&type=Demographic%20Profiles&category=Line%20Charts}}.
 
 \bibitem{age_electoral_democracy}
 {\sc {Our World in Data}}.
-\newblock Age of electoral democracy, 2024, 2024.
+\newblock Age of electoral democracy, 2024.
+\newblock
+  \url{{https://ourworldindata.org/grapher/age-of-electoral-democracy}}.
 
 \bibitem{deliberative_democracy_index_vdem}
 {\sc {Our World in Data}}.
-\newblock Deliberative democracy index by v-dem, 2024, 2024.
+\newblock Deliberative democracy index by v-dem, 2024.
+\newblock
+  \url{{https://ourworldindata.org/grapher/deliberative-democracy-index-vdem}}.
 
 \bibitem{political_regime_eiu}
 {\sc {Our World in Data}}.
-\newblock Democracy, 2024, 2024.
+\newblock Democracy, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/political-regime-eiu}}.
 
 \bibitem{political_regime_lexical}
 {\sc {Our World in Data}}.
-\newblock Democracy, 2024, 2024.
+\newblock Democracy, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/political-regime-lexical}}.
 
 \bibitem{political_regime_ert}
 {\sc {Our World in Data}}.
-\newblock Democratic change, 2024, 2024.
+\newblock Democratic change, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/political-regime-ert}}.
 
 \bibitem{egalitarian_democracy_index_vdem}
 {\sc {Our World in Data}}.
-\newblock Egalitarian democracy index by v-dem, 2024, 2024.
+\newblock Egalitarian democracy index by v-dem, 2024.
+\newblock
+  \url{{https://ourworldindata.org/grapher/egalitarian-democracy-index-vdem}}.
 
 \bibitem{electoral_democracy_eiu}
 {\sc {Our World in Data}}.
-\newblock Electoral democracy eiu, 2024, 2024.
+\newblock Electoral democracy eiu, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/democracy-index-eiu}}.
 
 \bibitem{electoral_democracy_index}
 {\sc {Our World in Data}}.
-\newblock Electoral democracy index, 2024, 2024.
+\newblock Electoral democracy index, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/electoral-democracy-index}}.
 
 \bibitem{full_democracy_lexical}
 {\sc {Our World in Data}}.
-\newblock Full democracy, 2024, 2024.
+\newblock Full democracy, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/full-democracy-lexical}}.
 
 \bibitem{liberal_democracy_row}
 {\sc {Our World in Data}}.
-\newblock Liberal democracy, 2024, 2024.
+\newblock Liberal democracy, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/liberal-democracy-row}}.
 
 \bibitem{liberal_democracy_index}
 {\sc {Our World in Data}}.
-\newblock Liberal democracy index, 2024, 2024.
+\newblock Liberal democracy index, 2024.
+\newblock \url{{https://ourworldindata.org/grapher/liberal-democracy-index}}.
 
 \end{thebibliography}
