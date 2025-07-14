@@ -280,6 +280,11 @@ INPUT .\figuras\democracia\political-regime-lexical.png
 INPUT .\figuras\democracia\political-regime-lexical.png
 INPUT .\figuras\democracia\political-regime-lexical.png
 INPUT .\figuras\democracia\political-regime-lexical.png
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
+INPUT C:\Users\lazar\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1000.tfm
+INPUT C:\Users\lazar\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT main.aux
 INPUT .\texto\dicionario_siglas.aux
 INPUT .\texto\dicionario_siglas.aux
@@ -292,6 +297,10 @@ INPUT .\texto\apendice_democracia.aux
 INPUT texto\apendice_democracia.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk
+INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk
 INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\lazar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
