@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  14 JUL 2025 00:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  14 JUL 2025 03:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -292,11 +292,11 @@ File: figuras/internet/barplot_uso_internet_brasil_itu.png Graphic file (type pn
 <use figuras/internet/barplot_uso_internet_brasil_itu.png>
 Package pdftex.def Info: figuras/internet/barplot_uso_internet_brasil_itu.png  used on input line 28.
 (pdftex.def)             Requested size: 345.0pt x 347.10487pt.
-<figuras/internet/correlacao.png, id=86, 921.4425pt x 592.2125pt>
+<figuras/internet/correlacao.png, id=86, 722.7pt x 433.62pt>
 File: figuras/internet/correlacao.png Graphic file (type png)
 <use figuras/internet/correlacao.png>
 Package pdftex.def Info: figuras/internet/correlacao.png  used on input line 38.
-(pdftex.def)             Requested size: 345.0pt x 221.72672pt.
+(pdftex.def)             Requested size: 345.0pt x 206.9972pt.
 
 
 [5 <./figuras/internet/barplot_uso_internet_brasil_itu.png>]
@@ -321,57 +321,57 @@ Package pdftex.def Info: figuras/regioes/regioes_brasil.PNG  used on input line 
 \openout2 = `texto/apendice_democracia.aux'.
 
  (texto/apendice_democracia.tex
-<figuras/democracia/democracy-index-eiu.png, id=124, 3412.75pt x 2409.0pt>
+<figuras/democracia/democracy-index-eiu.png, id=123, 3412.75pt x 2409.0pt>
 File: figuras/democracia/democracy-index-eiu.png Graphic file (type png)
 <use figuras/democracia/democracy-index-eiu.png>
 Package pdftex.def Info: figuras/democracia/democracy-index-eiu.png  used on input line 6.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/age-of-electoral-democracy.png, id=126, 3412.75pt x 2409.0pt>
+<figuras/democracia/age-of-electoral-democracy.png, id=125, 3412.75pt x 2409.0pt>
 File: figuras/democracia/age-of-electoral-democracy.png Graphic file (type png)
 <use figuras/democracia/age-of-electoral-democracy.png>
 Package pdftex.def Info: figuras/democracia/age-of-electoral-democracy.png  used on input line 14.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/deliberative-democracy-index-vdem.png, id=128, 3412.75pt x 2409.0pt>
+<figuras/democracia/deliberative-democracy-index-vdem.png, id=127, 3412.75pt x 2409.0pt>
 File: figuras/democracia/deliberative-democracy-index-vdem.png Graphic file (type png)
 <use figuras/democracia/deliberative-democracy-index-vdem.png>
 Package pdftex.def Info: figuras/democracia/deliberative-democracy-index-vdem.png  used on input line 23.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/egalitarian-democracy-index-vdem.png, id=130, 3412.75pt x 2409.0pt>
+<figuras/democracia/egalitarian-democracy-index-vdem.png, id=129, 3412.75pt x 2409.0pt>
 File: figuras/democracia/egalitarian-democracy-index-vdem.png Graphic file (type png)
 <use figuras/democracia/egalitarian-democracy-index-vdem.png>
 Package pdftex.def Info: figuras/democracia/egalitarian-democracy-index-vdem.png  used on input line 31.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/electoral-democracy-index.png, id=132, 3412.75pt x 2409.0pt>
+<figuras/democracia/electoral-democracy-index.png, id=131, 3412.75pt x 2409.0pt>
 File: figuras/democracia/electoral-democracy-index.png Graphic file (type png)
 <use figuras/democracia/electoral-democracy-index.png>
 Package pdftex.def Info: figuras/democracia/electoral-democracy-index.png  used on input line 39.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/full-democracy-lexical.png, id=134, 3412.75pt x 2409.0pt>
+<figuras/democracia/full-democracy-lexical.png, id=133, 3412.75pt x 2409.0pt>
 File: figuras/democracia/full-democracy-lexical.png Graphic file (type png)
 <use figuras/democracia/full-democracy-lexical.png>
 Package pdftex.def Info: figuras/democracia/full-democracy-lexical.png  used on input line 47.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/liberal-democracy-index.png, id=136, 3412.75pt x 2409.0pt>
+<figuras/democracia/liberal-democracy-index.png, id=135, 3412.75pt x 2409.0pt>
 File: figuras/democracia/liberal-democracy-index.png Graphic file (type png)
 <use figuras/democracia/liberal-democracy-index.png>
 Package pdftex.def Info: figuras/democracia/liberal-democracy-index.png  used on input line 55.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/liberal-democracy-row.png, id=138, 3412.75pt x 2409.0pt>
+<figuras/democracia/liberal-democracy-row.png, id=137, 3412.75pt x 2409.0pt>
 File: figuras/democracia/liberal-democracy-row.png Graphic file (type png)
 <use figuras/democracia/liberal-democracy-row.png>
 Package pdftex.def Info: figuras/democracia/liberal-democracy-row.png  used on input line 63.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime-eiu.png, id=140, 3412.75pt x 2409.0pt>
+<figuras/democracia/political-regime-eiu.png, id=139, 3412.75pt x 2409.0pt>
 File: figuras/democracia/political-regime-eiu.png Graphic file (type png)
 <use figuras/democracia/political-regime-eiu.png>
 Package pdftex.def Info: figuras/democracia/political-regime-eiu.png  used on input line 71.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime-ert.png, id=142, 3412.75pt x 2409.0pt>
+<figuras/democracia/political-regime-ert.png, id=141, 3412.75pt x 2409.0pt>
 File: figuras/democracia/political-regime-ert.png Graphic file (type png)
 <use figuras/democracia/political-regime-ert.png>
 Package pdftex.def Info: figuras/democracia/political-regime-ert.png  used on input line 79.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime-lexical.png, id=144, 3412.75pt x 2409.0pt>
+<figuras/democracia/political-regime-lexical.png, id=143, 3412.75pt x 2409.0pt>
 File: figuras/democracia/political-regime-lexical.png Graphic file (type png)
 <use figuras/democracia/political-regime-lexical.png>
 Package pdftex.def Info: figuras/democracia/political-regime-lexical.png  used on input line 87.
@@ -422,11 +422,11 @@ Here is how much of TeX's memory you used:
  38419 multiletter control sequences out of 15000+600000
  632343 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,888b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,712b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on main.pdf (20 pages, 6420770 bytes).
+Output written on main.pdf (20 pages, 6422706 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
+ 460 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
  102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
