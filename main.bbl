@@ -4,8 +4,22 @@
 {\sc HAMAM, A.}
 \newblock Cinco faces do brasil.
 \newblock {\em Retratos, Rio de Janeiro 6\/} (dez. 2017), 9--12.
-\newblock Disponível em:
-  \url{https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/3ee63778c4cfdcbbe4684937273d15e2.pdf}.
-  Acessado em: 13 jul. 2025.
+\newblock Disponível em: \url{}. Acessado em: 13 jul. 2025.
+
+\bibitem{ITU_crescimento_uso_internet_brasil}
+{\sc ITU}.
+\newblock Crescimento do uso de internet no brasil, 2024.
+
+\bibitem{ITU_uso_internet_mundo}
+{\sc ITU}.
+\newblock Uso de internet no mundo, 2024.
+
+\bibitem{ITU_uso_internet_brasil}
+{\sc ONU}.
+\newblock Uso de internet no brasil, 2024.
+
+\bibitem{ONU_populacao_brasil}
+{\sc ONU}.
+\newblock População projetada do brasil pela onu, 2025.
 
 \end{thebibliography}
