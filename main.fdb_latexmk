@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex main"] 1752462939.3095 "main.aux" "main.bbl" "main" 1752475766.58014 0
+["bibtex main"] 1752462939.3095 "main.aux" "main.bbl" "main" 1752476226.6408 0
   "./ref.bib" 1752459637 3622 8968230a8a5b7aa37820bb09edbc383f ""
   "C:/Users/lazar/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/acm.bst" 1291864147 21064 c61a48664f3c347ce7f73c1a6a530506 ""
-  "main.aux" 1752475763 1053 b2fa92a351af88f4c94791a8c893d8a4 "pdflatex"
-  "texto/apendice_democracia.aux" 1752475763 3835 dd059cd3cb42fac956bff8e5b301d4dd "pdflatex"
-  "texto/dicionario_siglas.aux" 1752475746 591 ec9c856452267229a751add18c7581a7 "pdflatex"
-  "texto/uso_internet.aux" 1752475747 2581 7cf7c953fe1d055e23ea79086cd4971c "pdflatex"
+  "main.aux" 1752476224 1053 b2fa92a351af88f4c94791a8c893d8a4 "pdflatex"
+  "texto/apendice_democracia.aux" 1752476224 3835 dd059cd3cb42fac956bff8e5b301d4dd "pdflatex"
+  "texto/dicionario_siglas.aux" 1752476208 591 ec9c856452267229a751add18c7581a7 "pdflatex"
+  "texto/uso_internet.aux" 1752476209 2581 7cf7c953fe1d055e23ea79086cd4971c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1752475738.30819 "c:/Users/lazar/Master-Dissertation/main.tex" "main.pdf" "main" 1752475766.58538 0
+["pdflatex"] 1752476206.88615 "c:/Users/lazar/Master-Dissertation/main.tex" "main.pdf" "main" 1752476226.64529 0
   "C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1752451603 1484050 6ab8f54243a8111fee992d1b01852170 ""
   "C:/Users/lazar/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1752369255 25420 8dfd6a81f3043ffd1eb81f9202610d74 ""
   "C:/Users/lazar/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1744764296 40136 bdaba5b3e9c72972909700690b882539 ""
@@ -95,18 +95,18 @@
   "figuras/internet/lineplot_uso_internet_brasil_itu.png" 1752386850 29647 f642121e736b951a885c0ffa2846d15a ""
   "figuras/populacao/populacao_brasil.png" 1752437910 8577 edecb8831c903d5225ae0c40188d42fa ""
   "figuras/regioes/regioes_brasil.PNG" 1752443030 91283 46fa7f55064db996f916d4adc9469ce0 ""
-  "main.aux" 1752475763 1053 b2fa92a351af88f4c94791a8c893d8a4 "pdflatex"
+  "main.aux" 1752476224 1053 b2fa92a351af88f4c94791a8c893d8a4 "pdflatex"
   "main.bbl" 1752462939 1911 9a90af057d9de04010f41dfe1d2df712 "bibtex main"
-  "main.lof" 1752475763 1952 99800f1ef61b664007d8de5c4cc7ac84 "pdflatex"
-  "main.out" 1752475763 340 5a2109123e027717106f79f1ad47f982 "pdflatex"
+  "main.lof" 1752476224 1952 99800f1ef61b664007d8de5c4cc7ac84 "pdflatex"
+  "main.out" 1752476224 340 5a2109123e027717106f79f1ad47f982 "pdflatex"
   "main.tex" 1752451703 510 0315ca5bd798a0fa99d59638cdce8430 ""
-  "main.toc" 1752475763 192 62438eab46beea64c6514051d8d95309 "pdflatex"
-  "texto/apendice_democracia.aux" 1752475763 3835 dd059cd3cb42fac956bff8e5b301d4dd "pdflatex"
+  "main.toc" 1752476224 192 62438eab46beea64c6514051d8d95309 "pdflatex"
+  "texto/apendice_democracia.aux" 1752476224 3835 dd059cd3cb42fac956bff8e5b301d4dd "pdflatex"
   "texto/apendice_democracia.tex" 1752455325 3249 6222e117f21b029aa9ca7ee138dafdac ""
-  "texto/dicionario_siglas.aux" 1752475746 591 ec9c856452267229a751add18c7581a7 "pdflatex"
-  "texto/dicionario_siglas.tex" 1752457686 637 4c58f1ee9d59ba974981d9fc4bd0760f ""
-  "texto/uso_internet.aux" 1752475747 2581 7cf7c953fe1d055e23ea79086cd4971c "pdflatex"
-  "texto/uso_internet.tex" 1752474142 5240 2eaed13ac79202175a5e04e492969735 ""
+  "texto/dicionario_siglas.aux" 1752476208 591 ec9c856452267229a751add18c7581a7 "pdflatex"
+  "texto/dicionario_siglas.tex" 1752476203 511 0758450f9939ee72762277190d6935dd ""
+  "texto/uso_internet.aux" 1752476209 2581 7cf7c953fe1d055e23ea79086cd4971c "pdflatex"
+  "texto/uso_internet.tex" 1752476070 5236 331890d7332905712dd45fc8bb304991 ""
   (generated)
   "main.aux"
   "main.lof"
