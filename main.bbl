@@ -7,8 +7,18 @@
 \newblock
   \url{https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/3ee63778c4cfdcbbe4684937273d15e2.pdf}.
 
+\bibitem{IBGE_censo_2022}
+{\sc IBGE}.
+\newblock População projetada do brasil, 2022.
+\newblock \url{{hhttps://censo2022.ibge.gov.br/panorama/}}.
+
+\bibitem{pnda_continua_anual_2016_2023}
+{\sc IBGE}.
+\newblock Pnad contínua anual, 2024.
+\newblock \url{{https://sidra.ibge.gov.br/tabela/6794}}.
+
 \bibitem{IBGE_populacao_brasil}
-{\sc ibge}.
+{\sc IBGE}.
 \newblock População projetada do brasil, 2025.
 \newblock
   \url{{https://cidades.ibge.gov.br/brasil/pesquisa/53/49645?tipo=grafico}}.
@@ -18,17 +28,27 @@
 \newblock Crescimento do uso de internet no brasil, 2024.
 \newblock \url{{https://datahub.itu.int/data/?e=701&c=701&i=11624}}.
 
+\bibitem{ITU_uso_internet_brasil}
+{\sc ITU}.
+\newblock Uso de internet no brasil, 2024.
+\newblock
+  \url{{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}.
+
 \bibitem{ITU_uso_internet_mundo}
 {\sc ITU}.
 \newblock Uso de internet no mundo, 2024.
 \newblock
   \url{{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}.
 
-\bibitem{ITU_uso_internet_brasil}
+\bibitem{ONU_tamanho_paises}
 {\sc ONU}.
-\newblock Uso de internet no brasil, 2024.
-\newblock
-  \url{{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}.
+\newblock Estensão territorial do brasil, 2025.
+\newblock \url{{https://www.fao.org/faostat/en/#data/RL}}.
+
+\bibitem{ONU_populacao_paises}
+{\sc ONU}.
+\newblock População dos países, 2025.
+\newblock \url{{https://population.un.org/dataportal/}}.
 
 \bibitem{age_electoral_democracy}
 {\sc {Our World in Data}}.
