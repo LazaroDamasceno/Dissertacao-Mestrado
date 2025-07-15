@@ -7,6 +7,12 @@
 \newblock
   \url{https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/3ee63778c4cfdcbbe4684937273d15e2.pdf}.
 
+\bibitem{IBGE_populacao_brasil}
+{\sc ibge}.
+\newblock População projetada do brasil, 2025.
+\newblock
+  \url{{https://cidades.ibge.gov.br/brasil/pesquisa/53/49645?tipo=grafico}}.
+
 \bibitem{ITU_crescimento_uso_internet_brasil}
 {\sc ITU}.
 \newblock Crescimento do uso de internet no brasil, 2024.
@@ -23,12 +29,6 @@
 \newblock Uso de internet no brasil, 2024.
 \newblock
   \url{{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}.
-
-\bibitem{ONU_populacao_brasil}
-{\sc ONU}.
-\newblock População projetada do brasil pela onu, 2025.
-\newblock
-  \url{{https://population.un.org/wpp/graphs?loc=76&type=Demographic%20Profiles&category=Line%20Charts}}.
 
 \bibitem{age_electoral_democracy}
 {\sc {Our World in Data}}.
