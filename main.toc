@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {2}Índices de governo eletrônico}{11}{section.2}%
 \contentsline {subsection}{\numberline {2.1}EGDI}{11}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Coeficiente de correlação de Pearson: EGDI, índice de democracia eleitoral e PIB \textit {per capital}}{11}{subsubsection.2.1.1}%
-\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{14}{appendix.A}%
+\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{13}{appendix.A}%
