@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: texto/dicionario_siglas.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: texto/uso_internet.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: texto/apendice_democracia.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: ref.bib
+You've used 21 entries,
+            2253 wiz_defined-function locations,
+            615 strings with 6596 characters,
+and the built_in function-call counts, 4583 in all, are:
+= -- 417
+> -- 147
+< -- 0
++ -- 63
+- -- 42
+* -- 194
+:= -- 745
+add.period$ -- 64
+call.type$ -- 21
+change.case$ -- 84
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 170
+empty$ -- 487
+format.name$ -- 42
+if$ -- 987
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 2
+newline$ -- 109
+num.names$ -- 42
+pop$ -- 174
+preamble$ -- 1
+purify$ -- 63
+quote$ -- 0
+skip$ -- 143
+stack$ -- 0
+substring$ -- 136
+swap$ -- 42
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 0
+while$ -- 45
+width$ -- 23
+write$ -- 214

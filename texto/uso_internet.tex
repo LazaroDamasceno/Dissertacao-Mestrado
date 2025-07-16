@@ -34,15 +34,18 @@ Visando entender melhor o crescimento do uso de internet no Brasil, fez-se uma a
 
 \begin{figure}[H]
     \centering
-    \caption{Coeficiente de correlação de Pearson: índice do uso de internet, população total e extensão territorial}
+    \caption{Coeficiente de correlação de Pearson: índice do uso de internet, população brasileira e extensão territorial}
     \includegraphics[width=1\linewidth]{figuras/internet/correlacao.png}
     \label{fig:internet_correlacao}
     \footnotesize{Fonte: baseado em \cite{ONU_populacao_paises}, \cite{pnda_continua_anual_2016_2023} e \cite{ONU_tamanho_paises}.}
 \end{figure}
 
-O coeficiente de correlação de Pearson mais positivo e forte foi entre \texttt{Índice do Uso de internet} e \texttt{População total}. De maneira contrária, \texttt{Extensão territorial} tem um coeficiente negativo com \texttt{Índice do Uso de internet} e \texttt{População total}. 
+O coeficiente de correlação de Pearson varia entre -1 e 1. O sinal indica a direção da correlação (negativa ou positiva) enquanto que o valor indica a magnitude. Quanto mais perto de 1 mais forte é o nível de associação linear entre as variáveis. Quanto mais perto de zero, menor é o nível de associação. Em particular, uma correlação de valor zero significa que as variáveis são ortogonais entre si (ausência de
+correlação) \cite{sousa2019coeficiente}.
 
-Portanto, será considerada apenas a relação \texttt{Índice do Uso de internet} e \texttt{População total}, pois o crescimento da população (até 2023) está altamente correlacionado com o crescimento do uso de internet no Brasil.
+O coeficiente de correlação de Pearson mais positivo e forte foi entre \texttt{Índice do Uso de internet} e \texttt{População brasileira}. De maneira contrária, \texttt{Extensão territorial} tem um coeficiente negativo com \texttt{Índice do Uso de internet} e \texttt{População brasileira}. 
+
+Portanto, será considerada apenas a relação \texttt{Índice do Uso de internet} e \texttt{População brasileira}, pois o crescimento da população (até 2023) está altamente correlacionado com o crescimento do uso de internet no Brasil.
 
 Conforme exposto pela figura \ref{fig:internet_correlacao}, o crescimento populacional (até 2023) tem forte correlação com o uso de internet no Brasil. Assim, percebe-se tal correlação ao analisar o gráfico de crescimento projetado pela ONU, presente na figura \ref{fig:populacao_brasil}.
 
@@ -107,8 +110,3 @@ A escolha da densidade demográfica foi feita em razão de um questionamento ao 
 Como já foi provado que há correlação entre o índice do uso de internet e o crescimento da população brasileira (figura \ref{fig:internet_correlacao}), testou-se a correlação entre o índice do uso de internet e a densidade demográfica das regiões.
 
 O resultado foi uma correlação positiva e alta entre o índice do uso de internet e a densidade demográfica. Devido a isso, e complementando com o teor da figura \ref{fig:densidade_demografica}, confirmou-se que o uso de internet é mais alto nos estados com alta densidade demográfica, ou seja, os que têm litoral, com exceção do Piauí, sendo Minas Gerais e Goiás os únicos estados não costeiros a ter alta densidade demográfica.
-
-Conforme foi demonstrado pelos argumentos e figuras anteriores, é amplo e mais localizado em regiões que têm densidade populacional maior. Como consequência, os brasileiros usam a internet para diversos fins. Assim, foi escolhido como objeto de análise a busca pelo governo eletrônico. Para tanto, serão utilizados os dados da pesquisa \href{https://cetic.br/pt/pesquisa/domicilios/}{TIC Domicílios} (2005-2024) do Cetic.br.
-
-\subsection{Usos de internet: buscar o governo eletrônico}
-\label{uso_internet_buscar_egov}
