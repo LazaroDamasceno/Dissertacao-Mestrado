@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  16 JUL 2025 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  16 JUL 2025 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,7 +538,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  10363 strings out of 468218
  174199 string characters out of 5432848
- 589968 words of memory out of 5000000
+ 589965 words of memory out of 5000000
  38659 multiletter control sequences out of 15000+600000
  634584 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
