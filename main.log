@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  16 JUL 2025 02:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  16 JUL 2025 04:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -287,12 +287,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `texto/uso_internet.aux'.
 
  (texto/uso_internet.tex
-<figuras/internet/individuos_uso_internet_itu.png, id=98, 898.35625pt x 437.635pt>
+<figuras/internet/individuos_uso_internet_itu.png, id=101, 898.35625pt x 437.635pt>
 File: figuras/internet/individuos_uso_internet_itu.png Graphic file (type png)
 <use figuras/internet/individuos_uso_internet_itu.png>
 Package pdftex.def Info: figuras/internet/individuos_uso_internet_itu.png  used on input line 9.
 (pdftex.def)             Requested size: 269.09958pt x 131.09117pt.
-<figuras/internet/lineplot_uso_internet_brasil_itu.png, id=102, 992.70876pt x 592.2125pt>
+<figuras/internet/lineplot_uso_internet_brasil_itu.png, id=105, 992.70876pt x 592.2125pt>
 File: figuras/internet/lineplot_uso_internet_brasil_itu.png Graphic file (type png)
 <use figuras/internet/lineplot_uso_internet_brasil_itu.png>
 Package pdftex.def Info: figuras/internet/lineplot_uso_internet_brasil_itu.png  used on input line 19.
@@ -302,12 +302,12 @@ Package pdftex.def Info: figuras/internet/lineplot_uso_internet_brasil_itu.png  
 [4
 
  <./figuras/internet/individuos_uso_internet_itu.png> <./figuras/internet/lineplot_uso_internet_brasil_itu.png>]
-<figuras/internet/barplot_uso_internet_brasil_itu.png, id=113, 986.68625pt x 992.70876pt>
+<figuras/internet/barplot_uso_internet_brasil_itu.png, id=116, 986.68625pt x 992.70876pt>
 File: figuras/internet/barplot_uso_internet_brasil_itu.png Graphic file (type png)
 <use figuras/internet/barplot_uso_internet_brasil_itu.png>
 Package pdftex.def Info: figuras/internet/barplot_uso_internet_brasil_itu.png  used on input line 29.
 (pdftex.def)             Requested size: 345.0pt x 347.10487pt.
-<figuras/internet/correlacao.png, id=116, 722.7pt x 433.62pt>
+<figuras/internet/correlacao.png, id=119, 722.7pt x 433.62pt>
 File: figuras/internet/correlacao.png Graphic file (type png)
 <use figuras/internet/correlacao.png>
 Package pdftex.def Info: figuras/internet/correlacao.png  used on input line 39.
@@ -319,7 +319,7 @@ Overfull \hbox (8.15451pt too wide) in paragraph at lines 47--48
 \T1/cmtt/m/n/10 do Uso de internet \T1/cmr/m/n/10 e \T1/cmtt/m/n/10 População brasileira\T1/cmr/m/n/10 . De ma-neira con-trá-ria, \T1/cmtt/m/n/10 Extensão
  []
 
-<figuras/populacao/populacao_brasil.png, id=128, 776.9025pt x 334.24875pt>
+<figuras/populacao/populacao_brasil.png, id=131, 776.9025pt x 334.24875pt>
 File: figuras/populacao/populacao_brasil.png Graphic file (type png)
 <use figuras/populacao/populacao_brasil.png>
 Package pdftex.def Info: figuras/populacao/populacao_brasil.png  used on input line 56.
@@ -327,7 +327,7 @@ Package pdftex.def Info: figuras/populacao/populacao_brasil.png  used on input l
 
 
 [6 <./figuras/internet/correlacao.png>]
-<figuras/regioes/regioes_brasil.PNG, id=144, 333.74687pt x 298.11375pt>
+<figuras/regioes/regioes_brasil.PNG, id=147, 333.74687pt x 298.11375pt>
 File: figuras/regioes/regioes_brasil.PNG Graphic file (type png)
 <use figuras/regioes/regioes_brasil.PNG>
 Package pdftex.def Info: figuras/regioes/regioes_brasil.PNG  used on input line 72.
@@ -335,7 +335,7 @@ Package pdftex.def Info: figuras/regioes/regioes_brasil.PNG  used on input line 
 
 
 [7 <./figuras/populacao/populacao_brasil.png>]
-<figuras/internet/distribuicao_uso_internet_regioes.png, id=157, 722.7pt x 433.62pt>
+<figuras/internet/distribuicao_uso_internet_regioes.png, id=160, 722.7pt x 433.62pt>
 File: figuras/internet/distribuicao_uso_internet_regioes.png Graphic file (type png)
 <use figuras/internet/distribuicao_uso_internet_regioes.png>
 Package pdftex.def Info: figuras/internet/distribuicao_uso_internet_regioes.png  used on input line 82.
@@ -343,12 +343,12 @@ Package pdftex.def Info: figuras/internet/distribuicao_uso_internet_regioes.png 
 
 
 [8 <./figuras/regioes/regioes_brasil.PNG> <./figuras/internet/distribuicao_uso_internet_regioes.png>]
-<figuras/populacao/censo_2022_densidade_demografica.png, id=167, 995.72pt x 564.1075pt>
+<figuras/populacao/censo_2022_densidade_demografica.png, id=170, 995.72pt x 564.1075pt>
 File: figuras/populacao/censo_2022_densidade_demografica.png Graphic file (type png)
 <use figuras/populacao/censo_2022_densidade_demografica.png>
 Package pdftex.def Info: figuras/populacao/censo_2022_densidade_demografica.png  used on input line 96.
 (pdftex.def)             Requested size: 345.0pt x 195.45222pt.
-<figuras/internet/correlacao2.png, id=170, 722.7pt x 433.62pt>
+<figuras/internet/correlacao2.png, id=173, 722.7pt x 433.62pt>
 File: figuras/internet/correlacao2.png Graphic file (type png)
 <use figuras/internet/correlacao2.png>
 Package pdftex.def Info: figuras/internet/correlacao2.png  used on input line 106.
@@ -361,12 +361,12 @@ Package pdftex.def Info: figuras/internet/correlacao2.png  used on input line 10
 \openout2 = `texto/indices_egov.aux'.
 
  (texto/indices_egov.tex
-<figuras/egdi/correlacao3.png, id=188, 722.7pt x 433.62pt>
+<figuras/egdi/correlacao3.png, id=191, 722.7pt x 433.62pt>
 File: figuras/egdi/correlacao3.png Graphic file (type png)
 <use figuras/egdi/correlacao3.png>
 Package pdftex.def Info: figuras/egdi/correlacao3.png  used on input line 18.
 (pdftex.def)             Requested size: 345.0pt x 206.9972pt.
-<figuras/egdi/correlacao4.png, id=191, 722.7pt x 433.62pt>
+<figuras/egdi/correlacao4.png, id=194, 722.7pt x 433.62pt>
 File: figuras/egdi/correlacao4.png Graphic file (type png)
 <use figuras/egdi/correlacao4.png>
 Package pdftex.def Info: figuras/egdi/correlacao4.png  used on input line 26.
@@ -377,131 +377,139 @@ Package pdftex.def Info: figuras/egdi/correlacao4.png  used on input line 26.
 
 
 
- <./figuras/egdi/correlacao3.png>])
+ <./figuras/egdi/correlacao3.png>]
 
 [12 <./figuras/egdi/correlacao4.png>]
+<figuras/egdi/correlacao5.png, id=213, 936.49875pt x 592.2125pt>
+File: figuras/egdi/correlacao5.png Graphic file (type png)
+<use figuras/egdi/correlacao5.png>
+Package pdftex.def Info: figuras/egdi/correlacao5.png  used on input line 35.
+(pdftex.def)             Requested size: 345.0pt x 218.16637pt.
+)
+
+[13 <./figuras/egdi/correlacao5.png>]
 \openout2 = `apendice_democracia.aux'.
 
  (apendice_democracia.tex
-<figuras/democracia/democracy-index-eiu.png, id=209, 3412.75pt x 2409.0pt>
+<figuras/democracia/democracy-index-eiu.png, id=221, 3412.75pt x 2409.0pt>
 File: figuras/democracia/democracy-index-eiu.png Graphic file (type png)
 <use figuras/democracia/democracy-index-eiu.png>
 Package pdftex.def Info: figuras/democracia/democracy-index-eiu.png  used on input line 6.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/age-of-electoral-democracy.png, id=211, 3412.75pt x 2409.0pt>
+<figuras/democracia/age-of-electoral-democracy.png, id=223, 3412.75pt x 2409.0pt>
 File: figuras/democracia/age-of-electoral-democracy.png Graphic file (type png)
 <use figuras/democracia/age-of-electoral-democracy.png>
 Package pdftex.def Info: figuras/democracia/age-of-electoral-democracy.png  used on input line 14.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/deliberative-democracy-index-vdem.png, id=213, 3412.75pt x 2409.0pt>
+<figuras/democracia/deliberative-democracy-index-vdem.png, id=225, 3412.75pt x 2409.0pt>
 File: figuras/democracia/deliberative-democracy-index-vdem.png Graphic file (type png)
 <use figuras/democracia/deliberative-democracy-index-vdem.png>
 Package pdftex.def Info: figuras/democracia/deliberative-democracy-index-vdem.png  used on input line 23.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/egalitarian-democracy-index-vdem.png, id=215, 3412.75pt x 2409.0pt>
+<figuras/democracia/egalitarian-democracy-index-vdem.png, id=227, 3412.75pt x 2409.0pt>
 File: figuras/democracia/egalitarian-democracy-index-vdem.png Graphic file (type png)
 <use figuras/democracia/egalitarian-democracy-index-vdem.png>
 Package pdftex.def Info: figuras/democracia/egalitarian-democracy-index-vdem.png  used on input line 31.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/electoral-democracy-index.png, id=217, 3412.75pt x 2409.0pt>
+<figuras/democracia/electoral-democracy-index.png, id=229, 3412.75pt x 2409.0pt>
 File: figuras/democracia/electoral-democracy-index.png Graphic file (type png)
 <use figuras/democracia/electoral-democracy-index.png>
 Package pdftex.def Info: figuras/democracia/electoral-democracy-index.png  used on input line 39.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/full-democracy-lexical.png, id=219, 3412.75pt x 2409.0pt>
+<figuras/democracia/full-democracy-lexical.png, id=231, 3412.75pt x 2409.0pt>
 File: figuras/democracia/full-democracy-lexical.png Graphic file (type png)
 <use figuras/democracia/full-democracy-lexical.png>
 Package pdftex.def Info: figuras/democracia/full-democracy-lexical.png  used on input line 47.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/liberal-democracy-index.png, id=221, 3412.75pt x 2409.0pt>
+<figuras/democracia/liberal-democracy-index.png, id=233, 3412.75pt x 2409.0pt>
 File: figuras/democracia/liberal-democracy-index.png Graphic file (type png)
 <use figuras/democracia/liberal-democracy-index.png>
 Package pdftex.def Info: figuras/democracia/liberal-democracy-index.png  used on input line 55.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/liberal-democracy-row.png, id=223, 3412.75pt x 2409.0pt>
+<figuras/democracia/liberal-democracy-row.png, id=235, 3412.75pt x 2409.0pt>
 File: figuras/democracia/liberal-democracy-row.png Graphic file (type png)
 <use figuras/democracia/liberal-democracy-row.png>
 Package pdftex.def Info: figuras/democracia/liberal-democracy-row.png  used on input line 63.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime-eiu.png, id=225, 3412.75pt x 2409.0pt>
+<figuras/democracia/political-regime-eiu.png, id=237, 3412.75pt x 2409.0pt>
 File: figuras/democracia/political-regime-eiu.png Graphic file (type png)
 <use figuras/democracia/political-regime-eiu.png>
 Package pdftex.def Info: figuras/democracia/political-regime-eiu.png  used on input line 71.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime-ert.png, id=227, 3412.75pt x 2409.0pt>
+<figuras/democracia/political-regime-ert.png, id=239, 3412.75pt x 2409.0pt>
 File: figuras/democracia/political-regime-ert.png Graphic file (type png)
 <use figuras/democracia/political-regime-ert.png>
 Package pdftex.def Info: figuras/democracia/political-regime-ert.png  used on input line 79.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
-<figuras/democracia/political-regime-lexical.png, id=229, 3412.75pt x 2409.0pt>
+<figuras/democracia/political-regime-lexical.png, id=241, 3412.75pt x 2409.0pt>
 File: figuras/democracia/political-regime-lexical.png Graphic file (type png)
 <use figuras/democracia/political-regime-lexical.png>
 Package pdftex.def Info: figuras/democracia/political-regime-lexical.png  used on input line 87.
 (pdftex.def)             Requested size: 345.0pt x 243.52396pt.
 )
 
-[13
+[14
 
 
 
  <./figuras/democracia/democracy-index-eiu.png>]
 
-[14 <./figuras/democracia/age-of-electoral-democracy.png>]
+[15 <./figuras/democracia/age-of-electoral-democracy.png>]
 
-[15 <./figuras/democracia/deliberative-democracy-index-vdem.png>]
+[16 <./figuras/democracia/deliberative-democracy-index-vdem.png>]
 
-[16 <./figuras/democracia/egalitarian-democracy-index-vdem.png>]
+[17 <./figuras/democracia/egalitarian-democracy-index-vdem.png>]
 
-[17 <./figuras/democracia/electoral-democracy-index.png>]
+[18 <./figuras/democracia/electoral-democracy-index.png>]
 
-[18 <./figuras/democracia/full-democracy-lexical.png>]
+[19 <./figuras/democracia/full-democracy-lexical.png>]
 
-[19 <./figuras/democracia/liberal-democracy-index.png>]
+[20 <./figuras/democracia/liberal-democracy-index.png>]
 
-[20 <./figuras/democracia/liberal-democracy-row.png>]
+[21 <./figuras/democracia/liberal-democracy-row.png>]
 
-[21 <./figuras/democracia/political-regime-eiu.png>]
+[22 <./figuras/democracia/political-regime-eiu.png>]
 
-[22 <./figuras/democracia/political-regime-ert.png>]
+[23 <./figuras/democracia/political-regime-ert.png>]
 
-[23 <./figuras/democracia/political-regime-lexical.png>] (main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
+[24 <./figuras/democracia/political-regime-lexical.png>] (main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
 []\T1/cmr/m/sc/10 Our World in Data\T1/cmr/m/n/10 .  De-li-be-ra-tive de-mo-cracy in-dex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
 \T1/cmr/m/n/10 by v-dem, 2024.  [][]$\T1/cmtt/m/n/10 https : / / ourworldindata . org / grapher /
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 89--92
+
+[25
+
+
+]
+Underfull \hbox (badness 2980) in paragraph at lines 94--97
 []\T1/cmr/m/sc/10 Our World in Data\T1/cmr/m/n/10 .  De-mo-cra-tic change, 2024.  [][]$\T1/cmtt/m/n/10 https : / /
  []
 
 
-
-[24
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 94--98
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 []\T1/cmr/m/sc/10 Our World in Data\T1/cmr/m/n/10 .  Ega-li-ta-rian de-mo-cracy in-dex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--98
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 \T1/cmr/m/n/10 by v-dem, 2024.  [][]$\T1/cmtt/m/n/10 https : / / ourworldindata . org / grapher /
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 115--118
+Underfull \hbox (badness 3460) in paragraph at lines 120--123
 []\T1/cmr/m/sc/10 Our World in Data\T1/cmr/m/n/10 .  Li-be-ral de-mo-cracy, 2024.  [][]$\T1/cmtt/m/n/10 https : / /
  []
 
 )
 
-[25] (main.aux (texto/dicionario_siglas.aux) (texto/uso_internet.aux) (texto/indices_egov.aux) (apendice_democracia.aux))
+[26] (main.aux (texto/dicionario_siglas.aux) (texto/uso_internet.aux) (texto/indices_egov.aux) (apendice_democracia.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
@@ -510,17 +518,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 19A3424FB8E01C402B04F3D9209D5D2C;1195.
  ) 
 Here is how much of TeX's memory you used:
- 10321 strings out of 468218
- 173021 string characters out of 5432848
- 585464 words of memory out of 5000000
- 38625 multiletter control sequences out of 15000+600000
+ 10333 strings out of 468218
+ 173354 string characters out of 5432848
+ 586624 words of memory out of 5000000
+ 38634 multiletter control sequences out of 15000+600000
  634584 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,659b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\lazar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on main.pdf (25 pages, 6686220 bytes).
+Output written on main.pdf (26 pages, 6759226 bytes).
 PDF statistics:
- 705 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 722 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
