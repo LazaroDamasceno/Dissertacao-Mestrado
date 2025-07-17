@@ -8,7 +8,7 @@ A não escolha do DESI foi motivada pela explicação de \cite{desi_2022} de com
 
 O EGDI apresenta o estado de desenvolvimento de governo eletrônico dos Estados membro da ONU. O índice incorpora as características de acesso, tais como níveis de infraestrutura e educacional para mostrar como um país está usando as tecnologias de informação para promover acesso e inclusão do seu povo \cite{ONU_egdi}.
 
-\cite{ONU_egdi} afirma que o EGDI é uma mensuração composta formada por 3 imoportantes dimensões do governo eletrônico: provisão de serviços online, conectividade de telecomunicação e capacidade humana.
+\cite{ONU_egdi} afirma que o EGDI é uma mensuração composta formada por 3 importantes dimensões do governo eletrônico: provisão de serviços online, conectividade de telecomunicação e capacidade humana.
 
 Os componentes do EGDI são:
 
@@ -20,20 +20,49 @@ Os componentes do EGDI são:
 	\footnotesize{Fonte: \cite{ONU_egdi_methodology}}
 \end{figure}
 
-Cada componente citado na figura \ref{fig:egdi_componentes} será descrito individualmente nos próximos parágrafos.
+\cite{ONU_egdi} argumenta que o E-Participation Index deriva do EGDI como índice suplementar ao relatório E-Government Survey. A estrutura do índice suplementar esta presente na tabela \ref{}.
 
+\begin{longtable}{|p{4cm}|p{8cm}|}
+	\hline
+	\textbf{Componente} & \textbf{Descrição} \\
+	\hline
+	\endhead
+	\hline
+	E-information & Facilitação da participação dos cidadãos via informações públicas e acesso a informação sem necessidade de pedido ou sob pedido. \\
+	\hline
+	E-consultation & Engajamento dos cidadãos em contribuições e deliberações sobre políticas publicas e serviços públicos. \\
+	\hline
+	E-decision-making & Empoderamento dos cidadãos via a opção de coparticipação na elaboração de políticas e coprodução de componentes de serviços e entrega de modalidades. \\
+	\hline
+\end{longtable}
+
+\cite{ONU_egdi} esclarece que o E-Participation Index de um país reflete os mecanismos do índice que são empregados pelo governo quando se faz comparações com todos outros países. 
+
+O propósito dessa medição não é prescrever qualquer prática especificam, no entanto oferece perspectivas de como países diferentes estão usando ferramentas online para promover interação entre o governo e seu povo, bem como, entre as pessoas para benefícios de todos.
+ 
+Adicionalmente, cada componente citado na figura \ref{fig:egdi_componentes} será descrito individualmente nos próximos parágrafos.
+
+\paragraph{E-Government Index}
+
+\paragraph{E-Participation Index}
+
+\paragraph{Online Service Index}
+
+\paragraph{Telecommunication Infrastructure Index}
+
+\paragraph{Human Capital Index}
 
 %%%%%%%%%%%%%%%
 
 \subsubsection{Coeficiente de correlação de Spearman: EGDI, índice de democracia eleitoral, PIB \textit{per capital} e uso de internet}
 
-Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidade, quanto autocracias históricas tem um EGDI alto. O critério para entender quais paises são democráticos ou autocráticos foram as figuras presentes no Apêndice \ref{demo_auto_mundo}. 
+Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidadas, quanto autocracias tem um EGDI alto. O critério para entender quais países são democráticos ou autocráticos foram as figuras presentes no Apêndice \ref{demo_auto_mundo}. 
 
-Nota-se que em qualquer figura o Brasil é considerado uma democrácia (eleitoral, completa ou liberal), estão na minoria númerica de países democráticas (88), conforme exposto por \cite{nord2025democracy}, contra 91 autocracias.
+Nota-se que em qualquer figura o Brasil é considerado uma democracia (eleitoral, completa ou liberal), estão na minoria numérica de países democráticas (88), conforme exposto por \cite{nord2025democracy}, contra 91 autocracias.
 
-Outro fator chamou atenção: há EGDI alto em paises tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{com o PIB \textit{per capita} dos paises}. 
+Outro fator chamou atenção: há EGDI alto em países tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{com o PIB \textit{per capita} dos países}. 
 
-Em razão dos parágrafos anteriores, um questionamento surgiu: qual é relação entre EDGI e índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem}, o PIB \textit{per capita} e uso de internet tanto nos páises do mundo, quanto no Brasil. Para responder a pergunta, foi usado o coeficiente de correlação de Spearman. O resultado foi dividido nas figuras \ref{fig:correlacao3}, \ref{fig:correlacao4}, \ref{fig:correlacao8} e \ref{fig:correlacao6}.
+Em razão dos parágrafos anteriores, um questionamento surgiu: qual é relação entre EDGI e índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem}, o PIB \textit{per capita} e uso de internet tanto nos países do mundo, quanto no Brasil. Para responder a pergunta, foi usado o coeficiente de correlação de Spearman. O resultado foi dividido nas figuras \ref{fig:correlacao3}, \ref{fig:correlacao4}, \ref{fig:correlacao8} e \ref{fig:correlacao6}.
 
 \begin{figure}[H]
     \centering
@@ -43,17 +72,17 @@ Em razão dos parágrafos anteriores, um questionamento surgiu: qual é relaçã
     \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{electoral_democracy_index}.}
 \end{figure}
 
-A \ref{fig:correlacao3} demonstra que não correlação entre o índice de democrácia eleitoral e o EGDI dos 193 países. Ou seja, uma democrácia ou autocrácia pode ter um EGDI alto devido a outras variáveis, mas democrácia não é uma delas.
+A \ref{fig:correlacao3} demonstra que não correlação entre o índice de democracia eleitoral e o EGDI dos 193 países. Ou seja, uma democracia ou autocracia pode ter um EGDI alto devido a outras variáveis, mas democracia não é uma delas.
 
 \begin{figure}[H]
     \centering
     \caption{Coeficiente de correlação de Spearman: PIB \textit{per capita} PPC em USD e EGDI dos 193 países}
     \includegraphics[width=1\linewidth]{figuras/egdi/correlacao4.png}
     \label{fig:correlacao4}
-    \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{WB_pib_per_capita_paises}.}
+    \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{WB_pib_per_capita_países}.}
 \end{figure}
 
-A \ref{fig:correlacao4} demonstra que não correlação entre o PIB \textit{per capita} PPC e o EGDI dos 193 países. Ou seja, uma democrácia ou autocrácia pode ter um EGDI alto devido a outras variáveis, mas o PIB \textit{per capita} PPC de qualquer valor não tem interferência.
+A \ref{fig:correlacao4} demonstra que não correlação entre o PIB \textit{per capita} PPC e o EGDI dos 193 países. Ou seja, uma democracia ou autocracia pode ter um EGDI alto devido a outras variáveis, mas o PIB \textit{per capita} PPC de qualquer valor não tem interferência.
 
 A análise global mostrou resultados interessantes. No entanto, diminui-se o escopo de análise para o Brasil.
 
@@ -72,7 +101,7 @@ Apenas o Human Capital Index teve uma correlação positiva de 0.38 com o índic
     \caption{Coeficiente de correlação de Spearman: PIB \textit{per capita} PPC em USD e EGDI do Brasil}
     \includegraphics[width=1\linewidth]{figuras/egdi/correlacao6.png}
     \label{fig:correlacao6}
-    \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{WB_pib_per_capita_paises}.}
+    \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{WB_pib_per_capita_países}.}
 \end{figure}
 
 %%%%%%%%%%%%
@@ -173,7 +202,7 @@ A ONU tem \href{https://publicadministration.un.org/egovkb/en-us/Data/ICT-in-gov
 
 \begin{itemize}
     \item Existência de estratégia nacional de governo eletrônico ou equivalente;
-    \item Existência de identidade digital para acessar ou outra forma de autencicação requirida para poder acessar serviços online;
+    \item Existência de identidade digital para acessar ou outra forma de autenticação requirida para poder acessar serviços online;
     \item Existência de um portal de compras governamentais.
 \end{itemize}
 
@@ -189,7 +218,7 @@ Os resultados globais dos indicadores estão presentes nas figuras \ref{fig:nati
 
 \begin{figure}[H]
 	\centering
-	\caption{Indicador: Existência de identidade digital para acessar ou outra forma de autencicação requirida para poder acessar serviços online}
+	\caption{Indicador: Existência de identidade digital para acessar ou outra forma de autenticação requirida para poder acessar serviços online}
 	\includegraphics[width=1\linewidth]{figuras/ict_in_government/digital_identity}
 	\label{fig:national_identity}
 	\footnotesize{Fonte: \cite{ONU_ICT_in_government_indicators}}
@@ -203,20 +232,22 @@ Os resultados globais dos indicadores estão presentes nas figuras \ref{fig:nati
 	\footnotesize{Fonte: \cite{ONU_ICT_in_government_indicators}}
 \end{figure}
 
-Das três figuras, a Europa foi o continente cujos mais respondem que têm seguem os indicadores, superando os 90\%. A Oceania foi o continente que menos implementou políticas de identidade digital para acesso a serviços online. África e Oceania tiveram um desempenho ruim na implementação de portais de compra governamentais. O continente american apresentou bom desempenho nos três indicadores.
+Das três figuras, a Europa foi o continente cujos mais respondem que têm seguem os indicadores, superando os 90\%. A Oceania foi o continente que menos implementou políticas de identidade digital para acesso a serviços online. África e Oceania tiveram um desempenho ruim na implementação de portais de compra governamentais. O continente americano apresentou bom desempenho nos três indicadores.
 
-Como consequência da análise dos resultados presentes nas figuras \ref{fig:national_government_strategy}, \ref{fig:national_identity} e \ref{fig:procurement_portal}, buscou-se entender a seguinte situação registrada nos 2022 e 2024, anos em que os indicadores foram medidos: qual é a porcentgem de países que respoderam nenhuma, uma, duas ou todas as perguntas. Elas são perguntas de sim ou não sobre a aplicação dos indicadores no país.
+Como consequência da análise dos resultados presentes nas figuras \ref{fig:national_government_strategy}, \ref{fig:national_identity} e \ref{fig:procurement_portal}, buscou-se entender a seguinte situação registrada nos 2022 e 2024, anos em que os indicadores foram medidos: qual é a porcentagem de países que responderam nenhuma, uma, duas ou todas as perguntas. Elas usam sim ou não para confirmar a aplicação dos indicadores no país.
 
 A resposta ao questionamento está presente na figura \ref{fig:indicators_answer}.
 
 \begin{figure}[H]
 	\centering
-	\caption{Resposta postiva aos indicadores de TIC de governo eletrônico}
+	\caption{Resposta positiva aos indicadores de TIC de governo eletrônico}
 	\includegraphics[width=1\linewidth]{figuras/ict_in_government/indicators_answer}
 	\label{fig:indicators_answer}
 	\footnotesize{Fonte: \cite{ONU_ICT_in_government_indicators}}
 \end{figure}
 
-Em 2022, metade dos paises respondeu positivamente as três perguntas; em 2024, mais da metade. O Brasil faz parte desse grupo, tal como a Rússia e China. A mudança é creditada a reduçãõ do número de paises que responderam positivamente 2 de 3 perguntas e passaram a resposder as três positivamente.
+Em 2022, metade dos países respondeu positivamente as três perguntas; em 2024, mais da metade. O Brasil faz parte desse grupo, tal como a Rússia e China. A mudança é creditada a redução do número de países que responderam positivamente 2 de 3 perguntas e passaram a responder as três positivamente. 
+
+Além, disso a quantidade de países que responderam positivamente 1 de 3 perguntas e nenhuma se igualou em 2024, sendo os países que responderam 1 de 3 perguntas era maior do que os que responderam nenhuma.
 
 Tal detalhe se alinha à não correlação entre o EGDI e o índice de democracia eleitoral. Porém, buscou-se entender se há correlação entre os indicadores de TIC de governo eletrônico e o PIB \textit{per capita} PPC.
