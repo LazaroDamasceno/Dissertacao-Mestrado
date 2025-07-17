@@ -1,7 +1,0 @@
-\babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {1}Uso de internet}{5}{section.1}%
-\contentsline {section}{\numberline {2}Índices de governo eletrônico}{12}{section.2}%
-\contentsline {subsection}{\numberline {2.1}EGDI}{12}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Coeficiente de correlação de Pearson: EGDI, índice de democracia eleitoral, PIB \textit {per capital} e uso de internet}{12}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Indicadores de TIC de governo eletrônico}{21}{subsubsection.2.1.2}%
-\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{24}{appendix.A}%
