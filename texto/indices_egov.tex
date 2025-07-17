@@ -10,7 +10,15 @@ O DESI não será usado porque o índice, administrado pela Comissão Europeia d
 
 \subsubsection{Coeficiente de correlação de Pearson: EGDI, índice de democracia eleitoral e PIB \textit{per capital}}
 
-Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidade, quanto autocracias históricas tem um EGDI alto. 
+Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidade, quanto autocracias históricas tem um EGDI alto. O critério para entender quais paises são democráticos ou autocráticos foram as figuras presentes no Apêndice \ref{demo_auto_mundo}. 
+
+Nota-se que em qualquer figura o Brasil é considerado uma democrácia (eleitoral, completa ou liberal), estão na minoria númerica de países democráticas (88), conforme exposto por \cite{nord2025democracy}, contra 91 autocracias.
+
+Outro fator chamou atenção: há EGDI alto em paises tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{dados do PIB \textit{per capita} dos paises}. 
+
+Além disso, percebeu-se que em paises tanto autocráticos, quanto democráticos, o uso de internet é alto quando comparados os dados do \href{https://datahub.itu.int/data/?e=701&i=11624&c=701}{uso individual de internet no mundo} pelo ITU.
+
+Em razão disso, um questionamento surgiu: qual é relação entre EDGI e índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem}, o PIB \textit{per capita} e uso de internet tanto nos páises do mundo, quanto no Brasil. Para responder a pergunta, foi usado o coeficiente de correlação de Pearson. O resultado foi dividido nas figuras \ref{fig:correlacao3}, \ref{fig:correlacao4}, \ref{fig:correlacao5}, \ref{fig:correlacao8}, \ref{fig:correlacao6} e \ref{fig:correlacao7}.
 
 \begin{figure}[H]
     \centering
@@ -36,12 +44,11 @@ Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/A
     \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{ITU_uso_internet_mundo}.}
 \end{figure}
 
-
 \begin{figure}[H]
     \centering
     \caption{Coeficiente de correlação de Pearson: índice de democracia eleitoral e o EGDI do Brasil}
     \includegraphics[width=1\linewidth]{figuras/egdi/correlacao8.png}
-    \label{fig:orrelacao8}
+    \label{fig:correlacao8}
     \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa} e \cite{electoral_democracy_index}.}
 \end{figure}
 
@@ -101,6 +108,8 @@ Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/A
     \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa}.}
 \end{figure}
 
+%barplot_egdi_brasil
+
 \begin{figure}[H]
     \centering
     \caption{Evolução do EGDI do Brasil}
@@ -108,8 +117,6 @@ Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/A
     \label{fig:lineplot_egdi_brasil}
     \footnotesize{Fonte: baseado em \cite{ONU_edgi_mapa}.}
 \end{figure}
-
-%barplot_egdi_brasil
 
 \begin{figure}[H]
     \centering
