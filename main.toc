@@ -1,0 +1,15 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {section}{\numberline {1}Índices de governo eletrônico}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}EGDI}{4}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}E-Participation Index}{5}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Online Service Index}{6}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Human Capital Index}{7}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Telecommunication Infrastructure Index}{8}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}EGDI do Brasil}{9}{subsubsection.1.1.5}%
+\contentsline {paragraph}{E-Participation Index}{11}{figure.1.9}%
+\contentsline {paragraph}{Online Service Index}{11}{figure.1.10}%
+\contentsline {paragraph}{Human Capital Indexx}{12}{figure.1.11}%
+\contentsline {paragraph}{Telecommunication Infrastructure Index}{12}{figure.1.12}%
+\contentsline {subsubsection}{\numberline {1.1.6}Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit {per capital}}{13}{subsubsection.1.1.6}%
+\contentsline {subsubsection}{\numberline {1.1.7}Indicadores de TIC de governo eletrônico}{13}{subsubsection.1.1.7}%
+\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{16}{appendix.A}%

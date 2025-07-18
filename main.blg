@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: texto/dicionario_siglas.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: texto/indices_egov.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: apendice_democracia.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: ref.bib
+Warning--I didn't find a database entry for "ONU_edgi_mapa"
+You've used 17 entries,
+            2253 wiz_defined-function locations,
+            595 strings with 6460 characters,
+and the built_in function-call counts, 4039 in all, are:
+= -- 363
+> -- 154
+< -- 0
++ -- 65
+- -- 48
+* -- 185
+:= -- 652
+add.period$ -- 51
+call.type$ -- 17
+change.case$ -- 75
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 153
+empty$ -- 407
+format.name$ -- 48
+if$ -- 868
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 2
+newline$ -- 88
+num.names$ -- 34
+pop$ -- 153
+preamble$ -- 1
+purify$ -- 58
+quote$ -- 0
+skip$ -- 129
+stack$ -- 0
+substring$ -- 117
+swap$ -- 42
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 68
+warning$ -- 0
+while$ -- 37
+width$ -- 19
+write$ -- 171
+(There was 1 warning)
