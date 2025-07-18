@@ -10,6 +10,6 @@
 \contentsline {paragraph}{Online Service Index}{11}{figure.1.10}%
 \contentsline {paragraph}{Human Capital Indexx}{12}{figure.1.11}%
 \contentsline {paragraph}{Telecommunication Infrastructure Index}{12}{figure.1.12}%
-\contentsline {subsubsection}{\numberline {1.1.6}Coeficiente de correlação de Spearman: EGDI, índice de democracia eleitoral, PIB \textit {per capital} e uso de internet}{13}{subsubsection.1.1.6}%
-\contentsline {subsubsection}{\numberline {1.1.7}Indicadores de TIC de governo eletrônico}{16}{subsubsection.1.1.7}%
-\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{19}{appendix.A}%
+\contentsline {subsubsection}{\numberline {1.1.6}Coeficiente de correlação de Spearman: EGDI, índice de democracia eleitoral e PIB \textit {per capital}}{13}{subsubsection.1.1.6}%
+\contentsline {subsubsection}{\numberline {1.1.7}Indicadores de TIC de governo eletrônico}{13}{subsubsection.1.1.7}%
+\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{16}{appendix.A}%
