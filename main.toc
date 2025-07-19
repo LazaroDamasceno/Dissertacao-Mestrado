@@ -12,4 +12,5 @@
 \contentsline {paragraph}{Telecommunication Infrastructure Index}{12}{figure.1.12}%
 \contentsline {subsubsection}{\numberline {1.1.6}Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit {per capital}}{13}{subsubsection.1.1.6}%
 \contentsline {subsubsection}{\numberline {1.1.7}Indicadores de TIC de governo eletrônico}{13}{subsubsection.1.1.7}%
+\contentsline {subsubsection}{\numberline {1.1.8}Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit {per capita} PPC}{15}{subsubsection.1.1.8}%
 \contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{16}{appendix.A}%
