@@ -1,10 +1,10 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-Reallocating 'name_of_file' (item size: 1) to 28 items.
-A level-1 auxiliary file: texto/dicionario_siglas.aux
-Reallocating 'name_of_file' (item size: 1) to 23 items.
-A level-1 auxiliary file: texto/indices_egov.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: dicionario_siglas.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: indices_egov.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: apendice_democracia.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
@@ -14,7 +14,7 @@ Database file #1: ref.bib
 Warning--I didn't find a database entry for "ONU_edgi_mapa"
 You've used 17 entries,
             2253 wiz_defined-function locations,
-            595 strings with 6460 characters,
+            595 strings with 6448 characters,
 and the built_in function-call counts, 4039 in all, are:
 = -- 363
 > -- 154
