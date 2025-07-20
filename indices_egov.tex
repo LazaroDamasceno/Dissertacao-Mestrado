@@ -34,7 +34,7 @@ A figura \ref{fig:boxplot_egov_global} contém um diagrama de caixa que represen
 
 A linha central na caixa indica que a mediana do índice é de aproximadamente 0.65. A caixa em si, que representa os 50\% centrais dos dados, se estende de cerca de 0.48 a 0.83, mostrando a variação dos índices na maioria dos países. As linhas verticais, conhecidas como "bigodes", demonstram a amplitude total dos dados, que vai de aproximadamente 0.1 a quase 1.0. A distribuição do índice parece ser relativamente simétrica, sem um viés perceptível para valores mais altos ou mais baixos, e o gráfico não identifica a presença de valores discrepantes (outliers) extremos.
 
-\section{E-Participation Index}
+\subsection{E-Participation Index}
 \label{epart}
 
 \cite{ONU_EGDI} argumenta que o \textbf{E-Participation Index} deriva do EGDI como índice suplementar ao relatório \textbf{E-Government Survey}. Os componentes do índice são: \textbf{E-information}, \textbf{E-consultation} e \textbf{E-decision-making}. 
@@ -57,14 +57,14 @@ A figura \ref{fig:boxplot_epart_global} contém um diagrama de caixa que represe
 
 A figura \ref{fig:boxplot_epart_global} revela que a mediana do índice é de aproximadamente 0.47, indicando que metade dos países avaliados se encontra acima desse valor. A caixa do gráfico abrange o intervalo entre 0.28 e 0.72, onde estão concentrados 50\% dos países. A amplitude total dos índices é considerável, variando de 0.0 a 1.0. A distribuição se apresenta como relativamente simétrica, sem uma concentração significativa de países nas extremidades dos dados, e não há indícios de valores discrepantes (outliers).
 
-\section{Online Service Index}
+\subsection{Online Service Index}
 \label{osi}
 
 A figura \ref{fig:boxplot_osi_global} contém um diagrama de caixa que representa o \textbf{E-Participation Index} global.
 
 \begin{figure}[H]
 	\centering
-	\caption{Online Service Index global}
+	\caption{Online Service Index global em 2024}
 	\includegraphics[width=1\linewidth]{figuras/egdi/boxplot_osi_global.png}
 	\label{fig:boxplot_osi_global}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
@@ -72,7 +72,7 @@ A figura \ref{fig:boxplot_osi_global} contém um diagrama de caixa que represent
 
 A figura \ref{fig:boxplot_osi_global} revela que a mediana do índice de serviços online é de aproximadamente 0.58. A caixa principal do gráfico indica que 50\% dos países têm índices que variam entre 0.38 e 0.81. A amplitude total dos dados é vasta, indo de 0.0 a 1.0, o que demonstra uma grande disparidade nos níveis de serviços online oferecidos globalmente. A distribuição dos dados é relativamente simétrica e, assim como nos gráficos anteriores, não há outliers visíveis.
 
-\section{Human Capital Index}
+\subsection{Human Capital Index em 2024}
 \label{hci}
 
 \cite{ONU_EGDI_methodology} afirma que \textbf{Human Capital Index} tem 4 indicadores: taxa bruta de matrícula, letramento adulto, anos de escolarização esperados e média de anos de escolaridade. 
@@ -95,7 +95,7 @@ A figura \ref{fig:boxplot_hci_global} contém um diagrama de caixa que represent
 
 A figura \ref{fig:boxplot_hci_global} mostra que a mediana do índice de capital humano é de aproximadamente 0.70. A caixa principal, que concentra os 50\% centrais dos dados, indica que a maioria dos países tem um índice que varia entre 0.52 e 0.81. A amplitude dos dados é ampla, indo de cerca de 0.13 a 1.0. A distribuição se apresenta como relativamente simétrica, e, diferentemente dos gráficos anteriores, este diagrama aponta a existência de um outlier, um valor discrepante isolado, localizado próximo ao zero no eixo vertical, indicando um país com um índice de capital humano excepcionalmente baixo em comparação com os demais.
 
-\section{Telecommunication Infrastructure Index}
+\subsection{Telecommunication Infrastructure Index em 2024}
 \label{tii}
 
 \cite{ONU_EGDI_methodology} afirma que o \textbf{Telecommunication Infrastructure Index} tem 5 componentes: usuário de internet, assinatura de banda larga fixa, assinatura de banda larga sem fio, assinatura de telefone fixo e assinatura de dados móveis.
@@ -112,11 +112,11 @@ A figura \ref{fig:boxplot_tci_global} contém um diagrama de caixa que represent
 
 A figura \ref{fig:boxplot_tci_global} mostra que a mediana do índice de infraestrutura de telecomunicações está em cerca de 0.80, indicando que metade dos países possui um índice superior a esse valor. A caixa do gráfico, que representa os 50\% centrais dos dados, abrange o intervalo entre aproximadamente 0.50 e 0.90. A amplitude total dos dados varia de 0.0 a 1.0. A distribuição dos dados é relativamente simétrica e, assim como na maioria dos gráficos anteriores, não há outliers visíveis.
 
-\section{Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit{per capital}}
+\subsubsection{Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit{per capital}}
 
 Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidadas, quanto autocracias tem um EGDI alto. O critério para entender quais países são democráticos ou autocráticos foi a figura \ref{fig:electoral-democracy-index}. 
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\caption{Índice da democracia eleitoral}
 	\includegraphics[width=1\linewidth]{figuras/democracia/electoral-democracy-index.png}
@@ -128,11 +128,45 @@ Nota-se que o Brasil é considerado uma democracia eleitoral, estando na minoria
 
 Outro fator chamou atenção: há EGDI alto em países tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação inicial dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{com o PIB \textit{per capita} dos países}. 
 
-Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem} e com o PIB \textit{per capita}. Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão.
+Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem} e com o PIB \textit{per capita}. Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão. Diagramas de dispersão estão presentes nas figuras \ref{fig:dispensao_egov_pib}, \ref{fig:dispensao_epart_pib}, \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia}.
 
-Para compreender melhor os diagramas de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande dispersão mostrada nos diagramas. Tal discrepância é um indicativo de correlação fraca ou inexistente. O resultado foi dividido nas figuras \ref{fig:}.
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispensao: EGDI e PIB \textit{per capita} PPC}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispensao_egov_pib}
+	\label{fig:dispensao_egov_pib}
+	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{WB_pib_per_capita_países}}
+\end{figure}
 
-\section{Indicadores de TIC de governo eletrônico}
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispensao: E-Participation Index e PIB \textit{per capita} PPC}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispensao_epart_pib}
+	\label{fig:dispensao_epart_pib}
+	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{WB_pib_per_capita_países}}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispensao: EGDI e índice de democracia eleitoral}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_egov_indicedemocracia}
+	\label{fig:dispersao_egov_indicedemocracia}
+	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispensao: E-Participation Index e índice de democracia eleitoral}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_epart_indicedemocracia}
+	\label{fig:dispersao_epart_indicedemocracia}
+	\footnotesize{Fonte:baseado em \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
+\end{figure}
+
+Para compreender melhor os diagramas de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos nas figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} e pela alta dispersão nas figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia}.
+
+Os coeficientes de correlação Os coeficientes de correlação das  figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} são 0.82 e 0.67, respectivamente, e das figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia} são 0.04 e 0.05, respectivamente. Portanto, pode-se afirmar-se que EGDI e o \textbf{E-Participation} tem forte relação com o PIB \textit{per capita} PPC. De maneira contrária, EGDI, \textbf{E-Participation}n e o índice de democracia eleitoral são variáveis independentes.
+
+\subsection{Indicadores de TIC de governo eletrônico}
 \label{indicadores_tic_egov}
 
 A ONU tem \href{https://publicadministration.un.org/egovkb/en-us/Data/ICT-in-government}{indicadores de TIC de governo eletrônico} como algo complementar ao EGDI. Os indicadores são, conforme \cite{ONU_ICT_in_government_indicators}:
@@ -187,7 +221,7 @@ Em 2022, metade dos países respondeu positivamente as três perguntas; em 2024,
 
 Além, disso a quantidade de países que responderam positivamente 1 de 3 perguntas e nenhuma se igualou em 2024, sendo os países que responderam 1 de 3 perguntas era maior do que os que responderam nenhuma.
 
-\subsection{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit{per capita} PPC}
+\subsubsection{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit{per capita} PPC}
 
 
 Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há correlação entre os indicadores de TIC de governo eletrônico e os PIB \textit{per capita} PPC e o índice de democracia eleitoral.
@@ -208,11 +242,9 @@ Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há cor
 	\footnotesize{Fonte: baseado em \cite{electoral_democracy_index} e \cite{ONU_ICT_in_government_indicators}}
 \end{figure}
 
-Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_indicedemocracia} e \ref{fig:dispersao_ticegov_pib} apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. 
+Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_pib} e \ref{fig:dispersao_ticegov_indicedemocracia}  apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. Os coeficientes de correlação (0.1 e -0.0051) indicam que os indicadores de TIC de governo eletrônico não são afetados pelo PIB per capita PPC e pelo índice de democracia eleitoral, e vice-versa.
 
-Os coeficientes de correlação foram 0.1 e -0.0051, ou seja, os indicadores de TIC de governo eletrônico não são afetados pelo PIB \textit{per capita} PPC e índice de democracia eleitora e vice-versa.
-
-\section{EGDI do Brasil}
+\subsection{EGDI do Brasil}
 
 A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desde 2003-2005 e 2008-2024 (bianualmente)
 
@@ -232,7 +264,7 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-\subsection{E-Participation Index do Brasil}
+\subsubsection{E-Participation Index do Brasil}
 
 \begin{figure}[H]
 	\centering
@@ -242,7 +274,7 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-\subsection{Online Service Index do Brasil}
+\subsubsection{Online Service Index do Brasil}
 
 \begin{figure}[H]
 	\centering
@@ -252,7 +284,7 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-\subsection{Human Capital Index do Brasil}
+\subsubsection{Human Capital Index do Brasil}
 
 \begin{figure}[H]
 	\centering
@@ -262,7 +294,7 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-\subsection{Telecommunication Infrastructure Index do Brasil}
+\subsubsection{Telecommunication Infrastructure Index do Brasil}
 
 \begin{figure}[H]
 	\centering
