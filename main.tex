@@ -1,4 +1,6 @@
-\documentclass{report}
+\documentclass[12pt, a4paper]{report}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}   
 \usepackage[brazilian]{babel}
@@ -8,7 +10,13 @@
 \usepackage{hyperref}
 \usepackage{array}
 \usepackage{longtable}
-\usepackage{geometry}
+\usepackage[
+    top=3cm,
+    bottom=2cm,
+    left=3cm,
+    right=2cm,
+    a4paper
+]{geometry}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -28,10 +36,11 @@
 
 \include{indices_egov}
 
-\bibliographystyle{plain}
 \bibliography{ref}
 
 \appendix
 \include{apendice_democracia}
+
+\bibliographystyle{acm}
 
 \end{document}

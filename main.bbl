@@ -1,77 +1,82 @@
 \begin{thebibliography}{10}
 
 \bibitem{martinez2022egovernment}
-Yolanda Mart{\'\i}nez, Jos{\'e} Clastornik, and Oscar~Alberto Campos.
+{\sc Mart{\'\i}nez, Y., Clastornik, J., and Campos, O.~A.}
 \newblock egovernment measuring frameworks: A comparative analysis of different
   indexes based on their taxonomy: A comparative analysis of different indexes
   based on their taxonomy.
 \newblock In {\em Proceedings of the 15th International Conference on Theory
-  and Practice of Electronic Governance}, pages 397--403, 2022.
+  and Practice of Electronic Governance\/} (2022), pp.~397--403.
 
 \bibitem{WB_pib_per_capita_países}
-Banco Mundial.
+{\sc Mundial, B.}
 \newblock Pib per capita dos países, 2024.
 \newblock \url{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}.
 
 \bibitem{nord2025democracy}
-Marina Nord, David Altman, Fabio Angiolillo, Tiago Fernandes, Ana~Good God, and
-  Staffan~I Lindberg.
+{\sc Nord, M., Altman, D., Angiolillo, F., Fernandes, T., God, A.~G., and
+  Lindberg, S.~I.}
 \newblock Democracy report 2025: 25 years of autocratization--democracy
   trumped.
-\newblock {\em University of Gothenburg: V-Dem Institute}, 2025.
+\newblock {\em University of Gothenburg: V-Dem Institute\/} (2025).
 
-\bibitem{ONU_egdi_methodology}
-ONU.
+\bibitem{ONU_EGDI_methodology}
+{\sc ONU}.
 \newblock Egdi: Survey methodology, 2016.
 \newblock
   \url{https://publicadministration.un.org/egovkb/Portals/egovkb/Documents/un/2016-Survey/Annexes.pdf}.
 
 \bibitem{ONU_ICT_in_government_indicators}
-ONU.
+{\sc ONU}.
 \newblock Ict in government (e-government) indicators, 2024.
 \newblock
   \url{https://publicadministration.un.org/egovkb/en-us/Data/ICT-in-government}.
 
-\bibitem{ONU_egdi}
-ONU.
+\bibitem{ONU_EGDI_mapa}
+{\sc ONU}.
+\newblock Mapa interativo do egdi, 2024.
+\newblock \url{https://publicadministration.un.org/egovkb/en-us/Data-Center}.
+
+\bibitem{ONU_EGDI}
+{\sc ONU}.
 \newblock E-government development index (egdi), 2025.
 \newblock
   \url{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}.
 
 \bibitem{deliberative_democracy_index_vdem}
-{Our World in Data}.
+{\sc {Our World in Data}}.
 \newblock Deliberative democracy index by v-dem, 2024.
 \newblock
   \url{https://ourworldindata.org/grapher/deliberative-democracy-index-vdem}.
 
 \bibitem{political_regime_lexical}
-{Our World in Data}.
+{\sc {Our World in Data}}.
 \newblock Democracy, 2024.
 \newblock \url{https://ourworldindata.org/grapher/political-regime-lexical}.
 
 \bibitem{egalitarian_democracy_index_vdem}
-{Our World in Data}.
+{\sc {Our World in Data}}.
 \newblock Egalitarian democracy index by v-dem, 2024.
 \newblock
   \url{https://ourworldindata.org/grapher/egalitarian-democracy-index-vdem}.
 
 \bibitem{electoral_democracy_eiu}
-{Our World in Data}.
+{\sc {Our World in Data}}.
 \newblock Electoral democracy eiu, 2024.
 \newblock \url{https://ourworldindata.org/grapher/democracy-index-eiu}.
 
 \bibitem{electoral_democracy_index}
-{Our World in Data}.
+{\sc {Our World in Data}}.
 \newblock Electoral democracy index, 2024.
 \newblock \url{https://ourworldindata.org/grapher/electoral-democracy-index}.
 
 \bibitem{liberal_democracy_index}
-{Our World in Data}.
+{\sc {Our World in Data}}.
 \newblock Liberal democracy index, 2024.
 \newblock \url{https://ourworldindata.org/grapher/liberal-democracy-index}.
 
 \bibitem{desi_2022}
-{União Europeia}.
+{\sc {União Europeia}}.
 \newblock Digital economy and society index (desi) 2022, 2024.
 \newblock \url{https://digital-strategy.ec.europa.eu/en/policies/desi}.
 

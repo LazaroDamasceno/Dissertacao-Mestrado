@@ -5,52 +5,50 @@ Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: dicionario_siglas.aux
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: indices_egov.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: apendice_democracia.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "ONU_edgi_mapa"
-You've used 13 entries,
-            2118 wiz_defined-function locations,
-            556 strings with 6217 characters,
-and the built_in function-call counts, 3134 in all, are:
-= -- 289
-> -- 128
-< -- 1
-+ -- 53
-- -- 40
-* -- 126
-:= -- 521
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 59
+You've used 14 entries,
+            2253 wiz_defined-function locations,
+            588 strings with 6192 characters,
+and the built_in function-call counts, 3403 in all, are:
+= -- 306
+> -- 133
+< -- 0
++ -- 56
+- -- 42
+* -- 161
+:= -- 550
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 110
-empty$ -- 301
-format.name$ -- 40
-if$ -- 675
+cite$ -- 14
+duplicate$ -- 129
+empty$ -- 338
+format.name$ -- 42
+if$ -- 730
 int.to.chr$ -- 0
-int.to.str$ -- 13
+int.to.str$ -- 14
 missing$ -- 2
-newline$ -- 68
-num.names$ -- 26
-pop$ -- 117
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 46
+purify$ -- 49
 quote$ -- 0
-skip$ -- 103
+skip$ -- 108
 stack$ -- 0
-substring$ -- 97
-swap$ -- 23
-text.length$ -- 1
+substring$ -- 102
+swap$ -- 36
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 56
 warning$ -- 0
-while$ -- 29
-width$ -- 15
-write$ -- 133
-(There was 1 warning)
+while$ -- 31
+width$ -- 16
+write$ -- 141
