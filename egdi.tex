@@ -6,7 +6,7 @@ A não escolha do DESI foi motivada, principalmente, pelo seu escopo. Conforme \
 
 Como os foco da análise é o Brasil, o fato do DESI ter sua abrangência limitada a União Europeia afastou a possibilidade de seu uso. Contrariamente, o EGDI, GTMI e DGI têm abrangência global.
 
-Dentre os índices com abrangência global – EGDI, GTMI e DGI – optou-se pelo primeiro. Embora o GTMI do Banco Mundial e o DGI da OECD também ofereçam visões valiosas sobre a maturidade do governo digital, o EGDI da ONU foi o escolhido devido à sua maior popularidade no meio acadêmico.
+Dentre os índices com abrangência global – EGDI, GTMI e DGI – optou-se pelo primeiro. Embora o GTMI do Banco Mundial e o DGI da OECD também ofereçam visões valiosas sobre a maturidade do governo digital, o EGDI da ONU foi o escolhido devido a maior quantidade de material encontrado no Google Escolar.
 
 O EGDI apresenta o estado de desenvolvimento de governo eletrônico dos Estados membros da ONU. O índice incorpora as características de acesso, tais como níveis de infraestrutura e educacional para mostrar como um país está usando as tecnologias de informação para promover acesso e inclusão do seu povo \cite{ONU_EGDI}.
 
@@ -128,7 +128,9 @@ Nota-se que o Brasil é considerado uma democracia eleitoral, estando na minoria
 
 Outro fator chamou atenção: há EGDI alto em países tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação inicial dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{com o PIB \textit{per capita} dos países}. 
 
-Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem} e com o PIB \textit{per capita}. Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão. Diagramas de dispersão estão presentes nas figuras \ref{fig:dispensao_egov_pib}, \ref{fig:dispensao_epart_pib}, \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia}.
+Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem}, com o PIB \textit{per capita} e com o gasto governamental. Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão. 
+
+\subsubsection{EGDI x PIB \textit{per capita} PPC}
 
 \begin{figure}[H]
 	\centering
@@ -138,6 +140,12 @@ Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação
 	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{WB_pib_per_capita_países}}
 \end{figure}
 
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos.
+
+O coeficiente de correlação encontrada foi 0.82. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Government Index} tendem a crescer juntos.
+
+\subsubsection{E-Participation Index x PIB \textit{per capita} PPC}
+
 \begin{figure}[H]
 	\centering
 	\caption{Diagrama de Dispensao: E-Participation Index e PIB \textit{per capita} PPC}
@@ -145,6 +153,12 @@ Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação
 	\label{fig:dispensao_epart_pib}
 	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{WB_pib_per_capita_países}}
 \end{figure}
+
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos.
+
+O coeficiente de correlação encontrada foi 0.67. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Participation Index} tendem a crescer juntos.
+
+\subsubsection{EGDI e índice de democracia eleitoral}
 
 \begin{figure}[H]
 	\centering
@@ -154,6 +168,12 @@ Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação
 	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
 \end{figure}
 
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos.
+
+O coeficiente de correlação encontrada foi 0.04. Os índice de democracia eleitoral e o \textbf{E-Government Index} são variáveis independentes.
+
+\subsubsection{E-Participation Index e índice de democracia eleitoral}
+
 \begin{figure}[H]
 	\centering
 	\caption{Diagrama de Dispensao: E-Participation Index e índice de democracia eleitoral}
@@ -162,9 +182,11 @@ Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação
 	\footnotesize{Fonte:baseado em \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
 \end{figure}
 
-Para compreender melhor os diagramas de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos nas figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} e pela alta dispersão nas figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia}.
+O coeficiente de correlação encontrada foi 0.05. Os índice de democracia eleitoral e o \textbf{E-Participation Index} são variáveis independentes.
 
-Os coeficientes de correlação Os coeficientes de correlação das  figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} são 0.82 e 0.67, respectivamente, e das figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia} são 0.04 e 0.05, respectivamente. Portanto, pode-se afirmar-se que EGDI e o \textbf{E-Participation} tem forte relação com o PIB \textit{per capita} PPC. De maneira contrária, EGDI, \textbf{E-Participation} e o índice de democracia eleitoral são variáveis independentes.
+\subsubsection{EGDI x }
+
+\section{Trabalhos e resultados de outros autores}
 
 \cite{alisherovna2021whether} chegou a uma conclusão similar a da figura \ref{fig:dispensao_egov_pib}, porém o autor adotou a taxa de crescimento do PIB ao invés do PIB \textit{per capita} PPC.
 
@@ -181,6 +203,7 @@ Embora a figura \ref{fig:usmanova_egdi_gdp} mostre menos pontos extremos do que 
 Outros autores destacaram a importância do EGDI. \cite{kotenok2020government} concluem que o impacto do governo eletrônico pode impulsionar a inovação ou até mesmo ser um componente importante para entender como a economia é transformada devido à tecnologia. \cite{kumar2020cultural} descobriu que o desenvolvimento econômico, mensurado pelo PIB \textit{per capita}, significativamente e positivamente impulsio o EGDI. 
 
 \cite{ziolo2022government} cita que na União Europe (até 2020), observou-se a correlação observada entre o nível de desenvolvimento do governo eletrônico e as áreas ambiental, social e econômica parece ser de grande importância. Essa correlação implica que a digitalização dos processos administrativos pode ter um impacto real no desenvolvimento sustentável, promovendo, assim, mudanças positivas em todas as suas três esferas.
+
 
 \section{Indicadores de TIC de governo eletrônico}
 \label{indicadores_tic_egov}
@@ -239,8 +262,7 @@ Além, disso a quantidade de países que responderam positivamente 1 de 3 pergun
 
 \subsection{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit{per capita} PPC}
 
-
-Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há correlação entre os indicadores de TIC de governo eletrônico e os PIB \textit{per capita} PPC e o índice de democracia eleitoral.
+Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há correlação entre os indicadores de TIC de governo eletrônico e os PIB \textit{per capita} PPC, índice de democracia eleitoral, gasto governamental e a efetividade governamental.
 
 \begin{figure}[H]
 	\centering
@@ -260,7 +282,7 @@ Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há cor
 
 Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_pib} e \ref{fig:dispersao_ticegov_indicedemocracia}  apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. Os coeficientes de correlação (0.1 e -0.0051) indicam que os indicadores de TIC de governo eletrônico não são afetados pelo PIB per capita PPC e pelo índice de democracia eleitoral, e vice-versa.
 
-\section{EGDI d o Brasil}
+\section{EGDI do Brasil}
 
 A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desde 2003-2005 e 2008-2024 (bianualmente)
 

@@ -3,15 +3,15 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: glossario.aux
-Reallocating 'name_of_file' (item size: 1) to 17 items.
-A level-1 auxiliary file: indices_egov.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: egdi.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
 You've used 13 entries,
             2118 wiz_defined-function locations,
-            568 strings with 6708 characters,
+            568 strings with 6700 characters,
 and the built_in function-call counts, 4097 in all, are:
 = -- 390
 > -- 191

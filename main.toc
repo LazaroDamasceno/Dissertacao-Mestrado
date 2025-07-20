@@ -5,11 +5,17 @@
 \contentsline {section}{\numberline {1.3}Human Capital Index em 2024}{7}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Telecommunication Infrastructure Index em 2024}{8}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit {per capital}}{9}{subsection.1.4.1}%
-\contentsline {section}{\numberline {1.5}Indicadores de TIC de governo eletrônico}{14}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit {per capita} PPC}{16}{subsection.1.5.1}%
-\contentsline {section}{\numberline {1.6}EGDI d o Brasil}{17}{section.1.6}%
-\contentsline {paragraph}{E-Government Development Index}{18}{section*.4}%
-\contentsline {paragraph}{E-Participation Index}{18}{section*.5}%
-\contentsline {paragraph}{Online Service Index}{18}{section*.6}%
-\contentsline {paragraph}{Human Capital Index}{18}{section*.7}%
-\contentsline {paragraph}{Telecommunication Infrastructure Index}{19}{section*.8}%
+\contentsline {subsubsection}{EGDI x PIB \textit {per capita} PPC}{11}{section*.4}%
+\contentsline {subsubsection}{E-Participation Index x PIB \textit {per capita} PPC}{12}{section*.5}%
+\contentsline {subsubsection}{EGDI e índice de democracia eleitoral}{13}{section*.6}%
+\contentsline {subsubsection}{E-Participation Index e índice de democracia eleitoral}{14}{section*.7}%
+\contentsline {subsubsection}{EGDI x }{14}{section*.8}%
+\contentsline {section}{\numberline {1.5}Trabalhos e resultados de outros autores}{14}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Indicadores de TIC de governo eletrônico}{15}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit {per capita} PPC}{17}{subsection.1.6.1}%
+\contentsline {section}{\numberline {1.7}EGDI do Brasil}{19}{section.1.7}%
+\contentsline {paragraph}{E-Government Development Index}{19}{section*.9}%
+\contentsline {paragraph}{E-Participation Index}{19}{section*.10}%
+\contentsline {paragraph}{Online Service Index}{20}{section*.11}%
+\contentsline {paragraph}{Human Capital Index}{20}{section*.12}%
+\contentsline {paragraph}{Telecommunication Infrastructure Index}{20}{section*.13}%
