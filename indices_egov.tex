@@ -49,7 +49,7 @@ A figura \ref{fig:boxplot_epart_global} contém um diagrama de caixa que represe
 
 \begin{figure}[H]
 	\centering
-	\caption{E-Participation Index global}
+	\caption{E-Participation Index global em 2024}
 	\includegraphics[width=1\linewidth]{figuras/egdi/boxplot_epart_global.png}
 	\label{fig:boxplot_epart_global}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
@@ -87,7 +87,7 @@ A figura \ref{fig:boxplot_hci_global} contém um diagrama de caixa que represent
 
 \begin{figure}[H]
 	\centering
-	\caption{Human Capital Index global}
+	\caption{Human Capital Index global em 2024}
 	\includegraphics[width=1\linewidth]{figuras/egdi/boxplot_hci_global.png}
 	\label{fig:boxplot_hci_global}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
@@ -104,7 +104,7 @@ A figura \ref{fig:boxplot_tci_global} contém um diagrama de caixa que represent
 
 \begin{figure}[H]
 	\centering
-	\caption{Telecommunication Infrastructure Index global}
+	\caption{Telecommunication Infrastructure Index global em 2024}
 	\includegraphics[width=1\linewidth]{figuras/egdi/boxplot_tci_global.png}
 	\label{fig:boxplot_tci_global}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
@@ -164,7 +164,19 @@ Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação
 
 Para compreender melhor os diagramas de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos nas figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} e pela alta dispersão nas figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia}.
 
-Os coeficientes de correlação Os coeficientes de correlação das  figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} são 0.82 e 0.67, respectivamente, e das figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia} são 0.04 e 0.05, respectivamente. Portanto, pode-se afirmar-se que EGDI e o \textbf{E-Participation} tem forte relação com o PIB \textit{per capita} PPC. De maneira contrária, EGDI, \textbf{E-Participation}n e o índice de democracia eleitoral são variáveis independentes.
+Os coeficientes de correlação Os coeficientes de correlação das  figuras \ref{fig:dispensao_egov_pib} e \ref{fig:dispensao_epart_pib} são 0.82 e 0.67, respectivamente, e das figuras \ref{fig:dispersao_egov_indicedemocracia} e \ref{fig:dispersao_epart_indicedemocracia} são 0.04 e 0.05, respectivamente. Portanto, pode-se afirmar-se que EGDI e o \textbf{E-Participation} tem forte relação com o PIB \textit{per capita} PPC. De maneira contrária, EGDI, \textbf{E-Participation} e o índice de democracia eleitoral são variáveis independentes.
+
+\cite{alisherovna2021whether} chegou a uma conclusão similar a da figura \ref{fig:dispensao_egov_pib}, porém o autor adotou a taxa de crescimento do PIB ao invés do PIB \textit{per capita} PPC.
+
+\begin{figure}[H]
+	\centering
+	\caption{Como os países se posicionam em relação ao EGDI de acordo com sua taxa de crescimento do PIB}
+	\includegraphics[width=1\linewidth]{figuras/egdi/usmanova_egdi_gdp}
+	\label{fig:usmanova_egdi_gdp}
+	\footnotesize{Fonte: \cite{alisherovna2021whether}}
+\end{figure}
+
+Embora a figura \ref{fig:usmanova_egdi_gdp} mostre menos pontos extremos do que a figura \ref{fig:dispensao_egov_pib}, percebe com o PIB, seja \textit{per capita} PPC ou sua taxa de crescimento tem forte correlação com o EGDI.
 
 \subsection{Indicadores de TIC de governo eletrônico}
 \label{indicadores_tic_egov}
@@ -250,15 +262,17 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 
 \begin{figure}[H]
 	\centering
-	\caption{Evolução do EGDI do Brasil}
+	\caption{Evolução do EGDI do Brasil (2003-2005, 2008-2024 bianualmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi/lineplot_egdi_brasil.png}
 	\label{fig:lineplot_egdi_brasil}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
+
+
 \begin{figure}[H]
 	\centering
-	\caption{EGDI do Brasil}
+	\caption{EGDI do Brasil (2003-2005, 2008-2024 bianualmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_egov.png}
 	\label{fig:egdi_brasil_egov}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
@@ -268,7 +282,7 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 
 \begin{figure}[H]
 	\centering
-	\caption{E-Participation Index do Brasil}
+	\caption{E-Participation Index do Brasil (2003-2005, 2008-2024 bianualmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_epart.png}
 	\label{fig:egdi_brasil_epart}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
@@ -278,27 +292,27 @@ A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desd
 
 \begin{figure}[H]
 	\centering
-	\caption{Online Service Index do Brasil}
+	\caption{Online Service Index do Brasil (2003-2005, 2008-2024 bianualmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_osi.png}
 	\label{fig:egdi_brasil_osi}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-\subsubsection{Human Capital Index do Brasil}
+\subsubsection{Human Capital Index do Brasil (2003-2005, 2008-2024 bianualmente)}
 
 \begin{figure}[H]
 	\centering
-	\caption{Human Capital Index do Brasil}
+	\caption{Human Capital Index do Brasil (2003-2005, 2008-2024 bianualmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_hci.png}
 	\label{fig:egdi_brasil_hci}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-\subsubsection{Telecommunication Infrastructure Index do Brasil}
+\subsubsection{Telecommunication Infrastructure Index do Brasil (2003-2005, 2008-2024 bianualmente)}
 
 \begin{figure}[H]
 	\centering
-	\caption{Telecommunication Infrastructure Index do Brasil}
+	\caption{Telecommunication Infrastructure Index do Brasil (2003-2005, 2008-2024 bianualmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_tsi.png}
 	\label{fig:egdi_brasil_tsi}
 	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
