@@ -1,16 +1,16 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {1}Índices de governo eletrônico}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}EGDI}{4}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}E-Participation Index}{5}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Online Service Index}{6}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Human Capital Index}{7}{subsubsection.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.4}Telecommunication Infrastructure Index}{8}{subsubsection.1.1.4}%
-\contentsline {subsubsection}{\numberline {1.1.5}EGDI do Brasil}{9}{subsubsection.1.1.5}%
-\contentsline {paragraph}{E-Participation Index}{11}{figure.1.9}%
-\contentsline {paragraph}{Online Service Index}{11}{figure.1.10}%
-\contentsline {paragraph}{Human Capital Indexx}{12}{figure.1.11}%
-\contentsline {paragraph}{Telecommunication Infrastructure Index}{12}{figure.1.12}%
-\contentsline {subsubsection}{\numberline {1.1.6}Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit {per capital}}{13}{subsubsection.1.1.6}%
-\contentsline {subsubsection}{\numberline {1.1.7}Indicadores de TIC de governo eletrônico}{13}{subsubsection.1.1.7}%
-\contentsline {subsubsection}{\numberline {1.1.8}Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit {per capita} PPC}{15}{subsubsection.1.1.8}%
-\contentsline {section}{\numberline {A}Democracia e autocracia no mundo}{16}{appendix.A}%
+\contentsline {chapter}{\numberline {1}Índices de governo eletrônico}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}EGDI}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}E-Participation Index}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Online Service Index}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Human Capital Index}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Telecommunication Infrastructure Index}{9}{section.1.5}%
+\contentsline {section}{\numberline {1.6}EGDI do Brasil}{10}{section.1.6}%
+\contentsline {paragraph}{E-Participation Index}{13}{figure.1.9}%
+\contentsline {paragraph}{Online Service Index}{14}{figure.1.10}%
+\contentsline {paragraph}{Human Capital Indexx}{15}{figure.1.11}%
+\contentsline {paragraph}{Telecommunication Infrastructure Index}{16}{figure.1.12}%
+\contentsline {subsection}{\numberline {1.6.1}Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit {per capital}}{16}{subsection.1.6.1}%
+\contentsline {section}{\numberline {1.7}Indicadores de TIC de governo eletrônico}{17}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit {per capita} PPC}{19}{subsection.1.7.1}%
+\contentsline {chapter}{\numberline {A}Democracia e autocracia no mundo}{25}{appendix.A}%

@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}   
 \usepackage[brazilian]{babel}
@@ -8,30 +8,30 @@
 \usepackage{hyperref}
 \usepackage{array}
 \usepackage{longtable}
+\usepackage{geometry}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=blue,
     citecolor=blue,
-}\counterwithin{figure}{section}
-\counterwithin{table}{section} 
+}
+\counterwithin{figure}{chapter}
 
 \begin{document}
 
 \listoffigures
-\newpage
 
 \include{dicionario_siglas}
-\newpage
 
 \tableofcontents
+
 \include{indices_egov}
+
+\bibliographystyle{plain}
+\bibliography{ref}
 
 \appendix
 \include{apendice_democracia}
-
-\bibliographystyle{acm}
-\bibliography{ref}
 
 \end{document}
