@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 1752994698.72859 -1
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1752994795.29902 -1
   "./ref.bib" 1752991858 2583 e00359f5849fe4493a22235003b24751 ""
   "C:/Users/lazar/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/acm.bst" 1291864147 21064 c61a48664f3c347ce7f73c1a6a530506 ""
-  "glossario.aux" 1752994687 711 43f12557cfa338a20e059e05a87898df "pdflatex"
-  "indices_egov.aux" 1752994696 10532 7a57650255afe17bdc88b5d3c2a4cebb "pdflatex"
-  "main.aux" 1752994696 679 270da0c3b76d778ec6f04cd92f1b8619 "pdflatex"
+  "glossario.aux" 1752994783 711 43f12557cfa338a20e059e05a87898df "pdflatex"
+  "indices_egov.aux" 1752994793 10532 7a57650255afe17bdc88b5d3c2a4cebb "pdflatex"
+  "main.aux" 1752994793 679 270da0c3b76d778ec6f04cd92f1b8619 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1752994685.04707 "c:/Users/lazar/Master-Dissertation/main.tex" "main.pdf" "main" 1752994698.73169 0
+["pdflatex"] 1752994781.30108 "c:/Users/lazar/Master-Dissertation/main.tex" "main.pdf" "main" 1752994795.30158 0
   "C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1752990939 1484050 6ab8f54243a8111fee992d1b01852170 ""
   "C:/Users/lazar/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1752302223 13235311 098ea05fe644a19b7f3313a4a9b976b4 ""
   "C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1736607166 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
@@ -156,16 +156,16 @@
   "figuras/ict_in_government/indicators_answer.png" 1752907489 136671 facb727e146e077aeb45e5a30491b296 ""
   "figuras/ict_in_government/national_government_strategy.png" 1752729204 41837 f624cacb3d6e011fb97d870439ce938b ""
   "figuras/ict_in_government/procurement_portal.png" 1752729967 40640 ed839542e82611d92027aff78be8b568 ""
-  "glossario.aux" 1752994687 711 43f12557cfa338a20e059e05a87898df "pdflatex"
-  "glossario.tex" 1752994682 879 76bf73fd750672996414a9e85064d1c1 ""
-  "indices_egov.aux" 1752994696 10532 7a57650255afe17bdc88b5d3c2a4cebb "pdflatex"
+  "glossario.aux" 1752994783 711 43f12557cfa338a20e059e05a87898df "pdflatex"
+  "glossario.tex" 1752994776 862 8fab6d5662563d8ac1c750507883005f ""
+  "indices_egov.aux" 1752994793 10532 7a57650255afe17bdc88b5d3c2a4cebb "pdflatex"
   "indices_egov.tex" 1752993061 19566 6dfa1b429408a9c89da5b9bdbd23e7de ""
-  "main.aux" 1752994696 679 270da0c3b76d778ec6f04cd92f1b8619 "pdflatex"
+  "main.aux" 1752994793 679 270da0c3b76d778ec6f04cd92f1b8619 "pdflatex"
   "main.bbl" 1752994453 2100 0b97b94ed54ccf2ba078c43e166d4e03 "bibtex main"
-  "main.lof" 1752994696 2816 89c6ac13ba895463bdd533c46eed4a88 "pdflatex"
-  "main.out" 1752994696 3920 07072674bce7abe065a035979ea8b622 "pdflatex"
+  "main.lof" 1752994793 2816 89c6ac13ba895463bdd533c46eed4a88 "pdflatex"
+  "main.out" 1752994793 3920 07072674bce7abe065a035979ea8b622 "pdflatex"
   "main.tex" 1752994536 750 e464249eca408fb3f9a81388d097f3ad ""
-  "main.toc" 1752994696 1545 861f0052d6f09d067d4e35f99404a060 "pdflatex"
+  "main.toc" 1752994793 1545 861f0052d6f09d067d4e35f99404a060 "pdflatex"
   (generated)
   "glossario.aux"
   "indices_egov.aux"

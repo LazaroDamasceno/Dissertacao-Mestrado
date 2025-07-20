@@ -112,67 +112,7 @@ A figura \ref{fig:boxplot_tci_global} contém um diagrama de caixa que represent
 
 A figura \ref{fig:boxplot_tci_global} mostra que a mediana do índice de infraestrutura de telecomunicações está em cerca de 0.80, indicando que metade dos países possui um índice superior a esse valor. A caixa do gráfico, que representa os 50\% centrais dos dados, abrange o intervalo entre aproximadamente 0.50 e 0.90. A amplitude total dos dados varia de 0.0 a 1.0. A distribuição dos dados é relativamente simétrica e, assim como na maioria dos gráficos anteriores, não há outliers visíveis.
 
-\section{EGDI do Brasil}
-
-A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desde 2003-2005 e 2008-2024 (bianualmente)
-
-\begin{figure}[H]
-	\centering
-	\caption{Evolução do EGDI do Brasil}
-	\includegraphics[width=1\linewidth]{figuras/egdi/lineplot_egdi_brasil.png}
-	\label{fig:lineplot_egdi_brasil}
-	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{EGDI do Brasil}
-	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_egov.png}
-	\label{fig:egdi_brasil_egov}
-	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
-\end{figure}
-
-\subsection{E-Participation Index do Brasil}
-
-\begin{figure}[H]
-	\centering
-	\caption{E-Participation Index do Brasil}
-	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_epart.png}
-	\label{fig:egdi_brasil_epart}
-	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
-\end{figure}
-
-\subsection{Online Service Index do Brasil}
-
-\begin{figure}[H]
-	\centering
-	\caption{Online Service Index do Brasil}
-	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_osi.png}
-	\label{fig:egdi_brasil_osi}
-	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
-\end{figure}
-
-\subsection{Human Capital Index do Brasil}
-
-\begin{figure}[H]
-	\centering
-	\caption{Human Capital Index do Brasil}
-	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_hci.png}
-	\label{fig:egdi_brasil_hci}
-	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
-\end{figure}
-
-\subsection{Telecommunication Infrastructure Index do Brasil}
-
-\begin{figure}[H]
-	\centering
-	\caption{Telecommunication Infrastructure Index do Brasil}
-	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_tsi.png}
-	\label{fig:egdi_brasil_tsi}
-	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
-\end{figure}
-
-\subsection{Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit{per capital}}
+\section{Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit{per capital}}
 
 Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidadas, quanto autocracias tem um EGDI alto. O critério para entender quais países são democráticos ou autocráticos foi a figura \ref{fig:electoral-democracy-index}. 
 
@@ -198,9 +138,9 @@ Para compreender melhor os diagramas de dispersão, foi usado o coeficiente de c
 A ONU tem \href{https://publicadministration.un.org/egovkb/en-us/Data/ICT-in-government}{indicadores de TIC de governo eletrônico} como algo complementar ao EGDI. Os indicadores são, conforme \cite{ONU_ICT_in_government_indicators}:
 
 \begin{itemize}
-    \item Existência de estratégia nacional de governo eletrônico ou equivalente;
-    \item Existência de identidade digital para acessar ou outra forma de autenticação requirida para poder acessar serviços online;
-    \item Existência de um portal de compras governamentais.
+	\item Existência de estratégia nacional de governo eletrônico ou equivalente;
+	\item Existência de identidade digital para acessar ou outra forma de autenticação requirida para poder acessar serviços online;
+	\item Existência de um portal de compras governamentais.
 \end{itemize}
 
 Os resultados globais dos indicadores estão presentes nas figuras \ref{fig:national_government_strategy}, \ref{fig:national_identity} e \ref{fig:procurement_portal}.
@@ -268,22 +208,66 @@ Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há cor
 	\footnotesize{Fonte: baseado em \cite{electoral_democracy_index} e \cite{ONU_ICT_in_government_indicators}}
 \end{figure}
 
-Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_indicedemocracia} e \ref{fig:dispersao_ticegov_pib} apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. As figuras \ref{fig:correlacao_ticegov_pib} e \ref{fig:correlacao_ticegov_indicedemocracia}
+Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_indicedemocracia} e \ref{fig:dispersao_ticegov_pib} apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. 
+
+Os coeficientes de correlação foram 0.1 e -0.0051, ou seja, os indicadores de TIC de governo eletrônico não são afetados pelo PIB \textit{per capita} PPC e índice de democracia eleitora e vice-versa.
+
+\section{EGDI do Brasil}
+
+A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desde 2003-2005 e 2008-2024 (bianualmente)
 
 \begin{figure}[H]
 	\centering
-	\caption{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico e PIB \textit{per capita} PPC}
-	\includegraphics[width=1\linewidth]{figuras/ict_in_government/correlacao_ticegov_pib}
-	\label{fig:correlacao_ticegov_pib}
-	\footnotesize{Fonte: baseado em \cite{WB_pib_per_capita_países} e \cite{ONU_ICT_in_government_indicators}}
+	\caption{Evolução do EGDI do Brasil}
+	\includegraphics[width=1\linewidth]{figuras/egdi/lineplot_egdi_brasil.png}
+	\label{fig:lineplot_egdi_brasil}
+	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\caption{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico e índice de democracia eleitoral}
-	\includegraphics[width=1\linewidth]{figuras/ict_in_government/correlacao_ticegov_indicedemocracia}
-	\label{fig:correlacao_ticegov_indicedemocracia}
-	\footnotesize{Fonte: baseado em \cite{electoral_democracy_index} e \cite{ONU_ICT_in_government_indicators}}
+	\caption{EGDI do Brasil}
+	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_egov.png}
+	\label{fig:egdi_brasil_egov}
+	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
 \end{figure}
 
-Como esperado, os coeficientes de correlação nas figuras \ref{fig:correlacao_ticegov_pib} e \ref{fig:correlacao_ticegov_indicedemocracia} foram baixos, ou seja, os indicadores de TIC de governo eletrônico não são afetados pelo PIB \textit{per capita} PPC e índice de democracia eleitora e vice-versa.
+\subsection{E-Participation Index do Brasil}
+
+\begin{figure}[H]
+	\centering
+	\caption{E-Participation Index do Brasil}
+	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_epart.png}
+	\label{fig:egdi_brasil_epart}
+	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
+\end{figure}
+
+\subsection{Online Service Index do Brasil}
+
+\begin{figure}[H]
+	\centering
+	\caption{Online Service Index do Brasil}
+	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_osi.png}
+	\label{fig:egdi_brasil_osi}
+	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
+\end{figure}
+
+\subsection{Human Capital Index do Brasil}
+
+\begin{figure}[H]
+	\centering
+	\caption{Human Capital Index do Brasil}
+	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_hci.png}
+	\label{fig:egdi_brasil_hci}
+	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
+\end{figure}
+
+\subsection{Telecommunication Infrastructure Index do Brasil}
+
+\begin{figure}[H]
+	\centering
+	\caption{Telecommunication Infrastructure Index do Brasil}
+	\includegraphics[width=1\linewidth]{figuras/egdi/egdi_brasil_tsi.png}
+	\label{fig:egdi_brasil_tsi}
+	\footnotesize{Fonte: baseado em \cite{ONU_EGDI_mapa}.}
+\end{figure}
