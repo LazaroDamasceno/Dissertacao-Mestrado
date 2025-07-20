@@ -12,6 +12,19 @@ Aziza Alisherovna~Usmanova.
 \newblock Digital economy and society index (desi) 2022, 2022.
 \newblock \url{https://digital-strategy.ec.europa.eu/en/policies/desi}.
 
+\bibitem{kotenok2020government}
+Andrii Kotenok, Iryna Kulaga, Vsevolod Klivak, and Olena Tkachenko.
+\newblock The e-government’s influence on the country’s economy (at the
+  example of ukraine and estonia).
+\newblock In {\em III International Scientific Congress Society of Ambient
+  Intelligence 2020 (ISC-SAI 2020)}, pages 175--182. Atlantis Press, 2020.
+
+\bibitem{kumar2020cultural}
+Sushant Kumar, Kuldeep Baishya, Pradip~H Sadarangani, and Harsh~V Samalia.
+\newblock Cultural influence on e-government development.
+\newblock {\em Electronic Journal of Information Systems Evaluation},
+  23(1):pp17--33, 2020.
+
 \bibitem{martinez2022egovernment}
 Yolanda Mart{\'\i}nez, Jos{\'e} Clastornik, and Oscar~Alberto Campos.
 \newblock egovernment measuring frameworks: A comparative analysis of different
@@ -59,5 +72,12 @@ ONU.
 {Our World in Data}.
 \newblock Electoral democracy index, 2024.
 \newblock \url{https://ourworldindata.org/grapher/electoral-democracy-index}.
+
+\bibitem{ziolo2022government}
+Magdalena Zio{\l}o, Piotr Niedzielski, Ewa Kuzionko-Ochrymiuk, Jacek
+  Marcinkiewicz, Katarzyna {\L}obacz, Krzysztof Dyl, and Renata Szanter.
+\newblock E-government development in european countries: Socio-economic and
+  environmental aspects.
+\newblock {\em Energies}, 15(23):8870, 2022.
 
 \end{thebibliography}
