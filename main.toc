@@ -9,13 +9,14 @@
 \contentsline {subsubsection}{E-Participation Index x PIB \textit {per capita} PPC}{12}{section*.5}%
 \contentsline {subsubsection}{EGDI e índice de democracia eleitoral}{13}{section*.6}%
 \contentsline {subsubsection}{E-Participation Index e índice de democracia eleitoral}{14}{section*.7}%
-\contentsline {subsubsection}{EGDI x }{14}{section*.8}%
-\contentsline {section}{\numberline {1.5}Trabalhos e resultados de outros autores}{14}{section.1.5}%
+\contentsline {subsubsection}{EGDI x Gastos públicos}{14}{section*.8}%
+\contentsline {subsubsection}{E-Participation x Gastos públicos}{14}{section*.9}%
+\contentsline {section}{\numberline {1.5}Trabalhos de outros autores}{14}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Indicadores de TIC de governo eletrônico}{15}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit {per capita} PPC}{17}{subsection.1.6.1}%
 \contentsline {section}{\numberline {1.7}EGDI do Brasil}{19}{section.1.7}%
-\contentsline {paragraph}{E-Government Development Index}{19}{section*.9}%
-\contentsline {paragraph}{E-Participation Index}{19}{section*.10}%
-\contentsline {paragraph}{Online Service Index}{20}{section*.11}%
-\contentsline {paragraph}{Human Capital Index}{20}{section*.12}%
-\contentsline {paragraph}{Telecommunication Infrastructure Index}{20}{section*.13}%
+\contentsline {subsubsection}{E-Government Development Index}{19}{section*.10}%
+\contentsline {subsubsection}{E-Participation Index}{20}{section*.11}%
+\contentsline {subsubsection}{Online Service Index}{20}{section*.12}%
+\contentsline {subsubsection}{Human Capital Index}{20}{section*.13}%
+\contentsline {subsubsection}{Telecommunication Infrastructure Index}{20}{section*.14}%
