@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  20 JUL 2025 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.12)  21 JUL 2025 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,7 +834,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
  (egdi.tex
 Cap\'{\i }tulo 1.
-<figuras/egdi/egdi_componentes.png, id=120, 381.425pt x 190.21063pt>
+<figuras/egdi/egdi_componentes.png, id=82, 381.425pt x 190.21063pt>
 File: figuras/egdi/egdi_componentes.png Graphic file (type png)
 <use figuras/egdi/egdi_componentes.png>
 Package pdftex.def Info: figuras/egdi/egdi_componentes.png  used on input line 
@@ -848,7 +848,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 
 ]
-<figuras/egdi/boxplot_egov_global.png, id=131, 715.473pt x 426.393pt>
+<figuras/egdi/boxplot_egov_global.png, id=93, 715.473pt x 426.393pt>
 File: figuras/egdi/boxplot_egov_global.png Graphic file (type png)
 <use figuras/egdi/boxplot_egov_global.png>
 Package pdftex.def Info: figuras/egdi/boxplot_egov_global.png  used on input li
@@ -862,7 +862,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 37.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 37.
-<figuras/egdi/boxplot_epart_global.png, id=144, 715.473pt x 426.393pt>
+<figuras/egdi/boxplot_epart_global.png, id=106, 715.473pt x 426.393pt>
 File: figuras/egdi/boxplot_epart_global.png Graphic file (type png)
 <use figuras/egdi/boxplot_epart_global.png>
 Package pdftex.def Info: figuras/egdi/boxplot_epart_global.png  used on input l
@@ -871,7 +871,7 @@ ine 53.
 
 
 [6 <./figuras/egdi/boxplot_epart_global.png>]
-<figuras/egdi/boxplot_osi_global.png, id=153, 715.473pt x 426.393pt>
+<figuras/egdi/boxplot_osi_global.png, id=115, 715.473pt x 426.393pt>
 File: figuras/egdi/boxplot_osi_global.png Graphic file (type png)
 <use figuras/egdi/boxplot_osi_global.png>
 Package pdftex.def Info: figuras/egdi/boxplot_osi_global.png  used on input lin
@@ -880,13 +880,13 @@ e 68.
 
 
 [7 <./figuras/egdi/boxplot_osi_global.png>]
-<figuras/egdi/boxplot_hci_global.png, id=164, 715.473pt x 426.393pt>
+<figuras/egdi/boxplot_hci_global.png, id=126, 715.473pt x 426.393pt>
 File: figuras/egdi/boxplot_hci_global.png Graphic file (type png)
 <use figuras/egdi/boxplot_hci_global.png>
 Package pdftex.def Info: figuras/egdi/boxplot_hci_global.png  used on input lin
 e 91.
 (pdftex.def)             Requested size: 455.24411pt x 271.30307pt.
-<figuras/egdi/boxplot_tci_global.png, id=169, 715.473pt x 426.393pt>
+<figuras/egdi/boxplot_tci_global.png, id=131, 715.473pt x 426.393pt>
 File: figuras/egdi/boxplot_tci_global.png Graphic file (type png)
 <use figuras/egdi/boxplot_tci_global.png>
 Package pdftex.def Info: figuras/egdi/boxplot_tci_global.png  used on input lin
@@ -895,13 +895,7 @@ e 108.
 
 
 [8 <./figuras/egdi/boxplot_hci_global.png>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 115.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 115.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 115.
-<figuras/democracia/electoral-democracy-index.png, id=179, 3412.75pt x 2409.0pt
+<figuras/democracia/electoral-democracy-index.png, id=141, 3412.75pt x 2409.0pt
 >
 File: figuras/democracia/electoral-democracy-index.png Graphic file (type png)
 <use figuras/democracia/electoral-democracy-index.png>
@@ -911,27 +905,31 @@ Package pdftex.def Info: figuras/democracia/electoral-democracy-index.png  used
 
 
 [9 <./figuras/egdi/boxplot_tci_global.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 133.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 133.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 133.
-<figuras/egdi/dispensao_egov_pib.png, id=191, 715.7139pt x 426.1521pt>
+(Font)              scaled to size 12.0pt on input line 137.
+<figuras/egdi/dispensao_egov_pib.png, id=152, 715.7139pt x 426.1521pt>
 File: figuras/egdi/dispensao_egov_pib.png Graphic file (type png)
 <use figuras/egdi/dispensao_egov_pib.png>
 Package pdftex.def Info: figuras/egdi/dispensao_egov_pib.png  used on input lin
-e 138.
+e 142.
 (pdftex.def)             Requested size: 455.24411pt x 271.07175pt.
 
 
 [10 <./figuras/democracia/electoral-democracy-index.png>]
-<figuras/egdi/dispensao_epart_pib.png, id=201, 715.7139pt x 426.1521pt>
+<figuras/egdi/dispensao_epart_pib.png, id=162, 715.7139pt x 426.1521pt>
 File: figuras/egdi/dispensao_epart_pib.png Graphic file (type png)
 <use figuras/egdi/dispensao_epart_pib.png>
 Package pdftex.def Info: figuras/egdi/dispensao_epart_pib.png  used on input li
-ne 152.
+ne 154.
 (pdftex.def)             Requested size: 455.24411pt x 271.07175pt.
 
 
 [11 <./figuras/egdi/dispensao_egov_pib.png>]
-<figuras/egdi/dispersao_egov_indicedemocracia.png, id=211, 715.473pt x 426.1521
+<figuras/egdi/dispersao_egov_indicedemocracia.png, id=173, 715.473pt x 426.1521
 pt>
 File: figuras/egdi/dispersao_egov_indicedemocracia.png Graphic file (type png)
 <use figuras/egdi/dispersao_egov_indicedemocracia.png>
@@ -940,107 +938,22 @@ Package pdftex.def Info: figuras/egdi/dispersao_egov_indicedemocracia.png  used
 (pdftex.def)             Requested size: 455.24411pt x 271.14978pt.
 
 
-[12 <./figuras/egdi/dispensao_epart_pib.png>]
-<figuras/egdi/dispersao_epart_indicedemocracia.png, id=220, 715.473pt x 426.152
-1pt>
-File: figuras/egdi/dispersao_epart_indicedemocracia.png Graphic file (type png)
-
-<use figuras/egdi/dispersao_epart_indicedemocracia.png>
-Package pdftex.def Info: figuras/egdi/dispersao_epart_indicedemocracia.png  use
-d on input line 180.
-(pdftex.def)             Requested size: 455.24411pt x 271.14978pt.
-
-
-[13 <./figuras/egdi/dispersao_egov_indicedemocracia.png>]
-<figuras/egdi/usmanova_egdi_gdp.png, id=233, 370.38374pt x 267.49937pt>
-File: figuras/egdi/usmanova_egdi_gdp.png Graphic file (type png)
-<use figuras/egdi/usmanova_egdi_gdp.png>
-Package pdftex.def Info: figuras/egdi/usmanova_egdi_gdp.png  used on input line
- 202.
-(pdftex.def)             Requested size: 455.24411pt x 328.79369pt.
+[12 <./figuras/egdi/dispensao_epart_pib.png>])
+Runaway argument?
+{E-Participation Index e índice de democracia eleitoral \par \begin \ETC.
+! File ended while scanning use of \@xdblarg.
+<inserted text> 
+                \par 
+l.37 \include{egdi}
+                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
 
-[14 <./figuras/egdi/dispersao_epart_indicedemocracia.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 220.
 
-(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 220.
-
-
-[15{C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1
-.enc} <./figuras/egdi/usmanova_egdi_gdp.png>]
-<figuras/ict_in_government/national_government_strategy.png, id=264, 897.3525pt
- x 289.08pt>
-File: figuras/ict_in_government/national_government_strategy.png Graphic file (
-type png)
-<use figuras/ict_in_government/national_government_strategy.png>
-Package pdftex.def Info: figuras/ict_in_government/national_government_strategy
-.png  used on input line 230.
-(pdftex.def)             Requested size: 455.24411pt x 146.6525pt.
-<figuras/ict_in_government/digital_identity.png, id=266, 893.3375pt x 295.60437
-pt>
-File: figuras/ict_in_government/digital_identity.png Graphic file (type png)
-<use figuras/ict_in_government/digital_identity.png>
-Package pdftex.def Info: figuras/ict_in_government/digital_identity.png  used o
-n input line 238.
-(pdftex.def)             Requested size: 455.24411pt x 150.64346pt.
-<figuras/ict_in_government/procurement_portal.png, id=268, 890.32625pt x 288.07
-625pt>
-File: figuras/ict_in_government/procurement_portal.png Graphic file (type png)
-<use figuras/ict_in_government/procurement_portal.png>
-Package pdftex.def Info: figuras/ict_in_government/procurement_portal.png  used
- on input line 246.
-(pdftex.def)             Requested size: 455.24411pt x 147.29936pt.
-
-
-[16 <./figuras/ict_in_government/national_government_strategy.png> <./figuras/i
-ct_in_government/digital_identity.png> <./figuras/ict_in_government/procurement
-_portal.png>]
-<figuras/ict_in_government/indicators_answer.png, id=281, 711.8595pt x 343.0416
-pt>
-File: figuras/ict_in_government/indicators_answer.png Graphic file (type png)
-<use figuras/ict_in_government/indicators_answer.png>
-Package pdftex.def Info: figuras/ict_in_government/indicators_answer.png  used 
-on input line 260.
-(pdftex.def)             Requested size: 455.24411pt x 219.38359pt.
-<figuras/ict_in_government/dispersao_ticegov_pib.png, id=284, 715.7139pt x 426.
-1521pt>
-File: figuras/ict_in_government/dispersao_ticegov_pib.png Graphic file (type pn
-g)
-<use figuras/ict_in_government/dispersao_ticegov_pib.png>
-Package pdftex.def Info: figuras/ict_in_government/dispersao_ticegov_pib.png  u
-sed on input line 276.
-(pdftex.def)             Requested size: 455.24411pt x 271.07175pt.
-
-
-[17 <./figuras/ict_in_government/indicators_answer.png>]
-<figuras/ict_in_government/dispersao_ticegov_indicedemocracia.png, id=292, 715.
-473pt x 426.1521pt>
-File: figuras/ict_in_government/dispersao_ticegov_indicedemocracia.png Graphic 
-file (type png)
-<use figuras/ict_in_government/dispersao_ticegov_indicedemocracia.png>
-Package pdftex.def Info: figuras/ict_in_government/dispersao_ticegov_indicedemo
-cracia.png  used on input line 284.
-(pdftex.def)             Requested size: 455.24411pt x 271.14978pt.
-
-
-[18 <./figuras/ict_in_government/dispersao_ticegov_pib.png> <./figuras/ict_in_g
-overnment/dispersao_ticegov_indicedemocracia.png>]
-<figuras/egdi/lineplot_egdi_brasil.png, id=304, 715.2321pt x 426.1521pt>
-File: figuras/egdi/lineplot_egdi_brasil.png Graphic file (type png)
-<use figuras/egdi/lineplot_egdi_brasil.png>
-Package pdftex.def Info: figuras/egdi/lineplot_egdi_brasil.png  used on input l
-ine 298.
-(pdftex.def)             Requested size: 455.24411pt x 271.24731pt.
-
-
-[19 <./figuras/egdi/lineplot_egdi_brasil.png>])
-
-[20] (main.bbl
+[13 <./figuras/egdi/dispersao_egov_indicedemocracia.png>] (main.bbl
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
 13.
 
@@ -1050,57 +963,56 @@ File: t1ntxtt.fd 2012/04/20 v3.1
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 13.
 
-Underfull \hbox (badness 5563) in paragraph at lines 55--59
+Underfull \hbox (badness 5563) in paragraph at lines 61--65
 []\T1/ntxtlf/m/n/12 ONU.  Ict in go-vern-ment (e-government) in-di-ca-tors, 202
 4.  [][]$\T1/ntxtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
 []\T1/ntxtlf/m/n/12 ONU.  E-government de-ve-lop-ment in-dex (egdi), 2025.  [][
 ]$\T1/ntxtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
 \T1/ntxtt/m/n/12 / / publicadministration . un . org / egovkb / en-[]us / About
  / Overview /
  []
 
 
 
-[21
+[14
 
 
 
 ])
 
-[22] (main.aux (glossario.aux) (egdi.aux))
+[15] (main.aux (glossario.aux) (egdi.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9E17C4C7422E6A91EB44D489F8E2197;3071.
+(rerunfilecheck)             Checksum: 397F0A779779F9A7925D14176C21CD49;1825.
  ) 
 Here is how much of TeX's memory you used:
- 15943 strings out of 468218
- 249842 string characters out of 5432848
- 650976 words of memory out of 5000000
- 44126 multiletter control sequences out of 15000+600000
- 674186 words of font info for 79 fonts, out of 8000000 for 9000
+ 15772 strings out of 468218
+ 243367 string characters out of 5432848
+ 647918 words of memory out of 5000000
+ 43986 multiletter control sequences out of 15000+600000
+ 670927 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,838b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtm
-r.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
-t1xtt.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newt
-x/ztmb.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/new
-tx/ztmbi.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/n
-ewtx/ztmr.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-newtx/ztmri.pfb>
-Output written on main.pdf (22 pages, 2456014 bytes).
+ 75i,6n,79p,704b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xt
+t.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/zt
+mb.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/z
+tmbi.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx
+/ztmr.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newt
+x/ztmri.pfb>
+Output written on main.pdf (15 pages, 1520591 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

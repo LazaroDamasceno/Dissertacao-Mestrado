@@ -112,7 +112,7 @@ A figura \ref{fig:boxplot_tci_global} contém um diagrama de caixa que represent
 
 A figura \ref{fig:boxplot_tci_global} mostra que a mediana do índice de infraestrutura de telecomunicações está em cerca de 0.80, indicando que metade dos países possui um índice superior a esse valor. A caixa do gráfico, que representa os 50\% centrais dos dados, abrange o intervalo entre aproximadamente 0.50 e 0.90. A amplitude total dos dados varia de 0.0 a 1.0. A distribuição dos dados é relativamente simétrica e, assim como na maioria dos gráficos anteriores, não há outliers visíveis.
 
-\subsection{Coeficiente de correlação de Spearman: EGDI, E-Participation, índice de democracia eleitoral e PIB \textit{per capital}}
+\section{Coeficiente de correlação: EGDI e E-Participation comparadas com outras variáveis}
 
 Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidadas, quanto autocracias tem um EGDI alto. O critério para entender quais países são democráticos ou autocráticos foi a figura \ref{fig:electoral-democracy-index}. 
 
@@ -130,7 +130,11 @@ Outro fator chamou atenção: há EGDI alto em países tanto autocráticos, quan
 
 Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem}, com o PIB \textit{per capita} e com o gasto governamental. Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão. 
 
-\subsubsection{EGDI x PIB \textit{per capita} PPC}
+\subsection{Análise geral com EGDI e E-Participation Index}
+
+Analisar-se-á o aspecto geral usando o EGDI e o E-Participation Index, estudando como essas variáveis se comportam em diagramas de dispersão e coeficientes de correlação quando comparada com outras variáveis.
+
+\subsubsection{EGDI e PIB \textit{per capita} PPC}
 
 \begin{figure}[H]
 	\centering
@@ -140,11 +144,9 @@ Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação
 	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{WB_pib_per_capita_países}}
 \end{figure}
 
-Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos.
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.82. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Government Index} tendem a crescer juntos.
 
-O coeficiente de correlação encontrada foi 0.82. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Government Index} tendem a crescer juntos.
-
-\subsubsection{E-Participation Index x PIB \textit{per capita} PPC}
+\subsubsection{E-Participation Index e PIB \textit{per capita} PPC}
 
 \begin{figure}[H]
 	\centering
@@ -154,9 +156,7 @@ O coeficiente de correlação encontrada foi 0.82. Devido ao coeficiente, os PIB
 	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{WB_pib_per_capita_países}}
 \end{figure}
 
-Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos.
-
-O coeficiente de correlação encontrada foi 0.67. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Participation Index} tendem a crescer juntos.
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.67. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Participation Index} tendem a crescer juntos.
 
 \subsubsection{EGDI e índice de democracia eleitoral}
 
@@ -168,11 +168,9 @@ O coeficiente de correlação encontrada foi 0.67. Devido ao coeficiente, os PIB
 	\footnotesize{Fonte: \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
 \end{figure}
 
-Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos.
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.04. Os índice de democracia eleitoral e o \textbf{E-Government Index} são variáveis independentes.
 
-O coeficiente de correlação encontrada foi 0.04. Os índice de democracia eleitoral e o \textbf{E-Government Index} são variáveis independentes.
-
-\subsubsection{E-Participation Index e índice de democracia eleitoral}
+\subsubsection{E-Participation Index e índice de democracia eleitoral
 
 \begin{figure}[H]
 	\centering
@@ -182,15 +180,31 @@ O coeficiente de correlação encontrada foi 0.04. Os índice de democracia elei
 	\footnotesize{Fonte:baseado em \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
 \end{figure}
 
-O coeficiente de correlação encontrada foi 0.05. Os índice de democracia eleitoral e o \textbf{E-Participation Index} são variáveis independentes.
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.05. Os índice de democracia eleitoral e o \textbf{E-Participation Index} são variáveis independentes.
 
-\subsubsection{EGDI x Gastos públicos}
+\subsubsection{E-Government Development Index e gastos governamentais, percentagem do PIB}
 
-%FMI_gov_expenditure e ONU_mapa
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispensao: E-Government Development Index e gastos governamentais, percentagem do PIB}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_egov_govexpenditure}
+	\label{fig:dispersao_egov_govexpenditure}
+	\footnotesize{Fonte:baseado em \cite{ONU_EGDI_mapa} e \cite{FMI_gov_expenditure}}
+\end{figure}
 
-\subsubsection{E-Participation x Gastos públicos}
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi -0.13. O \textbf{E-Government Development Index} e os gastos governamentais são variáveis independentes.
 
-%FMI_gov_expenditure e ONU_mapa
+\subsubsection{E-Participation Index e gastos governamentais, percentagem do PIB}
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispensao: E-Participation Index e gastos governamentais, percentagem do PIB}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_epart_govexpenditure}
+	\label{fig:dispersao_epart_govexpenditure}
+	\footnotesize{Fonte:baseado em \cite{ONU_EGDI_mapa} e \cite{FMI_gov_expenditure}}
+\end{figure}
+
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi -0.07. O \textbf{E-Government Participation Index} e os gastos governamentais são variáveis independentes.
 
 \section{Trabalhos de outros autores}
 
@@ -266,7 +280,7 @@ Em 2022, metade dos países respondeu positivamente as três perguntas; em 2024,
 
 Além, disso a quantidade de países que responderam positivamente 1 de 3 perguntas e nenhuma se igualou em 2024, sendo os países que responderam 1 de 3 perguntas era maior do que os que responderam nenhuma.
 
-\subsection{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico, índice de democracia eleitoral e PIB \textit{per capita} PPC}
+\section{Coeficiente de correlação de Spearman: indicadores de TIC de governo eletrônico comparados com outras variáveis}
 
 Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há correlação entre os indicadores de TIC de governo eletrônico e os PIB \textit{per capita} PPC e índice de democracia eleitoral.
 
@@ -288,9 +302,22 @@ Com base no parágrafo \ref{indicadores_tic_egov}, buscou-se entender se há cor
 
 Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_pib} e \ref{fig:dispersao_ticegov_indicedemocracia}  apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. Os coeficientes de correlação (0.1 e -0.0051) indicam que os indicadores de TIC de governo eletrônico não são afetados pelo PIB per capita PPC e pelo índice de democracia eleitoral, e vice-versa.
 
+Outra análise feita foi a comparação entre os indicadores de TIC de governo eletrônico e os gastos governamentais.
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de Dispersão: indicadores de TIC de governo eletrônico e gastos governamentais, percentagem do PIB}
+	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_ticegov_govexpenditure}
+	\label{fig:dispersao_ticegov_govexpenditure}
+	\footnotesize{Fonte: baseado em \cite{FMI_gov_expenditure} e \cite{ONU_ICT_in_government_indicators}}
+\end{figure}
+
+Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.23. O referido coeficiente indica uma correlação positiva muito fraca entre os gastos do governo e a soma das respostas positivas. 
+
+
 \section{EGDI do Brasil}
 
-A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desde 2003-2005 e 2008-2024 (bianualmente)
+A figura \ref{fig:lineplot_egdi_brasil} mostra evolução do EGDI do Brasil desde 2003-2005 e 2008-2024 (bianualmente).
 
 \begin{figure}[H]
 	\centering
@@ -304,14 +331,12 @@ A maioria dos índices (\textbf{E-Government Development}, \textbf{Online Servic
 
 Os  \textbf{E-Participation Index} e o \textbf{Online Service Index} mostram as maiores flutuações, com picos e quedas significativas em diferentes anos. Isso pode indicar variações nas políticas ou na implementação de serviços digitais e na participação cidadã.
 
-\subsubsection{E-Government Development Index}
+\paragraph{E-Government Development Index} O índice principal mostra um crescimento constante, mas gradual, partindo de cerca de 0.5 em 2003 e atingindo mais de 0.8 em 2024. Sua trajetória reflete a média dos outros componentes, indicando uma evolução geral da capacidade do governo de fornecer serviços online.
 
-O índice principal mostra um crescimento constante, mas gradual, partindo de cerca de 0.5 em 2003 e atingindo mais de 0.8 em 2024. Sua trajetória reflete a média dos outros componentes, indicando uma evolução geral da capacidade do governo de fornecer serviços online.
+\paragraph{E-Participation Index} Este índice é o mais volátil e o que apresenta o menor desempenho em grande parte do período. Ele tem um pico notável em 2005, seguido de uma queda e uma lenta recuperação. Isso sugere que a participação cidadã por meio de canais digitais é uma área que enfrenta desafios e flutuações, e seu desenvolvimento pode não ser tão linear quanto o de outros componentes.
 
-\subsubsection{E-Participation Index} Este índice é o mais volátil e o que apresenta o menor desempenho em grande parte do período. Ele tem um pico notável em 2005, seguido de uma queda e uma lenta recuperação. Isso sugere que a participação cidadã por meio de canais digitais é uma área que enfrenta desafios e flutuações, e seu desenvolvimento pode não ser tão linear quanto o de outros componentes.
+\paragraph{Online Service Index} Após um pico inicial, este índice apresenta uma queda acentuada por volta de 2010, seguido de uma recuperação e um novo pico em 2018. Sua trajetória é irregular, o que pode refletir desafios na oferta de serviços públicos online. No entanto, ele termina o período em um nível alto, próximo do Human Capital Index.
 
-\subsubsection{Online Service Index} Após um pico inicial, este índice apresenta uma queda acentuada por volta de 2010, seguido de uma recuperação e um novo pico em 2018. Sua trajetória é irregular, o que pode refletir desafios na oferta de serviços públicos online. No entanto, ele termina o período em um nível alto, próximo do Human Capital Index.
+\paragraph{Human Capital Index} Este índice mantém um nível consistentemente alto, geralmente entre 0.8 e 0.9, sendo o que mais se aproxima do valor máximo da escala. Apesar de algumas flutuações, ele demonstra que o Brasil possui um bom nível de capital humano para suportar o desenvolvimento do e-government, como educação e alfabetização digital.
 
-\subsubsection{Human Capital Index} Este índice mantém um nível consistentemente alto, geralmente entre 0.8 e 0.9, sendo o que mais se aproxima do valor máximo da escala. Apesar de algumas flutuações, ele demonstra que o Brasil possui um bom nível de capital humano para suportar o desenvolvimento do e-government, como educação e alfabetização digital.
-
-\subsubsection{Telecommunication Infrastructure Index} Este é o índice com o crescimento mais notável e constante. Ele parte de um patamar baixo (abaixo de 0.2 em 2003) e alcança o maior valor entre todos os índices no final do período (próximo de 0.8 em 2024). Isso sugere um avanço significativo na infraestrutura digital do país, como a expansão de banda larga e redes de telecomunicações.
+\paragraph{Telecommunication Infrastructure Index} Este é o índice com o crescimento mais notável e constante. Ele parte de um patamar baixo (abaixo de 0.2 em 2003) e alcança o maior valor entre todos os índices no final do período (próximo de 0.8 em 2024). Isso sugere um avanço significativo na infraestrutura digital do país, como a expansão de banda larga e redes de telecomunicações.
