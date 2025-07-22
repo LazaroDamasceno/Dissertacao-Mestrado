@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: glossario.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: revisao_literatura.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: egdi.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
@@ -11,44 +13,44 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
-You've used 15 entries,
+You've used 16 entries,
             2118 wiz_defined-function locations,
-            579 strings with 7028 characters,
-and the built_in function-call counts, 4509 in all, are:
-= -- 428
-> -- 205
+            585 strings with 7253 characters,
+and the built_in function-call counts, 4715 in all, are:
+= -- 448
+> -- 212
 < -- 3
-+ -- 84
-- -- 68
-* -- 246
-:= -- 732
-add.period$ -- 46
-call.type$ -- 15
-change.case$ -- 79
++ -- 88
+- -- 70
+* -- 254
+:= -- 771
+add.period$ -- 49
+call.type$ -- 16
+change.case$ -- 83
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 164
-empty$ -- 390
-format.name$ -- 68
-if$ -- 968
+cite$ -- 16
+duplicate$ -- 174
+empty$ -- 407
+format.name$ -- 70
+if$ -- 1009
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 6
-newline$ -- 78
-num.names$ -- 30
-pop$ -- 129
+int.to.str$ -- 16
+missing$ -- 7
+newline$ -- 83
+num.names$ -- 32
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 67
 quote$ -- 0
-skip$ -- 141
+skip$ -- 148
 stack$ -- 0
-substring$ -- 209
-swap$ -- 45
+substring$ -- 215
+swap$ -- 46
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 64
 warning$ -- 0
-while$ -- 42
-width$ -- 17
-write$ -- 158
+while$ -- 44
+width$ -- 18
+write$ -- 168
