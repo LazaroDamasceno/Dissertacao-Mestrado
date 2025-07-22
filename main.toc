@@ -1,38 +1,26 @@
 \babel@toc {brazilian}{}\relax 
 \contentsline {chapter}{\numberline {1}Revisão da literatura}{4}{chapter.1}%
 \contentsline {subsubsection}{Correlação do EGDI com o PIB}{4}{section*.4}%
-\contentsline {subsubsection}{EGDI e governo eletrônico}{5}{section*.5}%
-\contentsline {subsubsection}{Governo eletrônico}{5}{section*.6}%
+\contentsline {subsubsection}{Governo eletrônico}{5}{section*.5}%
 \contentsline {chapter}{\numberline {2}E-Government Development Index}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}E-Participation Index}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Online Service Index}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Human Capital Index em 2024}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Telecommunication Infrastructure Index em 2024}{11}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Coeficiente de correlação: EGDI e E-Participation comparadas com outras variáveis}{12}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Análise geral com o EGDI e E-Participation Index}{14}{subsection.2.5.1}%
-\contentsline {subsubsection}{EGDI e PIB \textit {per capita} PPC}{15}{section*.7}%
-\contentsline {subsubsection}{E-Participation Index e PIB \textit {per capita} PPC}{16}{section*.8}%
-\contentsline {subsubsection}{EGDI e índice de democracia eleitoral}{17}{section*.9}%
-\contentsline {subsubsection}{E-Participation Index e índice de democracia eleitoral}{18}{section*.10}%
-\contentsline {subsubsection}{E-Government Development Index e gastos governamentais (\% do PIB)}{19}{section*.11}%
-\contentsline {subsubsection}{E-Participation Index e gastos governamentais (\% do PIB)}{20}{section*.12}%
-\contentsline {subsection}{\numberline {2.5.2}Análise granular com os componentes do EGDI}{21}{subsection.2.5.2}%
-\contentsline {subsubsection}{PIB \textit {per capita} PPC}{21}{section*.13}%
-\contentsline {subsubsection}{PIB \textit {per capita} PPC}{21}{section*.14}%
-\contentsline {subsubsection}{PIB \textit {per capita} PPC}{21}{section*.15}%
-\contentsline {subsubsection}{índice de democracia eleitoral}{21}{section*.16}%
-\contentsline {subsubsection}{índice de democracia eleitoral}{21}{section*.17}%
-\contentsline {subsubsection}{índice de democracia eleitoral}{21}{section*.18}%
-\contentsline {subsubsection}{gastos governamentais (\% do PIB)}{21}{section*.19}%
-\contentsline {subsubsection}{gastos governamentais (\% do PIB)}{21}{section*.20}%
-\contentsline {subsubsection}{gastos governamentais (\% do PIB)}{21}{section*.21}%
-\contentsline {section}{\numberline {2.6}Indicadores de TIC de governo eletrônico}{21}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Coeficiente de correlação: indicadores de TIC de governo eletrônico comparados com outras variáveis}{23}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Dados do Brasil}{25}{section.2.8}%
-\contentsline {subsubsection}{E-Government Development Index}{26}{section*.22}%
-\contentsline {subsubsection}{E-Participation Index}{26}{section*.23}%
-\contentsline {subsubsection}{Online Service Index}{26}{section*.24}%
-\contentsline {subsubsection}{Human Capital Index}{27}{section*.25}%
-\contentsline {subsubsection}{Telecommunication Infrastructure Index}{27}{section*.26}%
-\contentsline {subsection}{\numberline {2.8.1}Comparando as métricas do Brasil com a média internacional de 2024}{27}{subsection.2.8.1}%
-\contentsline {chapter}{\numberline {3}Worldwide Governance Indicators}{28}{chapter.3}%
+\contentsline {section}{\numberline {2.5}Coeficiente de correlação: EGDI e E-Participation comparados com o PIB \textit {per capita} PPC e os gastos públicos (\% do PIB)}{12}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Análise geral com o EGDI e E-Participation Index}{13}{subsection.2.5.1}%
+\contentsline {subsubsection}{EGDI e PIB \textit {per capita} PPC}{14}{section*.6}%
+\contentsline {subsubsection}{E-Participation Index e PIB \textit {per capita} PPC}{15}{section*.7}%
+\contentsline {subsubsection}{E-Government Development Index e gastos governamentais (\% do PIB)}{16}{section*.8}%
+\contentsline {subsubsection}{E-Participation Index e gastos governamentais (\% do PIB)}{17}{section*.9}%
+\contentsline {section}{\numberline {2.6}Indicadores de TIC de governo eletrônico}{17}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Coeficiente de correlação: indicadores de TIC de governo eletrônico comparados com o PIB \textit {per capita} PPC e os gastos públicos (\% do PIB)}{19}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Dados do Brasil}{21}{section.2.8}%
+\contentsline {subsubsection}{E-Government Development Index}{22}{section*.10}%
+\contentsline {subsubsection}{E-Participation Index}{22}{section*.11}%
+\contentsline {subsubsection}{Online Service Index}{22}{section*.12}%
+\contentsline {subsubsection}{Human Capital Index}{23}{section*.13}%
+\contentsline {subsubsection}{Telecommunication Infrastructure Index}{23}{section*.14}%
+\contentsline {subsection}{\numberline {2.8.1}Comparando as métricas do Brasil com a média internacional de 2024}{23}{subsection.2.8.1}%
+\contentsline {chapter}{\numberline {3}Worldwide Governance Indicators}{24}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Governo eletrônico e digital no Brasil}{25}{chapter.4}%

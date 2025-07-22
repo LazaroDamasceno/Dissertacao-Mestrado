@@ -122,21 +122,9 @@ A figura \ref{fig:boxplot_tci_global} contém um diagrama de caixa que represent
 
 A figura \ref{fig:boxplot_tci_global} mostra que a mediana do índice de infraestrutura de telecomunicações está em cerca de 0.80, indicando que metade dos países possui um índice superior a esse valor. A caixa do gráfico, que representa os 50\% centrais dos dados, abrange o intervalo entre aproximadamente 0.50 e 0.90. A amplitude total dos dados varia de 0.0 a 1.0. A distribuição dos dados é relativamente simétrica e, assim como na maioria dos gráficos anteriores, não há outliers visíveis.
 
-\section{Coeficiente de correlação: EGDI e E-Participation comparadas com outras variáveis}
+\section{Coeficiente de correlação: EGDI e E-Participation comparados com o PIB \textit{per capita} PPC e os gastos públicos (\% do PIB)}
 
-Ao analisar os dados do \href{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}{EGDI}, foi notado que tanto democracias consolidadas, quanto autocracias tem um EGDI alto. O critério para entender quais países são democráticos ou autocráticos foi a figura \ref{fig:electoral-democracy-index}. 
-
-\begin{figure}[H]
-	\centering
-	\caption{Índice da democracia eleitoral}
-	\includegraphics[width=1\linewidth]{figuras/democracia/electoral-democracy-index.png}
-	\label{fig:electoral-democracy-index}
-	\footnotesize{Fonte: \cite{electoral_democracy_index}}
-\end{figure}
-
-Nota-se que o Brasil é considerado uma democracia eleitoral, estando na minoria numérica de países democráticas (88), conforme exposto por \cite{nord2025democracy}, contra 91 autocracias no ano de 2025, haja vista o relatótio \href{https://www.v-dem.net/documents/60/V-dem-dr__2025_lowres.pdf}{DEMOCRACY REPORT 2025: 25 Years of Autocratization – Democracy Trumped?}
-
-Outro fator chamou atenção: há EGDI alto em países tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação inicial dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{com o PIB \textit{per capita} dos países}. 
+Há EGDI alto em países tanto autocráticos, quanto democráticos que têm PIB \textit{per capita} alto, conforme comparação inicial dos \href{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}{com o PIB \textit{per capita} dos países}. 
 
 Adicionalmente, ao avaliar o gasto públicos dos governos apresentado pela OECD e resumido na figura \ref{fig:government-spending-by-function}, um detalhe foi chamativo.
 
@@ -148,9 +136,9 @@ Adicionalmente, ao avaliar o gasto públicos dos governos apresentado pela OECD 
 	\footnotesize{Fonte: \cite{global_gov_spending_function}}
 \end{figure}
 
-Notou-se que os páises democráticos (membros da OECD) que têm EGDI altos tem, coincidentemente, altos gastos públicos e que eles representam parte considerável do PIB. A França e a Itália lideram com uma pequena diferença da 2ª para a 1ª. Outro fato é notório é maioria dos países gastam mais de 40\% do PIB.
+Notou-se que os páises membros da OECD que têm EGDI altos tem, coincidentemente, altos gastos públicos e que eles representam parte considerável do PIB. A França e a Itália lideram com uma pequena diferença da 2ª para a 1ª. Outro fato é notório é maioria dos países gastam mais de 40\% do PIB.
 
-Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o índice de democracia eleitoral do \href{https://www.v-dem.net/}{V-Dem}, com o PIB \textit{per capita} e com os gastos públicos (\% do PIB.) Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão. Caso haja linearidade, usar-se-á Pearson; caso contrário Spearman.
+Com base nos parágrafos anteriores, um questionamento surgiu: qual é relação entre EGDI e \textbf{E-Participation Index} com o PIB \textit{per capita} e com os gastos públicos (\% do PIB). Para descobrir qual tipo de coeficiente de correlação usar, fez-se diagramas de dispersão. Caso haja linearidade, usar-se-á Pearson; caso contrário, Spearman.
 
 \subsection{Análise geral com o EGDI e E-Participation Index}
 
@@ -180,30 +168,6 @@ Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de cor
 
 Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.67. Devido ao coeficiente, os PIB \textit{per capita} PPC e o \textbf{E-Participation Index} tendem a crescer juntos.
 
-\subsubsection{EGDI e índice de democracia eleitoral}
-
-\begin{figure}[H]
-	\centering
-	\caption{Diagrama de Dispensao: EGDI e índice de democracia eleitoral}
-	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_egov_indicedemocracia}
-	\label{fig:dispersao_egov_indicedemocracia}
-	\footnotesize{Fonte: \cite{ONU_EGDI} e \cite{electoral_democracy_index}}
-\end{figure}
-
-Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.04. Os índice de democracia eleitoral e o \textbf{E-Government Index} são variáveis independentes.
-
-\subsubsection{E-Participation Index e índice de democracia eleitoral}
-
-\begin{figure}[H]
-	\centering
-	\caption{Diagrama de Dispensao: E-Participation Index e índice de democracia eleitoral}
-	\includegraphics[width=1\linewidth]{figuras/egdi/dispersao_epart_indicedemocracia}
-	\label{fig:dispersao_epart_indicedemocracia}
-	\footnotesize{Fonte:baseado em \cite{ONU_EGDI_mapa} e \cite{electoral_democracy_index}}
-\end{figure}
-
-Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.05. Os índice de democracia eleitoral e o \textbf{E-Participation Index} são variáveis independentes.
-
 \subsubsection{E-Government Development Index e gastos governamentais (\% do PIB)}
 
 \begin{figure}[H]
@@ -227,28 +191,6 @@ Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de cor
 \end{figure}
 
 Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi -0.07. O \textbf{E-Participation Index} e os gastos públicos são variáveis independentes.
-
-\subsection{Análise granular com os componentes do EGDI}
-
-\subsubsection{PIB \textit{per capita} PPC}
-
-\subsubsection{PIB \textit{per capita} PPC}
-
-\subsubsection{PIB \textit{per capita} PPC}
-
-\subsubsection{índice de democracia eleitoral}
-
-\subsubsection{índice de democracia eleitoral}
-
-\subsubsection{índice de democracia eleitoral}
-
-\subsubsection{gastos governamentais (\% do PIB)}
-
-\subsubsection{gastos governamentais (\% do PIB)}
-
-\subsubsection{gastos governamentais (\% do PIB)}
-
-
 
 \section{Indicadores de TIC de governo eletrônico}
 \label{indicadores_tic_egov}
@@ -305,7 +247,7 @@ Em 2022, metade dos países respondeu positivamente as três perguntas; em 2024,
 
 Além, disso a quantidade de países que responderam positivamente 1 de 3 perguntas e nenhuma se igualou em 2024, sendo os países que responderam 1 de 3 perguntas era maior do que os que responderam nenhuma.
 
-\section{Coeficiente de correlação: indicadores de TIC de governo eletrônico comparados com outras variáveis}
+\section{Coeficiente de correlação: indicadores de TIC de governo eletrônico  comparados com o PIB \textit{per capita} PPC e os gastos públicos (\% do PIB)}
 
 Com base na seção \ref{indicadores_tic_egov}, buscou-se entender se há correlação entre os indicadores de TIC de governo eletrônico e os PIB \textit{per capita} PPC e índice de democracia eleitoral.
 
@@ -317,15 +259,7 @@ Com base na seção \ref{indicadores_tic_egov}, buscou-se entender se há correl
 	\footnotesize{Fonte: baseado em \cite{WB_pib_per_capita_países} e \cite{ONU_ICT_in_government_indicators}}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\caption{Diagrama de Dispersão: indicadores de TIC de governo eletrônico e índice de democracia eleitoral}
-	\includegraphics[width=1\linewidth]{figuras/ict_in_government/dispersao_ticegov_indicedemocracia}
-	\label{fig:dispersao_ticegov_indicedemocracia}
-	\footnotesize{Fonte: baseado em \cite{electoral_democracy_index} e \cite{ONU_ICT_in_government_indicators}}
-\end{figure}
-
-Como os diagramas de dispersão presentes nas figuras \ref{fig:dispersao_ticegov_pib} e \ref{fig:dispersao_ticegov_indicedemocracia}  apresentaram grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. Os coeficientes de correlação (0.1 e -0.0051) indicam que os indicadores de TIC de governo eletrônico não são afetados pelo PIB per capita PPC e pelo índice de democracia eleitoral, e vice-versa.
+Como o diagrama de dispersão presente na figura \ref{fig:dispersao_ticegov_pib} e apresenta grande dispersão em relação à tendência, optou-se pelo uso do coeficiente de correlação de Spearman. A alta dispersão em relação à tendência é um indicativo de um coeficiente de correlação neutro ou baixo. O coeficiente de correlação (0.1) indicam que os indicadores de TIC de governo eletrônico não são afetados pelo PIB \textit{per capita} PPC, e vice-versa.
 
 Outra análise feita foi a comparação entre os indicadores de TIC de governo eletrônico e os gastos governamentais.
 
@@ -338,7 +272,6 @@ Outra análise feita foi a comparação entre os indicadores de TIC de governo e
 \end{figure}
 
 Para compreender melhor o diagrama de dispersão, foi usado o coeficiente de correlação de Spearman. A sua escolha foi motivada pela grande presença de pontos extremos. O coeficiente de correlação encontrada foi 0.23. O referido coeficiente indica uma correlação positiva muito fraca entre os gastos do governo e a soma das respostas positivas. 
-
 
 \section{Dados do Brasil}
 

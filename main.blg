@@ -9,48 +9,52 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: egdi.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: wgi.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: governo_eletronico_digital_brasil.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
-You've used 16 entries,
+Warning--I didn't find a database entry for "electoral_democracy_index"
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            585 strings with 7253 characters,
-and the built_in function-call counts, 4715 in all, are:
-= -- 448
-> -- 212
+            579 strings with 6938 characters,
+and the built_in function-call counts, 4145 in all, are:
+= -- 398
+> -- 172
 < -- 3
-+ -- 88
-- -- 70
-* -- 254
-:= -- 771
-add.period$ -- 49
-call.type$ -- 16
-change.case$ -- 83
++ -- 72
+- -- 56
+* -- 219
+:= -- 668
+add.period$ -- 43
+call.type$ -- 14
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 174
-empty$ -- 407
-format.name$ -- 70
-if$ -- 1009
+cite$ -- 14
+duplicate$ -- 157
+empty$ -- 368
+format.name$ -- 56
+if$ -- 896
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 7
-newline$ -- 83
-num.names$ -- 32
-pop$ -- 133
+int.to.str$ -- 14
+missing$ -- 6
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 115
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 56
 quote$ -- 0
-skip$ -- 148
+skip$ -- 134
 stack$ -- 0
-substring$ -- 215
-swap$ -- 46
+substring$ -- 205
+swap$ -- 44
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
+type$ -- 56
 warning$ -- 0
-while$ -- 44
-width$ -- 18
-write$ -- 168
+while$ -- 40
+width$ -- 16
+write$ -- 148
+(There was 1 warning)

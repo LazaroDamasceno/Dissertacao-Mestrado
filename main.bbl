@@ -51,13 +51,6 @@ Banco Mundial.
 \newblock Pib per capita dos países, 2024.
 \newblock \url{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD}.
 
-\bibitem{nord2025democracy}
-Marina Nord, David Altman, Fabio Angiolillo, Tiago Fernandes, Ana~Good God, and
-  Staffan~I Lindberg.
-\newblock Democracy report 2025: 25 years of autocratization--democracy
-  trumped.
-\newblock {\em University of Gothenburg: V-Dem Institute}, 2025.
-
 \bibitem{global_gov_spending_function}
 OECD.
 \newblock General government spending by function, 2023.
@@ -86,11 +79,6 @@ ONU.
 \newblock E-government development index (egdi), 2025.
 \newblock
   \url{https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index}.
-
-\bibitem{electoral_democracy_index}
-{Our World in Data}.
-\newblock Electoral democracy index, 2024.
-\newblock \url{https://ourworldindata.org/grapher/electoral-democracy-index}.
 
 \bibitem{ziolo2022government}
 Magdalena Zio{\l}o, Piotr Niedzielski, Ewa Kuzionko-Ochrymiuk, Jacek
