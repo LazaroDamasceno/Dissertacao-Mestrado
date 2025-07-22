@@ -15,10 +15,9 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "electoral_democracy_index"
 You've used 14 entries,
             2118 wiz_defined-function locations,
-            579 strings with 6938 characters,
+            578 strings with 6913 characters,
 and the built_in function-call counts, 4145 in all, are:
 = -- 398
 > -- 172
@@ -57,4 +56,3 @@ warning$ -- 0
 while$ -- 40
 width$ -- 16
 write$ -- 148
-(There was 1 warning)
