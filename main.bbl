@@ -1,35 +1,9 @@
-\begin{thebibliography}{10}
-
-\bibitem{alisherovna2021whether}
-Aziza Alisherovna~Usmanova.
-\newblock Whether a higher e-government development index means a higher gdp
-  growth rate?
-\newblock In {\em Proceedings of the 5th International Conference on Future
-  Networks and Distributed Systems}, pages 467--472, 2021.
+\begin{thebibliography}{1}
 
 \bibitem{desi_2022}
 {Comissão Europeia}.
 \newblock Digital economy and society index (desi) 2022, 2022.
 \newblock \url{https://digital-strategy.ec.europa.eu/en/policies/desi}.
-
-\bibitem{FMI_gov_expenditure}
-FMI.
-\newblock Government expenditure, percent of gdp, 2023.
-\newblock
-  \url{https://www.imf.org/external/datamapper/exp@FPP/USA/FRA/JPN/GBR/SWE/ESP/ITA/ZAF/IND}.
-
-\bibitem{kotenok2020government}
-Andrii Kotenok, Iryna Kulaga, Vsevolod Klivak, and Olena Tkachenko.
-\newblock The e-government’s influence on the country’s economy (at the
-  example of ukraine and estonia).
-\newblock In {\em III International Scientific Congress Society of Ambient
-  Intelligence 2020 (ISC-SAI 2020)}, pages 175--182. Atlantis Press, 2020.
-
-\bibitem{kumar2020cultural}
-Sushant Kumar, Kuldeep Baishya, Pradip~H Sadarangani, and Harsh~V Samalia.
-\newblock Cultural influence on e-government development.
-\newblock {\em Electronic Journal of Information Systems Evaluation},
-  23(1):pp17--33, 2020.
 
 \bibitem{martinez2022egovernment}
 Yolanda Mart{\'\i}nez, Jos{\'e} Clastornik, and Oscar~Alberto Campos.
@@ -57,12 +31,6 @@ ONU.
 \newblock
   \url{https://publicadministration.un.org/egovkb/Portals/egovkb/Documents/un/2016-Survey/Annexes.pdf}.
 
-\bibitem{ONU_ICT_in_government_indicators}
-ONU.
-\newblock Ict in government (e-government) indicators, 2024.
-\newblock
-  \url{https://publicadministration.un.org/egovkb/en-us/Data/ICT-in-government}.
-
 \bibitem{ONU_EGDI_mapa}
 ONU.
 \newblock Mapa interativo do egdi, 2024.
@@ -78,12 +46,5 @@ ONU.
 {Our World in Data}.
 \newblock Electoral democracy index, 2024.
 \newblock \url{https://ourworldindata.org/grapher/electoral-democracy-index}.
-
-\bibitem{ziolo2022government}
-Magdalena Zio{\l}o, Piotr Niedzielski, Ewa Kuzionko-Ochrymiuk, Jacek
-  Marcinkiewicz, Katarzyna {\L}obacz, Krzysztof Dyl, and Renata Szanter.
-\newblock E-government development in european countries: Socio-economic and
-  environmental aspects.
-\newblock {\em Energies}, 15(23):8870, 2022.
 
 \end{thebibliography}
