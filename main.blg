@@ -3,56 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: glossario.aux
-Reallocating 'name_of_file' (item size: 1) to 23 items.
-A level-1 auxiliary file: revisao_literatura.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: egdi.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-A level-1 auxiliary file: wgi.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: governo_eletronico_digital_brasil.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
-You've used 14 entries,
+You've used 20 entries,
             2118 wiz_defined-function locations,
-            578 strings with 6913 characters,
-and the built_in function-call counts, 4145 in all, are:
-= -- 398
-> -- 172
-< -- 3
-+ -- 72
-- -- 56
-* -- 219
-:= -- 668
-add.period$ -- 43
-call.type$ -- 14
-change.case$ -- 70
+            611 strings with 7889 characters,
+and the built_in function-call counts, 6249 in all, are:
+= -- 614
+> -- 253
+< -- 5
++ -- 105
+- -- 82
+* -- 356
+:= -- 1003
+add.period$ -- 62
+call.type$ -- 20
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 157
-empty$ -- 368
-format.name$ -- 56
-if$ -- 896
+cite$ -- 20
+duplicate$ -- 244
+empty$ -- 542
+format.name$ -- 82
+if$ -- 1349
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 6
-newline$ -- 73
-num.names$ -- 28
-pop$ -- 115
+int.to.str$ -- 20
+missing$ -- 12
+newline$ -- 103
+num.names$ -- 40
+pop$ -- 146
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 81
 quote$ -- 0
-skip$ -- 134
+skip$ -- 199
 stack$ -- 0
-substring$ -- 205
-swap$ -- 44
-text.length$ -- 3
+substring$ -- 357
+swap$ -- 68
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 80
 warning$ -- 0
-while$ -- 40
-width$ -- 16
-write$ -- 148
+while$ -- 63
+width$ -- 22
+write$ -- 214
