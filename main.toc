@@ -20,6 +20,5 @@
 \contentsline {chapter}{\numberline {2}Indicadores de TIC de governo eletrônico}{20}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Coeficiente de correlação: indicadores de TIC de governo eletrônico comparados com o PIB \textit {per capita} PPC e os gastos públicos (\% do PIB)}{22}{section.2.1}%
 \contentsline {chapter}{\numberline {3}Governo eletrônico e digital no Brasil}{25}{chapter.3}%
-\contentsline {subsubsection}{governo eletrônico: corrupção}{25}{section*.14}%
-\contentsline {subsubsection}{governo digital}{26}{section*.15}%
-\contentsline {subsubsection}{políticas públicas}{26}{section*.16}%
+\contentsline {subsubsection}{governo digital}{26}{section*.14}%
+\contentsline {subsubsection}{políticas públicas}{26}{section*.15}%

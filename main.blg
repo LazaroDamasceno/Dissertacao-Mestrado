@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: glossario.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: egdi.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: indicadores_tic_egoc.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: governo_eletronico_digital_brasil.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
@@ -13,7 +15,7 @@ The style file: plain.bst
 Database file #1: ref.bib
 You've used 21 entries,
             2118 wiz_defined-function locations,
-            616 strings with 8022 characters,
+            617 strings with 8046 characters,
 and the built_in function-call counts, 6462 in all, are:
 = -- 635
 > -- 260
