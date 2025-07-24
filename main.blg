@@ -15,45 +15,45 @@ The style file: plain.bst
 Database file #1: ref.bib
 Warning--string name "dez" is undefined
 --line 387 of file ref.bib
-You've used 25 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            645 strings with 8938 characters,
-and the built_in function-call counts, 7801 in all, are:
-= -- 778
-> -- 305
-< -- 6
-+ -- 127
-- -- 98
-* -- 461
-:= -- 1258
-add.period$ -- 77
-call.type$ -- 25
-change.case$ -- 124
+            652 strings with 9261 characters,
+and the built_in function-call counts, 8235 in all, are:
+= -- 828
+> -- 312
+< -- 7
++ -- 130
+- -- 100
+* -- 483
+:= -- 1318
+add.period$ -- 81
+call.type$ -- 26
+change.case$ -- 128
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 307
-empty$ -- 668
-format.name$ -- 98
-if$ -- 1674
+cite$ -- 26
+duplicate$ -- 331
+empty$ -- 709
+format.name$ -- 100
+if$ -- 1779
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 17
-newline$ -- 128
-num.names$ -- 50
-pop$ -- 161
+int.to.str$ -- 26
+missing$ -- 18
+newline$ -- 133
+num.names$ -- 52
+pop$ -- 167
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 102
 quote$ -- 0
-skip$ -- 248
+skip$ -- 266
 stack$ -- 0
-substring$ -- 475
-swap$ -- 82
-text.length$ -- 6
+substring$ -- 512
+swap$ -- 92
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
+type$ -- 104
 warning$ -- 0
-while$ -- 82
-width$ -- 27
-write$ -- 269
+while$ -- 87
+width$ -- 28
+write$ -- 282
 (There was 1 warning)
