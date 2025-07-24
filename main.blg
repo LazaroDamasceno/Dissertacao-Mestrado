@@ -13,44 +13,47 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
-You've used 21 entries,
+Warning--string name "dez" is undefined
+--line 387 of file ref.bib
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            617 strings with 8046 characters,
-and the built_in function-call counts, 6462 in all, are:
-= -- 635
-> -- 260
-< -- 5
-+ -- 108
-- -- 84
-* -- 368
-:= -- 1043
-add.period$ -- 65
-call.type$ -- 21
-change.case$ -- 105
+            645 strings with 8938 characters,
+and the built_in function-call counts, 7801 in all, are:
+= -- 778
+> -- 305
+< -- 6
++ -- 127
+- -- 98
+* -- 461
+:= -- 1258
+add.period$ -- 77
+call.type$ -- 25
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 254
-empty$ -- 560
-format.name$ -- 84
-if$ -- 1392
+cite$ -- 25
+duplicate$ -- 307
+empty$ -- 668
+format.name$ -- 98
+if$ -- 1674
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 13
-newline$ -- 108
-num.names$ -- 42
-pop$ -- 148
+int.to.str$ -- 25
+missing$ -- 17
+newline$ -- 128
+num.names$ -- 50
+pop$ -- 161
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 99
 quote$ -- 0
-skip$ -- 207
+skip$ -- 248
 stack$ -- 0
-substring$ -- 362
-swap$ -- 69
-text.length$ -- 5
+substring$ -- 475
+swap$ -- 82
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 100
 warning$ -- 0
-while$ -- 65
-width$ -- 23
-write$ -- 225
+while$ -- 82
+width$ -- 27
+write$ -- 269
+(There was 1 warning)
