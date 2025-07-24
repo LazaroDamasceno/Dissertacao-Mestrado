@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: glossario.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: egdi.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+A level-1 auxiliary file: wgi.aux
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: indicadores_tic_egoc.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
@@ -13,18 +15,16 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: ref.bib
-Warning--string name "dez" is undefined
---line 387 of file ref.bib
 You've used 26 entries,
             2118 wiz_defined-function locations,
-            652 strings with 9261 characters,
-and the built_in function-call counts, 8235 in all, are:
+            653 strings with 9268 characters,
+and the built_in function-call counts, 8237 in all, are:
 = -- 828
 > -- 312
 < -- 7
 + -- 130
 - -- 100
-* -- 483
+* -- 485
 := -- 1318
 add.period$ -- 81
 call.type$ -- 26
@@ -56,4 +56,3 @@ warning$ -- 0
 while$ -- 87
 width$ -- 28
 write$ -- 282
-(There was 1 warning)
