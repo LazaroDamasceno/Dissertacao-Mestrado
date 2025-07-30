@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  30 JUL 2025 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  30 JUL 2025 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,12 +624,17 @@ File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 33.
 
-No file main.aux.
+(main.aux
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported on input line 8.
+ (glossario.aux) (egdi.aux) (wgi.aux) (indicadores_tic_egoc.aux)
+(governo_eletronico_digital_brasil.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 33.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  33.
+
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
@@ -702,9 +707,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \c@mv@boldtabular=\count339
 LaTeX Info: Command `\dddot' is already robust on input line 33.
 LaTeX Info: Command `\ddddot' is already robust on input line 33.
-Package babel Info: 'brazilian' activates 'portuges' shorthands.
-(babel)             Reported on input line 33.
 Package hyperref Info: Link coloring ON on input line 33.
+ (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -747,7 +751,80 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 35.
-No file main.lof.
+(main.lof
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 4.
+
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+4.
+
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+4.
+
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+4.
+
+(C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 4.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 4.
+)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -758,7 +835,7 @@ No file main.lof.
 
 {C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/laza
 r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
-No file main.lot.
+(main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -777,8 +854,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 [3
 
 
-]
-No file main.toc.
+] (main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -840,10 +916,6 @@ e 13.
 LaTeX Warning: Citation `rover2009introduccao' on page 6 undefined on input lin
 e 15.
 
-
-LaTeX Warning: Reference `tab:autores_beneficios_egov' on page 6 undefined on i
-nput line 17.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -883,10 +955,6 @@ LaTeX Warning: Citation `martins2018war' on page 6 undefined on input line 54.
 
 ]
 
-LaTeX Warning: Reference `tab:autores_beneficios_egov' on page 7 undefined on i
-nput line 58.
-
-
 LaTeX Warning: Citation `de2020governo' on page 7 undefined on input line 60.
 
 
@@ -904,10 +972,6 @@ e 66.
 
 LaTeX Warning: Citation `kotenok2020government' on page 7 undefined on input li
 ne 66.
-
-
-LaTeX Warning: Reference `tab:autores_beneficios_egov' on page 7 undefined on i
-nput line 66.
 
 
 LaTeX Warning: Citation `alenezi2022understanding' on page 7 undefined on input
@@ -939,11 +1003,7 @@ LaTeX Warning: Citation `martins2018war' on page 8 undefined on input line 78.
 LaTeX Warning: Citation `veiga2016digital' on page 8 undefined on input line 80
 .
 
-
-LaTeX Warning: Reference `fig:mapa_coropleto_paises_uso_egov_regioes' on page 8
- undefined on input line 82.
-
-<figuras/mapa_coropleto_paises_uso_egov_regioes.png, id=44, 587.3142pt x 342.80
+<figuras/mapa_coropleto_paises_uso_egov_regioes.png, id=59, 587.3142pt x 342.80
 07pt>
 File: figuras/mapa_coropleto_paises_uso_egov_regioes.png Graphic file (type png
 )
@@ -980,32 +1040,23 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9A67AB62F6E9A7266B0139E20384D936;455.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9A67AB62F6E9A7266B0139E20384D936;455.
  ) 
 Here is how much of TeX's memory you used:
- 15623 strings out of 468148
- 239651 string characters out of 5431061
- 650346 words of memory out of 5000000
- 43972 multiletter control sequences out of 15000+600000
- 647194 words of font info for 48 fonts, out of 8000000 for 9000
+ 15765 strings out of 468148
+ 242675 string characters out of 5431061
+ 652574 words of memory out of 5000000
+ 44069 multiletter control sequences out of 15000+600000
+ 659113 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,526b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,526b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.p
 fb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.
 pfb>
-Output written on main.pdf (9 pages, 196374 bytes).
+Output written on main.pdf (9 pages, 193123 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 22 words of extra memory for PDF output out of 10000 (max. 10000000)
 
