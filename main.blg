@@ -14,47 +14,47 @@ A level-1 auxiliary file: indicadores_tic_egoc.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: governo_eletronico_digital_brasil.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
 Database file #1: ref.bib
 You've used 16 entries,
-            2118 wiz_defined-function locations,
-            606 strings with 7444 characters,
-and the built_in function-call counts, 5503 in all, are:
-= -- 563
-> -- 215
-< -- 5
+            2253 wiz_defined-function locations,
+            636 strings with 7330 characters,
+and the built_in function-call counts, 5312 in all, are:
+= -- 528
+> -- 207
+< -- 0
 + -- 90
 - -- 70
-* -- 359
-:= -- 891
-add.period$ -- 51
+* -- 402
+:= -- 841
+add.period$ -- 49
 call.type$ -- 16
 change.case$ -- 83
 chr.to.int$ -- 0
 cite$ -- 16
-duplicate$ -- 225
-empty$ -- 446
+duplicate$ -- 201
+empty$ -- 452
 format.name$ -- 70
-if$ -- 1176
+if$ -- 1123
 int.to.chr$ -- 0
 int.to.str$ -- 16
 missing$ -- 15
 newline$ -- 83
 num.names$ -- 32
-pop$ -- 83
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 67
 quote$ -- 0
-skip$ -- 170
+skip$ -- 137
 stack$ -- 0
-substring$ -- 373
+substring$ -- 366
 swap$ -- 62
-text.length$ -- 5
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 64
 warning$ -- 0
-while$ -- 59
+while$ -- 58
 width$ -- 18
-write$ -- 179
+write$ -- 164
