@@ -19,7 +19,7 @@ The style file: acm.bst
 Database file #1: ref.bib
 You've used 16 entries,
             2253 wiz_defined-function locations,
-            636 strings with 7330 characters,
+            636 strings with 7259 characters,
 and the built_in function-call counts, 5312 in all, are:
 = -- 528
 > -- 207

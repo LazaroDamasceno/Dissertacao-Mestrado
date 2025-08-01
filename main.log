@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  31 JUL 2025 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  31 JUL 2025 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,14 +615,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks33
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-Package hyperref Info: Option `colorlinks' set `true' on input line 30.
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 33.
+ 34.
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 33.
+(Font)              scaled to size 12.0pt on input line 34.
 
 (main.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
@@ -631,52 +631,52 @@ Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (indicadores_tic_egoc.aux) (governo_eletronico_digital_brasil.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 33.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 34.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 33.
+ 34.
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-33.
+34.
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 33.
+ 34.
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 33.
+e 34.
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -705,9 +705,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@mv@tabular=\count338
 \c@mv@boldtabular=\count339
-LaTeX Info: Command `\dddot' is already robust on input line 33.
-LaTeX Info: Command `\ddddot' is already robust on input line 33.
-Package hyperref Info: Link coloring ON on input line 33.
+LaTeX Info: Command `\dddot' is already robust on input line 34.
+LaTeX Info: Command `\ddddot' is already robust on input line 34.
+Package hyperref Info: Link coloring ON on input line 34.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -748,9 +748,9 @@ Package hyperref Info: Link coloring ON on input line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 35.
+(Font)              scaled to size 24.88pt on input line 36.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 35.
+(Font)              scaled to size 24.88pt on input line 36.
 (main.lof
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
 e 5.
@@ -918,70 +918,82 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 ]
 
 [8]
-<figuras/mapa_coropleto_paises_uso_egov_regioes.png, id=104, 587.3142pt x 342.8
-007pt>
-File: figuras/mapa_coropleto_paises_uso_egov_regioes.png Graphic file (type png
-)
-<use figuras/mapa_coropleto_paises_uso_egov_regioes.png>
-Package pdftex.def Info: figuras/mapa_coropleto_paises_uso_egov_regioes.png  us
-ed on input line 87.
+<figuras/mapa_coropleto_uso_egov_regioes.png, id=106, 587.3142pt x 342.8007pt>
+File: figuras/mapa_coropleto_uso_egov_regioes.png Graphic file (type png)
+<use figuras/mapa_coropleto_uso_egov_regioes.png>
+Package pdftex.def Info: figuras/mapa_coropleto_uso_egov_regioes.png  used on i
+nput line 87.
 (pdftex.def)             Requested size: 455.24411pt x 265.70963pt.
-)
+
 
 [9]
+
+LaTeX Warning: Reference `tab:tic_domicilios_2024_g3' on page 10 undefined on i
+nput line 92.
 
 [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.44 \include{governo_eletronico_digital_brasil}
-                                                 <./figuras/mapa_coropleto_pais
-es_uso_egov_regioes.png>] (main.bbl
+l.127 \end{longtable}
+                      <./figuras/mapa_coropleto_uso_egov_regioes.png>])
+
+[11] (main.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 4.
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
-18.
+17.
 
 (C:\Users\lazar\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 18.
+(Font)              scaled to size 12.0pt on input line 17.
+
+Underfull \hbox (badness 1394) in paragraph at lines 15--18
+[]\T1/ntxtlf/m/sc/12 Cetic.BR\T1/ntxtlf/m/n/12 .  Tic do-mi-cí-lios 2024: G1, 2
+024.  [][]$\T1/ntxtt/m/n/12 https : / / cetic . br / pt / tics /
+ []
 
 
-[11
+
+[12
 
 
 
 {C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-
 pc.enc}])
 
-[12] (main.aux (glossario.aux) (referencial_teorico.aux) (egdi.aux) (wgi.aux)
+[13] (main.aux (glossario.aux) (referencial_teorico.aux) (egdi.aux) (wgi.aux)
 (indicadores_tic_egoc.aux) (governo_eletronico_digital_brasil.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 32D732AB91384E76EA8AF67FE30D2204;602.
+(rerunfilecheck)             Checksum: 51C0BE3F97A95EDE8FA78E1FD01FFF02;599.
  ) 
 Here is how much of TeX's memory you used:
- 15879 strings out of 468148
- 245284 string characters out of 5431061
- 653628 words of memory out of 5000000
- 44146 multiletter control sequences out of 15000+600000
+ 15884 strings out of 468148
+ 245277 string characters out of 5431061
+ 653728 words of memory out of 5000000
+ 44149 multiletter control sequences out of 15000+600000
  659613 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,604b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,786b,633s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xt
 t.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/zt
 mb.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/z
 tmr.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/
 ztmri.pfb>
-Output written on main.pdf (12 pages, 259534 bytes).
+Output written on main.pdf (13 pages, 264820 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  30 words of extra memory for PDF output out of 10000 (max. 10000000)
 
