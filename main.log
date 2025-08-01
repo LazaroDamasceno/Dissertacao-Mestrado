@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  31 JUL 2025 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  1 AUG 2025 02:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,10 +918,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 ]
 
 [8]
-<figuras/mapa_coropleto_uso_egov_regioes.png, id=106, 587.3142pt x 342.8007pt>
-File: figuras/mapa_coropleto_uso_egov_regioes.png Graphic file (type png)
-<use figuras/mapa_coropleto_uso_egov_regioes.png>
-Package pdftex.def Info: figuras/mapa_coropleto_uso_egov_regioes.png  used on i
+<figuras/mapa_coropleto_tic_domicilio_g1.png, id=106, 587.3142pt x 342.8007pt>
+File: figuras/mapa_coropleto_tic_domicilio_g1.png Graphic file (type png)
+<use figuras/mapa_coropleto_tic_domicilio_g1.png>
+Package pdftex.def Info: figuras/mapa_coropleto_tic_domicilio_g1.png  used on i
 nput line 87.
 (pdftex.def)             Requested size: 455.24411pt x 265.70963pt.
 
@@ -937,7 +937,7 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.127 \end{longtable}
-                      <./figuras/mapa_coropleto_uso_egov_regioes.png>])
+                      <./figuras/mapa_coropleto_tic_domicilio_g1.png>])
 
 [11] (main.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
@@ -991,7 +991,7 @@ t.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/zt
 mb.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/z
 tmr.pfb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/
 ztmri.pfb>
-Output written on main.pdf (13 pages, 264820 bytes).
+Output written on main.pdf (13 pages, 264823 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
