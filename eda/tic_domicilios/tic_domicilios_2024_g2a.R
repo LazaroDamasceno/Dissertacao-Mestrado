@@ -42,7 +42,7 @@ df_2 <- data.frame(
 ggsave(
     'C:/Users/lazar/Master-Dissertation/figuras/tic_domiciilios_2024_g2a_2.png', 
     dpi=300,
-    width = 25.4,
-    height = 15.24,
-    units = "cm"
+    width = 10,
+    height = 6,
+    units = "in"
 )
