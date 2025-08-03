@@ -67,7 +67,7 @@ final_plot <- ggplot(df, aes(x = egdi, y = gdp)) +
 ggsave(
     'C:/Users/lazar/Master-Dissertation/figuras/relacao_egdi_pib_percapita_ppc.png', 
     dpi=300,
-    width = 25.4,
-    height = 15.24,
-    units = "cm"
+    width = 10,
+    height = 6,
+    units = "in"
 )

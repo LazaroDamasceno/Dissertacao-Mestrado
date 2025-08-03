@@ -55,7 +55,7 @@ my_plot <- ggplot(df, aes(egdi, gastos_publicos)) +
 ggsave(
     'C:/Users/lazar/Master-Dissertation/figuras/relacao_epart_gastospublicos.png', 
     dpi=300,
-    width = 25.4,
-    height = 15.24,
-    units = "cm"
+    width = 10,
+    height = 6,
+    units = "in"
 )

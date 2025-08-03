@@ -1,10 +1,6 @@
 library(tidyverse)
 library(tidyr)
 
-egdi <- read.csv('EGOV_DATA_2024.csv') %>%
-    select(Country.Name, E.Participation.Index) %>%
-    arrange(Country.Name)
-
 countries <- unique(egdi$Country.Name)
 
 gdp <- read.csv('pib_percapita_ppc.csv') %>%
@@ -51,7 +47,7 @@ setdiff(egdi$Country.Name, gdp$Country.Name)
 length(gdp$Country.Name)
 
 df <- data.frame(
-    egdi = egdi$E.Participation.Index,
+    egdi = egdi$Human.Capital.Index,
     gdp = gdp$X2024
 )
 
@@ -59,13 +55,13 @@ final_plot <- ggplot(df, aes(x = egdi, y = gdp)) +
     geom_point() +
     geom_smooth(method = 'lm') +
     labs(
-        x = 'E-Participation Index',
+        x = 'HCI',
         y = 'PIB per capita PPC'
     ) +
     coord_cartesian(xlim = c(0, 1))
 
 ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/relacao_epart_pib_percapita_ppc.png', 
+    'C:/Users/lazar/Master-Dissertation/figuras/relacao_hci_pib_percapita_ppc.png', 
     dpi=300,
     width = 10,
     height = 6,

@@ -2,7 +2,7 @@ library(tidyverse)
 library(readxl)
 
 egdi <- read.csv('EGOV_DATA_2024.csv') %>% 
-    select(Country.Name, E.Government.Index) %>%
+    select(Country.Name, Telecommunication.Infrastructure.Index) %>%
     arrange(Country.Name)
 
 gastos_publicos <- read_excel('imf_government_expenditure.xls') %>% 
@@ -39,7 +39,7 @@ egdi <- egdi %>%
     filter(Country.Name %in% gastos_publicos$Country)
 
 df <- data.frame(
-    egdi = egdi$E.Government.Index,
+    egdi = egdi$Telecommunication.Infrastructure.Index,
     gastos_publicos = gastos_publicos$Percentage
 )
 
@@ -48,14 +48,14 @@ my_plot <- ggplot(df, aes(egdi, gastos_publicos)) +
     geom_smooth(method = 'lm') +
     coord_cartesian(ylim = c(0, 100), xlim = c(0, 1)) +
     labs(
-        x = 'EGDI',
+        x = 'TCI',
         y = 'Gastos públicos (% do PIB)'
     )
 
 ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/relacao_egdi_gastospublicos.png', 
+    'C:/Users/lazar/Master-Dissertation/figuras/relacao_tci_gastospublicos.png', 
     dpi=300,
-    width = 10,
-    height = 6,
-    units = "in"
+    width = 25.4,
+    height = 15.24,
+    units = "cm"
 )

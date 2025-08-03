@@ -70,7 +70,7 @@ ggplot(df_long, aes(indicador, valor, fill = paises)) +
 ggsave(
     'C:/Users/lazar/Master-Dissertation/figuras/comparacao_egdi_brasil_mundo.png', 
     dpi=300,
-    width = 25.4,
-    height = 15.24,
-    units = "cm"
+    width = 10,
+    height = 6,
+    units = "in"
 )
