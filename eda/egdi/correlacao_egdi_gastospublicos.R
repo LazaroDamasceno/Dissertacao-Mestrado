@@ -58,7 +58,7 @@ df <- data.frame(
     )
 )
 
-my_plot = ggplot(df, aes(indices, correlacoes)) +
+ggplot(df, aes(indices, correlacoes)) +
     geom_col(fill = "steelblue") +
     labs(
         x = 'Índices',
@@ -68,11 +68,3 @@ my_plot = ggplot(df, aes(indices, correlacoes)) +
         aes(label = round(correlacoes, 2)), 
         vjust = -0.5
     )
-
-ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/correlacao_egdi_gastospublicos.png', 
-    dpi=300,
-    width = 10,
-    height = 6,
-    units = "in"
-)

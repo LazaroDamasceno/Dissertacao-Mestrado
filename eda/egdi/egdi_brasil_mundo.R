@@ -66,11 +66,3 @@ ggplot(df_long, aes(indicador, valor, fill = paises)) +
         x = 'Índices',
         y = 'Escala'
     )
-
-ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/comparacao_egdi_brasil_mundo.png', 
-    dpi=300,
-    width = 10,
-    height = 6,
-    units = "in"
-)

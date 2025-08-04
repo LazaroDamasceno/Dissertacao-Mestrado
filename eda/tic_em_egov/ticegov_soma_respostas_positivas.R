@@ -60,10 +60,4 @@ ggplot(aes(x = "", y = Porcentagem, fill = Quantidade_Respostas_Positivas)) +
           labels = c('nenhuma', '1 de 3', '2 de 3', 'todas')
       )
 
-ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/ticegov_soma_respostas_positivas.png', 
-    dpi=300,
-    width = 10,
-    height = 6,
-    units = "in"
-)
+df_wide

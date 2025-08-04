@@ -55,7 +55,7 @@ df <- data.frame(
     gdp = gdp$X2024
 )
 
-final_plot <- ggplot(df, aes(x = egdi, y = gdp)) +
+ggplot(df, aes(x = egdi, y = gdp)) +
     geom_point() +
     geom_smooth(method = 'lm') +
     labs(
@@ -63,11 +63,3 @@ final_plot <- ggplot(df, aes(x = egdi, y = gdp)) +
         y = 'PIB per capita PPC'
     ) +
     coord_cartesian(xlim = c(0, 1))
-
-ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/relacao_epart_pib_percapita_ppc.png', 
-    dpi=300,
-    width = 10,
-    height = 6,
-    units = "in"
-)

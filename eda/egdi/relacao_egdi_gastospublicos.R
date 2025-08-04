@@ -43,7 +43,7 @@ df <- data.frame(
     gastos_publicos = gastos_publicos$Percentage
 )
 
-my_plot <- ggplot(df, aes(egdi, gastos_publicos)) +
+ggplot(df, aes(egdi, gastos_publicos)) +
     geom_point() +
     geom_smooth(method = 'lm') +
     coord_cartesian(ylim = c(0, 100), xlim = c(0, 1)) +
@@ -51,11 +51,3 @@ my_plot <- ggplot(df, aes(egdi, gastos_publicos)) +
         x = 'EGDI',
         y = 'Gastos públicos (% do PIB)'
     )
-
-ggsave(
-    'C:/Users/lazar/Master-Dissertation/figuras/relacao_egdi_gastospublicos.png', 
-    dpi=300,
-    width = 10,
-    height = 6,
-    units = "in"
-)

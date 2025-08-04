@@ -9,7 +9,7 @@ sul <- c('RS', 'SC', 'PR')
 sudeste <- c('SP', 'MG', 'ES', 'RJ')
 norte <- c('AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO')
 
-geo_data <- geo_data %>%
+geo_data %>%
   mutate(Regiao = case_when(
     id %in% ne ~ 'Nordeste',
     id %in% co ~ 'Centro-Oeste',
@@ -31,13 +31,3 @@ geo_data <- geo_data %>%
       caption = "E-gov significa governo eletrônico."
     ) +
     scale_fill_viridis_c()
-
-ggsave(
-  'C:/Users/lazar/Master-Dissertation/figuras/mapa_coropleto_tic_domicilio_g1.png',
-  dpi = 300,
-  width = 10,
-  height = 6,
-  units = 'in'
-)
-
-print(geo_data)
