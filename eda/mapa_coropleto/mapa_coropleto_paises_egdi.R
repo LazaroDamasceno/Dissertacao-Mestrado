@@ -45,4 +45,4 @@ geo_data$name == egdi$Country.Name
 
 geo_data %>% ggplot(aes(fill = EGDI)) +
   geom_sf() +
-  scale_fill_viridis_c(limits = c(0, 1))
+  scale_fill_viridis_b(limits = c(0, 1))
