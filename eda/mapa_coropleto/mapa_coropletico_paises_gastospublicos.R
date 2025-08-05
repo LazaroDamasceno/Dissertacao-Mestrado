@@ -65,7 +65,7 @@ mapa %>%
   rename(Gastos.Publicos = Percentage) %>%
   ggplot(aes(fill = Gastos.Publicos)) +
   labs(
-    fill = 'Gastos públicos',
+    fill = 'Gastos públicos (%)',
     caption = "Gastos públicos significa gastos públicos como porcentagem do PIB."
   ) +
   geom_sf() +
