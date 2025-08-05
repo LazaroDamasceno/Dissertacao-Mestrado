@@ -66,7 +66,8 @@ pib <- pib %>%
     Country.Name == 'Congo, Dem. Rep.' ~ 'Democratic Republic of the Congo',
     Country.Name == 'Cote d\'Ivoire' ~ 'Côte d\'Ivoire',
     TRUE ~ Country.Name 
-  ))
+  )) %>%
+  arrange(Country.Name)
 
 #print(setdiff(egdi$Country.Name, pib$Country.Name))
 
