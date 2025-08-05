@@ -75,7 +75,7 @@ mapa %>%
   rename(PIB = X2024) %>%
   ggplot(aes(fill = PIB)) +
   labs(
-    fill = 'PIB per capita PPC'
+    fill = 'PIB'
   ) +
   geom_sf() +
   scale_fill_viridis_b()
