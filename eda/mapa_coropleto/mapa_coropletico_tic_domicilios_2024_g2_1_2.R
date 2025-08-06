@@ -31,7 +31,11 @@ df1 <- st_read('brazil_geo.json') %>%
       title = 'Critério 1'
     ) +
     scale_fill_viridis_b() +
-    theme_void()
+    theme_void() +
+    theme(
+      legend.position = 'bottom',
+      legend.title.position = 'top'
+    )
 
 df2 <- st_read('brazil_geo.json') %>%
   mutate(Regiao = case_when(
@@ -55,7 +59,11 @@ df2 <- st_read('brazil_geo.json') %>%
     title = 'Critério 2'
   ) +
   scale_fill_viridis_b() +
-  theme_void()
+  theme_void() +
+  theme(
+    legend.position = 'bottom',
+    legend.title.position = 'top'
+  )
 
 df1 + df2
 

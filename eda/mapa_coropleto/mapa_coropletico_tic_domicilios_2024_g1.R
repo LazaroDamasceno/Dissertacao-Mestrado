@@ -27,7 +27,11 @@ geo_data %>%
   ggplot(aes(fill = Uso.Egov)) +
     geom_sf() +
     labs(
-      fill = "Uso de e-gov (%)",
-      caption = "E-gov significa governo eletrônico."
+      fill = "Uso de ferramentas de governo eletrônico (%)",
     ) +
-    scale_fill_viridis_c()
+    scale_fill_viridis_c() +
+    theme_void() +
+    theme(
+      legend.position = 'bottom',
+      legend.title.position = 'top'
+    )

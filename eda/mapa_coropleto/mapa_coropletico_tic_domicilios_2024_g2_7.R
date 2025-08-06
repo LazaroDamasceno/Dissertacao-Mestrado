@@ -54,4 +54,8 @@ st_read('brazil_geo.json') %>%
   labs(
     fill = 'Valor (%)'
   ) +
-  scale_fill_viridis_b()
+  scale_fill_viridis_b() +
+  theme(
+    legend.position = 'bottom',
+    legend.title.position = 'top'
+  )

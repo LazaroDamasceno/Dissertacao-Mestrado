@@ -64,9 +64,8 @@ mapa %>%
   left_join(gastos_publicos, by = c("name" = "Country")) %>%
   rename(Gastos.Publicos = Percentage) %>%
   ggplot(aes(fill = Gastos.Publicos)) +
-  labs(
-    fill = 'Gastos públicos (%)',
-    caption = "Gastos públicos significa gastos públicos como porcentagem do PIB."
-  ) +
+  labs(fill = 'Gastos públicos (% do PIB)') +
   geom_sf() +
-  scale_fill_viridis_b(lim = c(0, 100))
+  scale_fill_viridis_b(lim = c(0, 100)) +
+  theme_void() +
+  theme(legend.position = 'bottom')

@@ -75,8 +75,7 @@ mapa %>%
   left_join(pib, by = c("name" = "Country.Name")) %>%
   rename(PIB = X2024) %>%
   ggplot(aes(fill = PIB)) +
-  labs(
-    fill = 'PIB'
-  ) +
+  labs(fill = 'PIB per capita PPC') +
   geom_sf() +
-  scale_fill_viridis_b()
+  scale_fill_viridis_b() +
+  theme_void()
