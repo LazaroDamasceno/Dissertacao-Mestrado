@@ -1,4 +1,3 @@
-library(gt)
 library(tidyverse)
 library(sf)
 library(readxl)
