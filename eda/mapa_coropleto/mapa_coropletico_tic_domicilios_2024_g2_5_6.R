@@ -31,11 +31,7 @@ df5 <- st_read('brazil_geo.json') %>%
     title = 'Critério 5',
     fill = 'Valor (%)'
   ) + 
-  scale_fill_viridis_b() +
-  theme(
-    legend.position = 'bottom',
-    legend.title.position = 'top'
-  )
+  scale_fill_viridis_b() 
 
 df6 <- st_read('brazil_geo.json') %>%
   mutate(Regiao = case_when(
@@ -59,10 +55,6 @@ df6 <- st_read('brazil_geo.json') %>%
     title = 'Critério 6',
     fill = 'Valor (%)'
   ) +
-  scale_fill_viridis_b() +
-  theme(
-    legend.position = 'bottom',
-    legend.title.position = 'top'
-  )
+  scale_fill_viridis_b() 
 
 df5 + df6
