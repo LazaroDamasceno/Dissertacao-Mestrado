@@ -18,11 +18,11 @@ df1 <- st_read('brazil_geo.json') %>%
     id %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    id %in% sudeste ~ 0,
-    id %in% ne ~ 0,
-    id %in% sul ~ 0,
-    id %in% norte ~ 0,
-    id %in% co ~ 0,
+    id %in% sudeste ~ 3,
+    id %in% ne ~ 2,
+    id %in% sul ~ 10,
+    id %in% norte ~ 4,
+    id %in% co ~ 4,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
@@ -46,17 +46,17 @@ df2 <- st_read('brazil_geo.json') %>%
     id %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    id %in% sudeste ~ 0,
-    id %in% ne ~ 0,
-    id %in% sul ~ 0,
-    id %in% norte ~ 0,
-    id %in% co ~ 0,
+    id %in% sudeste ~ 2,
+    id %in% ne ~ 1,
+    id %in% sul ~ 1,
+    id %in% norte ~ 3,
+    id %in% co ~ 2,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
   labs(
     fill = 'Valor (%)',
-    title = 'SC1'
+    title = 'SC2'
   ) +
   theme_void() +
   scale_fill_viridis_b() +
@@ -74,17 +74,17 @@ df3 <- st_read('brazil_geo.json') %>%
     id %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    id %in% sudeste ~ 0,
-    id %in% ne ~ 0,
-    id %in% sul ~ 0,
-    id %in% norte ~ 0,
-    id %in% co ~ 0,
+    id %in% sudeste ~ 5,
+    id %in% ne ~ 3,
+    id %in% sul ~ 2,
+    id %in% norte ~5,
+    id %in% co ~ 1,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
   labs(
     fill = 'Valor (%)',
-    title = 'SC1'
+    title = 'SC3'
   ) +
   theme_void() +
   scale_fill_viridis_b() +
@@ -93,4 +93,4 @@ df3 <- st_read('brazil_geo.json') %>%
     legend.title.position = 'top'
   )
 
-#df1 + df2 + df3
+df1 + df2 + df3
