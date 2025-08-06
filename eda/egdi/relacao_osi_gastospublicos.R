@@ -50,4 +50,5 @@ ggplot(df, aes(egdi, gastos_publicos)) +
     labs(
         x = 'OSI',
         y = 'Gastos públicos (% do PIB)'
-    )
+    ) +
+    theme_bw()

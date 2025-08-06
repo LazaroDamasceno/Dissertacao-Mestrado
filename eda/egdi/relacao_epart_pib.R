@@ -62,4 +62,5 @@ ggplot(df, aes(x = egdi, y = gdp)) +
         x = 'E-Participation Index',
         y = 'PIB per capita PPC'
     ) +
-    coord_cartesian(xlim = c(0, 1))
+    coord_cartesian(xlim = c(0, 1)) +
+  theme_bw()

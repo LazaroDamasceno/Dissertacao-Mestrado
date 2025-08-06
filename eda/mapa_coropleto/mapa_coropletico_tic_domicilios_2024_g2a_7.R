@@ -31,11 +31,7 @@ df1 <- st_read('brazil_geo.json') %>%
     title = 'SC1'
   ) +
   theme_void() +
-  scale_fill_viridis_b() +
-  theme(
-    legend.position = 'bottom',
-    legend.title.position = 'top'
-  )
+  scale_fill_viridis_b()
 
 df2 <- st_read('brazil_geo.json') %>%
   mutate(Regiao = case_when(
@@ -59,11 +55,7 @@ df2 <- st_read('brazil_geo.json') %>%
     title = 'SC2'
   ) +
   theme_void() +
-  scale_fill_viridis_b() +
-  theme(
-    legend.position = 'bottom',
-    legend.title.position = 'top'
-  )
+  scale_fill_viridis_b() 
 
 df3 <- st_read('brazil_geo.json') %>%
   mutate(Regiao = case_when(
@@ -87,10 +79,11 @@ df3 <- st_read('brazil_geo.json') %>%
     title = 'SC3'
   ) +
   theme_void() +
-  scale_fill_viridis_b() +
-  theme(
-    legend.position = 'bottom',
-    legend.title.position = 'top'
-  )
+  scale_fill_viridis_b() 
 
-df1 + df2 + df3
+layout <- '
+  AB
+  CC
+'  
+
+df1 + df2 + df3 + plot_layout(design = layout)

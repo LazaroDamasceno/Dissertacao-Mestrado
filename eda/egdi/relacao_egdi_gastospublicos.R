@@ -38,16 +38,16 @@ gastos_publicos <- gastos_publicos %>%
 egdi <- egdi %>%
     filter(Country.Name %in% gastos_publicos$Country)
 
-df <- data.frame(
+data.frame(
     egdi = egdi$E.Government.Index,
     gastos_publicos = gastos_publicos$Percentage
-)
-
-ggplot(df, aes(egdi, gastos_publicos)) +
-    geom_point() +
-    geom_smooth(method = 'lm') +
-    coord_cartesian(ylim = c(0, 100), xlim = c(0, 1)) +
-    labs(
-        x = 'EGDI',
-        y = 'Gastos públicos (% do PIB)'
-    )
+  ) %>%
+  ggplot(aes(egdi, gastos_publicos)) +
+      geom_point() +
+      geom_smooth(method = 'lm') +
+      coord_cartesian(ylim = c(0, 100), xlim = c(0, 1)) +
+      labs(
+          x = 'EGDI',
+          y = 'Gastos públicos (% do PIB)'
+      ) +
+      theme_bw()

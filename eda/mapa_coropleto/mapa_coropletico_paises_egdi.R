@@ -49,5 +49,5 @@ geo_data %>% ggplot(aes(fill = EGDI)) +
   theme_void() +
   theme(
     legend.position = 'bottom',
-    legend.title.position = 'top'
+    legend.title.position = 'left'
   )

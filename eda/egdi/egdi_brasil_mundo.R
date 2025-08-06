@@ -55,14 +55,10 @@ df_long <- df %>%
 ggplot(df_long, aes(indicador, valor, fill = paises)) +
     geom_col(position = "dodge") +
     scale_x_discrete(labels = c('EGDI', 'E-Participation Index', 'HCI', 'OSI', 'TCI')) +
-    geom_text(
-        aes(label = round(valor, 2)),
-        vjust = -0.5,    
-        position = position_dodge(width = 0.9), 
-        size = 3
-    ) +
     coord_cartesian(ylim = c(0, 1)) +
     labs(
-        x = 'Índices',
-        y = 'Escala'
-    )
+        y = 'Índices',
+        x = 'Escala'
+    ) +
+    theme_bw() +
+    coord_flip()

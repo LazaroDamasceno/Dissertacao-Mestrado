@@ -61,10 +61,8 @@ df <- data.frame(
 ggplot(df, aes(indices, correlacoes)) +
     geom_col(fill = "steelblue") +
     labs(
-        x = 'Índices',
-        y = 'Escala'
+        y = 'Escala',
+        x = 'Índices'
     ) +
-    geom_text(
-        aes(label = round(correlacoes, 2)), 
-        vjust = -0.5
-    )
+    theme_bw() +
+    coord_flip()

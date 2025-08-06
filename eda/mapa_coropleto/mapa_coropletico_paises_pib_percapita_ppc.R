@@ -31,7 +31,8 @@ mapa <- mapa %>%
     name == "Federated States of Micronesia" ~ "Micronesia (Federated States of)",
     TRUE ~ name
   )) %>%
-  arrange(name)
+  arrange(name)  %>%
+  filter(name %in% egdi$Country.Name)
 
 #print(setdiff(egdi$Country.Name, mapa$name))
 
@@ -67,15 +68,24 @@ pib <- pib %>%
     Country.Name == 'Cote d\'Ivoire' ~ 'Côte d\'Ivoire',
     TRUE ~ Country.Name 
   )) %>%
-  arrange(Country.Name)
+  arrange(Country.Name) %>%
+  filter(Country.Name %in% egdi$Country.Name)
 
 #print(setdiff(egdi$Country.Name, pib$Country.Name))
 
+#length(mapa$name)
+
+#length(pib$Country.Name)
+
+#pib$Country.Name == mapa$name
+
 mapa %>%
-  left_join(pib, by = c("name" = "Country.Name")) %>%
-  rename(PIB = X2024) %>%
-  ggplot(aes(fill = PIB)) +
-  labs(fill = 'PIB per capita PPC') +
-  geom_sf() +
-  scale_fill_viridis_b() +
-  theme_void()
+  mutate(pib = pib$X2024) %>% 
+  ggplot(aes(fill = pib)) +
+    geom_sf() +
+    labs(
+      fill = 'PIB',
+      caption = '*PIB per capita PPC'
+    ) +
+    scale_fill_viridis_b() +
+    theme_void()
