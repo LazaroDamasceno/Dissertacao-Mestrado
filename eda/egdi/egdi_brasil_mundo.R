@@ -61,4 +61,5 @@ ggplot(df_long, aes(indicador, valor, fill = paises)) +
         x = 'Escala'
     ) +
     theme_bw() +
-    coord_flip()
+    coord_flip() +
+    scale_fill_brewer(palette = 'Dark2')
