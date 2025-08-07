@@ -9,7 +9,7 @@ sul = c('RS', 'SC', 'PR')
 sudeste = c('SP', 'MG', 'ES', 'RJ')
 norte = c('AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO')
 
-df3 <- st_read('BR_UF_2024') %>%
+df3 <- st_read('BR_UF_2024/') %>%
   mutate(Regiao = case_when(
     SIGLA_UF %in% ne ~ 'Nordeste',
     SIGLA_UF %in% co ~ 'Centro-Oeste',
@@ -33,7 +33,7 @@ df3 <- st_read('BR_UF_2024') %>%
     theme_void() +
     scale_fill_viridis_b()
 
-df4 <- st_read('BR_UF_2024') %>%
+df4 <- st_read('BR_UF_2024/') %>%
   mutate(Regiao = case_when(
     SIGLA_UF %in% ne ~ 'Nordeste',
     SIGLA_UF %in% co ~ 'Centro-Oeste',

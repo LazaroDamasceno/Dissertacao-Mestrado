@@ -9,7 +9,7 @@ sul = c('RS', 'SC', 'PR')
 sudeste = c('SP', 'MG', 'ES', 'RJ')
 norte = c('AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO')
 
-df1 <- st_read('BR_UF_2024') %>%
+df1 <- st_read('BR_UF_2024/') %>%
   mutate(Regiao = case_when(
     SIGLA_UF %in% ne ~ 'Nordeste',
     SIGLA_UF %in% co ~ 'Centro-Oeste',
@@ -37,7 +37,7 @@ df1 <- st_read('BR_UF_2024') %>%
     legend.title.position = 'top'
   )
 
-df2 <- st_read('BR_UF_2024') %>%
+df2 <- st_read('BR_UF_2024/') %>%
   mutate(Regiao = case_when(
     SIGLA_UF %in% ne ~ 'Nordeste',
     SIGLA_UF %in% co ~ 'Centro-Oeste',
@@ -65,7 +65,7 @@ df2 <- st_read('BR_UF_2024') %>%
     legend.title.position = 'top'
   )
 
-df3 <- st_read('BR_UF_2024') %>%
+df3 <- st_read('BR_UF_2024/') %>%
   mutate(Regiao = case_when(
     SIGLA_UF %in% ne ~ 'Nordeste',
     SIGLA_UF %in% co ~ 'Centro-Oeste',
