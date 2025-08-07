@@ -1,7 +1,9 @@
 library(tidyverse)
 library(sf)
 
-geo_data <- st_read('brazil_geo.json')
+geo_data <- st_read('BR_UF_2024/')
+
+geo_data
 
 ne <- c('MA', 'PI', 'CE', 'RN', 'PB', 'PE', 'BA', 'SE', 'AL')
 co <- c('MT', 'MS', 'DF', 'GO')
@@ -11,18 +13,18 @@ norte <- c('AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO')
 
 geo_data %>%
   mutate(Regiao = case_when(
-    id %in% ne ~ 'Nordeste',
-    id %in% co ~ 'Centro-Oeste',
-    id %in% sul ~ 'Sul',
-    id %in% sudeste ~ 'Sudeste',
-    id %in% norte ~ 'Norte'
+    SIGLA_UF %in% ne ~ 'Nordeste',
+    SIGLA_UF %in% co ~ 'Centro-Oeste',
+    SIGLA_UF %in% sul ~ 'Sul',
+    SIGLA_UF %in% sudeste ~ 'Sudeste',
+    SIGLA_UF %in% norte ~ 'Norte'
   )) %>%
   mutate(Uso.Egov = case_when(
-    id %in% ne ~ 49.0,
-    id %in% co ~ 56.0,
-    id %in% sul ~ 72.0,
-    id %in% sudeste ~ 65.0,
-    id %in% norte ~ 60.0
+    SIGLA_UF %in% ne ~ 49.0,
+    SIGLA_UF %in% co ~ 56.0,
+    SIGLA_UF %in% sul ~ 72.0,
+    SIGLA_UF %in% sudeste ~ 65.0,
+    SIGLA_UF %in% norte ~ 60.0
   )) %>%
   ggplot(aes(fill = Uso.Egov)) +
     geom_sf() +

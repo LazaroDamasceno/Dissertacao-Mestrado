@@ -9,20 +9,20 @@ sul = c('RS', 'SC', 'PR')
 sudeste = c('SP', 'MG', 'ES', 'RJ')
 norte = c('AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO')
 
-df1 <- st_read('brazil_geo.json') %>%
+df1 <- st_read('BR_UF_2024') %>%
   mutate(Regiao = case_when(
-    id %in% ne ~ 'Nordeste',
-    id %in% co ~ 'Centro-Oeste',
-    id %in% sul ~ 'Sul',
-    id %in% sudeste ~ 'Sudeste',
-    id %in% norte ~ 'Norte',
+    SIGLA_UF %in% ne ~ 'Nordeste',
+    SIGLA_UF %in% co ~ 'Centro-Oeste',
+    SIGLA_UF %in% sul ~ 'Sul',
+    SIGLA_UF %in% sudeste ~ 'Sudeste',
+    SIGLA_UF %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    id %in% sudeste ~ 3,
-    id %in% ne ~ 2,
-    id %in% sul ~ 10,
-    id %in% norte ~ 4,
-    id %in% co ~ 4,
+    SIGLA_UF %in% sudeste ~ 3,
+    SIGLA_UF %in% ne ~ 2,
+    SIGLA_UF %in% sul ~ 10,
+    SIGLA_UF %in% norte ~ 4,
+    SIGLA_UF %in% co ~ 4,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
@@ -37,20 +37,20 @@ df1 <- st_read('brazil_geo.json') %>%
     legend.title.position = 'top'
   )
 
-df2 <- st_read('brazil_geo.json') %>%
+df2 <- st_read('BR_UF_2024') %>%
   mutate(Regiao = case_when(
-    id %in% ne ~ 'Nordeste',
-    id %in% co ~ 'Centro-Oeste',
-    id %in% sul ~ 'Sul',
-    id %in% sudeste ~ 'Sudeste',
-    id %in% norte ~ 'Norte',
+    SIGLA_UF %in% ne ~ 'Nordeste',
+    SIGLA_UF %in% co ~ 'Centro-Oeste',
+    SIGLA_UF %in% sul ~ 'Sul',
+    SIGLA_UF %in% sudeste ~ 'Sudeste',
+    SIGLA_UF %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    id %in% sudeste ~ 2,
-    id %in% ne ~ 1,
-    id %in% sul ~ 1,
-    id %in% norte ~ 3,
-    id %in% co ~ 2,
+    SIGLA_UF %in% sudeste ~ 2,
+    SIGLA_UF %in% ne ~ 1,
+    SIGLA_UF %in% sul ~ 1,
+    SIGLA_UF %in% norte ~ 3,
+    SIGLA_UF %in% co ~ 2,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
@@ -65,20 +65,20 @@ df2 <- st_read('brazil_geo.json') %>%
     legend.title.position = 'top'
   )
 
-df3 <- st_read('brazil_geo.json') %>%
+df3 <- st_read('BR_UF_2024') %>%
   mutate(Regiao = case_when(
-    id %in% ne ~ 'Nordeste',
-    id %in% co ~ 'Centro-Oeste',
-    id %in% sul ~ 'Sul',
-    id %in% sudeste ~ 'Sudeste',
-    id %in% norte ~ 'Norte',
+    SIGLA_UF %in% ne ~ 'Nordeste',
+    SIGLA_UF %in% co ~ 'Centro-Oeste',
+    SIGLA_UF %in% sul ~ 'Sul',
+    SIGLA_UF %in% sudeste ~ 'Sudeste',
+    SIGLA_UF %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    id %in% sudeste ~ 5,
-    id %in% ne ~ 3,
-    id %in% sul ~ 2,
-    id %in% norte ~5,
-    id %in% co ~ 1,
+    SIGLA_UF %in% sudeste ~ 5,
+    SIGLA_UF %in% ne ~ 3,
+    SIGLA_UF %in% sul ~ 2,
+    SIGLA_UF %in% norte ~5,
+    SIGLA_UF %in% co ~ 1,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
