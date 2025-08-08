@@ -70,7 +70,7 @@ ggplot(df, aes(indices, correlacoes)) +
     geom_col(fill = "steelblue") +
     labs(
         y = 'Índices',
-        x = 'Escala'
+        x = 'Valor'
     ) +
-    coord_cartesian(ylim = c(0, 1)) +
+    coord_cartesian(xlim = c(0, 1)) +
     coord_flip()

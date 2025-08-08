@@ -61,7 +61,7 @@ df <- data.frame(
 ggplot(df, aes(indices, correlacoes)) +
     geom_col(fill = "steelblue") +
     labs(
-        y = 'Escala',
+        y = 'Valor',
         x = 'Índices'
     ) +
     theme_bw() +
