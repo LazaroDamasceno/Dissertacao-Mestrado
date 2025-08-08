@@ -59,7 +59,7 @@ df <- data.frame(
     ),
     indices = c(
         'EGDI',
-        'E-Participation Index',
+        'EPI',
         'OSI',
         'HCI',
         'TCI'
@@ -69,8 +69,8 @@ df <- data.frame(
 ggplot(df, aes(indices, correlacoes)) +
     geom_col(fill = "steelblue") +
     labs(
-        y = 'Índices',
-        x = 'Valor'
+        x = 'Componentes',
+        y = 'Valor'
     ) +
     coord_cartesian(xlim = c(0, 1)) +
     coord_flip()

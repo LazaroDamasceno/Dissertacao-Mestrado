@@ -44,7 +44,7 @@ egdi <- egdi %>%
 df <- data.frame(
     indices = c(
         'EGDI',
-        'E-Participation Index ',
+        'EPI ',
         'OSI',
         'HCI',
         'TCI'
@@ -62,7 +62,7 @@ ggplot(df, aes(indices, correlacoes)) +
     geom_col(fill = "steelblue") +
     labs(
         y = 'Valor',
-        x = 'Índices'
+        x = 'Componentes'
     ) +
     theme_bw() +
     coord_flip()
