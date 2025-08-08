@@ -73,4 +73,5 @@ ggplot(df, aes(indices, correlacoes)) +
         y = 'Valor'
     ) +
     coord_cartesian(xlim = c(0, 1)) +
-    coord_flip()
+    coord_flip() +
+    theme_bw()

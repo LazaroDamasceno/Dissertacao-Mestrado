@@ -84,8 +84,8 @@ mapa %>%
   ggplot(aes(fill = pib)) +
     geom_sf() +
     labs(
-      fill = 'PIB',
-      caption = '*PIB per capita PPC'
+      fill = 'PIB (em USD)',
+      caption = '*PIB per capita PPC (em USD)'
     ) +
     scale_fill_viridis_b() +
     theme_void()
