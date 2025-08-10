@@ -31,7 +31,7 @@ df1 <- st_read('BR_UF_2024/') %>%
     title = 'SC1'
   ) +
   theme_void() +
-  scale_fill_viridis_b()
+  scale_fill_viridis_b() 
 
 df2 <- st_read('BR_UF_2024/') %>%
   mutate(Regiao = case_when(
@@ -83,7 +83,7 @@ df3 <- st_read('BR_UF_2024/') %>%
 
 layout <- '
   AB
-  CC
+  CD
 '  
 
 df1 + df2 + df3 + plot_layout(design = layout)
