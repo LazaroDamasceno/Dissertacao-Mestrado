@@ -18,11 +18,11 @@ df1 <- st_read('BR_UF_2024/') %>%
     SIGLA_UF %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    SIGLA_UF %in% sudeste ~ 0,
-    SIGLA_UF %in% ne ~ 0,
-    SIGLA_UF %in% sul ~ 0,
-    SIGLA_UF %in% norte ~ 0,
-    SIGLA_UF %in% co ~ 0,
+    SIGLA_UF %in% sudeste ~ 12,
+    SIGLA_UF %in% ne ~ 5,
+    SIGLA_UF %in% sul ~ 13,
+    SIGLA_UF %in% norte ~ 7,
+    SIGLA_UF %in% co ~ 7,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
@@ -46,11 +46,11 @@ df2 <- st_read('BR_UF_2024/') %>%
     SIGLA_UF %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    SIGLA_UF %in% sudeste ~ 0,
-    SIGLA_UF %in% ne ~ 0,
-    SIGLA_UF %in% sul ~ 0,
-    SIGLA_UF %in% norte ~ 0,
-    SIGLA_UF %in% co ~ 0,
+    SIGLA_UF %in% sudeste ~ 12,
+    SIGLA_UF %in% ne ~ 6,
+    SIGLA_UF %in% sul ~ 9,
+    SIGLA_UF %in% norte ~ 9,
+    SIGLA_UF %in% co ~ 10,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
@@ -74,11 +74,11 @@ df3 <- st_read('BR_UF_2024/') %>%
     SIGLA_UF %in% norte ~ 'Norte',
   )) %>%
   mutate(Valor = case_when(
-    SIGLA_UF %in% sudeste ~ 0,
-    SIGLA_UF %in% ne ~ 0,
-    SIGLA_UF %in% sul ~ 0,
-    SIGLA_UF %in% norte ~ 0,
-    SIGLA_UF %in% co ~ 0,
+    SIGLA_UF %in% sudeste ~ 12,
+    SIGLA_UF %in% ne ~ 12,
+    SIGLA_UF %in% sul ~ 10,
+    SIGLA_UF %in% norte ~ 13,
+    SIGLA_UF %in% co ~ 5,
   )) %>%
   ggplot(aes(fill = Valor)) +
   geom_sf() +
@@ -93,4 +93,4 @@ df3 <- st_read('BR_UF_2024/') %>%
     legend.title.position = 'top'
   )
 
-#df1 + df2 + df3
+df1 + df2 + df3
