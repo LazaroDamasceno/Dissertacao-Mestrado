@@ -18,7 +18,8 @@ mutate(Quantidade = Quantidade / Total)
 
 ggplot(df_longer, aes(x = "", y = Quantidade, fill = Indices)) +
     geom_bar(stat = "identity", width=1, color="white") +
-    coord_polar("y", start=0)
+    coord_polar("y", start=0) +
+    theme_void()
 
 ggsave(
     'C:/Users/lazar/Master-Dissertation/figuras/egov_indices.png', 
