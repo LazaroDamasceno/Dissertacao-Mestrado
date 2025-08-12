@@ -2,8 +2,8 @@ library(tidyverse)
 
 dados <- read.csv('judicial-constraints-on-the-executive-index.csv') %>%
   rename(Index = Judicial.constraints.on.the.executive.index..central.estimate.) %>%
-  filter(!is.na(Index)) %>%
-  filter(Year == 2024)
+  filter(Year == 2024) 
+length(dados$Entity)
 
 summary(dados$Index)
 
