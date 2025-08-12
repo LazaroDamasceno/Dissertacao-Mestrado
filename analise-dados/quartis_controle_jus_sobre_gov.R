@@ -13,5 +13,5 @@ summary(dados$Index)
 ggplot(dados, aes(x = Index)) +
   geom_boxplot() +
   theme_bw() +
-  labs(x = 'Valores') +
+  labs(x = 'Escala') +
   theme(axis.text.y = element_blank())
