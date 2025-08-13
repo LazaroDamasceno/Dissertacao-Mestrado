@@ -1,2 +1,10 @@
 texto
-.Rproj.user
+main.bbl
+main.blg
+main.log
+main.bbl
+main.out
+main.lof
+main.aux
+main.synctex.gz
+main.toc

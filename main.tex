@@ -1,0 +1,55 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}   
+\usepackage[brazilian]{babel}
+\usepackage{graphicx}
+\usepackage{chngcntr} 
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage[
+    top=3cm,
+    bottom=2cm,
+    left=3cm,
+    right=2cm,
+    a4paper
+]{geometry}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    citecolor=blue,
+}
+\counterwithin{figure}{chapter}
+
+\begin{document}
+
+\title{Digitalização do Poder Judiciário: uma análise das
+políticas públicas de governo digital do Conselho Nacional de Justiça com base no E-Government Development Index} 
+
+\author{Lázaro Damasceno}
+\date{\today}
+\maketitle
+
+\listoffigures
+\include{texto/glossario}
+\tableofcontents
+
+\include{texto/referencial_teorico}
+\include{texto/egdi}
+\include{texto/governo_eletronico_digital_brasil}
+\include{texto/governo_digital_jus}
+
+\bibliography{ref}
+\bibliographystyle{plain}
+
+\end{document}
