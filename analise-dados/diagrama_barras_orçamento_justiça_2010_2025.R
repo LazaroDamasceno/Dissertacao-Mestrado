@@ -29,8 +29,11 @@ orgaos <-  read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
     scale_fill_brewer(palette = 'Dark2') +
     scale_y_discrete(labels = seq(2010, 2025)) +
     labs(
-      x = 'Porcentagem', 
+      x = '', 
+      y = '',
       fill = 'Órgãos'
     ) +
     theme_minimal() +
     theme(legend.title = element_text()) 
+
+orgaos
