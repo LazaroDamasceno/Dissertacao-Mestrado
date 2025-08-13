@@ -2,7 +2,7 @@ library(tidyverse)
 library(tidyr)
 library(readxl)
 
-read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
+orgaos <-  read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
     mutate(A2010 = (A2010 / sum(A2010)) * 100) %>%
     mutate(A2011 = (A2011 / sum(A2011)) * 100) %>%
     mutate(A2012 = (A2012 / sum(A2012)) * 100) %>%
@@ -24,12 +24,13 @@ read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
         names_to='Anos',
         values_to='Valores'
     ) %>%
-    ggplot(aes(x = Anos, y = Valores, fill = Orgao)) +
+    ggplot(aes(y = Anos, x = Valores, fill = Orgao)) +
     geom_col()  +
     scale_fill_brewer(palette = 'Dark2') +
-    scale_x_discrete(labels = seq(2010, 2025)) +
-    labs(y = 'Porcentagem', fill = 'Órgãos') +
-    theme(
-        axis.text.x = element_text(angle = 270, hjust = 1),
-        legend.title = element_text()
-    )
+    scale_y_discrete(labels = seq(2010, 2025)) +
+    labs(
+      x = 'Porcentagem', 
+      fill = 'Órgãos'
+    ) +
+    theme_minimal() +
+    theme(legend.title = element_text()) 
