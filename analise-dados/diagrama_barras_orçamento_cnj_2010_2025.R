@@ -13,7 +13,7 @@ df_2010_2017 <- read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
   ) %>%
   ggplot(aes(y = Anos, x = Valores)) +
   geom_col()  +
-  geom_text(aes(label = Valores), hjust = 1.5, color = 'orange') +
+  geom_text(aes(label = Valores), hjust = 1.5, color = 'white') +
   scale_y_discrete(labels = seq(2010, 2017)) +
   labs(
     x = '',
@@ -35,7 +35,7 @@ df_2018_2025 <- read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
   ) %>%
   ggplot(aes(y = Anos, x = Valores)) +
   geom_col()  +
-  geom_text(aes(label = Valores), hjust = 1.5, color = 'orange') +
+  geom_text(aes(label = Valores), hjust = 1.5, color = 'white') +
   scale_y_discrete(labels = seq(2018, 2025)) +
   labs(
     x = '',

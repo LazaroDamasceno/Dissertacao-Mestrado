@@ -2,7 +2,7 @@ library(tidyverse)
 library(tidyr)
 library(readxl)
 
-orgaos <-  read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
+read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
     mutate(A2010 = (A2010 / sum(A2010)) * 100) %>%
     mutate(A2011 = (A2011 / sum(A2011)) * 100) %>%
     mutate(A2012 = (A2012 / sum(A2012)) * 100) %>%
@@ -35,5 +35,3 @@ orgaos <-  read_xlsx('orçamento_justiça_2010_2025.xlsx') %>%
     ) +
     theme_minimal() +
     theme(legend.title = element_text()) 
-
-orgaos
