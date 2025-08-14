@@ -48,6 +48,6 @@ geo_data %>% ggplot(aes(fill = EGDI)) +
   scale_fill_viridis_b(limits = c(0, 1)) +
   theme_void() +
   theme(
-    legend.position = 'bottom',
-    legend.title.position = 'left'
+    legend.title = element_blank(),
+    legend.position = 'bottom'
   )

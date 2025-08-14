@@ -29,7 +29,7 @@ geo_data %>%
   ggplot(aes(fill = Uso.Egov)) +
     geom_sf() +
     labs(
-      fill = "Uso de governo eletrônico (%)",
+      fill = "Valor (%)",
     ) +
     scale_fill_viridis_c() +
     theme_void() 
