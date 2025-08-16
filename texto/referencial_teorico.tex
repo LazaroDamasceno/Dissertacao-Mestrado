@@ -1,6 +1,6 @@
 \chapter{Referencial Teórico}
 
-Para gerar os gráficos, fazer análises, determinar o valor e o método de correlação, fazer as tabelas e os mapas coropléticos, escolheu-se a linguagem de programação \textbf{Python}. Foram usadas as bibliotecas \textbf{Pandas} para a análise exploratória de dados, \textbf{GeoPandas} para os mapa coropléticos, \textbf{Matplotlib} e \textbf{Seaborn} para a geração  de gráficos.
+Para gerar os gráficos, fazer análises, determinar o valor e o método de correlação, fazer as tabelas e os mapas coropléticos, escolheu-se a linguagem de programação \textbf{Python}. Foram usadas as bibliotecas \textbf{Pandas} para a análise exploratória de dados, \textbf{GeoPandas} para os mapa coropléticos, \textbf{Matplotlib} e \textbf{Seaborn} para a geração  de gráficos. Para a geração dos mapas foram usados os arquivos do tipo \textbf{SHP} projeto \textbf{Natural Earth Data} para os mapa \textit{mundi} e da malha municipal do Instituto Brasileiro de Geografia e Estatística (IBGE).
 
 Além dos argumentos anteriores, o coeficiente de correlação escolhido para todas as análises foi o de \textbf{Spearman}. \cite{hauke2011comparison} explica que o \textbf{coeficiente de correlação de Spearman} é uma estatística de postos não paramétrica (sem distribuição) proposta como uma medida da força da associação entre duas variáveis. É uma medida de uma associação monótona, usada quando a distribuição de dados torna o coeficiente de correlação de Pearson indesejável ou enganoso. 
 
@@ -14,8 +14,8 @@ Como forma de poder julgar qualquer valor de coeficiente de correlação encontr
     \centering
     \caption{Faixas do coeficiente de correlação}
     \includegraphics[width=0.5\linewidth]{figuras/tabela_faixas_correlacao}
-    \label{fig:faixas_correlacao}
+    \label{fig:tabela_faixas_correlacao}
     \\ footnotesize{Fonte: \cite{ali2022spearman}}
 \end{figure}
 
-Para qualquer coeficiente de correlação presente neste trabalho, adotar-se-ão os critérios presentes na figura \ref{fig:faixas_correlacao} para determinar a existência ou não de correlação entre as variáveis comparadas.
+Para qualquer coeficiente de correlação presente neste trabalho, adotar-se-ão os critérios presentes na figura \ref{fig:tabela_faixas_correlacao} para determinar a existência ou não de correlação entre as variáveis comparadas.
