@@ -1,8 +1,16 @@
 \chapter{Referencial Teórico}
 
+\cite{martinez2022egovernment} cita 4 indicadores de governo eletrônico: EGDI da ONU, DESI da Comissão Europeia, DGI da OCDE e GTMI do Banco Mundial.
+
+O DESI, conforme \cite{desi_2022}, a Comissão Europeia tem monitorado anualmente desde 2014 o progresso dos Estados-membros da União Europeia. Cada relatório anual inclui análises individualizadas que ajudam os Estados-membros a identificar ações prioritárias e capítulos temáticos, provendo análises de áreas de política pública digital.
+
+Escolheu-se o índices de governo eletrônico remanescentes, concomitantemente com o WGI do Banco Mundial. A escolha foi inspirada em \cite{mitkiewicz2024transformaccao}. O autor, na sua participação no livro \textbf{Digitalização e tecnologias da informação e comunicação: oportunidades e desafios para o Brasil}\footnote{\href{http://dx.doi.org/10.38116/9786556350660cap8}{Capítulo 8: Transformação Digital: análise da implantação da plataforma gov.br e da evolução da maturidade da política de governo digital no Brasil}}, descreveu o histórico de governo eletrônico e digital no Brasil até a criação e implementação da plataforma e portal único do Governo Federal, o \textbf{GOV.BR}. \cite{mitkiewicz2024transformaccao} usou o GTMI, EGDI e o DGI para a availação das políticas de governo eletrônica e digital, como também, a Estratégia de Governo Digital, ambas do Governo Federal.
+
+Como \cite{mitkiewicz2024transformaccao} focou no Governo Federal, escolheu-se o Poder Judiciário para ter suas políticas de governo digital analisadas com base nos índices EGDI, GTMI, DGI e WGI.
+
 Para gerar os gráficos, fazer análises, determinar o valor e o método de correlação, fazer as tabelas e os mapas coropléticos, escolheu-se a linguagem de programação \textbf{Python}.
 
-Foram usadas as bibliotecas \textbf{Pandas} para a análise exploratória de dados, \textbf{GeoPandas} para os mapa coropléticos, \textbf{Matplotlib} e \textbf{Seaborn} para a geração  de gráficos.Usou-s a biblioteca \textbf{great\_tables} para gerar as tabelas em formato \textbf{PNG}. Para a geração dos mapas foram usados os arquivos do tipo \textbf{SHP} projeto \textbf{Natural Earth Data} para os mapa \textit{mundi} e da malha municipal do Instituto Brasileiro de Geografia e Estatística (IBGE). O tamanho das padronizado das figuras foi 10x6 polegadas, podendo ser utilizado outro, caso necessário.
+Foram usadas as bibliotecas \textbf{Pandas} para a análise exploratória de dados, \textbf{GeoPandas} para os mapa coropléticos, \textbf{Matplotlib} e \textbf{Seaborn} para a geração  de gráficos. Para a geração dos mapas foram usados os arquivos do tipo \textbf{SHP} projeto \textbf{Natural Earth Data} para os mapas do mundo e da malha municipal do IBGE. O tamanho das padronizado das figuras foi 10x6 polegadas, podendo ser utilizado outro, caso necessário.
 
 Além dos argumentos anteriores, o coeficiente de correlação escolhido para todas as análises foi o de \textbf{Spearman}. \cite{hauke2011comparison} explica que o \textbf{coeficiente de correlação de Spearman} é uma estatística de postos não paramétrica (sem distribuição) proposta como uma medida da força da associação entre duas variáveis. É uma medida de uma associação monótona, usada quando a distribuição de dados torna o coeficiente de correlação de Pearson indesejável ou enganoso. 
 
@@ -12,7 +20,7 @@ Ao contrário do \textbf{coeficiente de correlação de Pearson}, segundo \cite{
 
 Como forma de poder julgar qualquer valor de coeficiente de correlação encontrado, adotou-se a ideia de \cite{ali2022spearman}, presente na tabela \ref{tab:faixas-coeficiente-correlacao}.
 
-\begin{table}[]
+\begin{table}[H]
 \caption{Faixas do coeficiente de correlação}
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -28,3 +36,4 @@ Valor      & Significado                  \\ \midrule
 \end{table}
 
 Para qualquer coeficiente de correlação presente neste trabalho, adotar-se-ão os critérios presentes na tabela \ref{tab:faixas-coeficiente-correlacao} para determinar a existência ou não de correlação entre as variáveis comparadas.
+
