@@ -6,7 +6,7 @@ O DESI, conforme \cite{desi_2022}, a Comissão Europeia tem monitorado anualment
 
 Escolheu-se o índices de governo eletrônico remanescentes, concomitantemente com o WGI do Banco Mundial. A escolha foi inspirada em \cite{mitkiewicz2024transformaccao}. O autor, na sua participação no livro \textbf{Digitalização e tecnologias da informação e comunicação: oportunidades e desafios para o Brasil}\footnote{cf. \url{http://dx.doi.org/10.38116/9786556350660cap8}}, descreveu o histórico de governo eletrônico e digital no Brasil até a criação e implementação da plataforma e portal único do Governo Federal, o gov.br. \cite{mitkiewicz2024transformaccao} usou o GTMI, EGDI e o DGI para a avaliação das políticas de governo eletrônica e digital, como também, a Estratégia de Governo Digital, ambas do Governo Federal.
 
-Como \cite{mitkiewicz2024transformaccao} focou no Governo Federal, foi escolhido o Poder Judiciário para ter suas políticas públicas de digitalização de serviços públicos analisadas com base nos índices EGDI, DGI e GTMI.
+Como \cite{mitkiewicz2024transformaccao} focou no Governo Federal, foi escolhido o Poder Judiciário para ter suas políticas públicas de digitalização de serviços públicos analisadas com base nos índices EGDI, DGI e GTMI. Concomitantemente, será uma feita uma regressão polinomial para o EGDI devido a índice ter edições desde 2008, enquanto os índices remanescentes tem poucas. Será Serão previstos os valores do EDGI, seus componentes e o EPI de 2028 até 2050.
 
 \section{E-Government Development Index}
 
@@ -62,19 +62,23 @@ Além disso, \cite{ONU_EGDI_EPI_description} argumenta que o propósito de medi�
 
 Os sub-índices do EPI tem como objetivo, conforme \cite{ONU_EGDI_EPI_description} na tabela \ref{tab:epi_subindices}.
 
-\begin{table}[H]
-	\centering
-	\label{tab:epi_subindices}
+\begin{longtable}[c]{@{}ll@{}}
 	\caption{Sub-índices do EPI}
-	\begin{tabular}{@{}lp{10cm}@{}}
-		\toprule
-		\textbf{Sub-índice} & \textbf{Descrição} \\ \midrule
-		E-information & Permitir a participação, fornecendo aos cidadãos informações públicas e acesso à informação sem ou mediante solicitação. \\ \midrule
-		E-consultation & Engajar os cidadãos em contribuição e deliberações sobre em políticas e serviços públicas. \\ \midrule
-		E-decision-making & Empoderar os cidadãos via co-participação das políticas públicas e co-produção dos componentes dos serviços e as modalidades de entrega. \\ \bottomrule
-	\end{tabular}
-	\\ \footnotesize{Fonte: elaboração baseada em \cite{ONU_EGDI_EPI_description}.}
-\end{table}
+	\label{tab:epi_subindices}\\
+	\toprule
+	\textbf{Sub-índice} & \textbf{Descrição}                                                                                  \\* \midrule
+	\endfirsthead
+	%
+	\endhead
+	%
+	E-information & \begin{tabular}[c]{@{}l@{}}Permitir a participação, fornecendo aos \\ cidadãos informações públicas e acesso à \\ informação sem ou mediante solicitação.\end{tabular}
+	\\ \midrule
+	E-consultation & \begin{tabular}[c]{@{}l@{}}Engajar os cidadãos em contribuição e \\ deliberações sobre em políticas públicas \\ e os serviços públicos.\end{tabular} 
+	\\ \midrule
+	E-decision-making & \begin{tabular}[c]{@{}l@{}}Empoderar os cidadãos via co-participação \\ das políticas públicas e co-produção dos \\ componentes dos serviços e as modalidades \\ de entrega.\end{tabular}
+	\\ \bottomrule
+	\footnotesize{Fonte: elaboração própria baseada em \cite{ONU_EGDI_EPI_description}.}
+\end{longtable}
 
 Como exemplo de componente do EGDI, exemplifica-se o OSI. Para \cite{onu_egov_survey_2024}, os valores do OSI, assim como os do EGDI, 
 
@@ -211,7 +215,7 @@ Da figura \ref{fig:usmanova_egdi_gdp}, nota-se como os pontos estão muito próx
 	\footnotesize{Fonte: \cite{scatterplot_egdi_2024}.}
 \end{figure}
 
-Nota-se a diferença entre as figuras \ref{fig:usmanova_egdi_gdp} e \ref{fig:UN_EGDI_EGDI_scatter}, de 2021 e 2024, respectivamente. A figura \ref{fig:UN_EGDI_EGDI_scatter} mostra a correlação fraca ou mesmo a ausência de correlação entre EGDI e taxa anual de crescimento do PIB. A diferença temporal de 4 anos pode ser a justificativa para os resultados divergentes.
+Nota-se a diferença entre as figuras \ref{fig:usmanova_egdi_gdp} e \ref{fig:UN_EGDI_EGDI_scatter}, de 2021 e 2024, respectivamente. A figura \ref{fig:UN_EGDI_EGDI_scatter} mostra a correlação fraca ou mesmo a ausência de correlação entre EGDI e taxa anual de crescimento do PIB. A diferença temporal de 4 anos pode ser a justificativa para os resultados divergentes. Outra diferença notável é que o pontos do EGDI da figura \ref{fig:UN_EGDI_EGDI_scatter} estão mais concentrados quando o EGDI é mais alto.
 
 Em segundo lugar, \cite{kotenok2020government} argumenta que em sua pesquisa, partiu-se do princípio de que o governo eletrônico tem um impacto direto ou indireto, ou ambos, na economia; a análise de regressão em painel que utiliza o índice do PIB como variável dependente forneceu uma ideia intuitiva de que o índice desenvolvido tem um impacto potencial nos processos econômicos.
 
@@ -360,6 +364,8 @@ Finalmente, o último indicador de TIC de governo eletrônico - \textbf{existên
 \cite{l14133} expõe como condição indispensável para a eficácia do contrato e de seus aditamentos a divulgação no Portal Nacional de Compras Públicas, contados da data da assinatura, 20 dias úteis para licitações e 10 dias úteis para contratação direta.
 
 De forma conclusiva, \cite{l14133} argumenta que os órgãos e entidades da Administração Pública deverão utilizar o sistema de registro cadastral unificado disponível no PNCP, para efeito de cadastro unificado de licitantes, na forma disposta em regulamento.
+ 
+\subsection{Regressão polinomial do E-Government Development Index}
 
 \section{GovTech Maturity Index}
 

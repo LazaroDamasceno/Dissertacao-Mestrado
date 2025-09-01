@@ -12,22 +12,28 @@ Ao contrário do \textbf{coeficiente de correlação de Pearson}, segundo \cite{
 
 Como forma de poder julgar qualquer valor de coeficiente de correlação encontrado, adotou-se a ideia de \cite{ali2022spearman}, presente na tabela \ref{tab:faixas-coeficiente-correlacao}.
 
-\begin{table}[H]
-	\centering
-	\label{tab:faixas-coeficiente-correlacao}
+\begin{longtable}[c]{@{}ll@{}}
 	\caption{Faixas de coeficiente de correlação}
-	\begin{tabular}{@{}lp{6cm}@{}}
-		\toprule
-		\textbf{Valor} & \textbf{Significado} \\ \midrule
-		1          & Correlação positiva completa \\ \midrule
-		0.7 - 0.99 & Correlação positiva forte    \\ \midrule
-		0.5 - 0.69 & Correlação positiva média    \\ \midrule
-		0.1 - 0.49 & Correlação positiva fraca    \\ \midrule
-		0          & Sem relação positiva         \\ \bottomrule
-	\end{tabular}
-	\\ \footnotesize{Fonte: elaboração baseada em \cite{ali2022spearman}.}
-\end{table}
+	\label{tab:faixas-coeficiente-correlacao}\\
+	\toprule
+	%
+	\endfirsthead
+	%
+	\toprule
+	%
+	\endhead
+	%
+	\textbf{Faixa} & \textbf{Significado} \\ \midrule
+	1           & Correlação positiva completa. \\ \midrule
+	0,99 - 0,70 & Correlação positiva forte.    \\ \midrule
+	0,5 - 0,69  & Correlação positiva média.    \\ \midrule
+	0,1 - 0,49  & Correlação positiva fraca.    \\ \midrule
+	0           & Sem relação positiva.         \\ \bottomrule
+	\footnotesize{Fonte: elaboração baseada em \cite{ali2022spearman}.}
+\end{longtable}
 
 Para qualquer coeficiente de correlação, adotar-se-ão os critérios presentes na tabela \ref{tab:faixas-coeficiente-correlacao} para determinar a existência ou não de correlação entre as variáveis comparadas.
+
+Para as análises de regressão, optou-se pela polinomial ao invés da tradicional regressão linear. Similar a comparação com os coeficientes de correlação entre \textbf{Pearson} e \textbf{Spearman}, como a abordagem da análise dos coeficientes de correlação descartou relações lineares entre as variáveis analisadas, a regressão polinomial se alinha a escolha do coeficiente de correlação.
 
 Finalmente, as figuras usadas neste trabalho, os códigos dos notebooks \textbf{Jupyter} usados para gerar as figuras e as bases da dados estão acessíveis em \url{https://github.com/LazaroDamasceno/Dissertacao-Mestrado-PoderJud-EGDI}.
