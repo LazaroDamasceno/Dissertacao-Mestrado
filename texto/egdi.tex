@@ -6,7 +6,7 @@ O DESI, conforme \cite{desi_2022}, a Comissão Europeia tem monitorado anualment
 
 Escolheu-se o índices de governo eletrônico remanescentes, concomitantemente com o WGI do Banco Mundial. A escolha foi inspirada em \cite{mitkiewicz2024transformaccao}. O autor, na sua participação no livro \textbf{Digitalização e tecnologias da informação e comunicação: oportunidades e desafios para o Brasil}\footnote{cf. \url{http://dx.doi.org/10.38116/9786556350660cap8}}, descreveu o histórico de governo eletrônico e digital no Brasil até a criação e implementação da plataforma e portal único do Governo Federal, o gov.br. \cite{mitkiewicz2024transformaccao} usou o GTMI, EGDI e o DGI para a avaliação das políticas de governo eletrônica e digital, como também, a Estratégia de Governo Digital, ambas do Governo Federal.
 
-Como \cite{mitkiewicz2024transformaccao} focou no Governo Federal, foi escolhido o Poder Judiciário para ter suas políticas públicas de digitalização de serviços públicos analisadas com base nos índices EGDI, DGI e GTMI. Concomitantemente, será uma feita uma regressão polinomial para o EGDI devido a índice ter edições desde 2008, enquanto os índices remanescentes tem poucas. Será Serão previstos os valores do EDGI, seus componentes e o EPI de 2028 até 2050.
+Como \cite{mitkiewicz2024transformaccao} focou no Governo Federal, foi escolhido o Poder Judiciário para ter suas políticas públicas de digitalização de serviços públicos analisadas com base nos índices EGDI, DGI e GTMI. Concomitantemente, será uma feita uma regressão polinomial para o EGDI devido a índice ter edições desde 2008, enquanto os índices remanescentes tem poucas edições. Será Serão previstos os valores do EDGI e seus sub-índices de 2028 até 2050.
 
 \section{E-Government Development Index}
 
@@ -14,25 +14,25 @@ Além de uma avaliação dos padrões de desenvolvimento de websites em um país
 
 \cite{ONU_EGDI_description} ainda acrescenta que o EGDI é uma medida composta por três importantes dimensões do governo eletrônico, a saber: prestação de serviços digitais, conectividade de telecomunicações e capacidade humana. 
 
-A composição do EGDI é demonstrada pela figura \ref{fig:egdi_componentes}.
+A composição do EGDI é demonstrada pela figura \ref{fig:egdi_sub-índices}.
 
 \begin{figure}[H]
     \centering
-    \caption{Componentes do EGDI}
+    \caption{Sub-índices do EGDI}
     \includegraphics[width=1\linewidth]{figuras/egdi_componentes.png}
-    \label{fig:egdi_componentes}
+    \label{fig:egdi_sub-índices}
     \footnotesize{Fonte: \cite{ONU_EGDI_description}.}
 \end{figure}
 
-De maneira detalhada, a tabela \ref{tab:egdi_componentes_subindices} mostra os sub-índices do EGDI.
+De maneira detalhada, a tabela \ref{tab:egdi_subindices_componentes} mostra os sub-índices do EGDI.
 
 \begin{table}[H]
 	\centering
-	\caption{EGDI: componentes e sub-índices}
-	\label{tab:egdi_componentes_subindices}
+	\caption{EGDI: sub-índices e sub-índices}
+	\label{tab:egdi_sub-índices_subindices}
 	\begin{tabular}{|p{5.5cm}|l|}
 		\hline
-		\textbf{Componentes} & \textbf{Sub-índices} \\
+		\textbf{sub-índices} & \textbf{Componentes} \\
 		\hline
 		Online Services Index (OSI) & \\
 		& Institutional framework (IF) \\ 
@@ -93,7 +93,7 @@ Nota-se como os valores resultados do EGDI não são tratados como medidas absol
 
 \subsection{EGDI no Brasil e no mundo}
 
-Considerando as informações anteriores, as figuras \ref{fig:mapa_coropletico_paises_egdi}, \ref{fig:mapa_coropletico_paises_epi}, \ref{fig:mapa_coropletico_paises_hci}, \ref{fig:mapa_coropletico_paises_osi} e \ref{fig:mapa_coropletico_paises_tii} contêm mapas coropléticos que mostram o EGDI, seus componentes e o EPI pelo mundo.
+Considerando as informações anteriores, as figuras \ref{fig:mapa_coropletico_paises_egdi}, \ref{fig:mapa_coropletico_paises_epi}, \ref{fig:mapa_coropletico_paises_hci}, \ref{fig:mapa_coropletico_paises_osi} e \ref{fig:mapa_coropletico_paises_tii} contêm mapas coropléticos que mostram o EGDI, seus sub-índices e o EPI pelo mundo.
 
 \begin{figure}[H]
 	\centering
@@ -135,11 +135,11 @@ Considerando as informações anteriores, as figuras \ref{fig:mapa_coropletico_p
 	\footnotesize{Fonte: elaboração própria baseada em \cite{ONU_EGDI_dados}.}
 \end{figure}
 
-Conforme exposto pelas figuras \ref{fig:mapa_coropletico_paises_egdi}, \ref{fig:mapa_coropletico_paises_epi}, \ref{fig:mapa_coropletico_paises_hci}, \ref{fig:mapa_coropletico_paises_osi} e \ref{fig:mapa_coropletico_paises_tii}, o Brasil se destaca sempre tendo pontuação em alta em qualquer indicador. Para entender a situação do Brasil, comparou-se seu EGDI, seus componentes e o EPI com a média mundial. A figura \ref{fig:comparacao_egdi_brasil_mundo} expõe os valores do EGDI, seus componentes e o EPI do Brasil e a média mundial.
+Conforme exposto pelas figuras \ref{fig:mapa_coropletico_paises_egdi}, \ref{fig:mapa_coropletico_paises_epi}, \ref{fig:mapa_coropletico_paises_hci}, \ref{fig:mapa_coropletico_paises_osi} e \ref{fig:mapa_coropletico_paises_tii}, o Brasil se destaca sempre tendo pontuação em alta em qualquer indicador. Para entender a situação do Brasil, comparou-se seu EGDI, seus sub-índices e o EPI com a média mundial. A figura \ref{fig:comparacao_egdi_brasil_mundo} expõe os valores do EGDI, seus sub-índices e o EPI do Brasil e a média mundial.
 
 \begin{figure}[H]
 	\centering
-	\caption{EGDI, seus componentes e o EPI do Brasil e a média mundial em 2024}
+	\caption{EGDI, seus sub-índices e o EPI do Brasil e a média mundial em 2024}
 	\includegraphics[width=1\linewidth]{figuras/comparacao_egdi_brasil_mundo}
 	\label{fig:comparacao_egdi_brasil_mundo}
 	\footnotesize{Fonte: elaboração própria baseada em \cite{ONU_EGDI_dados}.}
@@ -147,13 +147,13 @@ Conforme exposto pelas figuras \ref{fig:mapa_coropletico_paises_egdi}, \ref{fig:
 
 Da análise da figura \ref{fig:comparacao_egdi_brasil_mundo}, destaque que o Brasil está acima da média mundial em todos os indicadores. Apenas o TII mundial se aproxima do valor atingido pelo Brasil. Concomitantemente, analisou-se se o EGDI tem relação com o índice de democracia, PIB \textit{per capita} PPC em dólares dos Estados Unidos e com os gastos públicos como porcentagem do PIB eleitoral.
 
-Quando o EGDI foi comparado com o índice de democracia eleitoral, descobriu-se que o coeficiente de correlação é 0,2975069. Em razão da fraca correlação entre EGDI e índice de democracia eleitoral, optou-se pelo PIB \textit{per capita} PPC em dólares dos Estados Unidos e pelos gastos públicos como porcentagem do PIB. Assim, objetivando descobrir se há correlação entre o PIB \textit{per capita} PPC em dólares dos Estados Unidos e gastos públicos como porcentagem do PIB com o EGDI, seus componentes e o EPI, foram descobertos e analisados os coeficientes de correlação resultantes dos relacionamentos citados.
+Quando o EGDI foi comparado com o índice de democracia eleitoral, descobriu-se que o coeficiente de correlação é 0,2975069. Em razão da fraca correlação entre EGDI e índice de democracia eleitoral, optou-se pelo PIB \textit{per capita} PPC em dólares dos Estados Unidos e pelos gastos públicos como porcentagem do PIB. Assim, objetivando descobrir se há correlação entre o PIB \textit{per capita} PPC em dólares dos Estados Unidos e gastos públicos como porcentagem do PIB com o EGDI, seus sub-índices e o EPI, foram descobertos e analisados os coeficientes de correlação resultantes dos relacionamentos citados.
 
 O resultado foi dividido nas figuras \ref{fig:correlacao_egdi_indicedemocraciaeleitoral}, \ref{fig:correlacao_egdi_pibpercapitapcc} e \ref{fig:correlacao_egdi_gastospublicos}.
 
 \begin{figure}[H]
 	\centering
-	\caption{Coeficientes de correlação entre EGDI, seus componentes e o EPI com o índice de democracia eleitoral}
+	\caption{Coeficientes de correlação entre EGDI, seus sub-índices e o EPI com o índice de democracia eleitoral}
 	\includegraphics[width=1\linewidth]{figuras/correlacao_egdi_indicedemocraciaeleitoral.png}
 	\label{fig:correlacao_egdi_indicedemocraciaeleitoral}
 	\footnotesize{Fonte: elaboração própria baseada em \cite{electoral-democracy-index} e \cite{ONU_EGDI_dados}.}
@@ -161,7 +161,7 @@ O resultado foi dividido nas figuras \ref{fig:correlacao_egdi_indicedemocraciael
 
 \begin{figure}[H]
 	\centering
-	\caption{Coeficientes de correlação entre EGDI, seus componentes e o EPI com o PIB \textit{per capita} PPC}
+	\caption{Coeficientes de correlação entre EGDI, seus sub-índices e o EPI com o PIB \textit{per capita} PPC}
 	\includegraphics[width=1\linewidth]{figuras/correlacao_egdi_pibpercapitapcc.png}
 	\label{fig:correlacao_egdi_pibpercapitapcc}
 	\footnotesize{Fonte: elaboração própria baseada em \cite{WB_pib_per_capita_países}.}
@@ -169,15 +169,15 @@ O resultado foi dividido nas figuras \ref{fig:correlacao_egdi_indicedemocraciael
 
 \begin{figure}[H]
 	\centering
-	\caption{Coeficientes de correlação entre EGDI, seus componentes e o EPI com os gastos públicos como percentual do PIB}
+	\caption{Coeficientes de correlação entre EGDI, seus sub-índices e o EPI com os gastos públicos como percentual do PIB}
     \includegraphics[width=1\linewidth]{figuras/correlacao_egdi_gastospublicos.png}
 	\label{fig:correlacao_egdi_gastospublicos}
 	\footnotesize{Fonte: elaboração própria baseada em \cite{FMI_gov_expenditure}.}
 \end{figure}
 
-Descobriu-se que o EGDI, seus componentes e o EPI quando comparados com o PIB \textit{per capita} PPC têm coeficientes de correlação acima de 0,6, o que indica que há correlação forte entre as variáveis. Do resultado, deduz-se que há uma tendência do crescimento do PIB de afetar positivamente o EGDI, que seguiria a tendência de crescimento.
+Descobriu-se que o EGDI, seus sub-índices e o EPI quando comparados com o PIB \textit{per capita} PPC têm coeficientes de correlação acima de 0,6, o que indica que há correlação forte entre as variáveis. Do resultado, deduz-se que há uma tendência do crescimento do PIB de afetar positivamente o EGDI, que seguiria a tendência de crescimento.
 
-Já a relação entre o EGDI, seus componentes e o EPI quando comparados com os gastos públicos como percentual do PIB indica uma fraca correlação, que, no máximo, passou um pouco de 0,3. Disso, extrai-se o entendimento de que as variáveis são independentes entre si.
+Já a relação entre o EGDI, seus sub-índices e o EPI quando comparados com os gastos públicos como percentual do PIB indica uma fraca correlação, que, no máximo, passou um pouco de 0,3. Disso, extrai-se o entendimento de que as variáveis são independentes entre si.
 
 Resumidamente, interpreta-se que quanto mais economicamente forte for um país, mais orçamento público ele tem disponível para investir em digitalização do serviço público. Contrariamente, gastos públicos como percentual do PIB não interferem no aspecto do governo eletrônico, pois demonstram que há múltiplos objetivos do poder público a serem executados na forma de gastos públicos, não exclusivamente ligados a governo eletrônico.
 
@@ -185,7 +185,7 @@ Resumidamente, interpreta-se que quanto mais economicamente forte for um país, 
 
 Complementarmente, \cite{singh2007country} argumenta que, como novas tecnologias inovadoras têm custo financeiro e conferem benefícios aos que podem ter acesso a elas. Contudo, à medida que são utilizadas para implementar governo eletrônico, se tornam mais acessíveis. Como consequência, o papel mediador principal da infraestrutura de TIC pode ser enfraquecido; enquanto o capital humano e a qualidade da governança podem ganhar influência.
 
- Considerando o argumento de \cite{singh2007country}, ele reforça a importância de indicadores como o EGDI para a implementação de governo eletrônico, pois à medida os custos de criação e implementação de novas tecnologias são democratizados, é possível expandir a infraestrutura de TIC do governo eletrônico para focar na melhora dos demais componentes do EGDI.
+ Considerando o argumento de \cite{singh2007country}, ele reforça a importância de indicadores como o EGDI para a implementação de governo eletrônico, pois à medida os custos de criação e implementação de novas tecnologias são democratizados, é possível expandir a infraestrutura de TIC do governo eletrônico para focar na melhora dos demais sub-índices do EGDI.
 
 Além da ideia supracitada, \cite{singh2007country} reforça a noção de que altos gastos públicos como porcentagem do PIB não impactam em um valor equivalente de EGDI.
 
@@ -243,13 +243,13 @@ Adicionalmente, a figura \ref{fig:egdi_brasil_2003_2024} mostra como o EGDI do B
 
 \begin{figure}[H]
 	\centering
-	\caption{EGDI, seus componentes e do EPI no Brasil (2003-2005, 2008-2024 bienalmente)}
+	\caption{EGDI, seus sub-índices e do EPI no Brasil (2003-2005, 2008-2024 bienalmente)}
 	\includegraphics[width=1\linewidth]{figuras/egdi_brasil_2003_2024.PNG}
 	\label{fig:egdi_brasil_2003_2024}
 	\footnotesize{Fonte: \cite{ONU_EGDI_dados}.}
 \end{figure}
 
-Nota-se como o TII foi o componente que mais cresceu de forma contínua; já o OSI teve a maior queda, porém o componente que atingiu o nível mais alto de todos os componentes. O HCI foi o único componente em teve queda no valor. Por fim, o EGDI teve unas quedas, porém voltou a subir.
+Nota-se como o TII foi o componente que mais cresceu de forma contínua; já o OSI teve a maior queda, porém o componente que atingiu o nível mais alto de todos os sub-índices. O HCI foi o único componente em teve queda no valor. Por fim, o EGDI teve unas quedas, porém voltou a subir.
 
 \subsection{Indicadores de TIC de governo eletrônico}
 \label{indicadores_tic_egov}
